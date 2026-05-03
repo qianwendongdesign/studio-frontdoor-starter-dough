@@ -101,8 +101,6 @@ export function PhoneFrame({ children }: { children: ReactNode }) {
             borderRadius: 38,
             overflow: 'hidden',
             background: '#fff',
-            display: 'flex',
-            flexDirection: 'column',
           }}>
             {children}
           </div>

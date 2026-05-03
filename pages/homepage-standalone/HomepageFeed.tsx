@@ -15,8 +15,13 @@ export function HomepageFeed() {
 
   return (
     <>
-      {/* Scrollable feed — takes remaining space above footer */}
-      <div style={{ flex: 1, minHeight: 0, overflowY: 'auto', overflowX: 'hidden', scrollbarWidth: 'none' }}>
+      {/* Scrollable feed — fills full screen height, padded so content clears the footer */}
+      <div style={{
+        position: 'absolute', top: 0, left: 0, right: 0, bottom: 0,
+        overflowY: 'auto', overflowX: 'hidden',
+        paddingBottom: 120,
+        scrollbarWidth: 'none',
+      }}>
         <StatusBar />
         <ProfileAddressBar />
         <CategoryTabBar />
@@ -32,7 +37,7 @@ export function HomepageFeed() {
         </div>
       </div>
 
-      {/* Footer always pinned to bottom of phone frame */}
+      {/* Footer absolutely pinned to bottom — gradient overlaps scroll content */}
       <Footer />
     </>
   )
