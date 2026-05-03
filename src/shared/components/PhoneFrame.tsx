@@ -100,7 +100,7 @@ export function PhoneFrame({ children }: { children: ReactNode }) {
             width: SCREEN_W, height: SCREEN_H,
             borderRadius: 38,
             overflow: 'hidden',
-            background: '#fff',
+            background: 'transparent',
           }}>
             {children}
           </div>

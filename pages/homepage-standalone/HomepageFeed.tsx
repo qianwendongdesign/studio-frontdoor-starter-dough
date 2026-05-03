@@ -21,6 +21,7 @@ export function HomepageFeed() {
         overflowY: 'auto', overflowX: 'hidden',
         paddingBottom: 160,
         scrollbarWidth: 'none',
+        background: '#fff',
       }}>
         <StatusBar />
         <ProfileAddressBar />
