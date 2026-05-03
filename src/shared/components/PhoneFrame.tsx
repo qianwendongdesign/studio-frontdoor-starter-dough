@@ -100,18 +100,11 @@ export function PhoneFrame({ children }: { children: ReactNode }) {
             width: SCREEN_W, height: SCREEN_H,
             borderRadius: 38,
             overflow: 'hidden',
-            background: '#000',
+            background: '#fff',
+            display: 'flex',
+            flexDirection: 'column',
           }}>
-            {/* Scrollable content area */}
-            <div style={{
-              width: SCREEN_W,
-              height: SCREEN_H,
-              overflowY: 'auto',
-              overflowX: 'hidden',
-              background: '#fff',
-            }}>
-              {children}
-            </div>
+            {children}
           </div>
 
           {/* Dynamic Island */}

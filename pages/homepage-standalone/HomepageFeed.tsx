@@ -15,20 +15,24 @@ export function HomepageFeed() {
 
   return (
     <>
-      <StatusBar />
-      <ProfileAddressBar />
-      <CategoryTabBar />
+      {/* Scrollable feed — takes remaining space above footer */}
+      <div style={{ flex: 1, overflowY: 'auto', overflowX: 'hidden', scrollbarWidth: 'none' }}>
+        <StatusBar />
+        <ProfileAddressBar />
+        <CategoryTabBar />
 
-      <div className="feed">
-        <SmartChips />
-        <OrderAgain />
-        <Spotlight />
-        <SimilarSection />
-        <CarouselSection title="Chicken and rice bowls" stores={stores.slice(0, 6)} />
-        <CarouselSection title="Shawarma wrap" stores={stores.slice(6, 12)} />
-        <DiscoverSection />
+        <div className="feed">
+          <SmartChips />
+          <OrderAgain />
+          <Spotlight />
+          <SimilarSection />
+          <CarouselSection title="Chicken and rice bowls" stores={stores.slice(0, 6)} />
+          <CarouselSection title="Shawarma wrap" stores={stores.slice(6, 12)} />
+          <DiscoverSection />
+        </div>
       </div>
 
+      {/* Footer always pinned to bottom of phone frame */}
       <Footer />
     </>
   )
