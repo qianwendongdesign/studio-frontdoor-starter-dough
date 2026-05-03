@@ -16,7 +16,7 @@ export function HomepageFeed() {
   return (
     <>
       {/* Scrollable feed — takes remaining space above footer */}
-      <div style={{ flex: 1, overflowY: 'auto', overflowX: 'hidden', scrollbarWidth: 'none' }}>
+      <div style={{ flex: 1, minHeight: 0, overflowY: 'auto', overflowX: 'hidden', scrollbarWidth: 'none' }}>
         <StatusBar />
         <ProfileAddressBar />
         <CategoryTabBar />
