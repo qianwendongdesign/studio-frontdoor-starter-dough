@@ -3,8 +3,8 @@ import { useEffect, useState, ReactNode } from 'react'
 const SCREEN_W = 393
 const SCREEN_H = 852
 const BEZEL = 12
-const DEVICE_W = SCREEN_W + BEZEL * 2   // 417
-const DEVICE_H = SCREEN_H + BEZEL * 2   // 876
+const DEVICE_W = SCREEN_W + BEZEL * 2
+const DEVICE_H = SCREEN_H + BEZEL * 2
 
 export function PhoneFrame({ children }: { children: ReactNode }) {
   const [scale, setScale] = useState(1)
@@ -23,8 +23,6 @@ export function PhoneFrame({ children }: { children: ReactNode }) {
     return () => window.removeEventListener('resize', update)
   }, [])
 
-  const r = (n: number) => n * scale
-
   return (
     <div style={{
       width: '100vw',
@@ -35,90 +33,93 @@ export function PhoneFrame({ children }: { children: ReactNode }) {
       background: '#000',
       overflow: 'hidden',
     }}>
-      {/* Device shell */}
+      {/* Placeholder that reserves scaled layout space */}
       <div style={{
-        width: r(DEVICE_W),
-        height: r(DEVICE_H),
-        background: 'linear-gradient(160deg, #3a3a3c 0%, #1c1c1e 60%, #111 100%)',
-        borderRadius: r(50),
+        width: DEVICE_W * scale,
+        height: DEVICE_H * scale,
         position: 'relative',
         flexShrink: 0,
-        boxShadow: [
-          `0 0 0 ${r(1)}px rgba(255,255,255,0.12)`,
-          `inset 0 0 0 ${r(1.5)}px rgba(255,255,255,0.06)`,
-          `0 ${r(30)}px ${r(80)}px rgba(0,0,0,0.7)`,
-          `0 ${r(8)}px ${r(24)}px rgba(0,0,0,0.4)`,
-        ].join(', '),
       }}>
-
-        {/* Volume / Action buttons — left side */}
-        {[
-          { top: r(120), h: r(32), label: 'action' },
-          { top: r(172), h: r(68), label: 'vol-up' },
-          { top: r(252), h: r(68), label: 'vol-down' },
-        ].map(btn => (
-          <div key={btn.label} style={{
-            position: 'absolute',
-            left: r(-3),
-            top: btn.top,
-            width: r(4),
-            height: btn.h,
-            background: 'linear-gradient(90deg, #2a2a2c, #3a3a3c)',
-            borderRadius: `${r(2)}px 0 0 ${r(2)}px`,
-            boxShadow: `inset 0 ${r(1)}px ${r(2)}px rgba(255,255,255,0.08)`,
-          }} />
-        ))}
-
-        {/* Power button — right side */}
+        {/* Actual device scaled from center — transform doesn't affect layout */}
         <div style={{
           position: 'absolute',
-          right: r(-3),
-          top: r(180),
-          width: r(4),
-          height: r(90),
-          background: 'linear-gradient(270deg, #2a2a2c, #3a3a3c)',
-          borderRadius: `0 ${r(2)}px ${r(2)}px 0`,
-          boxShadow: `inset 0 ${r(1)}px ${r(2)}px rgba(255,255,255,0.08)`,
-        }} />
-
-        {/* Screen */}
-        <div style={{
-          position: 'absolute',
-          top: r(BEZEL),
-          left: r(BEZEL),
-          width: r(SCREEN_W),
-          height: r(SCREEN_H),
-          borderRadius: r(38),
-          overflow: 'hidden',
-          background: '#000',
+          top: '50%',
+          left: '50%',
+          transform: `translate(-50%, -50%) scale(${scale})`,
+          width: DEVICE_W,
+          height: DEVICE_H,
+          background: 'linear-gradient(160deg, #3a3a3c 0%, #1c1c1e 60%, #111 100%)',
+          borderRadius: 50,
+          boxShadow: [
+            '0 0 0 1px rgba(255,255,255,0.12)',
+            'inset 0 0 0 1.5px rgba(255,255,255,0.06)',
+            '0 30px 80px rgba(0,0,0,0.7)',
+          ].join(', '),
         }}>
-          {/* Scaled content */}
+
+          {/* Volume / Action buttons — left */}
+          {[
+            { top: 120, h: 32 },
+            { top: 172, h: 68 },
+            { top: 252, h: 68 },
+          ].map((btn, i) => (
+            <div key={i} style={{
+              position: 'absolute',
+              left: -3,
+              top: btn.top,
+              width: 4,
+              height: btn.h,
+              background: 'linear-gradient(90deg, #2a2a2c, #3a3a3c)',
+              borderRadius: '2px 0 0 2px',
+            }} />
+          ))}
+
+          {/* Power button — right */}
           <div style={{
+            position: 'absolute',
+            right: -3,
+            top: 180,
+            width: 4,
+            height: 90,
+            background: 'linear-gradient(270deg, #2a2a2c, #3a3a3c)',
+            borderRadius: '0 2px 2px 0',
+          }} />
+
+          {/* Screen */}
+          <div style={{
+            position: 'absolute',
+            top: BEZEL,
+            left: BEZEL,
             width: SCREEN_W,
             height: SCREEN_H,
-            transform: `scale(${scale})`,
-            transformOrigin: 'top left',
-            overflowY: 'auto',
-            overflowX: 'hidden',
-            background: '#fff',
+            borderRadius: 38,
+            overflow: 'hidden',
+            background: '#000',
           }}>
-            {children}
+            <div style={{
+              width: '100%',
+              height: '100%',
+              overflowY: 'auto',
+              overflowX: 'hidden',
+              background: '#fff',
+            }}>
+              {children}
+            </div>
           </div>
-        </div>
 
-        {/* Dynamic Island */}
-        <div style={{
-          position: 'absolute',
-          top: r(BEZEL + 10),
-          left: '50%',
-          transform: 'translateX(-50%)',
-          width: r(120),
-          height: r(34),
-          background: '#000',
-          borderRadius: r(20),
-          zIndex: 10,
-          boxShadow: `0 0 0 ${r(1)}px rgba(255,255,255,0.04)`,
-        }} />
+          {/* Dynamic Island */}
+          <div style={{
+            position: 'absolute',
+            top: BEZEL + 10,
+            left: '50%',
+            transform: 'translateX(-50%)',
+            width: 120,
+            height: 34,
+            background: '#000',
+            borderRadius: 20,
+            zIndex: 10,
+          }} />
+        </div>
       </div>
     </div>
   )
