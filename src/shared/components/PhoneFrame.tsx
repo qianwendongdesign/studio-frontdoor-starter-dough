@@ -10,6 +10,11 @@ export function PhoneFrame({ children }: { children: ReactNode }) {
   const [scale, setScale] = useState(1)
 
   useEffect(() => {
+    // Reset body so it doesn't interfere with full-viewport layout
+    document.body.style.margin = '0'
+    document.body.style.padding = '0'
+    document.body.style.overflow = 'hidden'
+
     const update = () => {
       const padding = 32
       const s = Math.min(
@@ -32,22 +37,24 @@ export function PhoneFrame({ children }: { children: ReactNode }) {
       justifyContent: 'center',
       background: '#000',
       overflow: 'hidden',
+      boxSizing: 'border-box',
     }}>
-      {/* Placeholder that reserves scaled layout space */}
+      {/* Outer placeholder — reserves the exact scaled footprint */}
       <div style={{
+        position: 'relative',
         width: DEVICE_W * scale,
         height: DEVICE_H * scale,
-        position: 'relative',
         flexShrink: 0,
       }}>
-        {/* Actual device scaled from center — transform doesn't affect layout */}
+        {/* Device shell — scaled from top-left so dimensions match placeholder */}
         <div style={{
           position: 'absolute',
-          top: '50%',
-          left: '50%',
-          transform: `translate(-50%, -50%) scale(${scale})`,
+          top: 0,
+          left: 0,
           width: DEVICE_W,
           height: DEVICE_H,
+          transformOrigin: 'top left',
+          transform: `scale(${scale})`,
           background: 'linear-gradient(160deg, #3a3a3c 0%, #1c1c1e 60%, #111 100%)',
           borderRadius: 50,
           boxShadow: [
@@ -57,18 +64,12 @@ export function PhoneFrame({ children }: { children: ReactNode }) {
           ].join(', '),
         }}>
 
-          {/* Volume / Action buttons — left */}
-          {[
-            { top: 120, h: 32 },
-            { top: 172, h: 68 },
-            { top: 252, h: 68 },
-          ].map((btn, i) => (
+          {/* Action + Volume buttons — left */}
+          {[{ top: 120, h: 32 }, { top: 172, h: 68 }, { top: 252, h: 68 }].map((btn, i) => (
             <div key={i} style={{
               position: 'absolute',
-              left: -3,
-              top: btn.top,
-              width: 4,
-              height: btn.h,
+              left: -3, top: btn.top,
+              width: 4, height: btn.h,
               background: 'linear-gradient(90deg, #2a2a2c, #3a3a3c)',
               borderRadius: '2px 0 0 2px',
             }} />
@@ -77,28 +78,25 @@ export function PhoneFrame({ children }: { children: ReactNode }) {
           {/* Power button — right */}
           <div style={{
             position: 'absolute',
-            right: -3,
-            top: 180,
-            width: 4,
-            height: 90,
+            right: -3, top: 180,
+            width: 4, height: 90,
             background: 'linear-gradient(270deg, #2a2a2c, #3a3a3c)',
             borderRadius: '0 2px 2px 0',
           }} />
 
-          {/* Screen */}
+          {/* Screen bezel + clip */}
           <div style={{
             position: 'absolute',
-            top: BEZEL,
-            left: BEZEL,
-            width: SCREEN_W,
-            height: SCREEN_H,
+            top: BEZEL, left: BEZEL,
+            width: SCREEN_W, height: SCREEN_H,
             borderRadius: 38,
             overflow: 'hidden',
             background: '#000',
           }}>
+            {/* Scrollable content area */}
             <div style={{
-              width: '100%',
-              height: '100%',
+              width: SCREEN_W,
+              height: SCREEN_H,
               overflowY: 'auto',
               overflowX: 'hidden',
               background: '#fff',
@@ -113,8 +111,7 @@ export function PhoneFrame({ children }: { children: ReactNode }) {
             top: BEZEL + 10,
             left: '50%',
             transform: 'translateX(-50%)',
-            width: 120,
-            height: 34,
+            width: 120, height: 34,
             background: '#000',
             borderRadius: 20,
             zIndex: 10,
