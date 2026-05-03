@@ -1,0 +1,162 @@
+{
+  "consumer_id": "1489837605",
+  "fetched_at": "2026-03-27T18:40:01.779344Z",
+  "stores": [
+    {
+      "store_id": 24564689,
+      "store_name": "BevMo! - Redding (130)",
+      "business_name": "BevMo!",
+      "business_id": 11403597,
+      "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/fe5ebc5c-738a-4881-8093-e4c168a7d467.jpg",
+      "header_image": "https://cdn.doordash.com/media/store/header/d9c3559c-5038-42f1-94ce-4da9b2195924.jpeg",
+      "logo_url": "https://cdn.doordash.com/media/restaurant/cover_square/d675d1d9-d3a1-4fb6-ad04-9374d2e47b2d.jpeg",
+      "average_rating": "4.84",
+      "orders": [
+        {
+          "delivery_id": 295065641969,
+          "order_date": "2025-12-27T23:43:09.434808"
+        }
+      ],
+      "items": [
+        {
+          "item_id": 6614033466,
+          "item_name": "Ocean Spray Original Cranberry Cocktail Juice (46 oz)",
+          "image_url": "",
+          "order_id": 3000010485015629,
+          "order_date": "2025-12-28T07:24:37.838000",
+          "webster_tags": {}
+        },
+        {
+          "item_id": 12067306739,
+          "item_name": "Tito's Gluten-Free 80 Proof Handmade Vodka Bottle (750 ml)",
+          "image_url": "",
+          "order_id": 3000010485015629,
+          "order_date": "2025-12-28T07:24:37.838000",
+          "webster_tags": {}
+        }
+      ]
+    },
+    {
+      "store_id": 2480588,
+      "store_name": "Safeway Beer, Wine & Spirits (1954)",
+      "business_name": "Safeway Beer, Wine & Spirits",
+      "business_id": 958549,
+      "cover_img_url": "",
+      "header_image": "https://cdn.doordash.com/media/store/header/b640283d-ca09-4073-baa6-4a9edca0f816.jpg",
+      "logo_url": "https://cdn.doordash.com/media/restaurant/cover_square/d4cbe6e3-8aa6-4b73-855c-fbd074a71525.png",
+      "average_rating": "4.86",
+      "orders": [
+        {
+          "delivery_id": 280126160157,
+          "order_date": "2026-02-18T21:45:45.556500"
+        },
+        {
+          "delivery_id": 355882741819,
+          "order_date": "2026-02-13T17:06:57.274114"
+        },
+        {
+          "delivery_id": 355050594946,
+          "order_date": "2026-02-07T06:27:59.541169"
+        },
+        {
+          "delivery_id": 216632212233,
+          "order_date": "2026-02-05T07:20:42.135898"
+        },
+        {
+          "delivery_id": 246141452412,
+          "order_date": "2026-02-01T21:53:06.090292"
+        }
+      ],
+      "items": [
+        {
+          "item_id": 21046806417,
+          "item_name": "Tito's Gluten-Free 80 Proof Handmade Vodka Bottle (750 ml)",
+          "image_url": "",
+          "order_id": 3000011083034583,
+          "order_date": "2026-02-02T05:27:04.967000",
+          "webster_tags": {}
+        },
+        {
+          "item_id": 11302185564,
+          "item_name": "Bud Light American Lager Can (25 fl oz)",
+          "image_url": "",
+          "order_id": 3000011288227336,
+          "order_date": "2026-02-14T00:40:57.838000",
+          "webster_tags": {}
+        },
+        {
+          "item_id": 40449840926,
+          "item_name": "Open Nature Tart Cherry Juice (32 fl oz)",
+          "image_url": "",
+          "order_id": 3000011171963725,
+          "order_date": "2026-02-07T14:05:43.689000",
+          "webster_tags": {}
+        },
+        {
+          "item_id": 11302185564,
+          "item_name": "Bud Light American Lager Can (25 fl oz)",
+          "image_url": "",
+          "order_id": 3000011133562400,
+          "order_date": "2026-02-05T15:06:48.420000",
+          "webster_tags": {}
+        },
+        {
+          "item_id": 40449840926,
+          "item_name": "Open Nature Tart Cherry Juice (32 fl oz)",
+          "image_url": "",
+          "order_id": 3000011133562400,
+          "order_date": "2026-02-05T15:06:48.420000",
+          "webster_tags": {}
+        },
+        {
+          "item_id": 21046806417,
+          "item_name": "Tito's Gluten-Free 80 Proof Handmade Vodka Bottle (750 ml)",
+          "image_url": "",
+          "order_id": 3000011133562400,
+          "order_date": "2026-02-05T15:06:48.420000",
+          "webster_tags": {}
+        },
+        {
+          "item_id": 21046806417,
+          "item_name": "Tito's Gluten-Free 80 Proof Handmade Vodka Bottle (750 ml)",
+          "image_url": "",
+          "order_id": 3000011288227336,
+          "order_date": "2026-02-14T00:40:57.838000",
+          "webster_tags": {}
+        },
+        {
+          "item_id": 11302185564,
+          "item_name": "Bud Light American Lager Can (25 fl oz)",
+          "image_url": "",
+          "order_id": 3000011380484371,
+          "order_date": "2026-02-19T05:22:35.569000",
+          "webster_tags": {}
+        },
+        {
+          "item_id": 21046806417,
+          "item_name": "Tito's Gluten-Free 80 Proof Handmade Vodka Bottle (750 ml)",
+          "image_url": "",
+          "order_id": 3000011380484371,
+          "order_date": "2026-02-19T05:22:35.569000",
+          "webster_tags": {}
+        },
+        {
+          "item_id": 21046806417,
+          "item_name": "Tito's Gluten-Free 80 Proof Handmade Vodka Bottle (750 ml)",
+          "image_url": "",
+          "order_id": 3000011171963725,
+          "order_date": "2026-02-07T14:05:43.689000",
+          "webster_tags": {}
+        },
+        {
+          "item_id": 11302185564,
+          "item_name": "Bud Light American Lager Can (25 fl oz)",
+          "image_url": "",
+          "order_id": 3000011171963725,
+          "order_date": "2026-02-07T14:05:43.689000",
+          "webster_tags": {}
+        }
+      ]
+    }
+  ]
+}

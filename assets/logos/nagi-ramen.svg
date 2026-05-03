@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80">
+  <circle cx="40" cy="40" r="40" fill="#C0392B"/>
+  <!-- Ramen bowl mark -->
+  <!-- Steam lines -->
+  <path d="M30 20 C30 20 29 17 31 14 C33 11 32 8 32 8" stroke="white" stroke-width="2.5" fill="none" stroke-linecap="round" opacity="0.8"/>
+  <path d="M40 20 C40 20 39 17 41 14 C43 11 42 8 42 8" stroke="white" stroke-width="2.5" fill="none" stroke-linecap="round" opacity="0.8"/>
+  <path d="M50 20 C50 20 49 17 51 14 C53 11 52 8 52 8" stroke="white" stroke-width="2.5" fill="none" stroke-linecap="round" opacity="0.8"/>
+  <!-- Bowl -->
+  <path d="M18 38 L62 38 C62 38 58 60 40 60 C22 60 18 38 18 38Z" fill="white"/>
+  <rect x="18" y="33" width="44" height="7" rx="3.5" fill="white"/>
+  <!-- Noodle swirl inside bowl -->
+  <path d="M28 46 C32 43 36 47 40 44 C44 41 48 45 52 43" stroke="#C0392B" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M27 52 C31 49 35 53 40 50 C45 47 49 51 53 49" stroke="#C0392B" stroke-width="2" fill="none" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,3043 @@
+{
+  "consumer_id": "1125900439107459",
+  "fetched_at": "2026-03-24T22:04:56.017531Z",
+  "stores": [
+    {
+      "store_id": 975197,
+      "store_name": "Mendocino Farms (California St)",
+      "business_name": "Mendocino Farms",
+      "business_id": 944,
+      "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/f5d319aa-3952-453b-858c-935de792797a.jpg",
+      "header_image": "https://cdn.doordash.com/media/store/header/7559887b-ce55-42e4-ba56-12e5e1ccd1d4.jpg",
+      "logo_url": "https://cdn.doordash.com/media/restaurant/cover_square/63a203b8-2ecf-4b95-9037-016f8d533ace.jpg",
+      "average_rating": "4.75",
+      "orders": [
+        {
+          "delivery_id": 201652629547,
+          "order_date": "2026-01-21T12:08:17.741000"
+        }
+      ],
+      "items": [
+        {
+          "item_id": 22696776957,
+          "item_name": "The Modern Caesar",
+          "image_url": "https://cdn.doordash.com/media/photosV2/fad3ac36-5010-4038-9d0d-eedf83790dad-retina-large.jpg",
+          "order_id": 3000010889841662,
+          "order_date": "2026-01-21T19:22:19.993000",
+          "webster_tags": {
+            "COURSE": {
+              "course": "Main Dishes"
+            },
+            "INGREDIENT": {
+              "fats_oils": [],
+              "fruits_vegetables": [
+                "avocado",
+                "grape tomato",
+                "red onion",
+                "romaine",
+                "kale",
+                "spinach",
+                "cabbage"
+              ],
+              "grains_carbs": [
+                "superfood krunchies"
+              ],
+              "proteins": [
+                "parmesan cheese"
+              ],
+              "spices_seasonings": []
+            },
+            "CUISINE": {
+              "cuisine": [
+                "American",
+                "New American"
+              ]
+            },
+            "ALLERGEN": {
+              "is_dairy_free": false,
+              "is_gluten_free": true,
+              "is_gluten_free_mentioned": true,
+              "is_gluten_free_options": true,
+              "is_nut_free": true,
+              "is_shellfish_free": true,
+              "is_soy_free": true
+            },
+            "DISH": {
+              "confidence_score": 0.8188,
+              "hierarchical_tags": "Main Dishes > Salads > Vegetarian Salad > Caesar Salad",
+              "level_1_tag": "Main Dishes",
+              "level_1_tag_id": 210864443733158,
+              "level_2_tag": "Salads",
+              "level_2_tag_id": 279801517666096,
+              "level_3_tag": "Vegetarian Salad",
+              "level_3_tag_id": 37966739612319,
+              "level_4_tag": "Caesar Salad",
+              "level_4_tag_id": 113876054418324,
+              "top_candidates": [
+                {
+                  "confidence_score": 0.8188,
+                  "hierarchical_tags": "Main Dishes > Salads > Vegetarian Salad > Caesar Salad",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Salads",
+                  "level_2_tag_id": 279801517666096,
+                  "level_3_tag": "Vegetarian Salad",
+                  "level_3_tag_id": 37966739612319,
+                  "level_4_tag": "Caesar Salad",
+                  "level_4_tag_id": 113876054418324
+                },
+                {
+                  "confidence_score": 0.1027,
+                  "hierarchical_tags": "Main Dishes > Salads > Other Salads",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Salads",
+                  "level_2_tag_id": 279801517666096,
+                  "level_3_tag": "Other Salads",
+                  "level_3_tag_id": 58096309809598
+                },
+                {
+                  "confidence_score": 0.0203,
+                  "hierarchical_tags": "Main Dishes > Salads > Garden Salad",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Salads",
+                  "level_2_tag_id": 279801517666096,
+                  "level_3_tag": "Garden Salad",
+                  "level_3_tag_id": 62223404742459
+                }
+              ]
+            },
+            "PREPARATION": {
+              "dish_preparation_method": "Tossed"
+            },
+            "DIETARY": {
+              "is_beef_free": true,
+              "is_healthy": true,
+              "is_high_protein": false,
+              "is_keto_friendly": false,
+              "is_kid_friendly": true,
+              "is_low_calorie": false,
+              "is_low_carb": false,
+              "is_low_fat": false,
+              "is_low_sodium": false,
+              "is_low_sugar": true,
+              "is_paleo_friendly": false,
+              "is_pescatarian": false,
+              "is_pescatarian_mentioned": false,
+              "is_pescatarian_options": true,
+              "is_pork_free": true,
+              "is_vegan": false,
+              "is_vegan_mentioned": false,
+              "is_vegan_options": false,
+              "is_vegetarian": false,
+              "is_vegetarian_mentioned": false,
+              "is_vegetarian_options": true
+            },
+            "PORTION_SIZE": {
+              "portion_size": "1-2 people"
+            },
+            "FLAVOR": {
+              "is_bitter": false,
+              "is_cheesy": true,
+              "is_creamy": true,
+              "is_herbal": false,
+              "is_salty": true,
+              "is_smoky": false,
+              "is_sour": false,
+              "is_spicy": false,
+              "is_sweet": false,
+              "is_tangy": true,
+              "is_umami": false
+            },
+            "MACRO": {
+              "estimated_calories": 610,
+              "estimated_carbohydrates_grams": 35,
+              "estimated_fat_grams": 45,
+              "estimated_protein_grams": 20
+            }
+          }
+        }
+      ]
+    },
+    {
+      "store_id": 30887645,
+      "store_name": "Mendocino Farms - (SOMA, SF 2nd St)",
+      "business_name": "Mendocino Farms",
+      "business_id": 944,
+      "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/f5d319aa-3952-453b-858c-935de792797a.jpg",
+      "header_image": "https://cdn.doordash.com/media/store/header/7559887b-ce55-42e4-ba56-12e5e1ccd1d4.jpg",
+      "logo_url": "https://cdn.doordash.com/media/restaurant/cover_square/63a203b8-2ecf-4b95-9037-016f8d533ace.jpg",
+      "average_rating": "4.77",
+      "orders": [
+        {
+          "delivery_id": 203535084417,
+          "order_date": "2026-03-18T13:36:24.435000"
+        },
+        {
+          "delivery_id": 251229936077,
+          "order_date": "2026-02-11T11:47:51.263000"
+        },
+        {
+          "delivery_id": 212320190782,
+          "order_date": "2026-02-04T11:38:57.275000"
+        },
+        {
+          "delivery_id": 274414536546,
+          "order_date": "2026-01-28T11:52:50.958000"
+        },
+        {
+          "delivery_id": 345959399014,
+          "order_date": "2026-01-14T13:31:48.459000"
+        }
+      ],
+      "items": [
+        {
+          "item_id": 22330210210,
+          "item_name": "Avocado & Quinoa Superfood Ensalada",
+          "image_url": "https://cdn.doordash.com/media/photosV2/1d67efde-937f-4b39-a314-f553c61c496b-retina-large.jpg",
+          "order_id": 3000011243567809,
+          "order_date": "2026-02-11T19:25:31.563000",
+          "webster_tags": {
+            "PREPARATION": {
+              "dish_preparation_method": "Tossed"
+            },
+            "PORTION_SIZE": {
+              "portion_size": "1-2 people"
+            },
+            "DISH": {
+              "confidence_score": 0.8525,
+              "hierarchical_tags": "Main Dishes > Salads > Vegetarian Salad > Avocado Kale Salad",
+              "level_1_tag": "Main Dishes",
+              "level_1_tag_id": 210864443733158,
+              "level_2_tag": "Salads",
+              "level_2_tag_id": 279801517666096,
+              "level_3_tag": "Vegetarian Salad",
+              "level_3_tag_id": 37966739612319,
+              "level_4_tag": "Avocado Kale Salad",
+              "level_4_tag_id": 121538728700058,
+              "top_candidates": [
+                {
+                  "confidence_score": 0.8525,
+                  "hierarchical_tags": "Main Dishes > Salads > Vegetarian Salad > Avocado Kale Salad",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Salads",
+                  "level_2_tag_id": 279801517666096,
+                  "level_3_tag": "Vegetarian Salad",
+                  "level_3_tag_id": 37966739612319,
+                  "level_4_tag": "Avocado Kale Salad",
+                  "level_4_tag_id": 121538728700058
+                },
+                {
+                  "confidence_score": 0.0847,
+                  "hierarchical_tags": "Main Dishes > Salads > Other Salads",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Salads",
+                  "level_2_tag_id": 279801517666096,
+                  "level_3_tag": "Other Salads",
+                  "level_3_tag_id": 58096309809598
+                },
+                {
+                  "confidence_score": 0.0083,
+                  "hierarchical_tags": "Main Dishes > Bowls > Vegetarian Bowl",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Bowls",
+                  "level_2_tag_id": 134341825813121,
+                  "level_3_tag": "Vegetarian Bowl",
+                  "level_3_tag_id": 194907200339372
+                }
+              ]
+            },
+            "ALLERGEN": {
+              "is_dairy_free": false,
+              "is_gluten_free": false,
+              "is_gluten_free_mentioned": false,
+              "is_gluten_free_options": false,
+              "is_nut_free": true,
+              "is_shellfish_free": true,
+              "is_soy_free": false
+            },
+            "CUISINE": {
+              "cuisine": [
+                "Mexican",
+                "Tex-Mex",
+                "Latin American"
+              ]
+            },
+            "DIETARY": {
+              "is_beef_free": true,
+              "is_healthy": true,
+              "is_high_protein": true,
+              "is_keto_friendly": false,
+              "is_kid_friendly": false,
+              "is_low_calorie": false,
+              "is_low_carb": false,
+              "is_low_fat": false,
+              "is_low_sodium": false,
+              "is_low_sugar": false,
+              "is_paleo_friendly": false,
+              "is_pescatarian": false,
+              "is_pescatarian_mentioned": false,
+              "is_pescatarian_options": true,
+              "is_pork_free": true,
+              "is_vegan": false,
+              "is_vegan_mentioned": false,
+              "is_vegan_options": true,
+              "is_vegetarian": false,
+              "is_vegetarian_mentioned": false,
+              "is_vegetarian_options": true
+            },
+            "FLAVOR": {
+              "is_bitter": false,
+              "is_cheesy": false,
+              "is_creamy": true,
+              "is_herbal": false,
+              "is_salty": true,
+              "is_smoky": false,
+              "is_sour": false,
+              "is_spicy": true,
+              "is_sweet": false,
+              "is_tangy": true,
+              "is_umami": false
+            },
+            "COURSE": {
+              "course": "Main Dishes"
+            },
+            "MACRO": {
+              "estimated_calories": 550,
+              "estimated_carbohydrates_grams": 55,
+              "estimated_fat_grams": 30,
+              "estimated_protein_grams": 20
+            },
+            "INGREDIENT": {
+              "fats_oils": [],
+              "fruits_vegetables": [
+                "avocado",
+                "corn",
+                "jicama",
+                "grape tomatoes",
+                "red onions",
+                "kale",
+                "romaine",
+                "cilantro"
+              ],
+              "grains_carbs": [
+                "quinoa",
+                "millet"
+              ],
+              "proteins": [
+                "black beans",
+                "quinoa",
+                "millet",
+                "cotija cheese"
+              ],
+              "spices_seasonings": [
+                "chipotle",
+                "cilantro"
+              ]
+            }
+          }
+        },
+        {
+          "item_id": 22330210215,
+          "item_name": "The Modern Caesar",
+          "image_url": "https://cdn.doordash.com/media/photosV2/fad3ac36-5010-4038-9d0d-eedf83790dad-retina-large.jpg",
+          "order_id": 3000011120854775,
+          "order_date": "2026-02-04T19:13:38.492000",
+          "webster_tags": {
+            "INGREDIENT": {
+              "fats_oils": [],
+              "fruits_vegetables": [
+                "kale",
+                "romaine",
+                "red onion",
+                "grape tomatoes",
+                "avocado",
+                "lemon"
+              ],
+              "grains_carbs": [
+                "superfood krunchies"
+              ],
+              "proteins": [
+                "parmesan cheese"
+              ],
+              "spices_seasonings": [
+                "Caesar dressing"
+              ]
+            },
+            "CUISINE": {
+              "cuisine": [
+                "American Traditional"
+              ]
+            },
+            "COURSE": {
+              "course": "Main Dishes"
+            },
+            "FLAVOR": {
+              "is_bitter": false,
+              "is_cheesy": true,
+              "is_creamy": true,
+              "is_herbal": false,
+              "is_salty": true,
+              "is_smoky": false,
+              "is_sour": true,
+              "is_spicy": false,
+              "is_sweet": false,
+              "is_tangy": true,
+              "is_umami": false
+            },
+            "MACRO": {
+              "estimated_calories": 450,
+              "estimated_carbohydrates_grams": 30,
+              "estimated_fat_grams": 35,
+              "estimated_protein_grams": 12
+            },
+            "DIETARY": {
+              "is_beef_free": true,
+              "is_healthy": true,
+              "is_high_protein": false,
+              "is_keto_friendly": false,
+              "is_kid_friendly": false,
+              "is_low_calorie": false,
+              "is_low_carb": false,
+              "is_low_fat": false,
+              "is_low_sodium": false,
+              "is_low_sugar": false,
+              "is_paleo_friendly": false,
+              "is_pescatarian": false,
+              "is_pescatarian_mentioned": false,
+              "is_pescatarian_options": true,
+              "is_pork_free": true,
+              "is_vegan": false,
+              "is_vegan_mentioned": false,
+              "is_vegan_options": false,
+              "is_vegetarian": false,
+              "is_vegetarian_mentioned": true,
+              "is_vegetarian_options": true
+            },
+            "PORTION_SIZE": {
+              "portion_size": "1-2 people"
+            },
+            "ALLERGEN": {
+              "is_dairy_free": false,
+              "is_gluten_free": false,
+              "is_gluten_free_mentioned": false,
+              "is_gluten_free_options": false,
+              "is_nut_free": true,
+              "is_shellfish_free": true,
+              "is_soy_free": true
+            },
+            "DISH": {
+              "confidence_score": 0.4978,
+              "hierarchical_tags": "Main Dishes > Salads > Vegetarian Salad > Caesar Salad",
+              "level_1_tag": "Main Dishes",
+              "level_1_tag_id": 210864443733158,
+              "level_2_tag": "Salads",
+              "level_2_tag_id": 279801517666096,
+              "level_3_tag": "Vegetarian Salad",
+              "level_3_tag_id": 37966739612319,
+              "level_4_tag": "Caesar Salad",
+              "level_4_tag_id": 113876054418324,
+              "top_candidates": [
+                {
+                  "confidence_score": 0.4978,
+                  "hierarchical_tags": "Main Dishes > Salads > Vegetarian Salad > Caesar Salad",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Salads",
+                  "level_2_tag_id": 279801517666096,
+                  "level_3_tag": "Vegetarian Salad",
+                  "level_3_tag_id": 37966739612319,
+                  "level_4_tag": "Caesar Salad",
+                  "level_4_tag_id": 113876054418324
+                },
+                {
+                  "confidence_score": 0.3787,
+                  "hierarchical_tags": "Main Dishes > Salads > Other Salads",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Salads",
+                  "level_2_tag_id": 279801517666096,
+                  "level_3_tag": "Other Salads",
+                  "level_3_tag_id": 58096309809598
+                },
+                {
+                  "confidence_score": 0.0666,
+                  "hierarchical_tags": "Main Dishes > Salads > Vegetarian Salad > Avocado Kale Salad",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Salads",
+                  "level_2_tag_id": 279801517666096,
+                  "level_3_tag": "Vegetarian Salad",
+                  "level_3_tag_id": 37966739612319,
+                  "level_4_tag": "Avocado Kale Salad",
+                  "level_4_tag_id": 121538728700058
+                }
+              ]
+            },
+            "PREPARATION": {
+              "dish_preparation_method": "Tossed"
+            }
+          }
+        },
+        {
+          "item_id": 22330187439,
+          "item_name": "Basil Pesto Shells",
+          "image_url": "https://cdn.doordash.com/media/photosV2/2f159369-dcdb-4c72-abcc-fa1ba2c20414-retina-large.jpg",
+          "order_id": 3000011896188653,
+          "order_date": "2026-03-18T18:33:29.686000",
+          "webster_tags": {
+            "CUISINE": {
+              "cuisine": [
+                "Italian"
+              ]
+            },
+            "DIETARY": {
+              "is_beef_free": true,
+              "is_healthy": false,
+              "is_high_protein": false,
+              "is_keto_friendly": false,
+              "is_kid_friendly": true,
+              "is_low_calorie": false,
+              "is_low_carb": false,
+              "is_low_fat": false,
+              "is_low_sodium": false,
+              "is_low_sugar": false,
+              "is_paleo_friendly": false,
+              "is_pescatarian": true,
+              "is_pescatarian_mentioned": false,
+              "is_pescatarian_options": true,
+              "is_pork_free": true,
+              "is_vegan": false,
+              "is_vegan_mentioned": false,
+              "is_vegan_options": false,
+              "is_vegetarian": true,
+              "is_vegetarian_mentioned": true,
+              "is_vegetarian_options": true
+            },
+            "MACRO": {
+              "estimated_calories": 550,
+              "estimated_carbohydrates_grams": 60,
+              "estimated_fat_grams": 28,
+              "estimated_protein_grams": 20
+            },
+            "PORTION_SIZE": {
+              "portion_size": "1-2 people"
+            },
+            "PREPARATION": {
+              "dish_preparation_method": "Tossed"
+            },
+            "INGREDIENT": {
+              "fats_oils": [
+                "olive oil",
+                "pine nuts",
+                "garlic butter"
+              ],
+              "fruits_vegetables": [
+                "basil",
+                "sun-dried tomatoes",
+                "arugula"
+              ],
+              "grains_carbs": [
+                "pasta"
+              ],
+              "proteins": [
+                "feta cheese",
+                "parmesan cheese"
+              ],
+              "spices_seasonings": [
+                "salt",
+                "black pepper",
+                "garlic"
+              ]
+            },
+            "FLAVOR": {
+              "is_bitter": false,
+              "is_cheesy": true,
+              "is_creamy": false,
+              "is_herbal": true,
+              "is_salty": true,
+              "is_smoky": false,
+              "is_sour": false,
+              "is_spicy": false,
+              "is_sweet": false,
+              "is_tangy": false,
+              "is_umami": true
+            },
+            "DISH": {
+              "confidence_score": 0.9951,
+              "hierarchical_tags": "Main Dishes > Pasta Sauces & Marinades > Pesto Sauce",
+              "level_1_tag": "Main Dishes",
+              "level_1_tag_id": 210864443733158,
+              "level_2_tag": "Pasta Sauces & Marinades",
+              "level_2_tag_id": 263228462219374,
+              "level_3_tag": "Pesto Sauce",
+              "level_3_tag_id": 48639317437093,
+              "top_candidates": [
+                {
+                  "confidence_score": 0.9951,
+                  "hierarchical_tags": "Main Dishes > Pasta Sauces & Marinades > Pesto Sauce",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Pasta Sauces & Marinades",
+                  "level_2_tag_id": 263228462219374,
+                  "level_3_tag": "Pesto Sauce",
+                  "level_3_tag_id": 48639317437093
+                },
+                {
+                  "confidence_score": 0.003,
+                  "hierarchical_tags": "Main Dishes > Pasta > Other Pasta",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Pasta",
+                  "level_2_tag_id": 270540948360213,
+                  "level_3_tag": "Other Pasta",
+                  "level_3_tag_id": 187232422416295
+                },
+                {
+                  "confidence_score": 0.0007,
+                  "hierarchical_tags": "Side Dishes & Condiments > Dips & Sauces > Salsa",
+                  "level_1_tag": "Side Dishes & Condiments",
+                  "level_1_tag_id": 106755224903116,
+                  "level_2_tag": "Dips & Sauces",
+                  "level_2_tag_id": 56019730563936,
+                  "level_3_tag": "Salsa",
+                  "level_3_tag_id": 159435978135381
+                }
+              ]
+            },
+            "COURSE": {
+              "course": "Side Dishes & Condiments"
+            },
+            "ALLERGEN": {
+              "is_dairy_free": false,
+              "is_gluten_free": false,
+              "is_gluten_free_mentioned": false,
+              "is_gluten_free_options": false,
+              "is_nut_free": false,
+              "is_shellfish_free": true,
+              "is_soy_free": true
+            }
+          }
+        },
+        {
+          "item_id": 31453691963,
+          "item_name": "The Seasonal GOAT with Pink Lady Apples",
+          "image_url": "https://cdn.doordash.com/media/photosV2/637630a6-bdcc-495e-866e-521f1b7bb7c7-retina-large.jpg",
+          "order_id": 3000010999319719,
+          "order_date": "2026-01-28T19:05:29.337000",
+          "webster_tags": {
+            "COURSE": {
+              "course": "Main Dishes"
+            },
+            "PREPARATION": {
+              "dish_preparation_method": "Tossed"
+            },
+            "MACRO": {
+              "estimated_calories": 710,
+              "estimated_carbohydrates_grams": 48,
+              "estimated_fat_grams": 41,
+              "estimated_protein_grams": 40
+            },
+            "PORTION_SIZE": {
+              "portion_size": "1-2 people"
+            },
+            "FLAVOR": {
+              "is_bitter": false,
+              "is_cheesy": true,
+              "is_creamy": false,
+              "is_herbal": false,
+              "is_salty": true,
+              "is_smoky": false,
+              "is_sour": false,
+              "is_spicy": true,
+              "is_sweet": true,
+              "is_tangy": true,
+              "is_umami": false
+            },
+            "CUISINE": {
+              "cuisine": [
+                "New American",
+                "American"
+              ]
+            },
+            "INGREDIENT": {
+              "fats_oils": [],
+              "fruits_vegetables": [
+                "apple",
+                "cranberry",
+                "onion",
+                "fennel",
+                "romaine",
+                "kale"
+              ],
+              "grains_carbs": [],
+              "proteins": [
+                "chicken",
+                "goat cheese",
+                "almonds"
+              ],
+              "spices_seasonings": [
+                "mint",
+                "honey"
+              ]
+            },
+            "ALLERGEN": {
+              "is_dairy_free": false,
+              "is_gluten_free": true,
+              "is_gluten_free_mentioned": false,
+              "is_gluten_free_options": false,
+              "is_nut_free": false,
+              "is_shellfish_free": true,
+              "is_soy_free": true
+            },
+            "DIETARY": {
+              "is_beef_free": true,
+              "is_healthy": true,
+              "is_high_protein": true,
+              "is_keto_friendly": false,
+              "is_kid_friendly": true,
+              "is_low_calorie": false,
+              "is_low_carb": false,
+              "is_low_fat": false,
+              "is_low_sodium": false,
+              "is_low_sugar": false,
+              "is_paleo_friendly": false,
+              "is_pescatarian": false,
+              "is_pescatarian_mentioned": false,
+              "is_pescatarian_options": true,
+              "is_pork_free": true,
+              "is_vegan": false,
+              "is_vegan_mentioned": false,
+              "is_vegan_options": false,
+              "is_vegetarian": false,
+              "is_vegetarian_mentioned": false,
+              "is_vegetarian_options": true
+            },
+            "DISH": {
+              "confidence_score": 0.272,
+              "hierarchical_tags": "Main Dishes > Salads > Fruit & Nut Salads > Apple Pecan Salad",
+              "level_1_tag": "Main Dishes",
+              "level_1_tag_id": 210864443733158,
+              "level_2_tag": "Salads",
+              "level_2_tag_id": 279801517666096,
+              "level_3_tag": "Fruit & Nut Salads",
+              "level_3_tag_id": 166469552595497,
+              "level_4_tag": "Apple Pecan Salad",
+              "level_4_tag_id": 135036575527416,
+              "top_candidates": [
+                {
+                  "confidence_score": 0.272,
+                  "hierarchical_tags": "Main Dishes > Salads > Fruit & Nut Salads > Apple Pecan Salad",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Salads",
+                  "level_2_tag_id": 279801517666096,
+                  "level_3_tag": "Fruit & Nut Salads",
+                  "level_3_tag_id": 166469552595497,
+                  "level_4_tag": "Apple Pecan Salad",
+                  "level_4_tag_id": 135036575527416
+                },
+                {
+                  "confidence_score": 0.1736,
+                  "hierarchical_tags": "Main Dishes > Salads > Vegetarian Salad > Goat Cheese Salad",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Salads",
+                  "level_2_tag_id": 279801517666096,
+                  "level_3_tag": "Vegetarian Salad",
+                  "level_3_tag_id": 37966739612319,
+                  "level_4_tag": "Goat Cheese Salad",
+                  "level_4_tag_id": 228303613374191
+                },
+                {
+                  "confidence_score": 0.1705,
+                  "hierarchical_tags": "Main Dishes > Salads > Fruit & Nut Salads > Apple Walnut Salad",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Salads",
+                  "level_2_tag_id": 279801517666096,
+                  "level_3_tag": "Fruit & Nut Salads",
+                  "level_3_tag_id": 166469552595497,
+                  "level_4_tag": "Apple Walnut Salad",
+                  "level_4_tag_id": 92901749710523
+                }
+              ]
+            }
+          }
+        },
+        {
+          "item_id": 22330187439,
+          "item_name": "Basil Pesto Shells",
+          "image_url": "https://cdn.doordash.com/media/photosV2/2f159369-dcdb-4c72-abcc-fa1ba2c20414-retina-large.jpg",
+          "order_id": 3000011120854775,
+          "order_date": "2026-02-04T19:13:38.492000",
+          "webster_tags": {
+            "CUISINE": {
+              "cuisine": [
+                "Italian"
+              ]
+            },
+            "DIETARY": {
+              "is_beef_free": true,
+              "is_healthy": false,
+              "is_high_protein": false,
+              "is_keto_friendly": false,
+              "is_kid_friendly": true,
+              "is_low_calorie": false,
+              "is_low_carb": false,
+              "is_low_fat": false,
+              "is_low_sodium": false,
+              "is_low_sugar": false,
+              "is_paleo_friendly": false,
+              "is_pescatarian": true,
+              "is_pescatarian_mentioned": false,
+              "is_pescatarian_options": true,
+              "is_pork_free": true,
+              "is_vegan": false,
+              "is_vegan_mentioned": false,
+              "is_vegan_options": false,
+              "is_vegetarian": true,
+              "is_vegetarian_mentioned": true,
+              "is_vegetarian_options": true
+            },
+            "MACRO": {
+              "estimated_calories": 550,
+              "estimated_carbohydrates_grams": 60,
+              "estimated_fat_grams": 28,
+              "estimated_protein_grams": 20
+            },
+            "PORTION_SIZE": {
+              "portion_size": "1-2 people"
+            },
+            "PREPARATION": {
+              "dish_preparation_method": "Tossed"
+            },
+            "INGREDIENT": {
+              "fats_oils": [
+                "olive oil",
+                "pine nuts",
+                "garlic butter"
+              ],
+              "fruits_vegetables": [
+                "basil",
+                "sun-dried tomatoes",
+                "arugula"
+              ],
+              "grains_carbs": [
+                "pasta"
+              ],
+              "proteins": [
+                "feta cheese",
+                "parmesan cheese"
+              ],
+              "spices_seasonings": [
+                "salt",
+                "black pepper",
+                "garlic"
+              ]
+            },
+            "FLAVOR": {
+              "is_bitter": false,
+              "is_cheesy": true,
+              "is_creamy": false,
+              "is_herbal": true,
+              "is_salty": true,
+              "is_smoky": false,
+              "is_sour": false,
+              "is_spicy": false,
+              "is_sweet": false,
+              "is_tangy": false,
+              "is_umami": true
+            },
+            "DISH": {
+              "confidence_score": 0.9951,
+              "hierarchical_tags": "Main Dishes > Pasta Sauces & Marinades > Pesto Sauce",
+              "level_1_tag": "Main Dishes",
+              "level_1_tag_id": 210864443733158,
+              "level_2_tag": "Pasta Sauces & Marinades",
+              "level_2_tag_id": 263228462219374,
+              "level_3_tag": "Pesto Sauce",
+              "level_3_tag_id": 48639317437093,
+              "top_candidates": [
+                {
+                  "confidence_score": 0.9951,
+                  "hierarchical_tags": "Main Dishes > Pasta Sauces & Marinades > Pesto Sauce",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Pasta Sauces & Marinades",
+                  "level_2_tag_id": 263228462219374,
+                  "level_3_tag": "Pesto Sauce",
+                  "level_3_tag_id": 48639317437093
+                },
+                {
+                  "confidence_score": 0.003,
+                  "hierarchical_tags": "Main Dishes > Pasta > Other Pasta",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Pasta",
+                  "level_2_tag_id": 270540948360213,
+                  "level_3_tag": "Other Pasta",
+                  "level_3_tag_id": 187232422416295
+                },
+                {
+                  "confidence_score": 0.0007,
+                  "hierarchical_tags": "Side Dishes & Condiments > Dips & Sauces > Salsa",
+                  "level_1_tag": "Side Dishes & Condiments",
+                  "level_1_tag_id": 106755224903116,
+                  "level_2_tag": "Dips & Sauces",
+                  "level_2_tag_id": 56019730563936,
+                  "level_3_tag": "Salsa",
+                  "level_3_tag_id": 159435978135381
+                }
+              ]
+            },
+            "COURSE": {
+              "course": "Side Dishes & Condiments"
+            },
+            "ALLERGEN": {
+              "is_dairy_free": false,
+              "is_gluten_free": false,
+              "is_gluten_free_mentioned": false,
+              "is_gluten_free_options": false,
+              "is_nut_free": false,
+              "is_shellfish_free": true,
+              "is_soy_free": true
+            }
+          }
+        },
+        {
+          "item_id": 22330187439,
+          "item_name": "Basil Pesto Shells",
+          "image_url": "https://cdn.doordash.com/media/photosV2/2f159369-dcdb-4c72-abcc-fa1ba2c20414-retina-large.jpg",
+          "order_id": 3000010999319719,
+          "order_date": "2026-01-28T19:05:29.337000",
+          "webster_tags": {
+            "CUISINE": {
+              "cuisine": [
+                "Italian"
+              ]
+            },
+            "DIETARY": {
+              "is_beef_free": true,
+              "is_healthy": false,
+              "is_high_protein": false,
+              "is_keto_friendly": false,
+              "is_kid_friendly": true,
+              "is_low_calorie": false,
+              "is_low_carb": false,
+              "is_low_fat": false,
+              "is_low_sodium": false,
+              "is_low_sugar": false,
+              "is_paleo_friendly": false,
+              "is_pescatarian": true,
+              "is_pescatarian_mentioned": false,
+              "is_pescatarian_options": true,
+              "is_pork_free": true,
+              "is_vegan": false,
+              "is_vegan_mentioned": false,
+              "is_vegan_options": false,
+              "is_vegetarian": true,
+              "is_vegetarian_mentioned": true,
+              "is_vegetarian_options": true
+            },
+            "MACRO": {
+              "estimated_calories": 550,
+              "estimated_carbohydrates_grams": 60,
+              "estimated_fat_grams": 28,
+              "estimated_protein_grams": 20
+            },
+            "PORTION_SIZE": {
+              "portion_size": "1-2 people"
+            },
+            "PREPARATION": {
+              "dish_preparation_method": "Tossed"
+            },
+            "INGREDIENT": {
+              "fats_oils": [
+                "olive oil",
+                "pine nuts",
+                "garlic butter"
+              ],
+              "fruits_vegetables": [
+                "basil",
+                "sun-dried tomatoes",
+                "arugula"
+              ],
+              "grains_carbs": [
+                "pasta"
+              ],
+              "proteins": [
+                "feta cheese",
+                "parmesan cheese"
+              ],
+              "spices_seasonings": [
+                "salt",
+                "black pepper",
+                "garlic"
+              ]
+            },
+            "FLAVOR": {
+              "is_bitter": false,
+              "is_cheesy": true,
+              "is_creamy": false,
+              "is_herbal": true,
+              "is_salty": true,
+              "is_smoky": false,
+              "is_sour": false,
+              "is_spicy": false,
+              "is_sweet": false,
+              "is_tangy": false,
+              "is_umami": true
+            },
+            "DISH": {
+              "confidence_score": 0.9951,
+              "hierarchical_tags": "Main Dishes > Pasta Sauces & Marinades > Pesto Sauce",
+              "level_1_tag": "Main Dishes",
+              "level_1_tag_id": 210864443733158,
+              "level_2_tag": "Pasta Sauces & Marinades",
+              "level_2_tag_id": 263228462219374,
+              "level_3_tag": "Pesto Sauce",
+              "level_3_tag_id": 48639317437093,
+              "top_candidates": [
+                {
+                  "confidence_score": 0.9951,
+                  "hierarchical_tags": "Main Dishes > Pasta Sauces & Marinades > Pesto Sauce",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Pasta Sauces & Marinades",
+                  "level_2_tag_id": 263228462219374,
+                  "level_3_tag": "Pesto Sauce",
+                  "level_3_tag_id": 48639317437093
+                },
+                {
+                  "confidence_score": 0.003,
+                  "hierarchical_tags": "Main Dishes > Pasta > Other Pasta",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Pasta",
+                  "level_2_tag_id": 270540948360213,
+                  "level_3_tag": "Other Pasta",
+                  "level_3_tag_id": 187232422416295
+                },
+                {
+                  "confidence_score": 0.0007,
+                  "hierarchical_tags": "Side Dishes & Condiments > Dips & Sauces > Salsa",
+                  "level_1_tag": "Side Dishes & Condiments",
+                  "level_1_tag_id": 106755224903116,
+                  "level_2_tag": "Dips & Sauces",
+                  "level_2_tag_id": 56019730563936,
+                  "level_3_tag": "Salsa",
+                  "level_3_tag_id": 159435978135381
+                }
+              ]
+            },
+            "COURSE": {
+              "course": "Side Dishes & Condiments"
+            },
+            "ALLERGEN": {
+              "is_dairy_free": false,
+              "is_gluten_free": false,
+              "is_gluten_free_mentioned": false,
+              "is_gluten_free_options": false,
+              "is_nut_free": false,
+              "is_shellfish_free": true,
+              "is_soy_free": true
+            }
+          }
+        },
+        {
+          "item_id": 22330187439,
+          "item_name": "Basil Pesto Shells",
+          "image_url": "https://cdn.doordash.com/media/photosV2/2f159369-dcdb-4c72-abcc-fa1ba2c20414-retina-large.jpg",
+          "order_id": 3000011243567809,
+          "order_date": "2026-02-11T19:25:31.563000",
+          "webster_tags": {
+            "CUISINE": {
+              "cuisine": [
+                "Italian"
+              ]
+            },
+            "DIETARY": {
+              "is_beef_free": true,
+              "is_healthy": false,
+              "is_high_protein": false,
+              "is_keto_friendly": false,
+              "is_kid_friendly": true,
+              "is_low_calorie": false,
+              "is_low_carb": false,
+              "is_low_fat": false,
+              "is_low_sodium": false,
+              "is_low_sugar": false,
+              "is_paleo_friendly": false,
+              "is_pescatarian": true,
+              "is_pescatarian_mentioned": false,
+              "is_pescatarian_options": true,
+              "is_pork_free": true,
+              "is_vegan": false,
+              "is_vegan_mentioned": false,
+              "is_vegan_options": false,
+              "is_vegetarian": true,
+              "is_vegetarian_mentioned": true,
+              "is_vegetarian_options": true
+            },
+            "MACRO": {
+              "estimated_calories": 550,
+              "estimated_carbohydrates_grams": 60,
+              "estimated_fat_grams": 28,
+              "estimated_protein_grams": 20
+            },
+            "PORTION_SIZE": {
+              "portion_size": "1-2 people"
+            },
+            "PREPARATION": {
+              "dish_preparation_method": "Tossed"
+            },
+            "INGREDIENT": {
+              "fats_oils": [
+                "olive oil",
+                "pine nuts",
+                "garlic butter"
+              ],
+              "fruits_vegetables": [
+                "basil",
+                "sun-dried tomatoes",
+                "arugula"
+              ],
+              "grains_carbs": [
+                "pasta"
+              ],
+              "proteins": [
+                "feta cheese",
+                "parmesan cheese"
+              ],
+              "spices_seasonings": [
+                "salt",
+                "black pepper",
+                "garlic"
+              ]
+            },
+            "FLAVOR": {
+              "is_bitter": false,
+              "is_cheesy": true,
+              "is_creamy": false,
+              "is_herbal": true,
+              "is_salty": true,
+              "is_smoky": false,
+              "is_sour": false,
+              "is_spicy": false,
+              "is_sweet": false,
+              "is_tangy": false,
+              "is_umami": true
+            },
+            "DISH": {
+              "confidence_score": 0.9951,
+              "hierarchical_tags": "Main Dishes > Pasta Sauces & Marinades > Pesto Sauce",
+              "level_1_tag": "Main Dishes",
+              "level_1_tag_id": 210864443733158,
+              "level_2_tag": "Pasta Sauces & Marinades",
+              "level_2_tag_id": 263228462219374,
+              "level_3_tag": "Pesto Sauce",
+              "level_3_tag_id": 48639317437093,
+              "top_candidates": [
+                {
+                  "confidence_score": 0.9951,
+                  "hierarchical_tags": "Main Dishes > Pasta Sauces & Marinades > Pesto Sauce",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Pasta Sauces & Marinades",
+                  "level_2_tag_id": 263228462219374,
+                  "level_3_tag": "Pesto Sauce",
+                  "level_3_tag_id": 48639317437093
+                },
+                {
+                  "confidence_score": 0.003,
+                  "hierarchical_tags": "Main Dishes > Pasta > Other Pasta",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Pasta",
+                  "level_2_tag_id": 270540948360213,
+                  "level_3_tag": "Other Pasta",
+                  "level_3_tag_id": 187232422416295
+                },
+                {
+                  "confidence_score": 0.0007,
+                  "hierarchical_tags": "Side Dishes & Condiments > Dips & Sauces > Salsa",
+                  "level_1_tag": "Side Dishes & Condiments",
+                  "level_1_tag_id": 106755224903116,
+                  "level_2_tag": "Dips & Sauces",
+                  "level_2_tag_id": 56019730563936,
+                  "level_3_tag": "Salsa",
+                  "level_3_tag_id": 159435978135381
+                }
+              ]
+            },
+            "COURSE": {
+              "course": "Side Dishes & Condiments"
+            },
+            "ALLERGEN": {
+              "is_dairy_free": false,
+              "is_gluten_free": false,
+              "is_gluten_free_mentioned": false,
+              "is_gluten_free_options": false,
+              "is_nut_free": false,
+              "is_shellfish_free": true,
+              "is_soy_free": true
+            }
+          }
+        },
+        {
+          "item_id": 41585894875,
+          "item_name": "The Farmhouse Ranch Salad",
+          "image_url": "https://cdn.doordash.com/media/photosV2/24c21bbd-6335-4a2d-82ff-22925e05324a-retina-large.jpg",
+          "order_id": 3000011896188653,
+          "order_date": "2026-03-18T18:33:29.686000",
+          "webster_tags": {
+            "FLAVOR": {
+              "is_bitter": false,
+              "is_cheesy": false,
+              "is_creamy": true,
+              "is_herbal": true,
+              "is_salty": true,
+              "is_smoky": false,
+              "is_sour": false,
+              "is_spicy": false,
+              "is_sweet": false,
+              "is_tangy": true,
+              "is_umami": false
+            },
+            "CUISINE": {
+              "cuisine": [
+                "American"
+              ]
+            },
+            "PREPARATION": {
+              "dish_preparation_method": "Tossed"
+            },
+            "MACRO": {
+              "estimated_calories": 470,
+              "estimated_carbohydrates_grams": 30,
+              "estimated_fat_grams": 35,
+              "estimated_protein_grams": 15
+            },
+            "PORTION_SIZE": {
+              "portion_size": "1-2 people"
+            },
+            "COURSE": {
+              "course": "Main Dishes"
+            },
+            "DISH": {
+              "confidence_score": 0.5283,
+              "hierarchical_tags": "Main Dishes > Salads > Other Salads",
+              "level_1_tag": "Main Dishes",
+              "level_1_tag_id": 210864443733158,
+              "level_2_tag": "Salads",
+              "level_2_tag_id": 279801517666096,
+              "level_3_tag": "Other Salads",
+              "level_3_tag_id": 58096309809598,
+              "top_candidates": [
+                {
+                  "confidence_score": 0.5283,
+                  "hierarchical_tags": "Main Dishes > Salads > Other Salads",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Salads",
+                  "level_2_tag_id": 279801517666096,
+                  "level_3_tag": "Other Salads",
+                  "level_3_tag_id": 58096309809598
+                },
+                {
+                  "confidence_score": 0.3242,
+                  "hierarchical_tags": "Main Dishes > Salads > Garden Salad",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Salads",
+                  "level_2_tag_id": 279801517666096,
+                  "level_3_tag": "Garden Salad",
+                  "level_3_tag_id": 62223404742459
+                },
+                {
+                  "confidence_score": 0.1016,
+                  "hierarchical_tags": "Main Dishes > Salads > Garden Salad > Mixed Green Salad",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Salads",
+                  "level_2_tag_id": 279801517666096,
+                  "level_3_tag": "Garden Salad",
+                  "level_3_tag_id": 62223404742459,
+                  "level_4_tag": "Mixed Green Salad",
+                  "level_4_tag_id": 230836053582358
+                }
+              ]
+            },
+            "DIETARY": {
+              "is_beef_free": true,
+              "is_healthy": true,
+              "is_high_protein": false,
+              "is_keto_friendly": false,
+              "is_kid_friendly": true,
+              "is_low_calorie": false,
+              "is_low_carb": false,
+              "is_low_fat": false,
+              "is_low_sodium": false,
+              "is_low_sugar": true,
+              "is_paleo_friendly": false,
+              "is_pescatarian_mentioned": false,
+              "is_pork_free": true,
+              "is_vegan_mentioned": false,
+              "is_vegetarian_mentioned": false
+            },
+            "ALLERGEN": {
+              "is_dairy_free": false,
+              "is_gluten_free_mentioned": false,
+              "is_nut_free": true,
+              "is_shellfish_free": true,
+              "is_soy_free": true
+            },
+            "INGREDIENT": {
+              "fats_oils": [
+                "buttermilk"
+              ],
+              "fruits_vegetables": [
+                "cherry tomato",
+                "cucumber",
+                "avocado",
+                "chives",
+                "romaine",
+                "field greens"
+              ],
+              "grains_carbs": [
+                "krispies"
+              ],
+              "proteins": [
+                "parmesan"
+              ],
+              "spices_seasonings": [
+                "herb"
+              ]
+            }
+          }
+        },
+        {
+          "item_id": 23281737281,
+          "item_name": "Baja Green Goddess",
+          "image_url": "https://cdn.doordash.com/media/photosV2/69e8fc26-3c6b-4ed3-96e5-473b157c7cdd-retina-large.jpg",
+          "order_id": 3000010771344244,
+          "order_date": "2026-01-14T20:40:39.271000",
+          "webster_tags": {
+            "DIETARY": {
+              "is_beef_free": true,
+              "is_healthy": false,
+              "is_high_protein": true,
+              "is_keto_friendly": false,
+              "is_kid_friendly": false,
+              "is_low_calorie": false,
+              "is_low_carb": false,
+              "is_low_fat": false,
+              "is_low_sodium": false,
+              "is_low_sugar": false,
+              "is_paleo_friendly": false,
+              "is_pescatarian": false,
+              "is_pescatarian_mentioned": false,
+              "is_pescatarian_options": true,
+              "is_pork_free": true,
+              "is_vegan": false,
+              "is_vegan_mentioned": false,
+              "is_vegan_options": true,
+              "is_vegetarian": false,
+              "is_vegetarian_mentioned": true,
+              "is_vegetarian_options": true
+            },
+            "CUISINE": {
+              "cuisine": [
+                "Mexican",
+                "Southwestern"
+              ]
+            },
+            "COURSE": {
+              "course": "Main Dishes"
+            },
+            "ALLERGEN": {
+              "is_dairy_free": false,
+              "is_gluten_free": false,
+              "is_gluten_free_mentioned": false,
+              "is_gluten_free_options": false,
+              "is_nut_free": true,
+              "is_shellfish_free": true,
+              "is_soy_free": false
+            },
+            "PREPARATION": {
+              "dish_preparation_method": "Tossed"
+            },
+            "MACRO": {
+              "estimated_calories": 880
+            },
+            "INGREDIENT": {
+              "fats_oils": [],
+              "fruits_vegetables": [
+                "corn",
+                "jicama",
+                "avocado",
+                "tomato",
+                "red onion",
+                "romaine",
+                "arugula",
+                "cabbage",
+                "cilantro"
+              ],
+              "grains_carbs": [],
+              "proteins": [
+                "chicken",
+                "meat substitute",
+                "black beans",
+                "mozzarella cheese"
+              ],
+              "spices_seasonings": []
+            },
+            "FLAVOR": {
+              "is_bitter": false,
+              "is_cheesy": true,
+              "is_creamy": false,
+              "is_herbal": false,
+              "is_salty": true,
+              "is_smoky": false,
+              "is_sour": false,
+              "is_spicy": false,
+              "is_sweet": false,
+              "is_tangy": true,
+              "is_umami": true
+            },
+            "DISH": {
+              "confidence_score": 0.436,
+              "hierarchical_tags": "Main Dishes > Salads > Other Salads",
+              "level_1_tag": "Main Dishes",
+              "level_1_tag_id": 210864443733158,
+              "level_2_tag": "Salads",
+              "level_2_tag_id": 279801517666096,
+              "level_3_tag": "Other Salads",
+              "level_3_tag_id": 58096309809598,
+              "top_candidates": [
+                {
+                  "confidence_score": 0.436,
+                  "hierarchical_tags": "Main Dishes > Salads > Other Salads",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Salads",
+                  "level_2_tag_id": 279801517666096,
+                  "level_3_tag": "Other Salads",
+                  "level_3_tag_id": 58096309809598
+                },
+                {
+                  "confidence_score": 0.2111,
+                  "hierarchical_tags": "Main Dishes > Salads > Garden Salad > Green Goddess Salad",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Salads",
+                  "level_2_tag_id": 279801517666096,
+                  "level_3_tag": "Garden Salad",
+                  "level_3_tag_id": 62223404742459,
+                  "level_4_tag": "Green Goddess Salad",
+                  "level_4_tag_id": 278063109937703
+                },
+                {
+                  "confidence_score": 0.108,
+                  "hierarchical_tags": "Main Dishes > Salads > Mediterranean Salad > Gyros Salad",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Salads",
+                  "level_2_tag_id": 279801517666096,
+                  "level_3_tag": "Mediterranean Salad",
+                  "level_3_tag_id": 76395116284899,
+                  "level_4_tag": "Gyros Salad",
+                  "level_4_tag_id": 180633700013506
+                }
+              ]
+            },
+            "PORTION_SIZE": {
+              "portion_size": "1-2 people"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "store_id": 297204,
+      "store_name": "RT Rotisserie (Hayes)",
+      "business_name": "RT Rotisserie",
+      "business_id": 156399,
+      "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/Screen_Shot_2020-02-24_at_3.26.57_PM.png",
+      "header_image": "https://cdn.doordash.com/media/store/header/d606b01b-3950-425b-9603-9ac7d8ede898.jpg",
+      "logo_url": "https://cdn.doordash.com/media/restaurant/cover_square/RTR_Square_Logo.png",
+      "average_rating": "4.79",
+      "orders": [
+        {
+          "delivery_id": 205944003890,
+          "order_date": "2026-02-18T12:05:35.408461"
+        }
+      ],
+      "items": [
+        {
+          "item_id": 603827219,
+          "item_name": "Rice Bowl",
+          "image_url": "https://cdn.doordash.com/media/photosV2/f79e69bb-027f-457f-9559-a7cc73e7ad50-c3f59b91-4dbe-4477-af62-dae365d5e450-retina-large.JPG",
+          "order_id": 3000011369872447,
+          "order_date": "2026-02-18T19:06:41.780000",
+          "webster_tags": {
+            "PORTION_SIZE": {
+              "portion_size": "1-2 people"
+            },
+            "DIETARY": {
+              "is_beef_free": true,
+              "is_healthy": true,
+              "is_high_protein": false,
+              "is_keto_friendly": false,
+              "is_kid_friendly": true,
+              "is_low_calorie": false,
+              "is_low_carb": false,
+              "is_low_fat": false,
+              "is_low_sodium": false,
+              "is_low_sugar": false,
+              "is_paleo_friendly": false,
+              "is_pescatarian": false,
+              "is_pescatarian_mentioned": false,
+              "is_pescatarian_options": true,
+              "is_pork_free": false,
+              "is_vegan": false,
+              "is_vegan_mentioned": false,
+              "is_vegan_options": true,
+              "is_vegetarian": false,
+              "is_vegetarian_mentioned": true,
+              "is_vegetarian_options": true
+            },
+            "ALLERGEN": {
+              "is_dairy_free": false,
+              "is_gluten_free": true,
+              "is_gluten_free_mentioned": true,
+              "is_gluten_free_options": true,
+              "is_nut_free": true,
+              "is_shellfish_free": true,
+              "is_soy_free": false
+            },
+            "INGREDIENT": {
+              "fats_oils": [],
+              "fruits_vegetables": [
+                "onion",
+                "cabbage",
+                "cucumber",
+                "radish",
+                "herbs"
+              ],
+              "grains_carbs": [
+                "rice"
+              ],
+              "proteins": [
+                "chicken",
+                "lamb",
+                "pork"
+              ],
+              "spices_seasonings": [
+                "seeds"
+              ]
+            },
+            "PREPARATION": {},
+            "MACRO": {},
+            "COURSE": {
+              "course": "Main Dishes"
+            },
+            "CUISINE": {
+              "cuisine": [
+                "American"
+              ]
+            },
+            "DISH": {
+              "confidence_score": 0.4944,
+              "hierarchical_tags": "Main Dishes > Bowls > Vegetarian Bowl",
+              "level_1_tag": "Main Dishes",
+              "level_1_tag_id": 210864443733158,
+              "level_2_tag": "Bowls",
+              "level_2_tag_id": 134341825813121,
+              "level_3_tag": "Vegetarian Bowl",
+              "level_3_tag_id": 194907200339372,
+              "top_candidates": [
+                {
+                  "confidence_score": 0.4944,
+                  "hierarchical_tags": "Main Dishes > Bowls > Vegetarian Bowl",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Bowls",
+                  "level_2_tag_id": 134341825813121,
+                  "level_3_tag": "Vegetarian Bowl",
+                  "level_3_tag_id": 194907200339372
+                },
+                {
+                  "confidence_score": 0.3081,
+                  "hierarchical_tags": "Main Dishes > Bowls > Other Bowls",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Bowls",
+                  "level_2_tag_id": 134341825813121,
+                  "level_3_tag": "Other Bowls",
+                  "level_3_tag_id": 263242887005024
+                },
+                {
+                  "confidence_score": 0.126,
+                  "hierarchical_tags": "Main Dishes > Bowls > Rice Bowl",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Bowls",
+                  "level_2_tag_id": 134341825813121,
+                  "level_3_tag": "Rice Bowl",
+                  "level_3_tag_id": 116458839136225
+                }
+              ]
+            },
+            "FLAVOR": {
+              "is_bitter": false,
+              "is_cheesy": false,
+              "is_creamy": false,
+              "is_herbal": false,
+              "is_salty": true,
+              "is_smoky": false,
+              "is_sour": false,
+              "is_spicy": false,
+              "is_sweet": false,
+              "is_tangy": true,
+              "is_umami": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "store_id": 543802,
+      "store_name": "Rooster and Rice (2nd St.)",
+      "business_name": "Rooster & Rice",
+      "business_id": 156251,
+      "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/7fceb18d-ba3e-43ff-94c4-545d97ca8727.png",
+      "header_image": "https://cdn.doordash.com/media/store/header/3998b05f-d19b-4bd0-8732-e8144c8eb93d.jpg",
+      "logo_url": "https://cdn.doordash.com/media/restaurant/cover_square/3526b702-a2ec-49be-ba54-e16f1195e3d9.png",
+      "average_rating": "4.82",
+      "orders": [
+        {
+          "delivery_id": 301572421434,
+          "order_date": "2026-01-07T11:58:40.886000"
+        }
+      ],
+      "items": [
+        {
+          "item_id": 33613732833,
+          "item_name": "THE ORIGINAL",
+          "image_url": "https://cdn.doordash.com/media/photosV2/383d40f0-396b-441d-bf81-97737da3ddfb-retina-large.jpeg",
+          "order_id": 3000010655625356,
+          "order_date": "2026-01-07T19:42:59.734000",
+          "webster_tags": {
+            "ALLERGEN": {
+              "is_dairy_free": true,
+              "is_gluten_free": false,
+              "is_gluten_free_mentioned": false,
+              "is_gluten_free_options": true,
+              "is_nut_free": true,
+              "is_shellfish_free": true,
+              "is_soy_free": false
+            },
+            "CUISINE": {
+              "cuisine": [
+                "Thai",
+                "Singaporean",
+                "Malaysian"
+              ]
+            },
+            "PORTION_SIZE": {
+              "portion_size": "1-2 people"
+            },
+            "DISH": {
+              "confidence_score": 0.2507,
+              "hierarchical_tags": "Main Dishes > Rice > Other Rice > Chicken Rice",
+              "level_1_tag": "Main Dishes",
+              "level_1_tag_id": 210864443733158,
+              "level_2_tag": "Rice",
+              "level_2_tag_id": 181516058753836,
+              "level_3_tag": "Other Rice",
+              "level_3_tag_id": 123400894380780,
+              "level_4_tag": "Chicken Rice",
+              "level_4_tag_id": 41842109066254,
+              "top_candidates": [
+                {
+                  "confidence_score": 0.2507,
+                  "hierarchical_tags": "Main Dishes > Rice > Other Rice > Chicken Rice",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Rice",
+                  "level_2_tag_id": 181516058753836,
+                  "level_3_tag": "Other Rice",
+                  "level_3_tag_id": 123400894380780,
+                  "level_4_tag": "Chicken Rice",
+                  "level_4_tag_id": 41842109066254
+                },
+                {
+                  "confidence_score": 0.231,
+                  "hierarchical_tags": "Main Dishes > Other Main Dishes > Other Dishes",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Other Main Dishes",
+                  "level_2_tag_id": 148169457863313,
+                  "level_3_tag": "Other Dishes",
+                  "level_3_tag_id": 258399283952297
+                },
+                {
+                  "confidence_score": 0.0652,
+                  "hierarchical_tags": "Main Dishes > Grilled, Roasted & Fried Meat > Other Grilled, Roasted And Fried Meat",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Grilled, Roasted & Fried Meat",
+                  "level_2_tag_id": 174621345861389,
+                  "level_3_tag": "Other Grilled, Roasted And Fried Meat",
+                  "level_3_tag_id": 165951158512919
+                }
+              ]
+            },
+            "COURSE": {
+              "course": "Main Dishes"
+            },
+            "DIETARY": {
+              "is_beef_free": true,
+              "is_healthy": true,
+              "is_high_protein": true,
+              "is_keto_friendly": false,
+              "is_kid_friendly": true,
+              "is_low_calorie": false,
+              "is_low_carb": false,
+              "is_low_fat": false,
+              "is_low_sodium": false,
+              "is_low_sugar": false,
+              "is_paleo_friendly": false,
+              "is_pescatarian": false,
+              "is_pescatarian_mentioned": false,
+              "is_pescatarian_options": true,
+              "is_pork_free": true,
+              "is_vegan": false,
+              "is_vegan_mentioned": false,
+              "is_vegan_options": true,
+              "is_vegetarian": false,
+              "is_vegetarian_mentioned": false,
+              "is_vegetarian_options": true
+            },
+            "MACRO": {
+              "estimated_calories": 550,
+              "estimated_carbohydrates_grams": 60,
+              "estimated_fat_grams": 15,
+              "estimated_protein_grams": 45
+            },
+            "FLAVOR": {
+              "is_bitter": false,
+              "is_cheesy": false,
+              "is_creamy": false,
+              "is_herbal": false,
+              "is_salty": true,
+              "is_smoky": false,
+              "is_sour": false,
+              "is_spicy": true,
+              "is_sweet": false,
+              "is_tangy": true,
+              "is_umami": true
+            },
+            "PREPARATION": {
+              "dish_preparation_method": "Poached"
+            },
+            "INGREDIENT": {
+              "fats_oils": [],
+              "fruits_vegetables": [
+                "cucumber",
+                "cilantro"
+              ],
+              "grains_carbs": [
+                "jasmine rice"
+              ],
+              "proteins": [
+                "chicken"
+              ],
+              "spices_seasonings": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "store_id": 800028,
+      "store_name": "Sumac by GastrobotEats (Union St - San Francisco)",
+      "business_name": "Sumac",
+      "business_id": 360481,
+      "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/6d17f40c-4cc3-48a2-a7a1-78080b7a98ec.3O Sumac logo",
+      "header_image": "https://cdn.doordash.com/media/store/header/ec0af9db-1bcd-43af-9595-58a6903acb3f.jpeg",
+      "logo_url": "https://cdn.doordash.com/media/restaurant/cover_square/09dc75a2-3c6f-469c-9e3b-d33952918530.jpg",
+      "average_rating": "4.85",
+      "orders": [
+        {
+          "delivery_id": 345818683737,
+          "order_date": "2026-01-28T20:03:02.793000"
+        }
+      ],
+      "items": [
+        {
+          "item_id": 33697543311,
+          "item_name": "Chicken Hummus Bowl",
+          "image_url": "https://cdn.doordash.com/media/photosV2/a0342291-23d3-4951-a42a-b471eb3e29c7-retina-large.jpeg",
+          "order_id": 3000011008948340,
+          "order_date": "2026-01-29T03:44:04.602000",
+          "webster_tags": {
+            "DISH": {
+              "confidence_score": 0.4858,
+              "hierarchical_tags": "Main Dishes > Bowls > Other Bowls",
+              "level_1_tag": "Main Dishes",
+              "level_1_tag_id": 210864443733158,
+              "level_2_tag": "Bowls",
+              "level_2_tag_id": 134341825813121,
+              "level_3_tag": "Other Bowls",
+              "level_3_tag_id": 263242887005024,
+              "top_candidates": [
+                {
+                  "confidence_score": 0.4858,
+                  "hierarchical_tags": "Main Dishes > Bowls > Other Bowls",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Bowls",
+                  "level_2_tag_id": 134341825813121,
+                  "level_3_tag": "Other Bowls",
+                  "level_3_tag_id": 263242887005024
+                },
+                {
+                  "confidence_score": 0.194,
+                  "hierarchical_tags": "Main Dishes > Bowls > Meat Bowl > Other Meat Bowl",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Bowls",
+                  "level_2_tag_id": 134341825813121,
+                  "level_3_tag": "Meat Bowl",
+                  "level_3_tag_id": 245574501808255,
+                  "level_4_tag": "Other Meat Bowl",
+                  "level_4_tag_id": 247570014291096
+                },
+                {
+                  "confidence_score": 0.1346,
+                  "hierarchical_tags": "Main Dishes > Bowls > Meat Bowl > Spicy Chicken Bowl",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Bowls",
+                  "level_2_tag_id": 134341825813121,
+                  "level_3_tag": "Meat Bowl",
+                  "level_3_tag_id": 245574501808255,
+                  "level_4_tag": "Spicy Chicken Bowl",
+                  "level_4_tag_id": 125238237944434
+                }
+              ]
+            },
+            "ALLERGEN": {
+              "is_dairy_free": false,
+              "is_gluten_free": false,
+              "is_gluten_free_mentioned": true,
+              "is_gluten_free_options": true,
+              "is_nut_free": true,
+              "is_shellfish_free": true,
+              "is_soy_free": true
+            },
+            "COURSE": {
+              "course": "Main Dishes"
+            },
+            "FLAVOR": {
+              "is_bitter": false,
+              "is_cheesy": false,
+              "is_creamy": false,
+              "is_herbal": true,
+              "is_salty": true,
+              "is_smoky": false,
+              "is_sour": false,
+              "is_spicy": false,
+              "is_sweet": false,
+              "is_tangy": true,
+              "is_umami": true
+            },
+            "MACRO": {
+              "estimated_calories": 550,
+              "estimated_carbohydrates_grams": 55,
+              "estimated_fat_grams": 25,
+              "estimated_protein_grams": 40
+            },
+            "PREPARATION": {
+              "dish_preparation_method": "Grilled"
+            },
+            "PORTION_SIZE": {
+              "portion_size": "1-2 people"
+            },
+            "DIETARY": {
+              "is_beef_free": true,
+              "is_healthy": true,
+              "is_high_protein": true,
+              "is_keto_friendly": false,
+              "is_kid_friendly": false,
+              "is_low_calorie": false,
+              "is_low_carb": false,
+              "is_low_fat": false,
+              "is_low_sodium": false,
+              "is_low_sugar": false,
+              "is_paleo_friendly": false,
+              "is_pescatarian": false,
+              "is_pescatarian_mentioned": false,
+              "is_pescatarian_options": false,
+              "is_pork_free": true,
+              "is_vegan": false,
+              "is_vegan_mentioned": false,
+              "is_vegan_options": false,
+              "is_vegetarian": false,
+              "is_vegetarian_mentioned": false,
+              "is_vegetarian_options": false
+            },
+            "INGREDIENT": {
+              "fats_oils": [],
+              "fruits_vegetables": [
+                "hummus",
+                "beets",
+                "arugula",
+                "fennel",
+                "vegetable"
+              ],
+              "grains_carbs": [
+                "pita"
+              ],
+              "proteins": [
+                "chicken"
+              ],
+              "spices_seasonings": []
+            },
+            "CUISINE": {
+              "cuisine": [
+                "Middle Eastern"
+              ]
+            }
+          }
+        },
+        {
+          "item_id": 33697543311,
+          "item_name": "Chicken Hummus Bowl",
+          "image_url": "https://cdn.doordash.com/media/photosV2/a0342291-23d3-4951-a42a-b471eb3e29c7-retina-large.jpeg",
+          "order_id": 3000011008948340,
+          "order_date": "2026-01-29T03:44:04.602000",
+          "webster_tags": {
+            "DISH": {
+              "confidence_score": 0.4858,
+              "hierarchical_tags": "Main Dishes > Bowls > Other Bowls",
+              "level_1_tag": "Main Dishes",
+              "level_1_tag_id": 210864443733158,
+              "level_2_tag": "Bowls",
+              "level_2_tag_id": 134341825813121,
+              "level_3_tag": "Other Bowls",
+              "level_3_tag_id": 263242887005024,
+              "top_candidates": [
+                {
+                  "confidence_score": 0.4858,
+                  "hierarchical_tags": "Main Dishes > Bowls > Other Bowls",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Bowls",
+                  "level_2_tag_id": 134341825813121,
+                  "level_3_tag": "Other Bowls",
+                  "level_3_tag_id": 263242887005024
+                },
+                {
+                  "confidence_score": 0.194,
+                  "hierarchical_tags": "Main Dishes > Bowls > Meat Bowl > Other Meat Bowl",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Bowls",
+                  "level_2_tag_id": 134341825813121,
+                  "level_3_tag": "Meat Bowl",
+                  "level_3_tag_id": 245574501808255,
+                  "level_4_tag": "Other Meat Bowl",
+                  "level_4_tag_id": 247570014291096
+                },
+                {
+                  "confidence_score": 0.1346,
+                  "hierarchical_tags": "Main Dishes > Bowls > Meat Bowl > Spicy Chicken Bowl",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Bowls",
+                  "level_2_tag_id": 134341825813121,
+                  "level_3_tag": "Meat Bowl",
+                  "level_3_tag_id": 245574501808255,
+                  "level_4_tag": "Spicy Chicken Bowl",
+                  "level_4_tag_id": 125238237944434
+                }
+              ]
+            },
+            "ALLERGEN": {
+              "is_dairy_free": false,
+              "is_gluten_free": false,
+              "is_gluten_free_mentioned": true,
+              "is_gluten_free_options": true,
+              "is_nut_free": true,
+              "is_shellfish_free": true,
+              "is_soy_free": true
+            },
+            "COURSE": {
+              "course": "Main Dishes"
+            },
+            "FLAVOR": {
+              "is_bitter": false,
+              "is_cheesy": false,
+              "is_creamy": false,
+              "is_herbal": true,
+              "is_salty": true,
+              "is_smoky": false,
+              "is_sour": false,
+              "is_spicy": false,
+              "is_sweet": false,
+              "is_tangy": true,
+              "is_umami": true
+            },
+            "MACRO": {
+              "estimated_calories": 550,
+              "estimated_carbohydrates_grams": 55,
+              "estimated_fat_grams": 25,
+              "estimated_protein_grams": 40
+            },
+            "PREPARATION": {
+              "dish_preparation_method": "Grilled"
+            },
+            "PORTION_SIZE": {
+              "portion_size": "1-2 people"
+            },
+            "DIETARY": {
+              "is_beef_free": true,
+              "is_healthy": true,
+              "is_high_protein": true,
+              "is_keto_friendly": false,
+              "is_kid_friendly": false,
+              "is_low_calorie": false,
+              "is_low_carb": false,
+              "is_low_fat": false,
+              "is_low_sodium": false,
+              "is_low_sugar": false,
+              "is_paleo_friendly": false,
+              "is_pescatarian": false,
+              "is_pescatarian_mentioned": false,
+              "is_pescatarian_options": false,
+              "is_pork_free": true,
+              "is_vegan": false,
+              "is_vegan_mentioned": false,
+              "is_vegan_options": false,
+              "is_vegetarian": false,
+              "is_vegetarian_mentioned": false,
+              "is_vegetarian_options": false
+            },
+            "INGREDIENT": {
+              "fats_oils": [],
+              "fruits_vegetables": [
+                "hummus",
+                "beets",
+                "arugula",
+                "fennel",
+                "vegetable"
+              ],
+              "grains_carbs": [
+                "pita"
+              ],
+              "proteins": [
+                "chicken"
+              ],
+              "spices_seasonings": []
+            },
+            "CUISINE": {
+              "cuisine": [
+                "Middle Eastern"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "store_id": 24768156,
+      "store_name": "Sweetgreen (177 - Marina)",
+      "business_name": "Sweetgreen",
+      "business_id": 434628,
+      "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/6a180e96-f4b7-449a-8b84-9448e8a98445.jpg",
+      "header_image": "https://cdn.doordash.com/media/store/header/bb92783e-13be-4ded-a957-e52a1fbb35d9.jpg",
+      "logo_url": "https://cdn.doordash.com/media/restaurant/cover_square/3d0cd840-22b2-4538-9a1a-1fd998218191.jpeg",
+      "average_rating": "4.44",
+      "orders": [
+        {
+          "delivery_id": 235875877001,
+          "order_date": "2026-03-15T18:10:23.153474"
+        },
+        {
+          "delivery_id": 268274945726,
+          "order_date": "2026-02-02T12:06:49.152831"
+        }
+      ],
+      "items": [
+        {
+          "item_id": 12818223281,
+          "item_name": "Chicken Pesto Parm",
+          "image_url": "https://cdn.doordash.com/media/photosV2/17e2eaf0-e0ec-423a-b58d-710ad2a68198-retina-large.png",
+          "order_id": 3000011851266543,
+          "order_date": "2026-03-16T00:37:53.772000",
+          "webster_tags": {
+            "PORTION_SIZE": {
+              "portion_size": "1-2 people"
+            },
+            "PREPARATION": {
+              "dish_preparation_method": "Roasted"
+            },
+            "CUISINE": {
+              "cuisine": [
+                "Italian",
+                "New American"
+              ]
+            },
+            "FLAVOR": {
+              "is_bitter": false,
+              "is_cheesy": true,
+              "is_creamy": false,
+              "is_herbal": true,
+              "is_salty": true,
+              "is_smoky": false,
+              "is_sour": false,
+              "is_spicy": true,
+              "is_sweet": false,
+              "is_tangy": true,
+              "is_umami": true
+            },
+            "COURSE": {
+              "course": "Main Dishes"
+            },
+            "ALLERGEN": {
+              "is_dairy_free": false,
+              "is_gluten_free": false,
+              "is_gluten_free_mentioned": false,
+              "is_gluten_free_options": false,
+              "is_nut_free": false,
+              "is_shellfish_free": true,
+              "is_soy_free": false
+            },
+            "MACRO": {
+              "estimated_calories": 550,
+              "estimated_carbohydrates_grams": 45,
+              "estimated_fat_grams": 25,
+              "estimated_protein_grams": 40
+            },
+            "DISH": {
+              "confidence_score": 0.8154,
+              "hierarchical_tags": "Main Dishes > Bowls > Meat Bowl > Pesto Chicken Bowl",
+              "level_1_tag": "Main Dishes",
+              "level_1_tag_id": 210864443733158,
+              "level_2_tag": "Bowls",
+              "level_2_tag_id": 134341825813121,
+              "level_3_tag": "Meat Bowl",
+              "level_3_tag_id": 245574501808255,
+              "level_4_tag": "Pesto Chicken Bowl",
+              "level_4_tag_id": 45567539432927,
+              "top_candidates": [
+                {
+                  "confidence_score": 0.8154,
+                  "hierarchical_tags": "Main Dishes > Bowls > Meat Bowl > Pesto Chicken Bowl",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Bowls",
+                  "level_2_tag_id": 134341825813121,
+                  "level_3_tag": "Meat Bowl",
+                  "level_3_tag_id": 245574501808255,
+                  "level_4_tag": "Pesto Chicken Bowl",
+                  "level_4_tag_id": 45567539432927
+                },
+                {
+                  "confidence_score": 0.035,
+                  "hierarchical_tags": "Main Dishes > Bowls > Meat Bowl > Spicy Chicken Bowl",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Bowls",
+                  "level_2_tag_id": 134341825813121,
+                  "level_3_tag": "Meat Bowl",
+                  "level_3_tag_id": 245574501808255,
+                  "level_4_tag": "Spicy Chicken Bowl",
+                  "level_4_tag_id": 125238237944434
+                },
+                {
+                  "confidence_score": 0.0211,
+                  "hierarchical_tags": "Main Dishes > Bowls > Other Bowls",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Bowls",
+                  "level_2_tag_id": 134341825813121,
+                  "level_3_tag": "Other Bowls",
+                  "level_3_tag_id": 263242887005024
+                }
+              ]
+            },
+            "DIETARY": {
+              "is_beef_free": true,
+              "is_healthy": true,
+              "is_high_protein": true,
+              "is_keto_friendly": false,
+              "is_kid_friendly": false,
+              "is_low_calorie": false,
+              "is_low_carb": false,
+              "is_low_fat": false,
+              "is_low_sodium": false,
+              "is_low_sugar": false,
+              "is_paleo_friendly": false,
+              "is_pescatarian": false,
+              "is_pescatarian_mentioned": false,
+              "is_pescatarian_options": false,
+              "is_pork_free": true,
+              "is_vegan": false,
+              "is_vegan_mentioned": false,
+              "is_vegan_options": false,
+              "is_vegetarian": false,
+              "is_vegetarian_mentioned": false,
+              "is_vegetarian_options": false
+            },
+            "INGREDIENT": {
+              "fats_oils": [],
+              "fruits_vegetables": [
+                "broccoli",
+                "tomato",
+                "spinach"
+              ],
+              "grains_carbs": [
+                "quinoa",
+                "breadcrumbs"
+              ],
+              "proteins": [
+                "chicken"
+              ],
+              "spices_seasonings": [
+                "pesto",
+                "hot sauce"
+              ]
+            }
+          }
+        },
+        {
+          "item_id": 19753764055,
+          "item_name": "Guacamole Greens",
+          "image_url": "https://cdn.doordash.com/media/photosV2/0f0b8f7a-d755-4b48-a276-9dbbacf9c96f-retina-large.png",
+          "order_id": 3000011087944195,
+          "order_date": "2026-02-02T18:27:25.459000",
+          "webster_tags": {
+            "COURSE": {
+              "course": "Main Dishes"
+            },
+            "PORTION_SIZE": {
+              "portion_size": "1-2 people"
+            },
+            "DIETARY": {
+              "is_beef_free": true,
+              "is_healthy": true,
+              "is_high_protein": true,
+              "is_keto_friendly": false,
+              "is_kid_friendly": false,
+              "is_low_calorie": false,
+              "is_low_carb": false,
+              "is_low_fat": false,
+              "is_low_sodium": false,
+              "is_low_sugar": false,
+              "is_paleo_friendly": false,
+              "is_pescatarian": false,
+              "is_pescatarian_mentioned": false,
+              "is_pescatarian_options": true,
+              "is_pork_free": true,
+              "is_vegan": false,
+              "is_vegan_mentioned": false,
+              "is_vegan_options": true,
+              "is_vegetarian": false,
+              "is_vegetarian_mentioned": false,
+              "is_vegetarian_options": true
+            },
+            "ALLERGEN": {
+              "is_dairy_free": true,
+              "is_gluten_free": false,
+              "is_gluten_free_mentioned": false,
+              "is_gluten_free_options": true,
+              "is_nut_free": true,
+              "is_shellfish_free": true,
+              "is_soy_free": false
+            },
+            "INGREDIENT": {
+              "fats_oils": [
+                "olive oil"
+              ],
+              "fruits_vegetables": [
+                "avocado",
+                "tomato",
+                "onion",
+                "cabbage",
+                "lime",
+                "romaine"
+              ],
+              "grains_carbs": [
+                "tortilla"
+              ],
+              "proteins": [
+                "chicken"
+              ],
+              "spices_seasonings": [
+                "cilantro",
+                "jalapeno"
+              ]
+            },
+            "DISH": {
+              "confidence_score": 0.9136,
+              "hierarchical_tags": "Main Dishes > Salads > Meat Salad > Chicken Avocado Salad",
+              "level_1_tag": "Main Dishes",
+              "level_1_tag_id": 210864443733158,
+              "level_2_tag": "Salads",
+              "level_2_tag_id": 279801517666096,
+              "level_3_tag": "Meat Salad",
+              "level_3_tag_id": 105541625446848,
+              "level_4_tag": "Chicken Avocado Salad",
+              "level_4_tag_id": 124326986341289,
+              "top_candidates": [
+                {
+                  "confidence_score": 0.9136,
+                  "hierarchical_tags": "Main Dishes > Salads > Meat Salad > Chicken Avocado Salad",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Salads",
+                  "level_2_tag_id": 279801517666096,
+                  "level_3_tag": "Meat Salad",
+                  "level_3_tag_id": 105541625446848,
+                  "level_4_tag": "Chicken Avocado Salad",
+                  "level_4_tag_id": 124326986341289
+                },
+                {
+                  "confidence_score": 0.0304,
+                  "hierarchical_tags": "Main Dishes > Salads > Vegetarian Salad > Avocado Kale Salad",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Salads",
+                  "level_2_tag_id": 279801517666096,
+                  "level_3_tag": "Vegetarian Salad",
+                  "level_3_tag_id": 37966739612319,
+                  "level_4_tag": "Avocado Kale Salad",
+                  "level_4_tag_id": 121538728700058
+                },
+                {
+                  "confidence_score": 0.0189,
+                  "hierarchical_tags": "Main Dishes > Salads > Other Salads",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Salads",
+                  "level_2_tag_id": 279801517666096,
+                  "level_3_tag": "Other Salads",
+                  "level_3_tag_id": 58096309809598
+                }
+              ]
+            },
+            "PREPARATION": {
+              "dish_preparation_method": "Tossed"
+            },
+            "MACRO": {
+              "estimated_calories": 550,
+              "estimated_carbohydrates_grams": 40,
+              "estimated_fat_grams": 30,
+              "estimated_protein_grams": 35
+            },
+            "FLAVOR": {
+              "is_bitter": false,
+              "is_cheesy": false,
+              "is_creamy": false,
+              "is_herbal": true,
+              "is_salty": false,
+              "is_smoky": false,
+              "is_sour": true,
+              "is_spicy": true,
+              "is_sweet": false,
+              "is_tangy": true,
+              "is_umami": false
+            },
+            "CUISINE": {
+              "cuisine": [
+                "Mexican",
+                "Latin American",
+                "American Traditional"
+              ]
+            }
+          }
+        },
+        {
+          "item_id": 13012844749,
+          "item_name": "Fish Taco",
+          "image_url": "https://cdn.doordash.com/media/photosV2/2949fc4e-8a75-443d-9adc-9dabc23a343e-retina-large.png",
+          "order_id": 3000011851266543,
+          "order_date": "2026-03-16T00:37:53.772000",
+          "webster_tags": {
+            "FLAVOR": {
+              "is_bitter": false,
+              "is_cheesy": false,
+              "is_creamy": true,
+              "is_herbal": true,
+              "is_salty": true,
+              "is_smoky": false,
+              "is_sour": false,
+              "is_spicy": true,
+              "is_sweet": true,
+              "is_tangy": true,
+              "is_umami": true
+            },
+            "COURSE": {
+              "course": "Main Dishes"
+            },
+            "INGREDIENT": {
+              "fats_oils": [],
+              "fruits_vegetables": [
+                "arugula",
+                "cilantro",
+                "cabbage",
+                "avocado",
+                "jalapeno"
+              ],
+              "grains_carbs": [
+                "quinoa",
+                "tortilla"
+              ],
+              "proteins": [
+                "salmon"
+              ],
+              "spices_seasonings": [
+                "miso"
+              ]
+            },
+            "PREPARATION": {
+              "dish_preparation_method": "Baked"
+            },
+            "DIETARY": {
+              "is_beef_free": true,
+              "is_healthy": true,
+              "is_high_protein": true,
+              "is_keto_friendly": false,
+              "is_kid_friendly": false,
+              "is_low_calorie": false,
+              "is_low_carb": false,
+              "is_low_fat": false,
+              "is_low_sodium": false,
+              "is_low_sugar": false,
+              "is_paleo_friendly": false,
+              "is_pescatarian": true,
+              "is_pescatarian_mentioned": false,
+              "is_pescatarian_options": true,
+              "is_pork_free": true,
+              "is_vegan": false,
+              "is_vegan_mentioned": false,
+              "is_vegan_options": false,
+              "is_vegetarian": false,
+              "is_vegetarian_mentioned": false,
+              "is_vegetarian_options": false
+            },
+            "MACRO": {
+              "estimated_calories": 550,
+              "estimated_carbohydrates_grams": 55,
+              "estimated_fat_grams": 25,
+              "estimated_protein_grams": 30
+            },
+            "DISH": {
+              "confidence_score": 0.9868,
+              "hierarchical_tags": "Main Dishes > Tacos > Fish Tacos",
+              "level_1_tag": "Main Dishes",
+              "level_1_tag_id": 210864443733158,
+              "level_2_tag": "Tacos",
+              "level_2_tag_id": 264975212702214,
+              "level_3_tag": "Fish Tacos",
+              "level_3_tag_id": 29012298012983,
+              "top_candidates": [
+                {
+                  "confidence_score": 0.9868,
+                  "hierarchical_tags": "Main Dishes > Tacos > Fish Tacos",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Tacos",
+                  "level_2_tag_id": 264975212702214,
+                  "level_3_tag": "Fish Tacos",
+                  "level_3_tag_id": 29012298012983
+                },
+                {
+                  "confidence_score": 0.0053,
+                  "hierarchical_tags": "Main Dishes > Tacos > Fish Tacos > Salmon Taco",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Tacos",
+                  "level_2_tag_id": 264975212702214,
+                  "level_3_tag": "Fish Tacos",
+                  "level_3_tag_id": 29012298012983,
+                  "level_4_tag": "Salmon Taco",
+                  "level_4_tag_id": 134509549126188
+                },
+                {
+                  "confidence_score": 0.0015,
+                  "hierarchical_tags": "Main Dishes > Tacos > Tacos Variety",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Tacos",
+                  "level_2_tag_id": 264975212702214,
+                  "level_3_tag": "Tacos Variety",
+                  "level_3_tag_id": 8466536905743
+                }
+              ]
+            },
+            "CUISINE": {
+              "cuisine": [
+                "Mexican",
+                "Latin American",
+                "American"
+              ]
+            },
+            "ALLERGEN": {
+              "is_dairy_free": true,
+              "is_gluten_free": true,
+              "is_gluten_free_mentioned": false,
+              "is_gluten_free_options": true,
+              "is_nut_free": true,
+              "is_shellfish_free": true,
+              "is_soy_free": false
+            },
+            "PORTION_SIZE": {
+              "portion_size": "1-2 people"
+            }
+          }
+        },
+        {
+          "item_id": 12818223281,
+          "item_name": "Chicken Pesto Parm",
+          "image_url": "https://cdn.doordash.com/media/photosV2/17e2eaf0-e0ec-423a-b58d-710ad2a68198-retina-large.png",
+          "order_id": 3000011087944195,
+          "order_date": "2026-02-02T18:27:25.459000",
+          "webster_tags": {
+            "PORTION_SIZE": {
+              "portion_size": "1-2 people"
+            },
+            "PREPARATION": {
+              "dish_preparation_method": "Roasted"
+            },
+            "CUISINE": {
+              "cuisine": [
+                "Italian",
+                "New American"
+              ]
+            },
+            "FLAVOR": {
+              "is_bitter": false,
+              "is_cheesy": true,
+              "is_creamy": false,
+              "is_herbal": true,
+              "is_salty": true,
+              "is_smoky": false,
+              "is_sour": false,
+              "is_spicy": true,
+              "is_sweet": false,
+              "is_tangy": true,
+              "is_umami": true
+            },
+            "COURSE": {
+              "course": "Main Dishes"
+            },
+            "ALLERGEN": {
+              "is_dairy_free": false,
+              "is_gluten_free": false,
+              "is_gluten_free_mentioned": false,
+              "is_gluten_free_options": false,
+              "is_nut_free": false,
+              "is_shellfish_free": true,
+              "is_soy_free": false
+            },
+            "MACRO": {
+              "estimated_calories": 550,
+              "estimated_carbohydrates_grams": 45,
+              "estimated_fat_grams": 25,
+              "estimated_protein_grams": 40
+            },
+            "DISH": {
+              "confidence_score": 0.8154,
+              "hierarchical_tags": "Main Dishes > Bowls > Meat Bowl > Pesto Chicken Bowl",
+              "level_1_tag": "Main Dishes",
+              "level_1_tag_id": 210864443733158,
+              "level_2_tag": "Bowls",
+              "level_2_tag_id": 134341825813121,
+              "level_3_tag": "Meat Bowl",
+              "level_3_tag_id": 245574501808255,
+              "level_4_tag": "Pesto Chicken Bowl",
+              "level_4_tag_id": 45567539432927,
+              "top_candidates": [
+                {
+                  "confidence_score": 0.8154,
+                  "hierarchical_tags": "Main Dishes > Bowls > Meat Bowl > Pesto Chicken Bowl",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Bowls",
+                  "level_2_tag_id": 134341825813121,
+                  "level_3_tag": "Meat Bowl",
+                  "level_3_tag_id": 245574501808255,
+                  "level_4_tag": "Pesto Chicken Bowl",
+                  "level_4_tag_id": 45567539432927
+                },
+                {
+                  "confidence_score": 0.035,
+                  "hierarchical_tags": "Main Dishes > Bowls > Meat Bowl > Spicy Chicken Bowl",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Bowls",
+                  "level_2_tag_id": 134341825813121,
+                  "level_3_tag": "Meat Bowl",
+                  "level_3_tag_id": 245574501808255,
+                  "level_4_tag": "Spicy Chicken Bowl",
+                  "level_4_tag_id": 125238237944434
+                },
+                {
+                  "confidence_score": 0.0211,
+                  "hierarchical_tags": "Main Dishes > Bowls > Other Bowls",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Bowls",
+                  "level_2_tag_id": 134341825813121,
+                  "level_3_tag": "Other Bowls",
+                  "level_3_tag_id": 263242887005024
+                }
+              ]
+            },
+            "DIETARY": {
+              "is_beef_free": true,
+              "is_healthy": true,
+              "is_high_protein": true,
+              "is_keto_friendly": false,
+              "is_kid_friendly": false,
+              "is_low_calorie": false,
+              "is_low_carb": false,
+              "is_low_fat": false,
+              "is_low_sodium": false,
+              "is_low_sugar": false,
+              "is_paleo_friendly": false,
+              "is_pescatarian": false,
+              "is_pescatarian_mentioned": false,
+              "is_pescatarian_options": false,
+              "is_pork_free": true,
+              "is_vegan": false,
+              "is_vegan_mentioned": false,
+              "is_vegan_options": false,
+              "is_vegetarian": false,
+              "is_vegetarian_mentioned": false,
+              "is_vegetarian_options": false
+            },
+            "INGREDIENT": {
+              "fats_oils": [],
+              "fruits_vegetables": [
+                "broccoli",
+                "tomato",
+                "spinach"
+              ],
+              "grains_carbs": [
+                "quinoa",
+                "breadcrumbs"
+              ],
+              "proteins": [
+                "chicken"
+              ],
+              "spices_seasonings": [
+                "pesto",
+                "hot sauce"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "store_id": 33390039,
+      "store_name": "Turquaz  SF ",
+      "business_name": "Turquaz - 1198 Mission St",
+      "business_id": 14075575,
+      "cover_img_url": "",
+      "header_image": "https://cdn.doordash.com/media/store/header/d370f83f-b822-4055-a6cd-a8487bc278f9.jpg",
+      "logo_url": "https://cdn.doordash.com/media/restaurant/cover_square/1c436d14-cbdb-4cc1-a420-689c837a852b.png",
+      "average_rating": "4.32",
+      "orders": [
+        {
+          "delivery_id": 217920778577,
+          "order_date": "2026-03-08T18:36:33.949461"
+        }
+      ],
+      "items": [
+        {
+          "item_id": 24025663118,
+          "item_name": "Meat Doner Bowl",
+          "image_url": "https://cdn.doordash.com/media/photosV2/b8efa716-ac1f-48ba-800c-270f7f1e24c9-retina-large.jpg",
+          "order_id": 3000011721403218,
+          "order_date": "2026-03-09T01:01:07.732000",
+          "webster_tags": {
+            "DISH": {
+              "confidence_score": 0.3662,
+              "hierarchical_tags": "Main Dishes > Mixed Dishes > Doner",
+              "level_1_tag": "Main Dishes",
+              "level_1_tag_id": 210864443733158,
+              "level_2_tag": "Mixed Dishes",
+              "level_2_tag_id": 200121109159071,
+              "level_3_tag": "Doner",
+              "level_3_tag_id": 248673923931477,
+              "top_candidates": [
+                {
+                  "confidence_score": 0.3662,
+                  "hierarchical_tags": "Main Dishes > Mixed Dishes > Doner",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Mixed Dishes",
+                  "level_2_tag_id": 200121109159071,
+                  "level_3_tag": "Doner",
+                  "level_3_tag_id": 248673923931477
+                },
+                {
+                  "confidence_score": 0.1609,
+                  "hierarchical_tags": "Main Dishes > Bowls > Other Bowls",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Bowls",
+                  "level_2_tag_id": 134341825813121,
+                  "level_3_tag": "Other Bowls",
+                  "level_3_tag_id": 263242887005024
+                },
+                {
+                  "confidence_score": 0.0853,
+                  "hierarchical_tags": "Main Dishes > Bowls > Gyudon",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Bowls",
+                  "level_2_tag_id": 134341825813121,
+                  "level_3_tag": "Gyudon",
+                  "level_3_tag_id": 260297967740445
+                }
+              ]
+            },
+            "FLAVOR": {
+              "is_bitter": false,
+              "is_cheesy": false,
+              "is_creamy": false,
+              "is_herbal": false,
+              "is_salty": true,
+              "is_smoky": false,
+              "is_sour": false,
+              "is_spicy": false,
+              "is_sweet": false,
+              "is_tangy": true,
+              "is_umami": false
+            },
+            "DIETARY": {
+              "is_beef_free": false,
+              "is_healthy": false,
+              "is_high_protein": true,
+              "is_keto_friendly": false,
+              "is_kid_friendly": true,
+              "is_low_calorie": false,
+              "is_low_carb": false,
+              "is_low_fat": false,
+              "is_low_sodium": false,
+              "is_low_sugar": true,
+              "is_paleo_friendly": false,
+              "is_pescatarian": false,
+              "is_pescatarian_mentioned": false,
+              "is_pescatarian_options": false,
+              "is_pork_free": false,
+              "is_vegan": false,
+              "is_vegan_mentioned": false,
+              "is_vegan_options": false,
+              "is_vegetarian": false,
+              "is_vegetarian_mentioned": false,
+              "is_vegetarian_options": false
+            },
+            "PREPARATION": {
+              "dish_preparation_method": "Roasted"
+            },
+            "ALLERGEN": {
+              "is_dairy_free": false,
+              "is_gluten_free": false,
+              "is_gluten_free_mentioned": false,
+              "is_gluten_free_options": true,
+              "is_nut_free": true,
+              "is_shellfish_free": true,
+              "is_soy_free": true
+            },
+            "PORTION_SIZE": {
+              "portion_size": "1-2 people"
+            },
+            "MACRO": {},
+            "INGREDIENT": {
+              "fats_oils": [],
+              "fruits_vegetables": [
+                "onion",
+                "tomato",
+                "cucumber"
+              ],
+              "grains_carbs": [
+                "rice",
+                "bulgur"
+              ],
+              "proteins": [
+                "beef",
+                "lamb"
+              ],
+              "spices_seasonings": [
+                "sumac"
+              ]
+            },
+            "CUISINE": {
+              "cuisine": [
+                "Mediterranean",
+                "Greek",
+                "Turkish"
+              ]
+            },
+            "COURSE": {
+              "course": "Main Dishes"
+            }
+          }
+        },
+        {
+          "item_id": 24025656917,
+          "item_name": "Lahmacun - 2 Pieces",
+          "image_url": "https://cdn.doordash.com/media/photosV2/c32f2c84-9d93-4d70-b30a-77b5a2cf67d1-retina-large.jpg",
+          "order_id": 3000011721403218,
+          "order_date": "2026-03-09T01:01:07.732000",
+          "webster_tags": {
+            "INGREDIENT": {
+              "fats_oils": [],
+              "fruits_vegetables": [
+                "tomato",
+                "onion",
+                "pepper"
+              ],
+              "grains_carbs": [
+                "pita"
+              ],
+              "proteins": [
+                "lamb"
+              ],
+              "spices_seasonings": []
+            },
+            "CUISINE": {
+              "cuisine": [
+                "Turkish"
+              ]
+            },
+            "DIETARY": {
+              "is_beef_free": true,
+              "is_healthy": false,
+              "is_high_protein": true,
+              "is_keto_friendly": false,
+              "is_kid_friendly": true,
+              "is_low_calorie": false,
+              "is_low_carb": false,
+              "is_low_fat": false,
+              "is_low_sodium": false,
+              "is_low_sugar": true,
+              "is_paleo_friendly": false,
+              "is_pescatarian": false,
+              "is_pescatarian_mentioned": false,
+              "is_pescatarian_options": false,
+              "is_pork_free": false,
+              "is_vegan": false,
+              "is_vegan_mentioned": false,
+              "is_vegan_options": false,
+              "is_vegetarian": false,
+              "is_vegetarian_mentioned": false,
+              "is_vegetarian_options": false
+            },
+            "PORTION_SIZE": {
+              "portion_size": "1-2 people"
+            },
+            "COURSE": {
+              "course": "Main Dishes"
+            },
+            "FLAVOR": {
+              "is_bitter": false,
+              "is_cheesy": false,
+              "is_creamy": false,
+              "is_herbal": false,
+              "is_salty": false,
+              "is_smoky": false,
+              "is_sour": false,
+              "is_spicy": false,
+              "is_sweet": false,
+              "is_tangy": false,
+              "is_umami": false
+            },
+            "MACRO": {},
+            "DISH": {
+              "confidence_score": 0.9502,
+              "hierarchical_tags": "Main Dishes > Flatbreads & Stuffed Breads > Lahmacun",
+              "level_1_tag": "Main Dishes",
+              "level_1_tag_id": 210864443733158,
+              "level_2_tag": "Flatbreads & Stuffed Breads",
+              "level_2_tag_id": 85172556194560,
+              "level_3_tag": "Lahmacun",
+              "level_3_tag_id": 269262787285302,
+              "top_candidates": [
+                {
+                  "confidence_score": 0.9502,
+                  "hierarchical_tags": "Main Dishes > Flatbreads & Stuffed Breads > Lahmacun",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Flatbreads & Stuffed Breads",
+                  "level_2_tag_id": 85172556194560,
+                  "level_3_tag": "Lahmacun",
+                  "level_3_tag_id": 269262787285302
+                },
+                {
+                  "confidence_score": 0.0308,
+                  "hierarchical_tags": "Main Dishes > Other Main Dishes > Other Dishes",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Other Main Dishes",
+                  "level_2_tag_id": 148169457863313,
+                  "level_3_tag": "Other Dishes",
+                  "level_3_tag_id": 258399283952297
+                },
+                {
+                  "confidence_score": 0.0117,
+                  "hierarchical_tags": "Side Dishes & Condiments > Bread > Flatbreads",
+                  "level_1_tag": "Side Dishes & Condiments",
+                  "level_1_tag_id": 106755224903116,
+                  "level_2_tag": "Bread",
+                  "level_2_tag_id": 160034518213137,
+                  "level_3_tag": "Flatbreads",
+                  "level_3_tag_id": 7012334215515
+                }
+              ]
+            },
+            "ALLERGEN": {
+              "is_dairy_free": true,
+              "is_gluten_free": false,
+              "is_gluten_free_mentioned": false,
+              "is_gluten_free_options": false,
+              "is_nut_free": true,
+              "is_shellfish_free": true,
+              "is_soy_free": true
+            },
+            "PREPARATION": {
+              "dish_preparation_method": "Baked"
+            }
+          }
+        },
+        {
+          "item_id": 24025724700,
+          "item_name": "Meze Trio",
+          "image_url": "https://cdn.doordash.com/media/photosV2/58e14332-c215-4d8f-aeb1-7d423c72034b-retina-large.jpg",
+          "order_id": 3000011721403218,
+          "order_date": "2026-03-09T01:01:07.732000",
+          "webster_tags": {
+            "CUISINE": {
+              "cuisine": [
+                "Mediterranean",
+                "Turkish"
+              ]
+            },
+            "MACRO": {},
+            "FLAVOR": {
+              "is_bitter": false,
+              "is_cheesy": false,
+              "is_creamy": false,
+              "is_herbal": false,
+              "is_salty": false,
+              "is_smoky": false,
+              "is_sour": false,
+              "is_spicy": false,
+              "is_sweet": false,
+              "is_tangy": false,
+              "is_umami": false
+            },
+            "COURSE": {
+              "course": "Appetizer"
+            },
+            "ALLERGEN": {
+              "is_dairy_free": false,
+              "is_gluten_free": false,
+              "is_gluten_free_mentioned": false,
+              "is_gluten_free_options": true,
+              "is_nut_free": true,
+              "is_shellfish_free": true,
+              "is_soy_free": true
+            },
+            "INGREDIENT": {
+              "fats_oils": [],
+              "fruits_vegetables": [],
+              "grains_carbs": [],
+              "proteins": [],
+              "spices_seasonings": []
+            },
+            "DISH": {
+              "confidence_score": 0.3701,
+              "hierarchical_tags": "Main Dishes > Other Main Dishes > Other Dishes",
+              "level_1_tag": "Main Dishes",
+              "level_1_tag_id": 210864443733158,
+              "level_2_tag": "Other Main Dishes",
+              "level_2_tag_id": 148169457863313,
+              "level_3_tag": "Other Dishes",
+              "level_3_tag_id": 258399283952297,
+              "top_candidates": [
+                {
+                  "confidence_score": 0.3701,
+                  "hierarchical_tags": "Main Dishes > Other Main Dishes > Other Dishes",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Other Main Dishes",
+                  "level_2_tag_id": 148169457863313,
+                  "level_3_tag": "Other Dishes",
+                  "level_3_tag_id": 258399283952297
+                },
+                {
+                  "confidence_score": 0.1586,
+                  "hierarchical_tags": "Desserts > Other Desserts",
+                  "level_1_tag": "Desserts",
+                  "level_1_tag_id": 62710586898487,
+                  "level_2_tag": "Other Desserts",
+                  "level_2_tag_id": 167430504433287
+                },
+                {
+                  "confidence_score": 0.074,
+                  "hierarchical_tags": "Side Dishes & Condiments > Other Side Dishes & Condiments",
+                  "level_1_tag": "Side Dishes & Condiments",
+                  "level_1_tag_id": 106755224903116,
+                  "level_2_tag": "Other Side Dishes & Condiments",
+                  "level_2_tag_id": 193097298078480
+                }
+              ]
+            },
+            "DIETARY": {
+              "is_beef_free": true,
+              "is_healthy": true,
+              "is_high_protein": false,
+              "is_keto_friendly": false,
+              "is_kid_friendly": true,
+              "is_low_calorie": false,
+              "is_low_carb": false,
+              "is_low_fat": false,
+              "is_low_sodium": false,
+              "is_low_sugar": false,
+              "is_paleo_friendly": false,
+              "is_pescatarian": false,
+              "is_pescatarian_mentioned": false,
+              "is_pescatarian_options": true,
+              "is_pork_free": true,
+              "is_vegan": false,
+              "is_vegan_mentioned": false,
+              "is_vegan_options": true,
+              "is_vegetarian": false,
+              "is_vegetarian_mentioned": false,
+              "is_vegetarian_options": true
+            },
+            "PREPARATION": {},
+            "PORTION_SIZE": {
+              "portion_size": "1-2 people"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

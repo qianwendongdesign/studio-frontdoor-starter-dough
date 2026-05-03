@@ -1,0 +1,67 @@
+/* ==========================================================
+   DD Norms — Full Font Library
+   All families and weights available for use.
+   Only import this file if you need fonts beyond the 3 weights
+   registered in design-tokens.css (Regular 400, Medium 500, Bold 700).
+   ========================================================== */
+
+/* DD Norms ── Standard */
+@font-face { font-family: "DD Norms"; src: url("fonts/WOFF2/DD Norms WOFF2 3-400/DD_Norms_Thin.woff2") format("woff2"); font-weight: 100; font-style: normal; font-display: swap; }
+@font-face { font-family: "DD Norms"; src: url("fonts/WOFF2/DD Norms WOFF2 3-400/DD_Norms_ExtraLight.woff2") format("woff2"); font-weight: 200; font-style: normal; font-display: swap; }
+@font-face { font-family: "DD Norms"; src: url("fonts/WOFF2/DD Norms WOFF2 3-400/DD_Norms_Light.woff2") format("woff2"); font-weight: 300; font-style: normal; font-display: swap; }
+@font-face { font-family: "DD Norms"; src: url("fonts/WOFF2/DD Norms WOFF2 3-400/DD_Norms_Normal.woff2") format("woff2"); font-weight: 350; font-style: normal; font-display: swap; }
+@font-face { font-family: "DD Norms"; src: url("fonts/WOFF2/DD Norms WOFF2 3-400/DD_Norms_Regular.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "DD Norms"; src: url("fonts/WOFF2/DD Norms WOFF2 3-400/DD_Norms_Medium.woff2") format("woff2"); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: "DD Norms"; src: url("fonts/WOFF2/DD Norms WOFF2 3-400/DD_Norms_DemiBold.woff2") format("woff2"); font-weight: 600; font-style: normal; font-display: swap; }
+@font-face { font-family: "DD Norms"; src: url("fonts/WOFF2/DD Norms WOFF2 3-400/DD_Norms_Bold.woff2") format("woff2"); font-weight: 700; font-style: normal; font-display: swap; }
+@font-face { font-family: "DD Norms"; src: url("fonts/WOFF2/DD Norms WOFF2 3-400/DD_Norms_ExtraBold.woff2") format("woff2"); font-weight: 800; font-style: normal; font-display: swap; }
+@font-face { font-family: "DD Norms"; src: url("fonts/WOFF2/DD Norms WOFF2 3-400/DD_Norms_Black.woff2") format("woff2"); font-weight: 900; font-style: normal; font-display: swap; }
+@font-face { font-family: "DD Norms"; src: url("fonts/WOFF2/DD Norms WOFF2 3-400/DD_Norms_ExtraBlack.woff2") format("woff2"); font-weight: 950; font-style: normal; font-display: swap; }
+
+/* DD Norms ── Condensed */
+@font-face { font-family: "DD Norms Condensed"; src: url("fonts/WOFF2/DD Norms Condensed WOFF2 3-400/DD_Norms_Condensed_Thin.woff2") format("woff2"); font-weight: 100; font-style: normal; font-display: swap; }
+@font-face { font-family: "DD Norms Condensed"; src: url("fonts/WOFF2/DD Norms Condensed WOFF2 3-400/DD_Norms_Condensed_ExtraLight.woff2") format("woff2"); font-weight: 200; font-style: normal; font-display: swap; }
+@font-face { font-family: "DD Norms Condensed"; src: url("fonts/WOFF2/DD Norms Condensed WOFF2 3-400/DD_Norms_Condensed_Light.woff2") format("woff2"); font-weight: 300; font-style: normal; font-display: swap; }
+@font-face { font-family: "DD Norms Condensed"; src: url("fonts/WOFF2/DD Norms Condensed WOFF2 3-400/DD_Norms_Condensed_Normal.woff2") format("woff2"); font-weight: 350; font-style: normal; font-display: swap; }
+@font-face { font-family: "DD Norms Condensed"; src: url("fonts/WOFF2/DD Norms Condensed WOFF2 3-400/DD_Norms_Condensed_Regular.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "DD Norms Condensed"; src: url("fonts/WOFF2/DD Norms Condensed WOFF2 3-400/DD_Norms_Condensed_Medium.woff2") format("woff2"); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: "DD Norms Condensed"; src: url("fonts/WOFF2/DD Norms Condensed WOFF2 3-400/DD_Norms_Condensed_DemiBold.woff2") format("woff2"); font-weight: 600; font-style: normal; font-display: swap; }
+@font-face { font-family: "DD Norms Condensed"; src: url("fonts/WOFF2/DD Norms Condensed WOFF2 3-400/DD_Norms_Condensed_Bold.woff2") format("woff2"); font-weight: 700; font-style: normal; font-display: swap; }
+@font-face { font-family: "DD Norms Condensed"; src: url("fonts/WOFF2/DD Norms Condensed WOFF2 3-400/DD_Norms_Condensed_ExtraBold.woff2") format("woff2"); font-weight: 800; font-style: normal; font-display: swap; }
+@font-face { font-family: "DD Norms Condensed"; src: url("fonts/WOFF2/DD Norms Condensed WOFF2 3-400/DD_Norms_Condensed_Black.woff2") format("woff2"); font-weight: 900; font-style: normal; font-display: swap; }
+@font-face { font-family: "DD Norms Condensed"; src: url("fonts/WOFF2/DD Norms Condensed WOFF2 3-400/DD_Norms_Condensed_ExtraBlack.woff2") format("woff2"); font-weight: 950; font-style: normal; font-display: swap; }
+
+/* DD Norms ── Expanded */
+@font-face { font-family: "DD Norms Expanded"; src: url("fonts/WOFF2/DD Norms Expanded WOFF2 3-400/DD_Norms_Expanded_Thin.woff2") format("woff2"); font-weight: 100; font-style: normal; font-display: swap; }
+@font-face { font-family: "DD Norms Expanded"; src: url("fonts/WOFF2/DD Norms Expanded WOFF2 3-400/DD_Norms_Expanded_ExtraLight.woff2") format("woff2"); font-weight: 200; font-style: normal; font-display: swap; }
+@font-face { font-family: "DD Norms Expanded"; src: url("fonts/WOFF2/DD Norms Expanded WOFF2 3-400/DD_Norms_Expanded_Light.woff2") format("woff2"); font-weight: 300; font-style: normal; font-display: swap; }
+@font-face { font-family: "DD Norms Expanded"; src: url("fonts/WOFF2/DD Norms Expanded WOFF2 3-400/DD_Norms_Expanded_Normal.woff2") format("woff2"); font-weight: 350; font-style: normal; font-display: swap; }
+@font-face { font-family: "DD Norms Expanded"; src: url("fonts/WOFF2/DD Norms Expanded WOFF2 3-400/DD_Norms_Expanded_Regular.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "DD Norms Expanded"; src: url("fonts/WOFF2/DD Norms Expanded WOFF2 3-400/DD_Norms_Expanded_Medium.woff2") format("woff2"); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: "DD Norms Expanded"; src: url("fonts/WOFF2/DD Norms Expanded WOFF2 3-400/DD_Norms_Expanded_DemiBold.woff2") format("woff2"); font-weight: 600; font-style: normal; font-display: swap; }
+@font-face { font-family: "DD Norms Expanded"; src: url("fonts/WOFF2/DD Norms Expanded WOFF2 3-400/DD_Norms_Expanded_Bold.woff2") format("woff2"); font-weight: 700; font-style: normal; font-display: swap; }
+@font-face { font-family: "DD Norms Expanded"; src: url("fonts/WOFF2/DD Norms Expanded WOFF2 3-400/DD_Norms_Expanded_ExtraBold.woff2") format("woff2"); font-weight: 800; font-style: normal; font-display: swap; }
+@font-face { font-family: "DD Norms Expanded"; src: url("fonts/WOFF2/DD Norms Expanded WOFF2 3-400/DD_Norms_Expanded_Black.woff2") format("woff2"); font-weight: 900; font-style: normal; font-display: swap; }
+@font-face { font-family: "DD Norms Expanded"; src: url("fonts/WOFF2/DD Norms Expanded WOFF2 3-400/DD_Norms_Expanded_ExtraBlack.woff2") format("woff2"); font-weight: 950; font-style: normal; font-display: swap; }
+
+/* DD Norms ── Compact */
+@font-face { font-family: "DD Norms Compact"; src: url("fonts/WOFF2/DD Norms Compact WOFF2 3-400/DD_Norms_Compact_Thin.woff2") format("woff2"); font-weight: 100; font-style: normal; font-display: swap; }
+@font-face { font-family: "DD Norms Compact"; src: url("fonts/WOFF2/DD Norms Compact WOFF2 3-400/DD_Norms_Compact_ExtraLight.woff2") format("woff2"); font-weight: 200; font-style: normal; font-display: swap; }
+@font-face { font-family: "DD Norms Compact"; src: url("fonts/WOFF2/DD Norms Compact WOFF2 3-400/DD_Norms_Compact_Light.woff2") format("woff2"); font-weight: 300; font-style: normal; font-display: swap; }
+@font-face { font-family: "DD Norms Compact"; src: url("fonts/WOFF2/DD Norms Compact WOFF2 3-400/DD_Norms_Compact_Normal.woff2") format("woff2"); font-weight: 350; font-style: normal; font-display: swap; }
+@font-face { font-family: "DD Norms Compact"; src: url("fonts/WOFF2/DD Norms Compact WOFF2 3-400/DD_Norms_Compact_Regular.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "DD Norms Compact"; src: url("fonts/WOFF2/DD Norms Compact WOFF2 3-400/DD_Norms_Compact_Medium.woff2") format("woff2"); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: "DD Norms Compact"; src: url("fonts/WOFF2/DD Norms Compact WOFF2 3-400/DD_Norms_Compact_DemiBold.woff2") format("woff2"); font-weight: 600; font-style: normal; font-display: swap; }
+@font-face { font-family: "DD Norms Compact"; src: url("fonts/WOFF2/DD Norms Compact WOFF2 3-400/DD_Norms_Compact_Bold.woff2") format("woff2"); font-weight: 700; font-style: normal; font-display: swap; }
+@font-face { font-family: "DD Norms Compact"; src: url("fonts/WOFF2/DD Norms Compact WOFF2 3-400/DD_Norms_Compact_ExtraBold.woff2") format("woff2"); font-weight: 800; font-style: normal; font-display: swap; }
+@font-face { font-family: "DD Norms Compact"; src: url("fonts/WOFF2/DD Norms Compact WOFF2 3-400/DD_Norms_Compact_Black.woff2") format("woff2"); font-weight: 900; font-style: normal; font-display: swap; }
+@font-face { font-family: "DD Norms Compact"; src: url("fonts/WOFF2/DD Norms Compact WOFF2 3-400/DD_Norms_Compact_ExtraBlack.woff2") format("woff2"); font-weight: 950; font-style: normal; font-display: swap; }
+
+/* DD Norms ── Mono */
+@font-face { font-family: "DD Norms Mono"; src: url("fonts/WOFF2/DD Norms Mono WOFF2 3-400/DD_Norms_Mono_Thin.woff2") format("woff2"); font-weight: 100; font-style: normal; font-display: swap; }
+@font-face { font-family: "DD Norms Mono"; src: url("fonts/WOFF2/DD Norms Mono WOFF2 3-400/DD_Norms_Mono_ExtraLight.woff2") format("woff2"); font-weight: 200; font-style: normal; font-display: swap; }
+@font-face { font-family: "DD Norms Mono"; src: url("fonts/WOFF2/DD Norms Mono WOFF2 3-400/DD_Norms_Mono_Light.woff2") format("woff2"); font-weight: 300; font-style: normal; font-display: swap; }
+@font-face { font-family: "DD Norms Mono"; src: url("fonts/WOFF2/DD Norms Mono WOFF2 3-400/DD_Norms_Mono_Regular.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "DD Norms Mono"; src: url("fonts/WOFF2/DD Norms Mono WOFF2 3-400/DD_Norms_Mono_Medium.woff2") format("woff2"); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: "DD Norms Mono"; src: url("fonts/WOFF2/DD Norms Mono WOFF2 3-400/DD_Norms_Mono_DemiBold.woff2") format("woff2"); font-weight: 600; font-style: normal; font-display: swap; }
+@font-face { font-family: "DD Norms Mono"; src: url("fonts/WOFF2/DD Norms Mono WOFF2 3-400/DD_Norms_Mono_Bold.woff2") format("woff2"); font-weight: 700; font-style: normal; font-display: swap; }

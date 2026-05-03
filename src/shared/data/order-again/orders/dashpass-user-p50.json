@@ -1,0 +1,3155 @@
+{
+  "consumer_id": "109358862",
+  "fetched_at": "2026-03-27T19:06:51.710126Z",
+  "stores": [
+    {
+      "store_id": 1235026,
+      "store_name": "CVS (10170)",
+      "business_name": "CVS",
+      "business_id": 412816,
+      "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/ecb5fa90-71eb-4cfb-9577-bcbd72d166ad.png",
+      "header_image": "https://cdn.doordash.com/media/store/header/c20d0b1f-e5ec-44e0-b719-aaac97b807bf.jpg",
+      "logo_url": "https://cdn.doordash.com/media/restaurant/cover_square/cvs_logo.png",
+      "average_rating": "4.68",
+      "orders": [
+        {
+          "delivery_id": 261674409918,
+          "order_date": "2026-01-02T14:32:07.613107"
+        }
+      ],
+      "items": [
+        {
+          "item_id": 33840801276,
+          "item_name": "Coke Soda Bottle (20 fl oz)",
+          "image_url": "",
+          "order_id": 3000010573704794,
+          "order_date": "2026-01-02T18:22:16.252000",
+          "webster_tags": {}
+        },
+        {
+          "item_id": 0,
+          "item_name": "MASKED",
+          "image_url": "https://cdn.doordash.com/media/MASKED",
+          "order_id": 3000010573704794,
+          "order_date": "2026-01-02T18:22:16.252000",
+          "webster_tags": {}
+        }
+      ]
+    },
+    {
+      "store_id": 1230940,
+      "store_name": "CVS (1417)",
+      "business_name": "CVS",
+      "business_id": 412816,
+      "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/ecb5fa90-71eb-4cfb-9577-bcbd72d166ad.png",
+      "header_image": "https://cdn.doordash.com/media/store/header/c20d0b1f-e5ec-44e0-b719-aaac97b807bf.jpg",
+      "logo_url": "https://cdn.doordash.com/media/restaurant/cover_square/cvs_logo.png",
+      "average_rating": "4.74",
+      "orders": [
+        {
+          "delivery_id": 268736265205,
+          "order_date": "2026-02-11T16:51:08.624226"
+        }
+      ],
+      "items": [
+        {
+          "item_id": 38887538599,
+          "item_name": "Lesser Evil Organic Gluten Free Himalayan Gold Buttery Flavor Popcorn (4.6 oz)",
+          "image_url": "",
+          "order_id": 3000011245021103,
+          "order_date": "2026-02-11T21:00:38.685000",
+          "webster_tags": {}
+        },
+        {
+          "item_id": 0,
+          "item_name": "MASKED",
+          "image_url": "https://cdn.doordash.com/media/MASKED",
+          "order_id": 3000011245021103,
+          "order_date": "2026-02-11T21:00:38.685000",
+          "webster_tags": {}
+        },
+        {
+          "item_id": 33184601661,
+          "item_name": "Butterfinger Bite Size Chocolate Candies Box (3.5 oz)",
+          "image_url": "",
+          "order_id": 3000011245021103,
+          "order_date": "2026-02-11T21:00:38.685000",
+          "webster_tags": {}
+        },
+        {
+          "item_id": 18545156176,
+          "item_name": "Boiron Oscillococcinum Flu Like Symptoms Homeopathic Tablets (6 ct)",
+          "image_url": "",
+          "order_id": 3000011245021103,
+          "order_date": "2026-02-11T21:00:38.685000",
+          "webster_tags": {}
+        },
+        {
+          "item_id": 11798557073,
+          "item_name": "Sunsweet Amazin Zero Sugar Added Pitted Prunes (16 oz)",
+          "image_url": "",
+          "order_id": 3000011245021103,
+          "order_date": "2026-02-11T21:00:38.685000",
+          "webster_tags": {}
+        }
+      ]
+    },
+    {
+      "store_id": 1232515,
+      "store_name": "CVS (5467)",
+      "business_name": "CVS",
+      "business_id": 412816,
+      "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/ecb5fa90-71eb-4cfb-9577-bcbd72d166ad.png",
+      "header_image": "https://cdn.doordash.com/media/store/header/c20d0b1f-e5ec-44e0-b719-aaac97b807bf.jpg",
+      "logo_url": "https://cdn.doordash.com/media/restaurant/cover_square/cvs_logo.png",
+      "average_rating": "4.79",
+      "orders": [
+        {
+          "delivery_id": 266156383288,
+          "order_date": "2026-02-22T18:01:17.702870"
+        }
+      ],
+      "items": [
+        {
+          "item_id": 24056864968,
+          "item_name": "Gold Emblem 100% Pure Filtered Honey (12 oz)",
+          "image_url": "",
+          "order_id": 3000011450734072,
+          "order_date": "2026-02-22T21:55:17.110000",
+          "webster_tags": {}
+        }
+      ]
+    },
+    {
+      "store_id": 31218669,
+      "store_name": "Chipotle - 4336",
+      "business_name": "Chipotle Mexican Grill",
+      "business_id": 115,
+      "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/chipotle_logo.png",
+      "header_image": "https://cdn.doordash.com/media/store/header/5832c802-e29e-4749-b2f2-e3e1f3a6a1fb.jpg",
+      "logo_url": "https://cdn.doordash.com/media/restaurant/cover_square/ChipotelLogo1.jpg",
+      "average_rating": "4.25",
+      "orders": [
+        {
+          "delivery_id": 227275188681,
+          "order_date": "2026-01-15T15:30:33.147375"
+        }
+      ],
+      "items": [
+        {
+          "item_id": 19943285272,
+          "item_name": "Burrito Bowl",
+          "image_url": "https://cdn.doordash.com/media/photosV2/0516f7a3-65fd-4996-bd6f-31e01523097f-retina-large.png",
+          "order_id": 3000010787193094,
+          "order_date": "2026-01-15T20:05:18.870000",
+          "webster_tags": {
+            "PREPARATION": {
+              "dish_preparation_method": "Grilled"
+            },
+            "PORTION_SIZE": {
+              "portion_size": "1-2 people"
+            },
+            "DISH": {
+              "confidence_score": 0.9771,
+              "hierarchical_tags": "Main Dishes > Bowls > Burrito Bowl",
+              "level_1_tag": "Main Dishes",
+              "level_1_tag_id": 210864443733158,
+              "level_2_tag": "Bowls",
+              "level_2_tag_id": 134341825813121,
+              "level_3_tag": "Burrito Bowl",
+              "level_3_tag_id": 10348120653636,
+              "top_candidates": [
+                {
+                  "confidence_score": 0.9771,
+                  "hierarchical_tags": "Main Dishes > Bowls > Burrito Bowl",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Bowls",
+                  "level_2_tag_id": 134341825813121,
+                  "level_3_tag": "Burrito Bowl",
+                  "level_3_tag_id": 10348120653636
+                },
+                {
+                  "confidence_score": 0.0124,
+                  "hierarchical_tags": "Main Dishes > Bowls > Other Bowls",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Bowls",
+                  "level_2_tag_id": 134341825813121,
+                  "level_3_tag": "Other Bowls",
+                  "level_3_tag_id": 263242887005024
+                },
+                {
+                  "confidence_score": 0.0027,
+                  "hierarchical_tags": "Main Dishes > Wraps > Burrito",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Wraps",
+                  "level_2_tag_id": 58581609213245,
+                  "level_3_tag": "Burrito",
+                  "level_3_tag_id": 57080773437353
+                }
+              ]
+            },
+            "CUISINE": {
+              "cuisine": [
+                "Mexican",
+                "Tex-Mex"
+              ]
+            },
+            "DIETARY": {
+              "is_beef_free": false,
+              "is_healthy": false,
+              "is_high_protein": true,
+              "is_keto_friendly": false,
+              "is_kid_friendly": true,
+              "is_low_calorie": false,
+              "is_low_carb": false,
+              "is_low_fat": false,
+              "is_low_sodium": false,
+              "is_low_sugar": false,
+              "is_paleo_friendly": false,
+              "is_pescatarian": false,
+              "is_pescatarian_mentioned": false,
+              "is_pescatarian_options": true,
+              "is_pork_free": false,
+              "is_vegan": false,
+              "is_vegan_mentioned": false,
+              "is_vegan_options": true,
+              "is_vegetarian": false,
+              "is_vegetarian_mentioned": false,
+              "is_vegetarian_options": true
+            },
+            "COURSE": {
+              "course": "Main Dishes"
+            },
+            "FLAVOR": {
+              "is_bitter": false,
+              "is_cheesy": false,
+              "is_creamy": false,
+              "is_herbal": false,
+              "is_salty": false,
+              "is_smoky": false,
+              "is_sour": false,
+              "is_spicy": true,
+              "is_sweet": false,
+              "is_tangy": true,
+              "is_umami": false
+            },
+            "INGREDIENT": {
+              "fats_oils": [],
+              "fruits_vegetables": [
+                "tomato",
+                "onion",
+                "avocado"
+              ],
+              "grains_carbs": [
+                "rice"
+              ],
+              "proteins": [
+                "meat",
+                "sofritas",
+                "beans",
+                "cheese"
+              ],
+              "spices_seasonings": [
+                "salsa"
+              ]
+            },
+            "ALLERGEN": {
+              "is_dairy_free": false,
+              "is_gluten_free": true,
+              "is_gluten_free_mentioned": false,
+              "is_gluten_free_options": true,
+              "is_nut_free": true,
+              "is_shellfish_free": true,
+              "is_soy_free": false
+            },
+            "MACRO": {}
+          }
+        }
+      ]
+    },
+    {
+      "store_id": 842532,
+      "store_name": "Fried Chicken by Mid Atlantic ",
+      "business_name": "Fried Chicken by Mid Atlantic",
+      "business_id": 374560,
+      "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/Oh_Yes_Chicken.png",
+      "header_image": "https://cdn.doordash.com/media/store/header/1692a6e7-ae29-4cec-9215-997269e5033b.jpg",
+      "logo_url": "https://cdn.doordash.com/media/restaurant/cover_square/9bcc8f94-19bd-4743-80ac-a1b5569d8209.jpg",
+      "average_rating": "4.36",
+      "orders": [
+        {
+          "delivery_id": 279762484967,
+          "order_date": "2025-12-31T17:39:03.120146"
+        }
+      ],
+      "items": [
+        {
+          "item_id": 7757157940,
+          "item_name": "Collard Greens",
+          "image_url": "https://cdn.doordash.com/media/photosV2/7d2e04fe-dcd5-4801-ad94-8cdf331ec578-retina-large.png",
+          "order_id": 3000010542572881,
+          "order_date": "2025-12-31T21:26:14.121000",
+          "webster_tags": {
+            "DISH": {
+              "confidence_score": 0.9985,
+              "hierarchical_tags": "Side Dishes & Condiments > Vegetable Sides > Vegetable Side Dishes > Collard Greens",
+              "level_1_tag": "Side Dishes & Condiments",
+              "level_1_tag_id": 106755224903116,
+              "level_2_tag": "Vegetable Sides",
+              "level_2_tag_id": 6812991932424,
+              "level_3_tag": "Vegetable Side Dishes",
+              "level_3_tag_id": 255528209363013,
+              "level_4_tag": "Collard Greens",
+              "level_4_tag_id": 269879636604314,
+              "top_candidates": [
+                {
+                  "confidence_score": 0.9985,
+                  "hierarchical_tags": "Side Dishes & Condiments > Vegetable Sides > Vegetable Side Dishes > Collard Greens",
+                  "level_1_tag": "Side Dishes & Condiments",
+                  "level_1_tag_id": 106755224903116,
+                  "level_2_tag": "Vegetable Sides",
+                  "level_2_tag_id": 6812991932424,
+                  "level_3_tag": "Vegetable Side Dishes",
+                  "level_3_tag_id": 255528209363013,
+                  "level_4_tag": "Collard Greens",
+                  "level_4_tag_id": 269879636604314
+                },
+                {
+                  "confidence_score": 0.0002,
+                  "hierarchical_tags": "Side Dishes & Condiments > Vegetable Sides > Other Vegetable Sides",
+                  "level_1_tag": "Side Dishes & Condiments",
+                  "level_1_tag_id": 106755224903116,
+                  "level_2_tag": "Vegetable Sides",
+                  "level_2_tag_id": 6812991932424,
+                  "level_3_tag": "Other Vegetable Sides",
+                  "level_3_tag_id": 251879906707468
+                },
+                {
+                  "confidence_score": 0.0002,
+                  "hierarchical_tags": "Side Dishes & Condiments > Other Side Dishes & Condiments",
+                  "level_1_tag": "Side Dishes & Condiments",
+                  "level_1_tag_id": 106755224903116,
+                  "level_2_tag": "Other Side Dishes & Condiments",
+                  "level_2_tag_id": 193097298078480
+                }
+              ]
+            },
+            "COURSE": {
+              "course": "Side Dishes & Condiments"
+            },
+            "MACRO": {
+              "estimated_calories": 60,
+              "estimated_carbohydrates_grams": 7,
+              "estimated_fat_grams": 1,
+              "estimated_protein_grams": 4
+            },
+            "INGREDIENT": {
+              "fats_oils": [],
+              "fruits_vegetables": [
+                "collard greens"
+              ],
+              "grains_carbs": [],
+              "proteins": [],
+              "spices_seasonings": []
+            },
+            "PORTION_SIZE": {
+              "portion_size": "1-2 people"
+            },
+            "ALLERGEN": {
+              "is_dairy_free": true,
+              "is_gluten_free": true,
+              "is_gluten_free_mentioned": false,
+              "is_gluten_free_options": true,
+              "is_nut_free": true,
+              "is_shellfish_free": true,
+              "is_soy_free": true
+            },
+            "DIETARY": {
+              "is_beef_free": true,
+              "is_healthy": true,
+              "is_high_protein": false,
+              "is_keto_friendly": true,
+              "is_kid_friendly": true,
+              "is_low_calorie": true,
+              "is_low_carb": true,
+              "is_low_fat": true,
+              "is_low_sodium": false,
+              "is_low_sugar": true,
+              "is_paleo_friendly": true,
+              "is_pescatarian": false,
+              "is_pescatarian_mentioned": false,
+              "is_pescatarian_options": false,
+              "is_pork_free": true,
+              "is_vegan": false,
+              "is_vegan_mentioned": false,
+              "is_vegan_options": false,
+              "is_vegetarian": false,
+              "is_vegetarian_mentioned": false,
+              "is_vegetarian_options": false
+            },
+            "PREPARATION": {
+              "dish_preparation_method": "Boiled"
+            },
+            "CUISINE": {
+              "cuisine": [
+                "American",
+                "Southern American",
+                "Soul Food"
+              ]
+            },
+            "FLAVOR": {
+              "is_bitter": false,
+              "is_cheesy": false,
+              "is_creamy": false,
+              "is_herbal": false,
+              "is_salty": true,
+              "is_smoky": false,
+              "is_sour": false,
+              "is_spicy": false,
+              "is_sweet": false,
+              "is_tangy": false,
+              "is_umami": false
+            }
+          }
+        },
+        {
+          "item_id": 7757229361,
+          "item_name": "Fried Chicken Wing with 2 SIDES",
+          "image_url": "https://cdn.doordash.com/media/photosV2/647f24ac-f32a-44f8-bfff-1e9cb7f1f360-retina-large.jpg",
+          "order_id": 3000010542572881,
+          "order_date": "2025-12-31T21:26:14.121000",
+          "webster_tags": {
+            "ALLERGEN": {
+              "is_dairy_free": false,
+              "is_gluten_free": false,
+              "is_gluten_free_mentioned": false,
+              "is_gluten_free_options": false,
+              "is_nut_free": true,
+              "is_shellfish_free": true,
+              "is_soy_free": false
+            },
+            "DISH": {
+              "confidence_score": 0.8647,
+              "hierarchical_tags": "Main Dishes > Grilled, Roasted & Fried Meat > Chicken Dishes > Chicken Wings",
+              "level_1_tag": "Main Dishes",
+              "level_1_tag_id": 210864443733158,
+              "level_2_tag": "Grilled, Roasted & Fried Meat",
+              "level_2_tag_id": 174621345861389,
+              "level_3_tag": "Chicken Dishes",
+              "level_3_tag_id": 22307459401616,
+              "level_4_tag": "Chicken Wings",
+              "level_4_tag_id": 201502179196750,
+              "top_candidates": [
+                {
+                  "confidence_score": 0.8647,
+                  "hierarchical_tags": "Main Dishes > Grilled, Roasted & Fried Meat > Chicken Dishes > Chicken Wings",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Grilled, Roasted & Fried Meat",
+                  "level_2_tag_id": 174621345861389,
+                  "level_3_tag": "Chicken Dishes",
+                  "level_3_tag_id": 22307459401616,
+                  "level_4_tag": "Chicken Wings",
+                  "level_4_tag_id": 201502179196750
+                },
+                {
+                  "confidence_score": 0.0745,
+                  "hierarchical_tags": "Main Dishes > Grilled, Roasted & Fried Meat > Chicken Dishes",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Grilled, Roasted & Fried Meat",
+                  "level_2_tag_id": 174621345861389,
+                  "level_3_tag": "Chicken Dishes",
+                  "level_3_tag_id": 22307459401616
+                },
+                {
+                  "confidence_score": 0.0274,
+                  "hierarchical_tags": "Main Dishes > Grilled, Roasted & Fried Meat > Chicken Dishes > Fried Chicken Plate",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Grilled, Roasted & Fried Meat",
+                  "level_2_tag_id": 174621345861389,
+                  "level_3_tag": "Chicken Dishes",
+                  "level_3_tag_id": 22307459401616,
+                  "level_4_tag": "Fried Chicken Plate",
+                  "level_4_tag_id": 258495965989683
+                }
+              ]
+            },
+            "CUISINE": {
+              "cuisine": [
+                "American"
+              ]
+            },
+            "FLAVOR": {
+              "is_bitter": false,
+              "is_cheesy": false,
+              "is_creamy": false,
+              "is_herbal": false,
+              "is_salty": true,
+              "is_smoky": false,
+              "is_sour": false,
+              "is_spicy": false,
+              "is_sweet": false,
+              "is_tangy": false,
+              "is_umami": false
+            },
+            "DIETARY": {
+              "is_beef_free": true,
+              "is_healthy": false,
+              "is_high_protein": true,
+              "is_keto_friendly": false,
+              "is_kid_friendly": true,
+              "is_low_calorie": false,
+              "is_low_carb": false,
+              "is_low_fat": false,
+              "is_low_sodium": false,
+              "is_low_sugar": false,
+              "is_paleo_friendly": false,
+              "is_pescatarian": false,
+              "is_pescatarian_mentioned": false,
+              "is_pescatarian_options": false,
+              "is_pork_free": true,
+              "is_vegan": false,
+              "is_vegan_mentioned": false,
+              "is_vegan_options": false,
+              "is_vegetarian": false,
+              "is_vegetarian_mentioned": false,
+              "is_vegetarian_options": false
+            },
+            "INGREDIENT": {
+              "fats_oils": [
+                "buttermilk"
+              ],
+              "fruits_vegetables": [],
+              "grains_carbs": [
+                "biscuit",
+                "cornbread"
+              ],
+              "proteins": [
+                "chicken"
+              ],
+              "spices_seasonings": []
+            },
+            "COURSE": {
+              "course": "Main Dishes"
+            },
+            "PORTION_SIZE": {
+              "portion_size": "1-2 people"
+            },
+            "MACRO": {
+              "estimated_calories": 600,
+              "estimated_carbohydrates_grams": 30,
+              "estimated_fat_grams": 40,
+              "estimated_protein_grams": 30
+            },
+            "PREPARATION": {
+              "dish_preparation_method": "Fried"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "store_id": 27550970,
+      "store_name": "Giant Food (GiantFood140) - GIANT 0334",
+      "business_name": "Giant",
+      "business_id": 11846807,
+      "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/218d6589-4289-4391-8767-4aafe9497f65.png",
+      "header_image": "https://cdn.doordash.com/media/store/header/50337af0-1ecd-4234-b59a-09659cf414de.png",
+      "logo_url": "https://cdn.doordash.com/media/restaurant/cover_square/8d0b2adc-26d7-4b7f-9a95-07bfcc5f8368.png",
+      "average_rating": "4.64",
+      "orders": [
+        {
+          "delivery_id": 216788839228,
+          "order_date": "2025-12-28T11:38:45.237470"
+        }
+      ],
+      "items": [
+        {
+          "item_id": 11126009065,
+          "item_name": "Canada Dry Caffeine Free Ginger Ale Soda Mini Cans (7.5 fl oz \u00d7 10 ct)",
+          "image_url": "",
+          "order_id": 3000010487209116,
+          "order_date": "2025-12-28T16:22:23.139000",
+          "webster_tags": {}
+        },
+        {
+          "item_id": 11125736524,
+          "item_name": "Quaker Oats Old Fashioned 100% Whole Grain Rolled Oats (18 oz)",
+          "image_url": "",
+          "order_id": 3000010487209116,
+          "order_date": "2025-12-28T16:22:23.139000",
+          "webster_tags": {}
+        }
+      ]
+    },
+    {
+      "store_id": 35799635,
+      "store_name": "HARRIS TEETER #0238",
+      "business_name": "Harris Teeter",
+      "business_id": 13035414,
+      "cover_img_url": "",
+      "header_image": "https://cdn.doordash.com/media/store/header/8c5a5714-9b96-46a2-9aa6-6c4ea3f0c07e.png",
+      "logo_url": "https://cdn.doordash.com/media/restaurant/cover_square/c7d19661-2a0d-408a-bbfe-f02cbb01f052.png",
+      "average_rating": "4.65",
+      "orders": [
+        {
+          "delivery_id": 338435038424,
+          "order_date": "2026-02-03T16:23:52.494944"
+        },
+        {
+          "delivery_id": 247948337696,
+          "order_date": "2026-01-24T17:15:19.177519"
+        }
+      ],
+      "items": [
+        {
+          "item_id": 30973718021,
+          "item_name": "Shallots (each)",
+          "image_url": "",
+          "order_id": 3000011105460704,
+          "order_date": "2026-02-03T20:33:53.190000",
+          "webster_tags": {}
+        },
+        {
+          "item_id": 30973718071,
+          "item_name": "Organic Green Cabbage (each)",
+          "image_url": "",
+          "order_id": 3000011105460704,
+          "order_date": "2026-02-03T20:33:53.190000",
+          "webster_tags": {}
+        },
+        {
+          "item_id": 30973704258,
+          "item_name": "Harris Teeter Vitamin D Whole Milk Bottle (1/2 gal)",
+          "image_url": "",
+          "order_id": 3000011105460704,
+          "order_date": "2026-02-03T20:33:53.190000",
+          "webster_tags": {}
+        },
+        {
+          "item_id": 37606455425,
+          "item_name": "Organic Navel Orange (1 lb)",
+          "image_url": "",
+          "order_id": 3000010943693056,
+          "order_date": "2026-01-24T21:26:33.804000",
+          "webster_tags": {}
+        },
+        {
+          "item_id": 30973937351,
+          "item_name": "Harris Teeter Brand Fresh Chicken Thighs Pack",
+          "image_url": "",
+          "order_id": 3000011105460704,
+          "order_date": "2026-02-03T20:33:53.190000",
+          "webster_tags": {}
+        },
+        {
+          "item_id": 30973933119,
+          "item_name": "Better Than Bouillon Premium Roasted Chicken Base (8 oz)",
+          "image_url": "",
+          "order_id": 3000011105460704,
+          "order_date": "2026-02-03T20:33:53.190000",
+          "webster_tags": {}
+        },
+        {
+          "item_id": 30973924107,
+          "item_name": "Orville Redenbacher's Original Gourmet Popping Corn (30 oz)",
+          "image_url": "",
+          "order_id": 3000010943693056,
+          "order_date": "2026-01-24T21:26:33.804000",
+          "webster_tags": {}
+        },
+        {
+          "item_id": 37472139941,
+          "item_name": "Starkist Solid White Albacore Tuna in Water (5 oz)",
+          "image_url": "",
+          "order_id": 3000010943693056,
+          "order_date": "2026-01-24T21:26:33.804000",
+          "webster_tags": {}
+        },
+        {
+          "item_id": 30973709381,
+          "item_name": "Seaglass Central Coast Sauvignon Blanc Bottle (750 ml)",
+          "image_url": "",
+          "order_id": 3000011105460704,
+          "order_date": "2026-02-03T20:33:53.190000",
+          "webster_tags": {}
+        },
+        {
+          "item_id": 30973718186,
+          "item_name": "Simple Truth Organic Baby Carrots (1 lb)",
+          "image_url": "",
+          "order_id": 3000011105460704,
+          "order_date": "2026-02-03T20:33:53.190000",
+          "webster_tags": {}
+        },
+        {
+          "item_id": 0,
+          "item_name": "MASKED",
+          "image_url": "https://cdn.doordash.com/media/MASKED",
+          "order_id": 3000010943693056,
+          "order_date": "2026-01-24T21:26:33.804000",
+          "webster_tags": {}
+        }
+      ]
+    },
+    {
+      "store_id": 35799573,
+      "store_name": "HARRIS TEETER #0253",
+      "business_name": "Harris Teeter",
+      "business_id": 13035414,
+      "cover_img_url": "",
+      "header_image": "https://cdn.doordash.com/media/store/header/8c5a5714-9b96-46a2-9aa6-6c4ea3f0c07e.png",
+      "logo_url": "https://cdn.doordash.com/media/restaurant/cover_square/c7d19661-2a0d-408a-bbfe-f02cbb01f052.png",
+      "average_rating": "4.61",
+      "orders": [
+        {
+          "delivery_id": 202171768841,
+          "order_date": "2026-03-08T18:18:06.056671"
+        },
+        {
+          "delivery_id": 266615620661,
+          "order_date": "2026-03-01T15:41:57.642770"
+        },
+        {
+          "delivery_id": 332071852583,
+          "order_date": "2026-02-10T15:50:00.804132"
+        }
+      ],
+      "items": [
+        {
+          "item_id": 30973784255,
+          "item_name": "French's Gluten Free Classic Yellow Mustard (8 oz)",
+          "image_url": "",
+          "order_id": 3000011226858127,
+          "order_date": "2026-02-10T19:14:27.805000",
+          "webster_tags": {}
+        },
+        {
+          "item_id": 34755043132,
+          "item_name": "Simple Truth Organic Green Granny Smith Apple (each)",
+          "image_url": "",
+          "order_id": 3000011226858127,
+          "order_date": "2026-02-10T19:14:27.805000",
+          "webster_tags": {}
+        },
+        {
+          "item_id": 30973788142,
+          "item_name": "Canada Dry Caffeine Free Ginger Ale Soda Mini Cans (7.5 fl oz x 10 ct)",
+          "image_url": "",
+          "order_id": 3000011715323199,
+          "order_date": "2026-03-08T20:42:50.844000",
+          "webster_tags": {}
+        },
+        {
+          "item_id": 30973788186,
+          "item_name": "Canada Dry Caffeine Free Ginger Ale Soda Cans (12 fl oz x 12 ct)",
+          "image_url": "",
+          "order_id": 3000011226858127,
+          "order_date": "2026-02-10T19:14:27.805000",
+          "webster_tags": {}
+        },
+        {
+          "item_id": 30973783177,
+          "item_name": "Simple Truth Organic Cage Free Grade A Large Brown Eggs (12 ct)",
+          "image_url": "",
+          "order_id": 3000011226858127,
+          "order_date": "2026-02-10T19:14:27.805000",
+          "webster_tags": {}
+        },
+        {
+          "item_id": 30973780665,
+          "item_name": "Avocados (2 ct)",
+          "image_url": "",
+          "order_id": 3000011580723891,
+          "order_date": "2026-03-01T20:01:38.547000",
+          "webster_tags": {}
+        },
+        {
+          "item_id": 30973780654,
+          "item_name": "Bright Farms Lettuce Spring Mix (4 oz)",
+          "image_url": "",
+          "order_id": 3000011715323199,
+          "order_date": "2026-03-08T20:42:50.844000",
+          "webster_tags": {}
+        },
+        {
+          "item_id": 30973780293,
+          "item_name": "Cucumber (each)",
+          "image_url": "",
+          "order_id": 3000011580723891,
+          "order_date": "2026-03-01T20:01:38.547000",
+          "webster_tags": {}
+        },
+        {
+          "item_id": 30973780654,
+          "item_name": "Bright Farms Lettuce Spring Mix (4 oz)",
+          "image_url": "",
+          "order_id": 3000011226858127,
+          "order_date": "2026-02-10T19:14:27.805000",
+          "webster_tags": {}
+        },
+        {
+          "item_id": 30973986579,
+          "item_name": "Comet Scratch Free Removes Tough Stains Powder Cleanser with Bleach (21 oz)",
+          "image_url": "",
+          "order_id": 3000011226858127,
+          "order_date": "2026-02-10T19:14:27.805000",
+          "webster_tags": {}
+        },
+        {
+          "item_id": 37528839583,
+          "item_name": "Harris Teeter Non-Scratch Scrubber Sponges (3 ct)",
+          "image_url": "",
+          "order_id": 3000011226858127,
+          "order_date": "2026-02-10T19:14:27.805000",
+          "webster_tags": {}
+        },
+        {
+          "item_id": 30973990999,
+          "item_name": "Harris Teeter Granulated Sugar (2 lb)",
+          "image_url": "",
+          "order_id": 3000011226858127,
+          "order_date": "2026-02-10T19:14:27.805000",
+          "webster_tags": {}
+        },
+        {
+          "item_id": 30973777271,
+          "item_name": "Bay Bridge Vineyards Pinot Grigio Colombard Bottle American (750 ml)",
+          "image_url": "",
+          "order_id": 3000011715323199,
+          "order_date": "2026-03-08T20:42:50.844000",
+          "webster_tags": {}
+        },
+        {
+          "item_id": 34786973066,
+          "item_name": "Chobani Coconut Blended Greek Yogurt (5.3 oz)",
+          "image_url": "",
+          "order_id": 3000011715323199,
+          "order_date": "2026-03-08T20:42:50.844000",
+          "webster_tags": {}
+        },
+        {
+          "item_id": 30973990967,
+          "item_name": "Harris Teeter Sweet Relish (8 oz)",
+          "image_url": "",
+          "order_id": 3000011226858127,
+          "order_date": "2026-02-10T19:14:27.805000",
+          "webster_tags": {}
+        },
+        {
+          "item_id": 30973780297,
+          "item_name": "Green Cabbage (each)",
+          "image_url": "",
+          "order_id": 3000011580723891,
+          "order_date": "2026-03-01T20:01:38.547000",
+          "webster_tags": {}
+        },
+        {
+          "item_id": 38087243807,
+          "item_name": "TEN PH 10 Alkaline Spring Water Jug (128 oz)",
+          "image_url": "",
+          "order_id": 3000011715323199,
+          "order_date": "2026-03-08T20:42:50.844000",
+          "webster_tags": {}
+        },
+        {
+          "item_id": 30973986257,
+          "item_name": "Harris Teeter 13-3/4\" 9-10 Extra Long Premium Gloves",
+          "image_url": "",
+          "order_id": 3000011226858127,
+          "order_date": "2026-02-10T19:14:27.805000",
+          "webster_tags": {}
+        },
+        {
+          "item_id": 32720394710,
+          "item_name": "Navel Oranges (each)",
+          "image_url": "",
+          "order_id": 3000011580723891,
+          "order_date": "2026-03-01T20:01:38.547000",
+          "webster_tags": {}
+        },
+        {
+          "item_id": 30973788273,
+          "item_name": "Eternal Water Naturally Alkaline Spring Water Bottle (84.5 fl oz)",
+          "image_url": "",
+          "order_id": 3000011226858127,
+          "order_date": "2026-02-10T19:14:27.805000",
+          "webster_tags": {}
+        },
+        {
+          "item_id": 34987117010,
+          "item_name": "Private Selection Ground Cardamom (2.01 oz)",
+          "image_url": "",
+          "order_id": 3000011226858127,
+          "order_date": "2026-02-10T19:14:27.805000",
+          "webster_tags": {}
+        },
+        {
+          "item_id": 39310184238,
+          "item_name": "Simple Truth Organic Whole Carrots (16 oz)",
+          "image_url": "",
+          "order_id": 3000011580723891,
+          "order_date": "2026-03-01T20:01:38.547000",
+          "webster_tags": {}
+        },
+        {
+          "item_id": 30973987879,
+          "item_name": "Orville Redenbacher's Original Gourmet Popping Corn (30 oz)",
+          "image_url": "",
+          "order_id": 3000011715323199,
+          "order_date": "2026-03-08T20:42:50.844000",
+          "webster_tags": {}
+        },
+        {
+          "item_id": 39665802696,
+          "item_name": "Harris Teeter Brand Black Tea Bags Family Size (24 ct)",
+          "image_url": "",
+          "order_id": 3000011715323199,
+          "order_date": "2026-03-08T20:42:50.844000",
+          "webster_tags": {}
+        },
+        {
+          "item_id": 30973788273,
+          "item_name": "Eternal Water Naturally Alkaline Spring Water Bottle (84.5 fl oz)",
+          "image_url": "",
+          "order_id": 3000011580723891,
+          "order_date": "2026-03-01T20:01:38.547000",
+          "webster_tags": {}
+        },
+        {
+          "item_id": 30973780293,
+          "item_name": "Cucumber (each)",
+          "image_url": "",
+          "order_id": 3000011226858127,
+          "order_date": "2026-02-10T19:14:27.805000",
+          "webster_tags": {}
+        },
+        {
+          "item_id": 39665704992,
+          "item_name": "Swiffer Wet Jet Fresh Scent Mopping Kit",
+          "image_url": "",
+          "order_id": 3000011226858127,
+          "order_date": "2026-02-10T19:14:27.805000",
+          "webster_tags": {}
+        },
+        {
+          "item_id": 30973780445,
+          "item_name": "Fuji Apples Bag (3 lb)",
+          "image_url": "",
+          "order_id": 3000011226858127,
+          "order_date": "2026-02-10T19:14:27.805000",
+          "webster_tags": {}
+        },
+        {
+          "item_id": 30973991122,
+          "item_name": "Harris Teeter Ground Nutmeg (2.47 oz)",
+          "image_url": "",
+          "order_id": 3000011226858127,
+          "order_date": "2026-02-10T19:14:27.805000",
+          "webster_tags": {}
+        },
+        {
+          "item_id": 39995176251,
+          "item_name": "Smart Way\u2122 Ground Black Pepper (2.25 oz)",
+          "image_url": "",
+          "order_id": 3000011226858127,
+          "order_date": "2026-02-10T19:14:27.805000",
+          "webster_tags": {}
+        },
+        {
+          "item_id": 35053998217,
+          "item_name": "GoodCook Stainless Steel Tea Ball",
+          "image_url": "",
+          "order_id": 3000011226858127,
+          "order_date": "2026-02-10T19:14:27.805000",
+          "webster_tags": {}
+        },
+        {
+          "item_id": 38873566580,
+          "item_name": "Crisco All Vegetable Shortening Baking Sticks (6.7 oz)",
+          "image_url": "",
+          "order_id": 3000011226858127,
+          "order_date": "2026-02-10T19:14:27.805000",
+          "webster_tags": {}
+        },
+        {
+          "item_id": 30973794459,
+          "item_name": "Harris Teeter Dark Brown Sugar (32 oz)",
+          "image_url": "",
+          "order_id": 3000011226858127,
+          "order_date": "2026-02-10T19:14:27.805000",
+          "webster_tags": {}
+        }
+      ]
+    },
+    {
+      "store_id": 286768,
+      "store_name": "Jersey Mike's Subs (6039)",
+      "business_name": "Jersey Mike's Subs",
+      "business_id": 1431,
+      "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/Jersey-Mikes-Subs-1431.png",
+      "header_image": "https://cdn.doordash.com/media/store/header/7e3e73f1-f930-4737-9dbb-26e8ffd4f060.jpg",
+      "logo_url": "https://cdn.doordash.com/media/restaurant/cover_square/64685515-7cdc-4358-957b-bc1482c3df99.png",
+      "average_rating": "4.62",
+      "orders": [
+        {
+          "delivery_id": 331135438239,
+          "order_date": "2026-01-14T12:57:47.769845"
+        }
+      ],
+      "items": [
+        {
+          "item_id": 10236052520,
+          "item_name": "#3 Ham and Provolone",
+          "image_url": "https://cdn.doordash.com/media/photosV2/57868c9f-fad7-4ab1-98c6-a7ef0e691af6-retina-large.png",
+          "order_id": 3000010768571596,
+          "order_date": "2026-01-14T17:34:27.998000",
+          "webster_tags": {
+            "ALLERGEN": {
+              "is_dairy_free": false,
+              "is_gluten_free": false,
+              "is_gluten_free_mentioned": false,
+              "is_gluten_free_options": true,
+              "is_nut_free": true,
+              "is_shellfish_free": true,
+              "is_soy_free": true
+            },
+            "DIETARY": {
+              "is_beef_free": true,
+              "is_healthy": false,
+              "is_high_protein": true,
+              "is_keto_friendly": false,
+              "is_kid_friendly": true,
+              "is_low_calorie": false,
+              "is_low_carb": false,
+              "is_low_fat": false,
+              "is_low_sodium": false,
+              "is_low_sugar": false,
+              "is_paleo_friendly": false,
+              "is_pescatarian": false,
+              "is_pescatarian_mentioned": false,
+              "is_pescatarian_options": false,
+              "is_pork_free": false,
+              "is_vegan": false,
+              "is_vegan_mentioned": false,
+              "is_vegan_options": false,
+              "is_vegetarian": false,
+              "is_vegetarian_mentioned": false,
+              "is_vegetarian_options": true
+            },
+            "PREPARATION": {},
+            "INGREDIENT": {
+              "fats_oils": [
+                "oil"
+              ],
+              "fruits_vegetables": [
+                "onion",
+                "lettuce",
+                "tomato"
+              ],
+              "grains_carbs": [
+                "bread"
+              ],
+              "proteins": [
+                "ham",
+                "provolone cheese"
+              ],
+              "spices_seasonings": [
+                "vinegar",
+                "oregano",
+                "salt"
+              ]
+            },
+            "MACRO": {
+              "estimated_calories": 850,
+              "estimated_carbohydrates_grams": 70,
+              "estimated_fat_grams": 40,
+              "estimated_protein_grams": 45
+            },
+            "PORTION_SIZE": {
+              "portion_size": "1-2 people"
+            },
+            "CUISINE": {
+              "cuisine": [
+                "American"
+              ]
+            },
+            "FLAVOR": {
+              "is_bitter": false,
+              "is_cheesy": true,
+              "is_creamy": false,
+              "is_herbal": true,
+              "is_salty": true,
+              "is_smoky": false,
+              "is_sour": false,
+              "is_spicy": false,
+              "is_sweet": false,
+              "is_tangy": true,
+              "is_umami": false
+            },
+            "COURSE": {
+              "course": "Main Dishes"
+            },
+            "DISH": {
+              "confidence_score": 0.9688,
+              "hierarchical_tags": "Main Dishes > Sandwich > Pork Sandwich > Ham And Provolone Sandwich",
+              "level_1_tag": "Main Dishes",
+              "level_1_tag_id": 210864443733158,
+              "level_2_tag": "Sandwich",
+              "level_2_tag_id": 241400009257974,
+              "level_3_tag": "Pork Sandwich",
+              "level_3_tag_id": 67757918321372,
+              "level_4_tag": "Ham And Provolone Sandwich",
+              "level_4_tag_id": 22964535591923,
+              "top_candidates": [
+                {
+                  "confidence_score": 0.9688,
+                  "hierarchical_tags": "Main Dishes > Sandwich > Pork Sandwich > Ham And Provolone Sandwich",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Sandwich",
+                  "level_2_tag_id": 241400009257974,
+                  "level_3_tag": "Pork Sandwich",
+                  "level_3_tag_id": 67757918321372,
+                  "level_4_tag": "Ham And Provolone Sandwich",
+                  "level_4_tag_id": 22964535591923
+                },
+                {
+                  "confidence_score": 0.0136,
+                  "hierarchical_tags": "Main Dishes > Sandwich > Submarine Sandwich",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Sandwich",
+                  "level_2_tag_id": 241400009257974,
+                  "level_3_tag": "Submarine Sandwich",
+                  "level_3_tag_id": 32197090256117
+                },
+                {
+                  "confidence_score": 0.0089,
+                  "hierarchical_tags": "Main Dishes > Sandwich > Other Sandwich",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Sandwich",
+                  "level_2_tag_id": 241400009257974,
+                  "level_3_tag": "Other Sandwich",
+                  "level_3_tag_id": 52575558434597
+                }
+              ]
+            }
+          }
+        },
+        {
+          "item_id": 10109773080,
+          "item_name": "Chips",
+          "image_url": "https://cdn.doordash.com/media/photosV2/9841b316-7e9b-41ec-a294-caa08c4a6151-retina-large.png",
+          "order_id": 3000010768571596,
+          "order_date": "2026-01-14T17:34:27.998000",
+          "webster_tags": {
+            "INGREDIENT": {
+              "fats_oils": [
+                "vegetable oil"
+              ],
+              "fruits_vegetables": [
+                "potato",
+                "jalapeno"
+              ],
+              "grains_carbs": [
+                "corn",
+                "rice"
+              ],
+              "proteins": [],
+              "spices_seasonings": [
+                "salt",
+                "paprika",
+                "onion powder",
+                "garlic powder",
+                "chili powder",
+                "sugar"
+              ]
+            },
+            "DISH": {
+              "confidence_score": 0.9414,
+              "hierarchical_tags": "Appetizer > Chips",
+              "level_1_tag": "Appetizer",
+              "level_1_tag_id": 188857423961001,
+              "level_2_tag": "Chips",
+              "level_2_tag_id": 210567815052524,
+              "top_candidates": [
+                {
+                  "confidence_score": 0.9414,
+                  "hierarchical_tags": "Appetizer > Chips",
+                  "level_1_tag": "Appetizer",
+                  "level_1_tag_id": 188857423961001,
+                  "level_2_tag": "Chips",
+                  "level_2_tag_id": 210567815052524
+                },
+                {
+                  "confidence_score": 0.0321,
+                  "hierarchical_tags": "Appetizer > Chips > Other Chips",
+                  "level_1_tag": "Appetizer",
+                  "level_1_tag_id": 188857423961001,
+                  "level_2_tag": "Chips",
+                  "level_2_tag_id": 210567815052524,
+                  "level_3_tag": "Other Chips",
+                  "level_3_tag_id": 89079302385017
+                },
+                {
+                  "confidence_score": 0.0131,
+                  "hierarchical_tags": "Appetizer > Chips > Potato Chips",
+                  "level_1_tag": "Appetizer",
+                  "level_1_tag_id": 188857423961001,
+                  "level_2_tag": "Chips",
+                  "level_2_tag_id": 210567815052524,
+                  "level_3_tag": "Potato Chips",
+                  "level_3_tag_id": 85013272400763
+                }
+              ]
+            },
+            "FLAVOR": {
+              "is_bitter": false,
+              "is_cheesy": true,
+              "is_creamy": false,
+              "is_herbal": false,
+              "is_salty": true,
+              "is_smoky": true,
+              "is_sour": false,
+              "is_spicy": true,
+              "is_sweet": true,
+              "is_tangy": true,
+              "is_umami": false
+            },
+            "PORTION_SIZE": {
+              "portion_size": "1-2 people"
+            },
+            "MACRO": {
+              "estimated_calories": 240,
+              "estimated_carbohydrates_grams": 25,
+              "estimated_fat_grams": 15,
+              "estimated_protein_grams": 2
+            },
+            "DIETARY": {
+              "is_beef_free": true,
+              "is_healthy": false,
+              "is_high_protein": false,
+              "is_keto_friendly": false,
+              "is_kid_friendly": true,
+              "is_low_calorie": false,
+              "is_low_carb": false,
+              "is_low_fat": false,
+              "is_low_sodium": false,
+              "is_low_sugar": false,
+              "is_paleo_friendly": false,
+              "is_pescatarian": false,
+              "is_pescatarian_mentioned": false,
+              "is_pescatarian_options": true,
+              "is_pork_free": true,
+              "is_vegan": false,
+              "is_vegan_mentioned": false,
+              "is_vegan_options": true,
+              "is_vegetarian": false,
+              "is_vegetarian_mentioned": false,
+              "is_vegetarian_options": true
+            },
+            "ALLERGEN": {
+              "is_dairy_free": false,
+              "is_gluten_free": false,
+              "is_gluten_free_mentioned": true,
+              "is_gluten_free_options": true,
+              "is_nut_free": true,
+              "is_shellfish_free": true,
+              "is_soy_free": false
+            },
+            "CUISINE": {
+              "cuisine": [
+                "American Traditional"
+              ]
+            },
+            "PREPARATION": {
+              "dish_preparation_method": "Fried"
+            },
+            "COURSE": {
+              "course": "Side Dishes & Condiments"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "store_id": 27478402,
+      "store_name": "Ocean Paradise Restaurant & Bar (Fairfax)",
+      "business_name": "Ocean Paradise Restaurant & Bar",
+      "business_id": 12594718,
+      "cover_img_url": "",
+      "header_image": "https://cdn.doordash.com/media/store/header/23846f7f-50e8-4cb2-8710-bdc39afcc156.jpeg",
+      "logo_url": "https://cdn.doordash.com/media/restaurant/cover_square/2ab3e632-7901-4926-bc12-a3476b3a78fc.JPG",
+      "average_rating": "4.49",
+      "orders": [
+        {
+          "delivery_id": 357729634577,
+          "order_date": "2026-03-17T17:43:47.333120"
+        }
+      ],
+      "items": [
+        {
+          "item_id": 11567786805,
+          "item_name": "Cod Fish & Chips",
+          "image_url": "https://cdn.doordash.com/media/yelp/1409cff6-94ee-4759-84f9-73f272655fea.jpg",
+          "order_id": 3000011881528445,
+          "order_date": "2026-03-17T21:23:08.700000",
+          "webster_tags": {
+            "INGREDIENT": {
+              "fats_oils": [
+                "vegetable oil"
+              ],
+              "fruits_vegetables": [
+                "cabbage",
+                "carrot",
+                "lemon",
+                "potato"
+              ],
+              "grains_carbs": [
+                "flour",
+                "bread"
+              ],
+              "proteins": [
+                "cod"
+              ],
+              "spices_seasonings": [
+                "salt",
+                "black pepper"
+              ]
+            },
+            "DIETARY": {
+              "is_beef_free": true,
+              "is_healthy": false,
+              "is_high_protein": true,
+              "is_keto_friendly": false,
+              "is_kid_friendly": true,
+              "is_low_calorie": false,
+              "is_low_carb": false,
+              "is_low_fat": false,
+              "is_low_sodium": false,
+              "is_low_sugar": false,
+              "is_paleo_friendly": false,
+              "is_pescatarian": true,
+              "is_pescatarian_mentioned": false,
+              "is_pescatarian_options": true,
+              "is_pork_free": true,
+              "is_vegan": false,
+              "is_vegan_mentioned": false,
+              "is_vegan_options": false,
+              "is_vegetarian": false,
+              "is_vegetarian_mentioned": false,
+              "is_vegetarian_options": false
+            },
+            "ALLERGEN": {
+              "is_dairy_free": false,
+              "is_gluten_free": false,
+              "is_gluten_free_mentioned": false,
+              "is_gluten_free_options": false,
+              "is_nut_free": true,
+              "is_shellfish_free": true,
+              "is_soy_free": false
+            },
+            "CUISINE": {
+              "cuisine": [
+                "British",
+                "American Traditional"
+              ]
+            },
+            "PREPARATION": {
+              "dish_preparation_method": "Fried"
+            },
+            "COURSE": {
+              "course": "Main Dishes"
+            },
+            "DISH": {
+              "confidence_score": 0.9946,
+              "hierarchical_tags": "Main Dishes > Grilled, Roasted & Fried Fish / Seafood > Fish And Chips",
+              "level_1_tag": "Main Dishes",
+              "level_1_tag_id": 210864443733158,
+              "level_2_tag": "Grilled, Roasted & Fried Fish / Seafood",
+              "level_2_tag_id": 265093127810992,
+              "level_3_tag": "Fish And Chips",
+              "level_3_tag_id": 242820350319843,
+              "top_candidates": [
+                {
+                  "confidence_score": 0.9946,
+                  "hierarchical_tags": "Main Dishes > Grilled, Roasted & Fried Fish / Seafood > Fish And Chips",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Grilled, Roasted & Fried Fish / Seafood",
+                  "level_2_tag_id": 265093127810992,
+                  "level_3_tag": "Fish And Chips",
+                  "level_3_tag_id": 242820350319843
+                },
+                {
+                  "confidence_score": 0.0033,
+                  "hierarchical_tags": "Main Dishes > Grilled, Roasted & Fried Fish / Seafood > Saltwater Fish > Cod",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Grilled, Roasted & Fried Fish / Seafood",
+                  "level_2_tag_id": 265093127810992,
+                  "level_3_tag": "Saltwater Fish",
+                  "level_3_tag_id": 156325231060278,
+                  "level_4_tag": "Cod",
+                  "level_4_tag_id": 25242133586396
+                },
+                {
+                  "confidence_score": 0.0007,
+                  "hierarchical_tags": "Main Dishes > Grilled, Roasted & Fried Fish / Seafood > Saltwater Fish > Haddock",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Grilled, Roasted & Fried Fish / Seafood",
+                  "level_2_tag_id": 265093127810992,
+                  "level_3_tag": "Saltwater Fish",
+                  "level_3_tag_id": 156325231060278,
+                  "level_4_tag": "Haddock",
+                  "level_4_tag_id": 255245891446386
+                }
+              ]
+            },
+            "FLAVOR": {
+              "is_bitter": false,
+              "is_cheesy": false,
+              "is_creamy": true,
+              "is_herbal": false,
+              "is_salty": true,
+              "is_smoky": false,
+              "is_sour": false,
+              "is_spicy": false,
+              "is_sweet": false,
+              "is_tangy": true,
+              "is_umami": false
+            },
+            "PORTION_SIZE": {
+              "portion_size": "1-2 people"
+            },
+            "MACRO": {
+              "estimated_calories": 850,
+              "estimated_carbohydrates_grams": 90,
+              "estimated_fat_grams": 45,
+              "estimated_protein_grams": 45
+            }
+          }
+        }
+      ]
+    },
+    {
+      "store_id": 674842,
+      "store_name": "Panera MP (600723 - Fairfax Towne Center - Fairfax VA)",
+      "business_name": "Panera Bread",
+      "business_id": 1162,
+      "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/fa91859e-ecc6-4bf9-95d7-fc6e471f5ecf.png",
+      "header_image": "https://cdn.doordash.com/media/store/header/0972c90c-885d-4a8b-8f65-7f53ccec7add.jpg",
+      "logo_url": "https://cdn.doordash.com/media/restaurant/cover_square/47a6d9f6-7f7b-4818-a40a-47b67a6b4c44.png",
+      "average_rating": "4.61",
+      "orders": [
+        {
+          "delivery_id": 301285006620,
+          "order_date": "2026-03-16T14:58:20.199567"
+        }
+      ],
+      "items": [
+        {
+          "item_id": 9979508276,
+          "item_name": "Mountain Dew",
+          "image_url": "https://cdn.doordash.com/media/photosV2/1fab6f9a-1ee8-4392-b421-3b07c5b63812-retina-large.jpg",
+          "order_id": 3000011861595299,
+          "order_date": "2026-03-16T18:47:46.959000",
+          "webster_tags": {
+            "DIETARY": {
+              "is_beef_free": true,
+              "is_healthy": false,
+              "is_high_protein": false,
+              "is_keto_friendly": false,
+              "is_kid_friendly": false,
+              "is_low_calorie": false,
+              "is_low_carb": false,
+              "is_low_fat": true,
+              "is_low_sodium": true,
+              "is_low_sugar": false,
+              "is_paleo_friendly": false,
+              "is_pescatarian": true,
+              "is_pescatarian_mentioned": false,
+              "is_pescatarian_options": true,
+              "is_pork_free": true,
+              "is_vegan": true,
+              "is_vegan_mentioned": false,
+              "is_vegan_options": true,
+              "is_vegetarian": true,
+              "is_vegetarian_mentioned": false,
+              "is_vegetarian_options": true
+            },
+            "MACRO": {
+              "estimated_calories": 280,
+              "estimated_carbohydrates_grams": 77,
+              "estimated_fat_grams": 0,
+              "estimated_protein_grams": 0
+            },
+            "FLAVOR": {
+              "is_bitter": false,
+              "is_cheesy": false,
+              "is_creamy": false,
+              "is_herbal": false,
+              "is_salty": false,
+              "is_smoky": false,
+              "is_sour": false,
+              "is_spicy": false,
+              "is_sweet": true,
+              "is_tangy": false,
+              "is_umami": false
+            },
+            "ALLERGEN": {
+              "is_dairy_free": true,
+              "is_gluten_free": true,
+              "is_gluten_free_mentioned": false,
+              "is_gluten_free_options": true,
+              "is_nut_free": true,
+              "is_shellfish_free": true,
+              "is_soy_free": true
+            },
+            "DISH": {
+              "confidence_score": 0.9434,
+              "hierarchical_tags": "Non-Alcoholic Beverages > Soda & Lemonade > Other Soda",
+              "level_1_tag": "Non-Alcoholic Beverages",
+              "level_1_tag_id": 45609908728411,
+              "level_2_tag": "Soda & Lemonade",
+              "level_2_tag_id": 171749987195687,
+              "level_3_tag": "Other Soda",
+              "level_3_tag_id": 159763243659706,
+              "top_candidates": [
+                {
+                  "confidence_score": 0.9434,
+                  "hierarchical_tags": "Non-Alcoholic Beverages > Soda & Lemonade > Other Soda",
+                  "level_1_tag": "Non-Alcoholic Beverages",
+                  "level_1_tag_id": 45609908728411,
+                  "level_2_tag": "Soda & Lemonade",
+                  "level_2_tag_id": 171749987195687,
+                  "level_3_tag": "Other Soda",
+                  "level_3_tag_id": 159763243659706
+                },
+                {
+                  "confidence_score": 0.0314,
+                  "hierarchical_tags": "Non-Alcoholic Beverages > Soda & Lemonade > Fruit Flavored Soda > Lemon And Lime Soda",
+                  "level_1_tag": "Non-Alcoholic Beverages",
+                  "level_1_tag_id": 45609908728411,
+                  "level_2_tag": "Soda & Lemonade",
+                  "level_2_tag_id": 171749987195687,
+                  "level_3_tag": "Fruit Flavored Soda",
+                  "level_3_tag_id": 161637087265444,
+                  "level_4_tag": "Lemon And Lime Soda",
+                  "level_4_tag_id": 182498352632770
+                },
+                {
+                  "confidence_score": 0.0112,
+                  "hierarchical_tags": "Non-Alcoholic Beverages > Soda & Lemonade > Cola Soda",
+                  "level_1_tag": "Non-Alcoholic Beverages",
+                  "level_1_tag_id": 45609908728411,
+                  "level_2_tag": "Soda & Lemonade",
+                  "level_2_tag_id": 171749987195687,
+                  "level_3_tag": "Cola Soda",
+                  "level_3_tag_id": 42969952902435
+                }
+              ]
+            },
+            "PREPARATION": {},
+            "COURSE": {
+              "course": "Non-Alcoholic Beverages"
+            },
+            "INGREDIENT": {
+              "fats_oils": [],
+              "fruits_vegetables": [],
+              "grains_carbs": [],
+              "proteins": [],
+              "spices_seasonings": []
+            },
+            "CUISINE": {
+              "cuisine": [
+                "American"
+              ]
+            },
+            "PORTION_SIZE": {
+              "portion_size": "1-2 people"
+            }
+          }
+        },
+        {
+          "item_id": 12954096129,
+          "item_name": "Smokehouse BBQ Chicken",
+          "image_url": "https://cdn.doordash.com/media/photosV2/9169ed76-37b2-414b-8a36-11636aee8317-retina-large.jpg",
+          "order_id": 3000011861595299,
+          "order_date": "2026-03-16T18:47:46.959000",
+          "webster_tags": {
+            "PREPARATION": {
+              "dish_preparation_method": "Smoked"
+            },
+            "FLAVOR": {
+              "is_bitter": false,
+              "is_cheesy": true,
+              "is_creamy": false,
+              "is_herbal": false,
+              "is_salty": true,
+              "is_smoky": true,
+              "is_sour": false,
+              "is_spicy": false,
+              "is_sweet": true,
+              "is_tangy": true,
+              "is_umami": false
+            },
+            "PORTION_SIZE": {
+              "portion_size": "1-2 people"
+            },
+            "MACRO": {
+              "estimated_calories": 740
+            },
+            "INGREDIENT": {
+              "fats_oils": [],
+              "fruits_vegetables": [
+                "red onions"
+              ],
+              "grains_carbs": [
+                "ciabatta"
+              ],
+              "proteins": [
+                "chicken",
+                "cheddar cheese"
+              ],
+              "spices_seasonings": [
+                "bbq sauce"
+              ]
+            },
+            "COURSE": {
+              "course": "Main Dishes"
+            },
+            "DIETARY": {
+              "is_beef_free": true,
+              "is_healthy": false,
+              "is_high_protein": true,
+              "is_keto_friendly": false,
+              "is_kid_friendly": true,
+              "is_low_calorie": false,
+              "is_low_carb": false,
+              "is_low_fat": false,
+              "is_low_sodium": false,
+              "is_low_sugar": false,
+              "is_paleo_friendly": false,
+              "is_pescatarian": false,
+              "is_pescatarian_mentioned": false,
+              "is_pescatarian_options": false,
+              "is_pork_free": true,
+              "is_vegan": false,
+              "is_vegan_mentioned": false,
+              "is_vegan_options": false,
+              "is_vegetarian": false,
+              "is_vegetarian_mentioned": false,
+              "is_vegetarian_options": false
+            },
+            "CUISINE": {
+              "cuisine": [
+                "American Traditional"
+              ]
+            },
+            "DISH": {
+              "confidence_score": 0.9473,
+              "hierarchical_tags": "Main Dishes > Sandwich > Chicken Sandwich > Bbq Chicken Sandwich",
+              "level_1_tag": "Main Dishes",
+              "level_1_tag_id": 210864443733158,
+              "level_2_tag": "Sandwich",
+              "level_2_tag_id": 241400009257974,
+              "level_3_tag": "Chicken Sandwich",
+              "level_3_tag_id": 131548650060456,
+              "level_4_tag": "Bbq Chicken Sandwich",
+              "level_4_tag_id": 43224490696052,
+              "top_candidates": [
+                {
+                  "confidence_score": 0.9473,
+                  "hierarchical_tags": "Main Dishes > Sandwich > Chicken Sandwich > Bbq Chicken Sandwich",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Sandwich",
+                  "level_2_tag_id": 241400009257974,
+                  "level_3_tag": "Chicken Sandwich",
+                  "level_3_tag_id": 131548650060456,
+                  "level_4_tag": "Bbq Chicken Sandwich",
+                  "level_4_tag_id": 43224490696052
+                },
+                {
+                  "confidence_score": 0.022,
+                  "hierarchical_tags": "Main Dishes > Sandwich > Other Sandwich",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Sandwich",
+                  "level_2_tag_id": 241400009257974,
+                  "level_3_tag": "Other Sandwich",
+                  "level_3_tag_id": 52575558434597
+                },
+                {
+                  "confidence_score": 0.0069,
+                  "hierarchical_tags": "Main Dishes > Sandwich > Chicken Sandwich > Honey Bbq Chicken Sandwich",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Sandwich",
+                  "level_2_tag_id": 241400009257974,
+                  "level_3_tag": "Chicken Sandwich",
+                  "level_3_tag_id": 131548650060456,
+                  "level_4_tag": "Honey Bbq Chicken Sandwich",
+                  "level_4_tag_id": 216695926189762
+                }
+              ]
+            },
+            "ALLERGEN": {
+              "is_dairy_free": false,
+              "is_gluten_free": false,
+              "is_gluten_free_mentioned": false,
+              "is_gluten_free_options": false,
+              "is_nut_free": true,
+              "is_shellfish_free": true,
+              "is_soy_free": true
+            }
+          }
+        },
+        {
+          "item_id": 12954095771,
+          "item_name": "Green Goddess Chicken Cobb Salad",
+          "image_url": "https://cdn.doordash.com/media/photosV2/7a9dc2a0-419b-49d7-b0a9-1b806f0cfe37-retina-large.jpg",
+          "order_id": 3000011861595299,
+          "order_date": "2026-03-16T18:47:46.959000",
+          "webster_tags": {
+            "CUISINE": {
+              "cuisine": [
+                "American"
+              ]
+            },
+            "DISH": {
+              "confidence_score": 0.6411,
+              "hierarchical_tags": "Main Dishes > Salads > Garden Salad > Garden Cobb Salad",
+              "level_1_tag": "Main Dishes",
+              "level_1_tag_id": 210864443733158,
+              "level_2_tag": "Salads",
+              "level_2_tag_id": 279801517666096,
+              "level_3_tag": "Garden Salad",
+              "level_3_tag_id": 62223404742459,
+              "level_4_tag": "Garden Cobb Salad",
+              "level_4_tag_id": 99421026428863,
+              "top_candidates": [
+                {
+                  "confidence_score": 0.6411,
+                  "hierarchical_tags": "Main Dishes > Salads > Garden Salad > Garden Cobb Salad",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Salads",
+                  "level_2_tag_id": 279801517666096,
+                  "level_3_tag": "Garden Salad",
+                  "level_3_tag_id": 62223404742459,
+                  "level_4_tag": "Garden Cobb Salad",
+                  "level_4_tag_id": 99421026428863
+                },
+                {
+                  "confidence_score": 0.1233,
+                  "hierarchical_tags": "Main Dishes > Salads > Meat Salad > Grilled Chicken Salad",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Salads",
+                  "level_2_tag_id": 279801517666096,
+                  "level_3_tag": "Meat Salad",
+                  "level_3_tag_id": 105541625446848,
+                  "level_4_tag": "Grilled Chicken Salad",
+                  "level_4_tag_id": 129487134291957
+                },
+                {
+                  "confidence_score": 0.0422,
+                  "hierarchical_tags": "Main Dishes > Salads > Garden Salad > Mixed Green Salad",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Salads",
+                  "level_2_tag_id": 279801517666096,
+                  "level_3_tag": "Garden Salad",
+                  "level_3_tag_id": 62223404742459,
+                  "level_4_tag": "Mixed Green Salad",
+                  "level_4_tag_id": 230836053582358
+                }
+              ]
+            },
+            "PREPARATION": {
+              "dish_preparation_method": "Grilled"
+            },
+            "DIETARY": {
+              "is_beef_free": true,
+              "is_healthy": true,
+              "is_high_protein": true,
+              "is_keto_friendly": true,
+              "is_kid_friendly": false,
+              "is_low_calorie": true,
+              "is_low_carb": true,
+              "is_low_fat": false,
+              "is_low_sodium": false,
+              "is_low_sugar": true,
+              "is_paleo_friendly": true,
+              "is_pescatarian": false,
+              "is_pescatarian_mentioned": false,
+              "is_pescatarian_options": false,
+              "is_pork_free": false,
+              "is_vegan": false,
+              "is_vegan_mentioned": false,
+              "is_vegan_options": false,
+              "is_vegetarian": false,
+              "is_vegetarian_mentioned": false,
+              "is_vegetarian_options": false
+            },
+            "FLAVOR": {
+              "is_bitter": false,
+              "is_cheesy": false,
+              "is_creamy": true,
+              "is_herbal": true,
+              "is_salty": true,
+              "is_smoky": false,
+              "is_sour": false,
+              "is_spicy": false,
+              "is_sweet": false,
+              "is_tangy": true,
+              "is_umami": true
+            },
+            "MACRO": {
+              "estimated_calories": 500,
+              "estimated_carbohydrates_grams": 15,
+              "estimated_fat_grams": 35,
+              "estimated_protein_grams": 40
+            },
+            "ALLERGEN": {
+              "is_dairy_free": false,
+              "is_gluten_free": false,
+              "is_gluten_free_mentioned": false,
+              "is_gluten_free_options": false,
+              "is_nut_free": true,
+              "is_shellfish_free": true,
+              "is_soy_free": true
+            },
+            "COURSE": {
+              "course": "Main Dishes"
+            },
+            "PORTION_SIZE": {
+              "portion_size": "1-2 people"
+            },
+            "INGREDIENT": {
+              "fats_oils": [],
+              "fruits_vegetables": [
+                "mixed greens",
+                "romaine",
+                "grape tomatoes",
+                "red onions",
+                "avocado"
+              ],
+              "grains_carbs": [],
+              "proteins": [
+                "chicken",
+                "egg",
+                "bacon"
+              ],
+              "spices_seasonings": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "store_id": 675142,
+      "store_name": "Panera MP (600724 - Leesburg Pike - Vienna VA)",
+      "business_name": "Panera Bread",
+      "business_id": 1162,
+      "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/fa91859e-ecc6-4bf9-95d7-fc6e471f5ecf.png",
+      "header_image": "https://cdn.doordash.com/media/store/header/0972c90c-885d-4a8b-8f65-7f53ccec7add.jpg",
+      "logo_url": "https://cdn.doordash.com/media/restaurant/cover_square/47a6d9f6-7f7b-4818-a40a-47b67a6b4c44.png",
+      "average_rating": "4.59",
+      "orders": [
+        {
+          "delivery_id": 326435280859,
+          "order_date": "2026-01-03T18:31:26.127597"
+        },
+        {
+          "delivery_id": 297877534408,
+          "order_date": "2026-01-01T16:30:18.498254"
+        }
+      ],
+      "items": [
+        {
+          "item_id": 12954116049,
+          "item_name": "Green Goddess Chicken Cobb Salad",
+          "image_url": "https://cdn.doordash.com/media/photosV2/7a9dc2a0-419b-49d7-b0a9-1b806f0cfe37-retina-large.jpg",
+          "order_id": 3000010596279558,
+          "order_date": "2026-01-03T22:54:26.369000",
+          "webster_tags": {
+            "DIETARY": {
+              "is_beef_free": true,
+              "is_healthy": true,
+              "is_high_protein": true,
+              "is_keto_friendly": true,
+              "is_kid_friendly": false,
+              "is_low_calorie": true,
+              "is_low_carb": true,
+              "is_low_fat": false,
+              "is_low_sodium": false,
+              "is_low_sugar": true,
+              "is_paleo_friendly": true,
+              "is_pescatarian": false,
+              "is_pescatarian_mentioned": false,
+              "is_pescatarian_options": false,
+              "is_pork_free": false,
+              "is_vegan": false,
+              "is_vegan_mentioned": false,
+              "is_vegan_options": false,
+              "is_vegetarian": false,
+              "is_vegetarian_mentioned": false,
+              "is_vegetarian_options": false
+            },
+            "PREPARATION": {
+              "dish_preparation_method": "Grilled"
+            },
+            "FLAVOR": {
+              "is_bitter": false,
+              "is_cheesy": false,
+              "is_creamy": true,
+              "is_herbal": true,
+              "is_salty": true,
+              "is_smoky": false,
+              "is_sour": false,
+              "is_spicy": false,
+              "is_sweet": false,
+              "is_tangy": true,
+              "is_umami": true
+            },
+            "MACRO": {
+              "estimated_calories": 500,
+              "estimated_carbohydrates_grams": 15,
+              "estimated_fat_grams": 35,
+              "estimated_protein_grams": 40
+            },
+            "INGREDIENT": {
+              "fats_oils": [],
+              "fruits_vegetables": [
+                "mixed greens",
+                "romaine",
+                "grape tomatoes",
+                "red onions",
+                "avocado"
+              ],
+              "grains_carbs": [],
+              "proteins": [
+                "chicken",
+                "egg",
+                "bacon"
+              ],
+              "spices_seasonings": []
+            },
+            "ALLERGEN": {
+              "is_dairy_free": false,
+              "is_gluten_free": false,
+              "is_gluten_free_mentioned": false,
+              "is_gluten_free_options": false,
+              "is_nut_free": true,
+              "is_shellfish_free": true,
+              "is_soy_free": true
+            },
+            "CUISINE": {
+              "cuisine": [
+                "American"
+              ]
+            },
+            "PORTION_SIZE": {
+              "portion_size": "1-2 people"
+            },
+            "DISH": {
+              "confidence_score": 0.6411,
+              "hierarchical_tags": "Main Dishes > Salads > Garden Salad > Garden Cobb Salad",
+              "level_1_tag": "Main Dishes",
+              "level_1_tag_id": 210864443733158,
+              "level_2_tag": "Salads",
+              "level_2_tag_id": 279801517666096,
+              "level_3_tag": "Garden Salad",
+              "level_3_tag_id": 62223404742459,
+              "level_4_tag": "Garden Cobb Salad",
+              "level_4_tag_id": 99421026428863,
+              "top_candidates": [
+                {
+                  "confidence_score": 0.6411,
+                  "hierarchical_tags": "Main Dishes > Salads > Garden Salad > Garden Cobb Salad",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Salads",
+                  "level_2_tag_id": 279801517666096,
+                  "level_3_tag": "Garden Salad",
+                  "level_3_tag_id": 62223404742459,
+                  "level_4_tag": "Garden Cobb Salad",
+                  "level_4_tag_id": 99421026428863
+                },
+                {
+                  "confidence_score": 0.1233,
+                  "hierarchical_tags": "Main Dishes > Salads > Meat Salad > Grilled Chicken Salad",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Salads",
+                  "level_2_tag_id": 279801517666096,
+                  "level_3_tag": "Meat Salad",
+                  "level_3_tag_id": 105541625446848,
+                  "level_4_tag": "Grilled Chicken Salad",
+                  "level_4_tag_id": 129487134291957
+                },
+                {
+                  "confidence_score": 0.0422,
+                  "hierarchical_tags": "Main Dishes > Salads > Garden Salad > Mixed Green Salad",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Salads",
+                  "level_2_tag_id": 279801517666096,
+                  "level_3_tag": "Garden Salad",
+                  "level_3_tag_id": 62223404742459,
+                  "level_4_tag": "Mixed Green Salad",
+                  "level_4_tag_id": 230836053582358
+                }
+              ]
+            },
+            "COURSE": {
+              "course": "Main Dishes"
+            }
+          }
+        },
+        {
+          "item_id": 12954397240,
+          "item_name": "Green Goddess Chicken Cobb Salad",
+          "image_url": "https://cdn.doordash.com/media/photosV2/7a9dc2a0-419b-49d7-b0a9-1b806f0cfe37-retina-large.jpg",
+          "order_id": 3000010559334246,
+          "order_date": "2026-01-01T21:18:39.842000",
+          "webster_tags": {
+            "PORTION_SIZE": {
+              "portion_size": "1-2 people"
+            },
+            "MACRO": {
+              "estimated_calories": 500,
+              "estimated_carbohydrates_grams": 15,
+              "estimated_fat_grams": 35,
+              "estimated_protein_grams": 40
+            },
+            "PREPARATION": {
+              "dish_preparation_method": "Grilled"
+            },
+            "CUISINE": {
+              "cuisine": [
+                "American"
+              ]
+            },
+            "DIETARY": {
+              "is_beef_free": true,
+              "is_healthy": true,
+              "is_high_protein": true,
+              "is_keto_friendly": true,
+              "is_kid_friendly": false,
+              "is_low_calorie": true,
+              "is_low_carb": true,
+              "is_low_fat": false,
+              "is_low_sodium": false,
+              "is_low_sugar": true,
+              "is_paleo_friendly": true,
+              "is_pescatarian": false,
+              "is_pescatarian_mentioned": false,
+              "is_pescatarian_options": false,
+              "is_pork_free": false,
+              "is_vegan": false,
+              "is_vegan_mentioned": false,
+              "is_vegan_options": false,
+              "is_vegetarian": false,
+              "is_vegetarian_mentioned": false,
+              "is_vegetarian_options": false
+            },
+            "ALLERGEN": {
+              "is_dairy_free": false,
+              "is_gluten_free": false,
+              "is_gluten_free_mentioned": false,
+              "is_gluten_free_options": false,
+              "is_nut_free": true,
+              "is_shellfish_free": true,
+              "is_soy_free": true
+            },
+            "FLAVOR": {
+              "is_bitter": false,
+              "is_cheesy": false,
+              "is_creamy": true,
+              "is_herbal": true,
+              "is_salty": true,
+              "is_smoky": false,
+              "is_sour": false,
+              "is_spicy": false,
+              "is_sweet": false,
+              "is_tangy": true,
+              "is_umami": true
+            },
+            "INGREDIENT": {
+              "fats_oils": [],
+              "fruits_vegetables": [
+                "mixed greens",
+                "romaine",
+                "grape tomatoes",
+                "red onions",
+                "avocado"
+              ],
+              "grains_carbs": [],
+              "proteins": [
+                "chicken",
+                "egg",
+                "bacon"
+              ],
+              "spices_seasonings": []
+            },
+            "DISH": {
+              "confidence_score": 0.6411,
+              "hierarchical_tags": "Main Dishes > Salads > Garden Salad > Garden Cobb Salad",
+              "level_1_tag": "Main Dishes",
+              "level_1_tag_id": 210864443733158,
+              "level_2_tag": "Salads",
+              "level_2_tag_id": 279801517666096,
+              "level_3_tag": "Garden Salad",
+              "level_3_tag_id": 62223404742459,
+              "level_4_tag": "Garden Cobb Salad",
+              "level_4_tag_id": 99421026428863,
+              "top_candidates": [
+                {
+                  "confidence_score": 0.6411,
+                  "hierarchical_tags": "Main Dishes > Salads > Garden Salad > Garden Cobb Salad",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Salads",
+                  "level_2_tag_id": 279801517666096,
+                  "level_3_tag": "Garden Salad",
+                  "level_3_tag_id": 62223404742459,
+                  "level_4_tag": "Garden Cobb Salad",
+                  "level_4_tag_id": 99421026428863
+                },
+                {
+                  "confidence_score": 0.1233,
+                  "hierarchical_tags": "Main Dishes > Salads > Meat Salad > Grilled Chicken Salad",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Salads",
+                  "level_2_tag_id": 279801517666096,
+                  "level_3_tag": "Meat Salad",
+                  "level_3_tag_id": 105541625446848,
+                  "level_4_tag": "Grilled Chicken Salad",
+                  "level_4_tag_id": 129487134291957
+                },
+                {
+                  "confidence_score": 0.0422,
+                  "hierarchical_tags": "Main Dishes > Salads > Garden Salad > Mixed Green Salad",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Salads",
+                  "level_2_tag_id": 279801517666096,
+                  "level_3_tag": "Garden Salad",
+                  "level_3_tag_id": 62223404742459,
+                  "level_4_tag": "Mixed Green Salad",
+                  "level_4_tag_id": 230836053582358
+                }
+              ]
+            },
+            "COURSE": {
+              "course": "Main Dishes"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "store_id": 675676,
+      "store_name": "Panera MP (601160 - Riding Plaza Drive - South Riding VA)",
+      "business_name": "Panera Bread",
+      "business_id": 1162,
+      "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/fa91859e-ecc6-4bf9-95d7-fc6e471f5ecf.png",
+      "header_image": "https://cdn.doordash.com/media/store/header/0972c90c-885d-4a8b-8f65-7f53ccec7add.jpg",
+      "logo_url": "https://cdn.doordash.com/media/restaurant/cover_square/47a6d9f6-7f7b-4818-a40a-47b67a6b4c44.png",
+      "average_rating": "4.57",
+      "orders": [
+        {
+          "delivery_id": 261477243869,
+          "order_date": "2026-02-07T18:58:24.595240"
+        }
+      ],
+      "items": [
+        {
+          "item_id": 12954121507,
+          "item_name": "Green Goddess Chicken Cobb Salad",
+          "image_url": "https://cdn.doordash.com/media/photosV2/7a9dc2a0-419b-49d7-b0a9-1b806f0cfe37-retina-large.jpg",
+          "order_id": 3000011181940767,
+          "order_date": "2026-02-07T23:38:39.710000",
+          "webster_tags": {
+            "DIETARY": {
+              "is_beef_free": true,
+              "is_healthy": true,
+              "is_high_protein": true,
+              "is_keto_friendly": true,
+              "is_kid_friendly": false,
+              "is_low_calorie": true,
+              "is_low_carb": true,
+              "is_low_fat": false,
+              "is_low_sodium": false,
+              "is_low_sugar": true,
+              "is_paleo_friendly": true,
+              "is_pescatarian": false,
+              "is_pescatarian_mentioned": false,
+              "is_pescatarian_options": false,
+              "is_pork_free": false,
+              "is_vegan": false,
+              "is_vegan_mentioned": false,
+              "is_vegan_options": false,
+              "is_vegetarian": false,
+              "is_vegetarian_mentioned": false,
+              "is_vegetarian_options": false
+            },
+            "ALLERGEN": {
+              "is_dairy_free": false,
+              "is_gluten_free": false,
+              "is_gluten_free_mentioned": false,
+              "is_gluten_free_options": false,
+              "is_nut_free": true,
+              "is_shellfish_free": true,
+              "is_soy_free": true
+            },
+            "PREPARATION": {
+              "dish_preparation_method": "Grilled"
+            },
+            "FLAVOR": {
+              "is_bitter": false,
+              "is_cheesy": false,
+              "is_creamy": true,
+              "is_herbal": true,
+              "is_salty": true,
+              "is_smoky": false,
+              "is_sour": false,
+              "is_spicy": false,
+              "is_sweet": false,
+              "is_tangy": true,
+              "is_umami": true
+            },
+            "DISH": {
+              "confidence_score": 0.6411,
+              "hierarchical_tags": "Main Dishes > Salads > Garden Salad > Garden Cobb Salad",
+              "level_1_tag": "Main Dishes",
+              "level_1_tag_id": 210864443733158,
+              "level_2_tag": "Salads",
+              "level_2_tag_id": 279801517666096,
+              "level_3_tag": "Garden Salad",
+              "level_3_tag_id": 62223404742459,
+              "level_4_tag": "Garden Cobb Salad",
+              "level_4_tag_id": 99421026428863,
+              "top_candidates": [
+                {
+                  "confidence_score": 0.6411,
+                  "hierarchical_tags": "Main Dishes > Salads > Garden Salad > Garden Cobb Salad",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Salads",
+                  "level_2_tag_id": 279801517666096,
+                  "level_3_tag": "Garden Salad",
+                  "level_3_tag_id": 62223404742459,
+                  "level_4_tag": "Garden Cobb Salad",
+                  "level_4_tag_id": 99421026428863
+                },
+                {
+                  "confidence_score": 0.1233,
+                  "hierarchical_tags": "Main Dishes > Salads > Meat Salad > Grilled Chicken Salad",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Salads",
+                  "level_2_tag_id": 279801517666096,
+                  "level_3_tag": "Meat Salad",
+                  "level_3_tag_id": 105541625446848,
+                  "level_4_tag": "Grilled Chicken Salad",
+                  "level_4_tag_id": 129487134291957
+                },
+                {
+                  "confidence_score": 0.0422,
+                  "hierarchical_tags": "Main Dishes > Salads > Garden Salad > Mixed Green Salad",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Salads",
+                  "level_2_tag_id": 279801517666096,
+                  "level_3_tag": "Garden Salad",
+                  "level_3_tag_id": 62223404742459,
+                  "level_4_tag": "Mixed Green Salad",
+                  "level_4_tag_id": 230836053582358
+                }
+              ]
+            },
+            "COURSE": {
+              "course": "Main Dishes"
+            },
+            "CUISINE": {
+              "cuisine": [
+                "American"
+              ]
+            },
+            "PORTION_SIZE": {
+              "portion_size": "1-2 people"
+            },
+            "MACRO": {
+              "estimated_calories": 500,
+              "estimated_carbohydrates_grams": 15,
+              "estimated_fat_grams": 35,
+              "estimated_protein_grams": 40
+            },
+            "INGREDIENT": {
+              "fats_oils": [],
+              "fruits_vegetables": [
+                "mixed greens",
+                "romaine",
+                "grape tomatoes",
+                "red onions",
+                "avocado"
+              ],
+              "grains_carbs": [],
+              "proteins": [
+                "chicken",
+                "egg",
+                "bacon"
+              ],
+              "spices_seasonings": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "store_id": 34353392,
+      "store_name": "Raising Cane's  - C0637",
+      "business_name": "Raising Cane's",
+      "business_id": 12807510,
+      "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/2ad675e1-8bde-4856-b62b-686bc7d594c4.png",
+      "header_image": "https://cdn.doordash.com/media/store/header/83b88b01-37c1-4c8c-9738-3aecb13d317e.jpg",
+      "logo_url": "https://cdn.doordash.com/media/restaurant/cover_square/263bdcdd-61c1-467c-8f85-5d5f649f52b1.png",
+      "average_rating": "4.54",
+      "orders": [
+        {
+          "delivery_id": 354773347067,
+          "order_date": "2026-01-21T13:11:10.221637"
+        }
+      ],
+      "items": [
+        {
+          "item_id": 25665984413,
+          "item_name": "The 3 Finger Combo\u00ae",
+          "image_url": "https://cdn.doordash.com/media/photosV2/a166b761-4634-42b3-becb-32e8e0a9c110-retina-large.jpeg",
+          "order_id": 3000010887073171,
+          "order_date": "2026-01-21T17:28:52.936000",
+          "webster_tags": {
+            "DIETARY": {
+              "is_beef_free": true,
+              "is_healthy": false,
+              "is_high_protein": true,
+              "is_keto_friendly": false,
+              "is_kid_friendly": true,
+              "is_low_calorie": false,
+              "is_low_carb": false,
+              "is_low_fat": false,
+              "is_low_sodium": false,
+              "is_low_sugar": false,
+              "is_paleo_friendly": false,
+              "is_pescatarian": false,
+              "is_pescatarian_mentioned": false,
+              "is_pescatarian_options": false,
+              "is_pork_free": true,
+              "is_vegan": false,
+              "is_vegan_mentioned": false,
+              "is_vegan_options": false,
+              "is_vegetarian": false,
+              "is_vegetarian_mentioned": false,
+              "is_vegetarian_options": false
+            },
+            "DISH": {
+              "confidence_score": 0.8687,
+              "hierarchical_tags": "Main Dishes > Grilled, Roasted & Fried Meat > Chicken Dishes > Chicken Feet",
+              "level_1_tag": "Main Dishes",
+              "level_1_tag_id": 210864443733158,
+              "level_2_tag": "Grilled, Roasted & Fried Meat",
+              "level_2_tag_id": 174621345861389,
+              "level_3_tag": "Chicken Dishes",
+              "level_3_tag_id": 22307459401616,
+              "level_4_tag": "Chicken Feet",
+              "level_4_tag_id": 65571902978659,
+              "top_candidates": [
+                {
+                  "confidence_score": 0.8687,
+                  "hierarchical_tags": "Main Dishes > Grilled, Roasted & Fried Meat > Chicken Dishes > Chicken Feet",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Grilled, Roasted & Fried Meat",
+                  "level_2_tag_id": 174621345861389,
+                  "level_3_tag": "Chicken Dishes",
+                  "level_3_tag_id": 22307459401616,
+                  "level_4_tag": "Chicken Feet",
+                  "level_4_tag_id": 65571902978659
+                },
+                {
+                  "confidence_score": 0.0639,
+                  "hierarchical_tags": "Main Dishes > Grilled, Roasted & Fried Meat > Chicken Dishes > Chicken Tenders",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Grilled, Roasted & Fried Meat",
+                  "level_2_tag_id": 174621345861389,
+                  "level_3_tag": "Chicken Dishes",
+                  "level_3_tag_id": 22307459401616,
+                  "level_4_tag": "Chicken Tenders",
+                  "level_4_tag_id": 142082041117964
+                },
+                {
+                  "confidence_score": 0.0395,
+                  "hierarchical_tags": "Main Dishes > Grilled, Roasted & Fried Meat > Other Grilled, Roasted And Fried Meat > Grilled Combo",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Grilled, Roasted & Fried Meat",
+                  "level_2_tag_id": 174621345861389,
+                  "level_3_tag": "Other Grilled, Roasted And Fried Meat",
+                  "level_3_tag_id": 165951158512919,
+                  "level_4_tag": "Grilled Combo",
+                  "level_4_tag_id": 68267433932111
+                }
+              ]
+            },
+            "PORTION_SIZE": {
+              "portion_size": "1-2 people"
+            },
+            "CUISINE": {
+              "cuisine": [
+                "American"
+              ]
+            },
+            "MACRO": {
+              "estimated_calories": 1315
+            },
+            "PREPARATION": {
+              "dish_preparation_method": "Fried"
+            },
+            "ALLERGEN": {
+              "is_dairy_free": false,
+              "is_gluten_free": false,
+              "is_gluten_free_mentioned": false,
+              "is_gluten_free_options": false,
+              "is_nut_free": true,
+              "is_shellfish_free": true,
+              "is_soy_free": false
+            },
+            "INGREDIENT": {
+              "fats_oils": [],
+              "fruits_vegetables": [],
+              "grains_carbs": [
+                "bread",
+                "potato"
+              ],
+              "proteins": [
+                "chicken"
+              ],
+              "spices_seasonings": []
+            },
+            "FLAVOR": {
+              "is_bitter": false,
+              "is_cheesy": false,
+              "is_creamy": false,
+              "is_herbal": false,
+              "is_salty": true,
+              "is_smoky": false,
+              "is_sour": false,
+              "is_spicy": false,
+              "is_sweet": false,
+              "is_tangy": false,
+              "is_umami": false
+            },
+            "COURSE": {
+              "course": "Bundled Meals & Combos"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "store_id": 1138608,
+      "store_name": "Royal Farms (152)",
+      "business_name": "Royal Farms",
+      "business_id": 446565,
+      "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/Royal_Farms_Hunt_Valley.png",
+      "header_image": "https://cdn.doordash.com/media/store/header/446565.jpg",
+      "logo_url": "https://cdn.doordash.com/media/restaurant/cover_square/f249e124-a19a-4afb-8956-45af55728955.png",
+      "average_rating": "4.41",
+      "orders": [
+        {
+          "delivery_id": 315491815965,
+          "order_date": "2026-01-02T14:26:29.435933"
+        }
+      ],
+      "items": [
+        {
+          "item_id": 8773243534,
+          "item_name": "4 Piece Mixed",
+          "image_url": "https://cdn.doordash.com/media/photosV2/bef64af1-dd0a-400a-98ee-af24b8cf9ea2-17518c34-acb3-482b-b37d-d62e3faede2b-retina-large.jpg",
+          "order_id": 3000010573664198,
+          "order_date": "2026-01-02T18:18:16.350000",
+          "webster_tags": {}
+        }
+      ]
+    },
+    {
+      "store_id": 1138605,
+      "store_name": "Royal Farms (241)",
+      "business_name": "Royal Farms",
+      "business_id": 446565,
+      "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/Royal_Farms_Hunt_Valley.png",
+      "header_image": "https://cdn.doordash.com/media/store/header/446565.jpg",
+      "logo_url": "https://cdn.doordash.com/media/restaurant/cover_square/f249e124-a19a-4afb-8956-45af55728955.png",
+      "average_rating": "4.08",
+      "orders": [
+        {
+          "delivery_id": 283793538062,
+          "order_date": "2025-12-28T11:44:23.914573"
+        }
+      ],
+      "items": [
+        {
+          "item_id": 8629079868,
+          "item_name": "3 Piece White",
+          "image_url": "https://cdn.doordash.com/media/photosV2/4e84cd64-b588-4b9c-9948-d2cdd4b45415-f42f106d-a64f-4032-a955-5a326999c55b-retina-large.jpg",
+          "order_id": 3000010487024620,
+          "order_date": "2025-12-28T16:07:43.511000",
+          "webster_tags": {}
+        },
+        {
+          "item_id": 3065733933,
+          "item_name": "Small Western Fries",
+          "image_url": "https://cdn.doordash.com/media/photosV2/b630f043-c73c-4a2c-a739-90481b6deb7a-d9190747-5eb6-4f17-8830-ce5b05c66798-retina-large.JPG",
+          "order_id": 3000010487024620,
+          "order_date": "2025-12-28T16:07:43.511000",
+          "webster_tags": {}
+        }
+      ]
+    },
+    {
+      "store_id": 102464,
+      "store_name": "The Burger Shack (Lee Jackson Memorial Hwy)",
+      "business_name": "The Burger Shack",
+      "business_id": 53735,
+      "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/TheBurgerShack_13661_Chantilly_VA.png",
+      "header_image": "https://cdn.doordash.com/media/store/header/5026bb38-8c69-4181-b717-6f733cd87cf7.342",
+      "logo_url": "https://cdn.doordash.com/media/restaurant/cover_square/5e71a193-7bff-4888-a68a-7b7b4e4fb807.png",
+      "average_rating": "4.58",
+      "orders": [
+        {
+          "delivery_id": 225173911204,
+          "order_date": "2026-02-25T14:54:27.204996"
+        },
+        {
+          "delivery_id": 289401900816,
+          "order_date": "2026-01-19T14:51:32.547212"
+        }
+      ],
+      "items": [
+        {
+          "item_id": 40999522207,
+          "item_name": "Mug Root Beer - 20oz Bottle",
+          "image_url": "https://cdn.doordash.com/media/photosV2/d86a25b6-c0e1-467e-afdc-5ef5bd74e655-retina-large.jpg",
+          "order_id": 3000011498976064,
+          "order_date": "2026-02-25T19:36:38.918000",
+          "webster_tags": {
+            "FLAVOR": {
+              "is_bitter": false,
+              "is_cheesy": false,
+              "is_creamy": false,
+              "is_herbal": false,
+              "is_salty": false,
+              "is_smoky": false,
+              "is_sour": false,
+              "is_spicy": false,
+              "is_sweet": true,
+              "is_tangy": false,
+              "is_umami": false
+            },
+            "DIETARY": {
+              "is_beef_free": true,
+              "is_healthy": false,
+              "is_high_protein": false,
+              "is_keto_friendly": false,
+              "is_kid_friendly": true,
+              "is_low_calorie": false,
+              "is_low_carb": false,
+              "is_low_fat": true,
+              "is_low_sodium": false,
+              "is_low_sugar": false,
+              "is_paleo_friendly": false,
+              "is_pescatarian": true,
+              "is_pescatarian_mentioned": false,
+              "is_pescatarian_options": true,
+              "is_pork_free": true,
+              "is_vegan": true,
+              "is_vegan_mentioned": false,
+              "is_vegan_options": true,
+              "is_vegetarian": true,
+              "is_vegetarian_mentioned": false,
+              "is_vegetarian_options": true
+            },
+            "DISH": {
+              "confidence_score": 0.9106,
+              "hierarchical_tags": "Non-Alcoholic Beverages > Soda & Lemonade > Root Beer",
+              "level_1_tag": "Non-Alcoholic Beverages",
+              "level_1_tag_id": 45609908728411,
+              "level_2_tag": "Soda & Lemonade",
+              "level_2_tag_id": 171749987195687,
+              "level_3_tag": "Root Beer",
+              "level_3_tag_id": 100254322941990,
+              "top_candidates": [
+                {
+                  "confidence_score": 0.9106,
+                  "hierarchical_tags": "Non-Alcoholic Beverages > Soda & Lemonade > Root Beer",
+                  "level_1_tag": "Non-Alcoholic Beverages",
+                  "level_1_tag_id": 45609908728411,
+                  "level_2_tag": "Soda & Lemonade",
+                  "level_2_tag_id": 171749987195687,
+                  "level_3_tag": "Root Beer",
+                  "level_3_tag_id": 100254322941990
+                },
+                {
+                  "confidence_score": 0.0809,
+                  "hierarchical_tags": "Non-Alcoholic Beverages > Soda & Lemonade > Other Soda",
+                  "level_1_tag": "Non-Alcoholic Beverages",
+                  "level_1_tag_id": 45609908728411,
+                  "level_2_tag": "Soda & Lemonade",
+                  "level_2_tag_id": 171749987195687,
+                  "level_3_tag": "Other Soda",
+                  "level_3_tag_id": 159763243659706
+                },
+                {
+                  "confidence_score": 0.0026,
+                  "hierarchical_tags": "Non-Alcoholic Beverages > Other Non-Alcoholic Beverages",
+                  "level_1_tag": "Non-Alcoholic Beverages",
+                  "level_1_tag_id": 45609908728411,
+                  "level_2_tag": "Other Non-Alcoholic Beverages",
+                  "level_2_tag_id": 13512171928411
+                }
+              ]
+            },
+            "PORTION_SIZE": {
+              "portion_size": "1-2 people"
+            },
+            "COURSE": {
+              "course": "Non-Alcoholic Beverages"
+            },
+            "ALLERGEN": {
+              "is_dairy_free": true,
+              "is_gluten_free": true,
+              "is_gluten_free_mentioned": false,
+              "is_gluten_free_options": true,
+              "is_nut_free": true,
+              "is_shellfish_free": true,
+              "is_soy_free": true
+            },
+            "MACRO": {
+              "estimated_calories": 280,
+              "estimated_carbohydrates_grams": 76,
+              "estimated_fat_grams": 0,
+              "estimated_protein_grams": 0
+            }
+          }
+        },
+        {
+          "item_id": 140418025,
+          "item_name": "Cheeseburger Sliders",
+          "image_url": "https://cdn.doordash.com/media/yelp/291c77d0-235d-4e81-bd14-2ca8653a3ed5.jpg",
+          "order_id": 3000011498976064,
+          "order_date": "2026-02-25T19:36:38.918000",
+          "webster_tags": {
+            "CUISINE": {
+              "cuisine": [
+                "American"
+              ]
+            },
+            "INGREDIENT": {
+              "fats_oils": [
+                "butter"
+              ],
+              "fruits_vegetables": [
+                "onion",
+                "tomato",
+                "pickles",
+                "lettuce"
+              ],
+              "grains_carbs": [
+                "bread"
+              ],
+              "proteins": [
+                "beef"
+              ],
+              "spices_seasonings": []
+            },
+            "FLAVOR": {
+              "is_bitter": false,
+              "is_cheesy": false,
+              "is_creamy": false,
+              "is_herbal": false,
+              "is_salty": true,
+              "is_smoky": false,
+              "is_sour": false,
+              "is_spicy": false,
+              "is_sweet": false,
+              "is_tangy": true,
+              "is_umami": false
+            },
+            "ALLERGEN": {
+              "is_dairy_free": false,
+              "is_gluten_free": false,
+              "is_gluten_free_mentioned": false,
+              "is_gluten_free_options": false,
+              "is_nut_free": true,
+              "is_shellfish_free": true,
+              "is_soy_free": true
+            },
+            "PORTION_SIZE": {
+              "portion_size": "1-2 people"
+            },
+            "COURSE": {
+              "course": "Main Dishes"
+            },
+            "PREPARATION": {},
+            "MACRO": {
+              "estimated_calories": 600,
+              "estimated_carbohydrates_grams": 50,
+              "estimated_fat_grams": 30,
+              "estimated_protein_grams": 30
+            },
+            "DISH": {
+              "confidence_score": 0.8784,
+              "hierarchical_tags": "Main Dishes > Burgers > Sliders > Cheese Sliders",
+              "level_1_tag": "Main Dishes",
+              "level_1_tag_id": 210864443733158,
+              "level_2_tag": "Burgers",
+              "level_2_tag_id": 45395264240697,
+              "level_3_tag": "Sliders",
+              "level_3_tag_id": 188227822236523,
+              "level_4_tag": "Cheese Sliders",
+              "level_4_tag_id": 187636294343193,
+              "top_candidates": [
+                {
+                  "confidence_score": 0.8784,
+                  "hierarchical_tags": "Main Dishes > Burgers > Sliders > Cheese Sliders",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Burgers",
+                  "level_2_tag_id": 45395264240697,
+                  "level_3_tag": "Sliders",
+                  "level_3_tag_id": 188227822236523,
+                  "level_4_tag": "Cheese Sliders",
+                  "level_4_tag_id": 187636294343193
+                },
+                {
+                  "confidence_score": 0.1128,
+                  "hierarchical_tags": "Main Dishes > Burgers > Cheeseburger",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Burgers",
+                  "level_2_tag_id": 45395264240697,
+                  "level_3_tag": "Cheeseburger",
+                  "level_3_tag_id": 201609614691211
+                },
+                {
+                  "confidence_score": 0.0044,
+                  "hierarchical_tags": "Main Dishes > Burgers > Sliders",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Burgers",
+                  "level_2_tag_id": 45395264240697,
+                  "level_3_tag": "Sliders",
+                  "level_3_tag_id": 188227822236523
+                }
+              ]
+            },
+            "DIETARY": {
+              "is_beef_free": false,
+              "is_healthy": false,
+              "is_high_protein": true,
+              "is_keto_friendly": false,
+              "is_kid_friendly": true,
+              "is_low_calorie": false,
+              "is_low_carb": false,
+              "is_low_fat": false,
+              "is_low_sodium": false,
+              "is_low_sugar": false,
+              "is_paleo_friendly": false,
+              "is_pescatarian": false,
+              "is_pescatarian_mentioned": false,
+              "is_pescatarian_options": false,
+              "is_pork_free": false,
+              "is_vegan": false,
+              "is_vegan_mentioned": false,
+              "is_vegan_options": false,
+              "is_vegetarian": false,
+              "is_vegetarian_mentioned": false,
+              "is_vegetarian_options": false
+            }
+          }
+        },
+        {
+          "item_id": 140418025,
+          "item_name": "Cheeseburger Sliders",
+          "image_url": "https://cdn.doordash.com/media/yelp/291c77d0-235d-4e81-bd14-2ca8653a3ed5.jpg",
+          "order_id": 3000010858247973,
+          "order_date": "2026-01-19T19:28:22.267000",
+          "webster_tags": {
+            "CUISINE": {
+              "cuisine": [
+                "American"
+              ]
+            },
+            "INGREDIENT": {
+              "fats_oils": [
+                "butter"
+              ],
+              "fruits_vegetables": [
+                "onion",
+                "tomato",
+                "pickles",
+                "lettuce"
+              ],
+              "grains_carbs": [
+                "bread"
+              ],
+              "proteins": [
+                "beef"
+              ],
+              "spices_seasonings": []
+            },
+            "FLAVOR": {
+              "is_bitter": false,
+              "is_cheesy": false,
+              "is_creamy": false,
+              "is_herbal": false,
+              "is_salty": true,
+              "is_smoky": false,
+              "is_sour": false,
+              "is_spicy": false,
+              "is_sweet": false,
+              "is_tangy": true,
+              "is_umami": false
+            },
+            "ALLERGEN": {
+              "is_dairy_free": false,
+              "is_gluten_free": false,
+              "is_gluten_free_mentioned": false,
+              "is_gluten_free_options": false,
+              "is_nut_free": true,
+              "is_shellfish_free": true,
+              "is_soy_free": true
+            },
+            "PORTION_SIZE": {
+              "portion_size": "1-2 people"
+            },
+            "COURSE": {
+              "course": "Main Dishes"
+            },
+            "PREPARATION": {},
+            "MACRO": {
+              "estimated_calories": 600,
+              "estimated_carbohydrates_grams": 50,
+              "estimated_fat_grams": 30,
+              "estimated_protein_grams": 30
+            },
+            "DISH": {
+              "confidence_score": 0.8784,
+              "hierarchical_tags": "Main Dishes > Burgers > Sliders > Cheese Sliders",
+              "level_1_tag": "Main Dishes",
+              "level_1_tag_id": 210864443733158,
+              "level_2_tag": "Burgers",
+              "level_2_tag_id": 45395264240697,
+              "level_3_tag": "Sliders",
+              "level_3_tag_id": 188227822236523,
+              "level_4_tag": "Cheese Sliders",
+              "level_4_tag_id": 187636294343193,
+              "top_candidates": [
+                {
+                  "confidence_score": 0.8784,
+                  "hierarchical_tags": "Main Dishes > Burgers > Sliders > Cheese Sliders",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Burgers",
+                  "level_2_tag_id": 45395264240697,
+                  "level_3_tag": "Sliders",
+                  "level_3_tag_id": 188227822236523,
+                  "level_4_tag": "Cheese Sliders",
+                  "level_4_tag_id": 187636294343193
+                },
+                {
+                  "confidence_score": 0.1128,
+                  "hierarchical_tags": "Main Dishes > Burgers > Cheeseburger",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Burgers",
+                  "level_2_tag_id": 45395264240697,
+                  "level_3_tag": "Cheeseburger",
+                  "level_3_tag_id": 201609614691211
+                },
+                {
+                  "confidence_score": 0.0044,
+                  "hierarchical_tags": "Main Dishes > Burgers > Sliders",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Burgers",
+                  "level_2_tag_id": 45395264240697,
+                  "level_3_tag": "Sliders",
+                  "level_3_tag_id": 188227822236523
+                }
+              ]
+            },
+            "DIETARY": {
+              "is_beef_free": false,
+              "is_healthy": false,
+              "is_high_protein": true,
+              "is_keto_friendly": false,
+              "is_kid_friendly": true,
+              "is_low_calorie": false,
+              "is_low_carb": false,
+              "is_low_fat": false,
+              "is_low_sodium": false,
+              "is_low_sugar": false,
+              "is_paleo_friendly": false,
+              "is_pescatarian": false,
+              "is_pescatarian_mentioned": false,
+              "is_pescatarian_options": false,
+              "is_pork_free": false,
+              "is_vegan": false,
+              "is_vegan_mentioned": false,
+              "is_vegan_options": false,
+              "is_vegetarian": false,
+              "is_vegetarian_mentioned": false,
+              "is_vegetarian_options": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "store_id": 31020399,
+      "store_name": "Wegmans (115)",
+      "business_name": "Wegmans",
+      "business_id": 13055333,
+      "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/48d6d26c-c161-44b6-a7b5-1b8c4d77242e.png",
+      "header_image": "https://cdn.doordash.com/media/store/header/0274e14c-2561-472e-8645-ab5cca25b160.jpg",
+      "logo_url": "https://cdn.doordash.com/media/restaurant/cover_square/ce676913-ba79-47ac-b70c-3a7498809884.png",
+      "average_rating": "4.68",
+      "orders": [
+        {
+          "delivery_id": 306987186251,
+          "order_date": "2026-01-01T17:09:07.376091"
+        }
+      ],
+      "items": [
+        {
+          "item_id": 18891800907,
+          "item_name": "Host Waiter's Corkscrew",
+          "image_url": "",
+          "order_id": 3000010559421149,
+          "order_date": "2026-01-01T21:22:56.870000",
+          "webster_tags": {}
+        },
+        {
+          "item_id": 18891792707,
+          "item_name": "Cape Originals Chenin Blanc & Grenache Blanc White Wine Blends Bottle South Africa (750 ml)",
+          "image_url": "",
+          "order_id": 3000010559421149,
+          "order_date": "2026-01-01T21:22:56.870000",
+          "webster_tags": {}
+        }
+      ]
+    },
+    {
+      "store_id": 31020433,
+      "store_name": "Wegmans (16)",
+      "business_name": "Wegmans",
+      "business_id": 13055333,
+      "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/48d6d26c-c161-44b6-a7b5-1b8c4d77242e.png",
+      "header_image": "https://cdn.doordash.com/media/store/header/0274e14c-2561-472e-8645-ab5cca25b160.jpg",
+      "logo_url": "https://cdn.doordash.com/media/restaurant/cover_square/ce676913-ba79-47ac-b70c-3a7498809884.png",
+      "average_rating": "4.71",
+      "orders": [
+        {
+          "delivery_id": 215283237818,
+          "order_date": "2026-02-22T17:29:27.851012"
+        },
+        {
+          "delivery_id": 249629222526,
+          "order_date": "2026-02-19T15:10:17.226036"
+        },
+        {
+          "delivery_id": 243676241288,
+          "order_date": "2026-02-19T14:42:55.229643"
+        }
+      ],
+      "items": [
+        {
+          "item_id": 18712168021,
+          "item_name": "Newtons Soft & Chewy Fig Cookies (10 oz)",
+          "image_url": "",
+          "order_id": 3000011387658600,
+          "order_date": "2026-02-19T19:18:26.983000",
+          "webster_tags": {}
+        },
+        {
+          "item_id": 18711883825,
+          "item_name": "Rumford Gluten-Free Double Acting Baking Powder (8.1 oz)",
+          "image_url": "",
+          "order_id": 3000011386846184,
+          "order_date": "2026-02-19T18:43:21.524000",
+          "webster_tags": {}
+        },
+        {
+          "item_id": 18712169885,
+          "item_name": "Tyson Grilled & Ready Fully Cooked Oven Roasted Diced Chicken Breast (22 oz)",
+          "image_url": "",
+          "order_id": 3000011450664097,
+          "order_date": "2026-02-22T21:52:06.359000",
+          "webster_tags": {}
+        },
+        {
+          "item_id": 37451868268,
+          "item_name": "Wegmans Organic Sage (0.71 oz)",
+          "image_url": "",
+          "order_id": 3000011450664097,
+          "order_date": "2026-02-22T21:52:06.359000",
+          "webster_tags": {}
+        },
+        {
+          "item_id": 19599859791,
+          "item_name": "Wegmans Navel Oranges",
+          "image_url": "",
+          "order_id": 3000011450664097,
+          "order_date": "2026-02-22T21:52:06.359000",
+          "webster_tags": {}
+        },
+        {
+          "item_id": 18711883747,
+          "item_name": "Quaker Oats Yellow Corn Meal (24 oz)",
+          "image_url": "",
+          "order_id": 3000011386846184,
+          "order_date": "2026-02-19T18:43:21.524000",
+          "webster_tags": {}
+        },
+        {
+          "item_id": 18712160450,
+          "item_name": "Bush's Best Brown Sugar Hickory Baked Beans (28 oz)",
+          "image_url": "",
+          "order_id": 3000011386846184,
+          "order_date": "2026-02-19T18:43:21.524000",
+          "webster_tags": {}
+        },
+        {
+          "item_id": 18712194220,
+          "item_name": "Oscar Mayer Beef Franks Classic (15 oz)",
+          "image_url": "",
+          "order_id": 3000011386846184,
+          "order_date": "2026-02-19T18:43:21.524000",
+          "webster_tags": {}
+        },
+        {
+          "item_id": 18712189373,
+          "item_name": "Borges Gatao Vinho Verde Bottle Portugal (750 ml)",
+          "image_url": "",
+          "order_id": 3000011386846184,
+          "order_date": "2026-02-19T18:43:21.524000",
+          "webster_tags": {}
+        },
+        {
+          "item_id": 18712167389,
+          "item_name": "Lance Toasty Peanut Butter Sandwich Crackers (1.29 oz x 10 ct)",
+          "image_url": "",
+          "order_id": 3000011387658600,
+          "order_date": "2026-02-19T19:18:26.983000",
+          "webster_tags": {}
+        },
+        {
+          "item_id": 18712193432,
+          "item_name": "Green Scallion Onion",
+          "image_url": "",
+          "order_id": 3000011450664097,
+          "order_date": "2026-02-22T21:52:06.359000",
+          "webster_tags": {}
+        },
+        {
+          "item_id": 18712185699,
+          "item_name": "Wegmans Small Slider Top Quart Size Freezer Bags (35 ct)",
+          "image_url": "",
+          "order_id": 3000011386846184,
+          "order_date": "2026-02-19T18:43:21.524000",
+          "webster_tags": {}
+        },
+        {
+          "item_id": 18712173705,
+          "item_name": "Wegmans Cage Free Organic Grade A Large Brown Eggs (12 ct)",
+          "image_url": "",
+          "order_id": 3000011450664097,
+          "order_date": "2026-02-22T21:52:06.359000",
+          "webster_tags": {}
+        },
+        {
+          "item_id": 18712164809,
+          "item_name": "TEN PH 10 Alkaline Spring Water (128 fl oz)",
+          "image_url": "",
+          "order_id": 3000011386846184,
+          "order_date": "2026-02-19T18:43:21.524000",
+          "webster_tags": {}
+        },
+        {
+          "item_id": 18712160326,
+          "item_name": "Spice Classics Crushed Red Pepper (1.75 oz)",
+          "image_url": "",
+          "order_id": 3000011450664097,
+          "order_date": "2026-02-22T21:52:06.359000",
+          "webster_tags": {}
+        },
+        {
+          "item_id": 19599859818,
+          "item_name": "Wegmans Celery (24 ct)",
+          "image_url": "",
+          "order_id": 3000011450664097,
+          "order_date": "2026-02-22T21:52:06.359000",
+          "webster_tags": {}
+        },
+        {
+          "item_id": 18712193606,
+          "item_name": "Green Cabbage (each)",
+          "image_url": "",
+          "order_id": 3000011386846184,
+          "order_date": "2026-02-19T18:43:21.524000",
+          "webster_tags": {}
+        },
+        {
+          "item_id": 18711697778,
+          "item_name": "Wegmans Organic Spring Mix (5 oz)",
+          "image_url": "",
+          "order_id": 3000011386846184,
+          "order_date": "2026-02-19T18:43:21.524000",
+          "webster_tags": {}
+        },
+        {
+          "item_id": 27124812377,
+          "item_name": "Wegmans Lemon Scent Dishwasher Detergent (25 ct)",
+          "image_url": "",
+          "order_id": 3000011450664097,
+          "order_date": "2026-02-22T21:52:06.359000",
+          "webster_tags": {}
+        },
+        {
+          "item_id": 18712173295,
+          "item_name": "Wegmans French Baguette (12 oz)",
+          "image_url": "",
+          "order_id": 3000011450664097,
+          "order_date": "2026-02-22T21:52:06.359000",
+          "webster_tags": {}
+        }
+      ]
+    }
+  ]
+}

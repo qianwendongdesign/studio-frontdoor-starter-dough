@@ -1,0 +1,13 @@
+{
+  "categories": ["For you", "Sandwich", "Japanese", "Noodles", "Salads", "Bowls", "Indian", "Mexican", "Pizza"],
+  "subCategories": {
+    "Sandwich": ["Sandwich", "Club", "BLT", "Wrap", "Panini", "Sub"],
+    "Japanese": ["Japanese", "Sushi", "Ramen", "Udon", "Tempura", "Rice"],
+    "Noodles": ["Noodles", "Ramen", "Pho", "Udon", "Pad Thai", "Lo Mein"],
+    "Salads": ["Salads", "Caesar", "Greek", "Grain Bowl", "Poke", "Açaí"],
+    "Bowls": ["Bowls", "Poké", "Grain", "Açaí", "Rice", "Burrito Bowl"],
+    "Indian": ["Indian", "Curry", "Biryani", "Tandoori", "Naan", "Tikka"],
+    "Mexican": ["Mexican", "Tacos", "Burrito", "Quesadilla", "Bowl", "Nachos"],
+    "Pizza": ["Pizza", "Margherita", "Pepperoni", "Deep Dish", "Flatbread", "Calzone"]
+  }
+}

@@ -1,0 +1,1403 @@
+{
+  "consumer_id": "56456163",
+  "fetched_at": "2026-03-27T18:36:37.636701Z",
+  "stores": [
+    {
+      "store_id": 548796,
+      "store_name": "Cracker Barrel (383)",
+      "business_name": "Cracker Barrel",
+      "business_id": 20947,
+      "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/763b4390-50c2-4728-81c7-1ea6c1b083a7.png",
+      "header_image": "https://cdn.doordash.com/media/store/header/e111f1d0-4968-4be1-8a1a-7778e12216e1.jpg",
+      "logo_url": "https://cdn.doordash.com/media/restaurant/cover_square/45a53a54-9f1b-4524-ad16-89cce8c7e6f8.png",
+      "average_rating": "4.17",
+      "orders": [
+        {
+          "delivery_id": 306081498193,
+          "order_date": "2026-03-24T14:15:10.105000"
+        },
+        {
+          "delivery_id": 227830437457,
+          "order_date": "2026-03-23T14:26:47.143000"
+        }
+      ],
+      "items": [
+        {
+          "item_id": 11688451068,
+          "item_name": "Hashbrown Casserole",
+          "image_url": "https://cdn.doordash.com/media/photosV2/68b588d0-8fae-4eca-a216-000e8ffe7d6a-retina-large.jpg",
+          "order_id": 3000011991144136,
+          "order_date": "2026-03-23T16:51:49.959000",
+          "webster_tags": {
+            "DISH": {
+              "confidence_score": 0.9419,
+              "hierarchical_tags": "Side Dishes & Condiments > Potato Sides > Hash Browns",
+              "level_1_tag": "Side Dishes & Condiments",
+              "level_1_tag_id": 106755224903116,
+              "level_2_tag": "Potato Sides",
+              "level_2_tag_id": 232992856081390,
+              "level_3_tag": "Hash Browns",
+              "level_3_tag_id": 133761158300868,
+              "top_candidates": [
+                {
+                  "confidence_score": 0.9419,
+                  "hierarchical_tags": "Side Dishes & Condiments > Potato Sides > Hash Browns",
+                  "level_1_tag": "Side Dishes & Condiments",
+                  "level_1_tag_id": 106755224903116,
+                  "level_2_tag": "Potato Sides",
+                  "level_2_tag_id": 232992856081390,
+                  "level_3_tag": "Hash Browns",
+                  "level_3_tag_id": 133761158300868
+                },
+                {
+                  "confidence_score": 0.0162,
+                  "hierarchical_tags": "Side Dishes & Condiments > Potato Sides > Hash Browns > Loaded Hash Browns",
+                  "level_1_tag": "Side Dishes & Condiments",
+                  "level_1_tag_id": 106755224903116,
+                  "level_2_tag": "Potato Sides",
+                  "level_2_tag_id": 232992856081390,
+                  "level_3_tag": "Hash Browns",
+                  "level_3_tag_id": 133761158300868,
+                  "level_4_tag": "Loaded Hash Browns",
+                  "level_4_tag_id": 115311250174996
+                },
+                {
+                  "confidence_score": 0.0148,
+                  "hierarchical_tags": "Main Dishes > Casserole > Au Gratin Potatoes",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Casserole",
+                  "level_2_tag_id": 236072329665225,
+                  "level_3_tag": "Au Gratin Potatoes",
+                  "level_3_tag_id": 184684506829189
+                }
+              ]
+            },
+            "MACRO": {
+              "estimated_calories": 300,
+              "estimated_carbohydrates_grams": 30,
+              "estimated_fat_grams": 15,
+              "estimated_protein_grams": 10
+            },
+            "PORTION_SIZE": {
+              "portion_size": "1-2 people"
+            },
+            "COURSE": {
+              "course": "Side Dishes & Condiments"
+            },
+            "INGREDIENT": {
+              "fats_oils": [],
+              "fruits_vegetables": [
+                "potato",
+                "onion"
+              ],
+              "grains_carbs": [],
+              "proteins": [
+                "Colby cheese"
+              ],
+              "spices_seasonings": [
+                "salt",
+                "pepper",
+                "seasoning blend"
+              ]
+            },
+            "CUISINE": {
+              "cuisine": [
+                "American"
+              ]
+            },
+            "PREPARATION": {
+              "dish_preparation_method": "Baked"
+            },
+            "DIETARY": {
+              "is_beef_free": true,
+              "is_healthy": false,
+              "is_high_protein": false,
+              "is_keto_friendly": false,
+              "is_kid_friendly": true,
+              "is_low_calorie": false,
+              "is_low_carb": false,
+              "is_low_fat": false,
+              "is_low_sodium": false,
+              "is_low_sugar": true,
+              "is_paleo_friendly": false,
+              "is_pescatarian": true,
+              "is_pescatarian_mentioned": false,
+              "is_pescatarian_options": true,
+              "is_pork_free": true,
+              "is_vegan": false,
+              "is_vegan_mentioned": false,
+              "is_vegan_options": false,
+              "is_vegetarian": true,
+              "is_vegetarian_mentioned": false,
+              "is_vegetarian_options": true
+            },
+            "FLAVOR": {
+              "is_bitter": false,
+              "is_cheesy": true,
+              "is_creamy": false,
+              "is_herbal": false,
+              "is_salty": true,
+              "is_smoky": false,
+              "is_sour": false,
+              "is_spicy": false,
+              "is_sweet": false,
+              "is_tangy": false,
+              "is_umami": false
+            },
+            "ALLERGEN": {
+              "is_dairy_free": false,
+              "is_gluten_free": false,
+              "is_gluten_free_mentioned": false,
+              "is_gluten_free_options": false,
+              "is_nut_free": true,
+              "is_shellfish_free": true,
+              "is_soy_free": true
+            }
+          }
+        },
+        {
+          "item_id": 11688456638,
+          "item_name": "Two Buttermilk Pancakes ",
+          "image_url": "https://cdn.doordash.com/media/photosV2/b11b380d-39f2-43e0-8265-302d6ef4c8af-retina-large.jpg",
+          "order_id": 3000012007378212,
+          "order_date": "2026-03-24T16:38:09.794000",
+          "webster_tags": {
+            "COURSE": {
+              "course": "Breakfast & Brunch"
+            },
+            "DIETARY": {
+              "is_beef_free": true,
+              "is_healthy": false,
+              "is_high_protein": false,
+              "is_keto_friendly": false,
+              "is_kid_friendly": true,
+              "is_low_calorie": false,
+              "is_low_carb": false,
+              "is_low_fat": false,
+              "is_low_sodium": false,
+              "is_low_sugar": false,
+              "is_paleo_friendly": false,
+              "is_pescatarian": true,
+              "is_pescatarian_mentioned": false,
+              "is_pescatarian_options": true,
+              "is_pork_free": true,
+              "is_vegan": false,
+              "is_vegan_mentioned": false,
+              "is_vegan_options": false,
+              "is_vegetarian": true,
+              "is_vegetarian_mentioned": false,
+              "is_vegetarian_options": true
+            },
+            "ALLERGEN": {
+              "is_dairy_free": false,
+              "is_gluten_free": false,
+              "is_gluten_free_mentioned": false,
+              "is_gluten_free_options": false,
+              "is_nut_free": true,
+              "is_shellfish_free": true,
+              "is_soy_free": true
+            },
+            "FLAVOR": {
+              "is_bitter": false,
+              "is_cheesy": false,
+              "is_creamy": true,
+              "is_herbal": false,
+              "is_salty": false,
+              "is_smoky": false,
+              "is_sour": false,
+              "is_spicy": false,
+              "is_sweet": true,
+              "is_tangy": false,
+              "is_umami": false
+            },
+            "DISH": {
+              "confidence_score": 0.9985,
+              "hierarchical_tags": "Breakfast & Brunch > Pancakes > Buttermilk Pancakes",
+              "level_1_tag": "Breakfast & Brunch",
+              "level_1_tag_id": 90139972759329,
+              "level_2_tag": "Pancakes",
+              "level_2_tag_id": 189418267496733,
+              "level_3_tag": "Buttermilk Pancakes",
+              "level_3_tag_id": 93758033128409,
+              "top_candidates": [
+                {
+                  "confidence_score": 0.9985,
+                  "hierarchical_tags": "Breakfast & Brunch > Pancakes > Buttermilk Pancakes",
+                  "level_1_tag": "Breakfast & Brunch",
+                  "level_1_tag_id": 90139972759329,
+                  "level_2_tag": "Pancakes",
+                  "level_2_tag_id": 189418267496733,
+                  "level_3_tag": "Buttermilk Pancakes",
+                  "level_3_tag_id": 93758033128409
+                },
+                {
+                  "confidence_score": 0.0005,
+                  "hierarchical_tags": "Main Dishes > Pancakes > Other Pancakes",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Pancakes",
+                  "level_2_tag_id": 225595976098065,
+                  "level_3_tag": "Other Pancakes",
+                  "level_3_tag_id": 200989091121201
+                },
+                {
+                  "confidence_score": 0.0003,
+                  "hierarchical_tags": "Breakfast & Brunch > Pancakes > Sweet Pancakes",
+                  "level_1_tag": "Breakfast & Brunch",
+                  "level_1_tag_id": 90139972759329,
+                  "level_2_tag": "Pancakes",
+                  "level_2_tag_id": 189418267496733,
+                  "level_3_tag": "Sweet Pancakes",
+                  "level_3_tag_id": 124643965724014
+                }
+              ]
+            },
+            "PORTION_SIZE": {
+              "portion_size": "1-2 people"
+            },
+            "PREPARATION": {
+              "dish_preparation_method": "Fried"
+            },
+            "MACRO": {
+              "estimated_calories": 500,
+              "estimated_carbohydrates_grams": 70,
+              "estimated_fat_grams": 20,
+              "estimated_protein_grams": 10
+            },
+            "INGREDIENT": {
+              "fats_oils": [
+                "butter"
+              ],
+              "fruits_vegetables": [],
+              "grains_carbs": [
+                "pancakes"
+              ],
+              "proteins": [],
+              "spices_seasonings": [
+                "syrup"
+              ]
+            },
+            "CUISINE": {
+              "cuisine": [
+                "American"
+              ]
+            }
+          }
+        },
+        {
+          "item_id": 11688451068,
+          "item_name": "Hashbrown Casserole",
+          "image_url": "https://cdn.doordash.com/media/photosV2/68b588d0-8fae-4eca-a216-000e8ffe7d6a-retina-large.jpg",
+          "order_id": 3000012007378212,
+          "order_date": "2026-03-24T16:38:09.794000",
+          "webster_tags": {
+            "DISH": {
+              "confidence_score": 0.9419,
+              "hierarchical_tags": "Side Dishes & Condiments > Potato Sides > Hash Browns",
+              "level_1_tag": "Side Dishes & Condiments",
+              "level_1_tag_id": 106755224903116,
+              "level_2_tag": "Potato Sides",
+              "level_2_tag_id": 232992856081390,
+              "level_3_tag": "Hash Browns",
+              "level_3_tag_id": 133761158300868,
+              "top_candidates": [
+                {
+                  "confidence_score": 0.9419,
+                  "hierarchical_tags": "Side Dishes & Condiments > Potato Sides > Hash Browns",
+                  "level_1_tag": "Side Dishes & Condiments",
+                  "level_1_tag_id": 106755224903116,
+                  "level_2_tag": "Potato Sides",
+                  "level_2_tag_id": 232992856081390,
+                  "level_3_tag": "Hash Browns",
+                  "level_3_tag_id": 133761158300868
+                },
+                {
+                  "confidence_score": 0.0162,
+                  "hierarchical_tags": "Side Dishes & Condiments > Potato Sides > Hash Browns > Loaded Hash Browns",
+                  "level_1_tag": "Side Dishes & Condiments",
+                  "level_1_tag_id": 106755224903116,
+                  "level_2_tag": "Potato Sides",
+                  "level_2_tag_id": 232992856081390,
+                  "level_3_tag": "Hash Browns",
+                  "level_3_tag_id": 133761158300868,
+                  "level_4_tag": "Loaded Hash Browns",
+                  "level_4_tag_id": 115311250174996
+                },
+                {
+                  "confidence_score": 0.0148,
+                  "hierarchical_tags": "Main Dishes > Casserole > Au Gratin Potatoes",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Casserole",
+                  "level_2_tag_id": 236072329665225,
+                  "level_3_tag": "Au Gratin Potatoes",
+                  "level_3_tag_id": 184684506829189
+                }
+              ]
+            },
+            "MACRO": {
+              "estimated_calories": 300,
+              "estimated_carbohydrates_grams": 30,
+              "estimated_fat_grams": 15,
+              "estimated_protein_grams": 10
+            },
+            "PORTION_SIZE": {
+              "portion_size": "1-2 people"
+            },
+            "COURSE": {
+              "course": "Side Dishes & Condiments"
+            },
+            "INGREDIENT": {
+              "fats_oils": [],
+              "fruits_vegetables": [
+                "potato",
+                "onion"
+              ],
+              "grains_carbs": [],
+              "proteins": [
+                "Colby cheese"
+              ],
+              "spices_seasonings": [
+                "salt",
+                "pepper",
+                "seasoning blend"
+              ]
+            },
+            "CUISINE": {
+              "cuisine": [
+                "American"
+              ]
+            },
+            "PREPARATION": {
+              "dish_preparation_method": "Baked"
+            },
+            "DIETARY": {
+              "is_beef_free": true,
+              "is_healthy": false,
+              "is_high_protein": false,
+              "is_keto_friendly": false,
+              "is_kid_friendly": true,
+              "is_low_calorie": false,
+              "is_low_carb": false,
+              "is_low_fat": false,
+              "is_low_sodium": false,
+              "is_low_sugar": true,
+              "is_paleo_friendly": false,
+              "is_pescatarian": true,
+              "is_pescatarian_mentioned": false,
+              "is_pescatarian_options": true,
+              "is_pork_free": true,
+              "is_vegan": false,
+              "is_vegan_mentioned": false,
+              "is_vegan_options": false,
+              "is_vegetarian": true,
+              "is_vegetarian_mentioned": false,
+              "is_vegetarian_options": true
+            },
+            "FLAVOR": {
+              "is_bitter": false,
+              "is_cheesy": true,
+              "is_creamy": false,
+              "is_herbal": false,
+              "is_salty": true,
+              "is_smoky": false,
+              "is_sour": false,
+              "is_spicy": false,
+              "is_sweet": false,
+              "is_tangy": false,
+              "is_umami": false
+            },
+            "ALLERGEN": {
+              "is_dairy_free": false,
+              "is_gluten_free": false,
+              "is_gluten_free_mentioned": false,
+              "is_gluten_free_options": false,
+              "is_nut_free": true,
+              "is_shellfish_free": true,
+              "is_soy_free": true
+            }
+          }
+        },
+        {
+          "item_id": 11688456638,
+          "item_name": "Two Buttermilk Pancakes ",
+          "image_url": "https://cdn.doordash.com/media/photosV2/b11b380d-39f2-43e0-8265-302d6ef4c8af-retina-large.jpg",
+          "order_id": 3000011991144136,
+          "order_date": "2026-03-23T16:51:49.959000",
+          "webster_tags": {
+            "COURSE": {
+              "course": "Breakfast & Brunch"
+            },
+            "DIETARY": {
+              "is_beef_free": true,
+              "is_healthy": false,
+              "is_high_protein": false,
+              "is_keto_friendly": false,
+              "is_kid_friendly": true,
+              "is_low_calorie": false,
+              "is_low_carb": false,
+              "is_low_fat": false,
+              "is_low_sodium": false,
+              "is_low_sugar": false,
+              "is_paleo_friendly": false,
+              "is_pescatarian": true,
+              "is_pescatarian_mentioned": false,
+              "is_pescatarian_options": true,
+              "is_pork_free": true,
+              "is_vegan": false,
+              "is_vegan_mentioned": false,
+              "is_vegan_options": false,
+              "is_vegetarian": true,
+              "is_vegetarian_mentioned": false,
+              "is_vegetarian_options": true
+            },
+            "ALLERGEN": {
+              "is_dairy_free": false,
+              "is_gluten_free": false,
+              "is_gluten_free_mentioned": false,
+              "is_gluten_free_options": false,
+              "is_nut_free": true,
+              "is_shellfish_free": true,
+              "is_soy_free": true
+            },
+            "FLAVOR": {
+              "is_bitter": false,
+              "is_cheesy": false,
+              "is_creamy": true,
+              "is_herbal": false,
+              "is_salty": false,
+              "is_smoky": false,
+              "is_sour": false,
+              "is_spicy": false,
+              "is_sweet": true,
+              "is_tangy": false,
+              "is_umami": false
+            },
+            "DISH": {
+              "confidence_score": 0.9985,
+              "hierarchical_tags": "Breakfast & Brunch > Pancakes > Buttermilk Pancakes",
+              "level_1_tag": "Breakfast & Brunch",
+              "level_1_tag_id": 90139972759329,
+              "level_2_tag": "Pancakes",
+              "level_2_tag_id": 189418267496733,
+              "level_3_tag": "Buttermilk Pancakes",
+              "level_3_tag_id": 93758033128409,
+              "top_candidates": [
+                {
+                  "confidence_score": 0.9985,
+                  "hierarchical_tags": "Breakfast & Brunch > Pancakes > Buttermilk Pancakes",
+                  "level_1_tag": "Breakfast & Brunch",
+                  "level_1_tag_id": 90139972759329,
+                  "level_2_tag": "Pancakes",
+                  "level_2_tag_id": 189418267496733,
+                  "level_3_tag": "Buttermilk Pancakes",
+                  "level_3_tag_id": 93758033128409
+                },
+                {
+                  "confidence_score": 0.0005,
+                  "hierarchical_tags": "Main Dishes > Pancakes > Other Pancakes",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Pancakes",
+                  "level_2_tag_id": 225595976098065,
+                  "level_3_tag": "Other Pancakes",
+                  "level_3_tag_id": 200989091121201
+                },
+                {
+                  "confidence_score": 0.0003,
+                  "hierarchical_tags": "Breakfast & Brunch > Pancakes > Sweet Pancakes",
+                  "level_1_tag": "Breakfast & Brunch",
+                  "level_1_tag_id": 90139972759329,
+                  "level_2_tag": "Pancakes",
+                  "level_2_tag_id": 189418267496733,
+                  "level_3_tag": "Sweet Pancakes",
+                  "level_3_tag_id": 124643965724014
+                }
+              ]
+            },
+            "PORTION_SIZE": {
+              "portion_size": "1-2 people"
+            },
+            "PREPARATION": {
+              "dish_preparation_method": "Fried"
+            },
+            "MACRO": {
+              "estimated_calories": 500,
+              "estimated_carbohydrates_grams": 70,
+              "estimated_fat_grams": 20,
+              "estimated_protein_grams": 10
+            },
+            "INGREDIENT": {
+              "fats_oils": [
+                "butter"
+              ],
+              "fruits_vegetables": [],
+              "grains_carbs": [
+                "pancakes"
+              ],
+              "proteins": [],
+              "spices_seasonings": [
+                "syrup"
+              ]
+            },
+            "CUISINE": {
+              "cuisine": [
+                "American"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "store_id": 470748,
+      "store_name": "Fuji To Go (Bedford Heights)",
+      "business_name": "Fuji To Go",
+      "business_id": 224281,
+      "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/Fuji_To_Go_Bedford_Heights.png",
+      "header_image": "https://cdn.doordash.com/media/store/header/224281.jpg",
+      "logo_url": "https://cdn.doordash.com/media/restaurant/cover_square/Fuji_To_Go.jpg",
+      "average_rating": "4.20",
+      "orders": [
+        {
+          "delivery_id": 233651264424,
+          "order_date": "2026-02-14T20:17:28.649551"
+        }
+      ],
+      "items": [
+        {
+          "item_id": 60751679,
+          "item_name": "Vegetable Spring Roll",
+          "image_url": "https://cdn.doordash.com/media/photos/a52530d6-eddb-49b0-9cb2-ca129349809c-retina-large-jpeg",
+          "order_id": 3000011309571613,
+          "order_date": "2026-02-15T00:50:44.398000",
+          "webster_tags": {
+            "ALLERGEN": {
+              "is_dairy_free": false,
+              "is_gluten_free": false,
+              "is_gluten_free_mentioned": false,
+              "is_gluten_free_options": false,
+              "is_nut_free": true,
+              "is_shellfish_free": true,
+              "is_soy_free": false
+            },
+            "DISH": {
+              "confidence_score": 0.9966,
+              "hierarchical_tags": "Appetizer > Wraps > Spring Rolls > Spring Rolls Vegetarian",
+              "level_1_tag": "Appetizer",
+              "level_1_tag_id": 188857423961001,
+              "level_2_tag": "Wraps",
+              "level_2_tag_id": 251796562906609,
+              "level_3_tag": "Spring Rolls",
+              "level_3_tag_id": 158396561255329,
+              "level_4_tag": "Spring Rolls Vegetarian",
+              "level_4_tag_id": 165328324264303,
+              "top_candidates": [
+                {
+                  "confidence_score": 0.9966,
+                  "hierarchical_tags": "Appetizer > Wraps > Spring Rolls > Spring Rolls Vegetarian",
+                  "level_1_tag": "Appetizer",
+                  "level_1_tag_id": 188857423961001,
+                  "level_2_tag": "Wraps",
+                  "level_2_tag_id": 251796562906609,
+                  "level_3_tag": "Spring Rolls",
+                  "level_3_tag_id": 158396561255329,
+                  "level_4_tag": "Spring Rolls Vegetarian",
+                  "level_4_tag_id": 165328324264303
+                },
+                {
+                  "confidence_score": 0.0028,
+                  "hierarchical_tags": "Main Dishes > Wraps > Rolls > Spring Roll",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Wraps",
+                  "level_2_tag_id": 58581609213245,
+                  "level_3_tag": "Rolls",
+                  "level_3_tag_id": 259193409117998,
+                  "level_4_tag": "Spring Roll",
+                  "level_4_tag_id": 128079086111223
+                },
+                {
+                  "confidence_score": 0.0002,
+                  "hierarchical_tags": "Appetizer > Wraps > Roll",
+                  "level_1_tag": "Appetizer",
+                  "level_1_tag_id": 188857423961001,
+                  "level_2_tag": "Wraps",
+                  "level_2_tag_id": 251796562906609,
+                  "level_3_tag": "Roll",
+                  "level_3_tag_id": 87572163474485
+                }
+              ]
+            },
+            "PREPARATION": {
+              "dish_preparation_method": "Fried"
+            },
+            "COURSE": {
+              "course": "Appetizer"
+            },
+            "FLAVOR": {
+              "is_bitter": false,
+              "is_cheesy": false,
+              "is_creamy": false,
+              "is_herbal": false,
+              "is_salty": true,
+              "is_smoky": false,
+              "is_sour": false,
+              "is_spicy": false,
+              "is_sweet": false,
+              "is_tangy": false,
+              "is_umami": false
+            },
+            "PORTION_SIZE": {
+              "portion_size": "1-2 people"
+            },
+            "INGREDIENT": {
+              "fats_oils": [],
+              "fruits_vegetables": [
+                "vegetable"
+              ],
+              "grains_carbs": [],
+              "proteins": [],
+              "spices_seasonings": []
+            },
+            "DIETARY": {
+              "is_beef_free": true,
+              "is_healthy": true,
+              "is_high_protein": false,
+              "is_keto_friendly": false,
+              "is_kid_friendly": true,
+              "is_low_calorie": false,
+              "is_low_carb": false,
+              "is_low_fat": false,
+              "is_low_sodium": false,
+              "is_low_sugar": false,
+              "is_paleo_friendly": false,
+              "is_pescatarian": true,
+              "is_pescatarian_mentioned": false,
+              "is_pescatarian_options": true,
+              "is_pork_free": true,
+              "is_vegan": false,
+              "is_vegan_mentioned": false,
+              "is_vegan_options": true,
+              "is_vegetarian": true,
+              "is_vegetarian_mentioned": true,
+              "is_vegetarian_options": true
+            },
+            "CUISINE": {
+              "cuisine": [
+                "Asian"
+              ]
+            },
+            "MACRO": {}
+          }
+        },
+        {
+          "item_id": 420510867,
+          "item_name": "Vegetable Hibachi",
+          "image_url": "https://cdn.doordash.com/media/photos/246fcc1e-8a8a-4542-b91a-a71d5fcd33be-retina-large-jpeg",
+          "order_id": 3000011309571613,
+          "order_date": "2026-02-15T00:50:44.398000",
+          "webster_tags": {
+            "PREPARATION": {
+              "dish_preparation_method": "Grilled"
+            },
+            "COURSE": {
+              "course": "Main Dishes"
+            },
+            "PORTION_SIZE": {
+              "portion_size": "1-2 people"
+            },
+            "CUISINE": {
+              "cuisine": [
+                "Japanese",
+                "Asian"
+              ]
+            },
+            "DIETARY": {
+              "is_beef_free": true,
+              "is_healthy": true,
+              "is_high_protein": false,
+              "is_keto_friendly": false,
+              "is_kid_friendly": true,
+              "is_low_calorie": false,
+              "is_low_carb": false,
+              "is_low_fat": false,
+              "is_low_sodium": false,
+              "is_low_sugar": false,
+              "is_paleo_friendly": false,
+              "is_pescatarian": true,
+              "is_pescatarian_mentioned": false,
+              "is_pescatarian_options": true,
+              "is_pork_free": true,
+              "is_vegan": false,
+              "is_vegan_mentioned": false,
+              "is_vegan_options": false,
+              "is_vegetarian": true,
+              "is_vegetarian_mentioned": true,
+              "is_vegetarian_options": true
+            },
+            "DISH": {
+              "confidence_score": 0.5552,
+              "hierarchical_tags": "Main Dishes > Grilled, Roasted & Fried Meat > Beef Dishes > Hibachi Beef",
+              "level_1_tag": "Main Dishes",
+              "level_1_tag_id": 210864443733158,
+              "level_2_tag": "Grilled, Roasted & Fried Meat",
+              "level_2_tag_id": 174621345861389,
+              "level_3_tag": "Beef Dishes",
+              "level_3_tag_id": 131176365936227,
+              "level_4_tag": "Hibachi Beef",
+              "level_4_tag_id": 48511819659117,
+              "top_candidates": [
+                {
+                  "confidence_score": 0.5552,
+                  "hierarchical_tags": "Main Dishes > Grilled, Roasted & Fried Meat > Beef Dishes > Hibachi Beef",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Grilled, Roasted & Fried Meat",
+                  "level_2_tag_id": 174621345861389,
+                  "level_3_tag": "Beef Dishes",
+                  "level_3_tag_id": 131176365936227,
+                  "level_4_tag": "Hibachi Beef",
+                  "level_4_tag_id": 48511819659117
+                },
+                {
+                  "confidence_score": 0.1799,
+                  "hierarchical_tags": "Main Dishes > Other Main Dishes > Other Dishes",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Other Main Dishes",
+                  "level_2_tag_id": 148169457863313,
+                  "level_3_tag": "Other Dishes",
+                  "level_3_tag_id": 258399283952297
+                },
+                {
+                  "confidence_score": 0.1761,
+                  "hierarchical_tags": "Main Dishes > Grilled, Roasted & Fried Meat > Beef Dishes > Hibachi Steak",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Grilled, Roasted & Fried Meat",
+                  "level_2_tag_id": 174621345861389,
+                  "level_3_tag": "Beef Dishes",
+                  "level_3_tag_id": 131176365936227,
+                  "level_4_tag": "Hibachi Steak",
+                  "level_4_tag_id": 203096821848185
+                }
+              ]
+            },
+            "ALLERGEN": {
+              "is_dairy_free": false,
+              "is_gluten_free": false,
+              "is_gluten_free_mentioned": false,
+              "is_gluten_free_options": false,
+              "is_nut_free": true,
+              "is_shellfish_free": true,
+              "is_soy_free": false
+            },
+            "MACRO": {
+              "estimated_calories": 300,
+              "estimated_carbohydrates_grams": 50,
+              "estimated_fat_grams": 10,
+              "estimated_protein_grams": 5
+            },
+            "FLAVOR": {
+              "is_bitter": false,
+              "is_cheesy": false,
+              "is_creamy": false,
+              "is_herbal": false,
+              "is_salty": true,
+              "is_smoky": false,
+              "is_sour": false,
+              "is_spicy": false,
+              "is_sweet": false,
+              "is_tangy": false,
+              "is_umami": true
+            },
+            "INGREDIENT": {
+              "fats_oils": [],
+              "fruits_vegetables": [
+                "zucchini",
+                "onion"
+              ],
+              "grains_carbs": [
+                "rice"
+              ],
+              "proteins": [],
+              "spices_seasonings": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "store_id": 644087,
+      "store_name": "Marco's Pizza (1086)",
+      "business_name": "Marco's Pizza",
+      "business_id": 15603,
+      "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/92402135-c7a8-4cf4-aa0e-dc4b9f49373f.png",
+      "header_image": "https://cdn.doordash.com/media/store/header/2054d36c-f87f-458e-87e3-58e55457749b.jpg",
+      "logo_url": "https://cdn.doordash.com/media/restaurant/cover_square/7755bc66-fc39-4a65-b1a9-edae10d13e2d.png",
+      "average_rating": "4.31",
+      "orders": [
+        {
+          "delivery_id": 284438647669,
+          "order_date": "2026-03-13T17:48:30.419753"
+        }
+      ],
+      "items": [
+        {
+          "item_id": 7588995378,
+          "item_name": "Pepperoni Magnifico\u00ae",
+          "image_url": "https://cdn.doordash.com/media/photosV2/ab127829-d7c3-4b4d-bb70-c208a0b08069-retina-large.jpeg",
+          "order_id": 3000011806672577,
+          "order_date": "2026-03-13T21:17:32.468000",
+          "webster_tags": {
+            "PREPARATION": {
+              "dish_preparation_method": "Baked"
+            },
+            "PORTION_SIZE": {
+              "portion_size": "1-2 people"
+            },
+            "INGREDIENT": {
+              "fats_oils": [
+                "olive oil",
+                "vegetable oil"
+              ],
+              "fruits_vegetables": [
+                "tomato"
+              ],
+              "grains_carbs": [
+                "flour"
+              ],
+              "proteins": [
+                "pepperoni",
+                "cheese"
+              ],
+              "spices_seasonings": [
+                "salt",
+                "garlic powder",
+                "oregano",
+                "basil"
+              ]
+            },
+            "FLAVOR": {
+              "is_bitter": false,
+              "is_cheesy": true,
+              "is_creamy": false,
+              "is_herbal": false,
+              "is_salty": true,
+              "is_smoky": false,
+              "is_sour": false,
+              "is_spicy": false,
+              "is_sweet": false,
+              "is_tangy": false,
+              "is_umami": true
+            },
+            "COURSE": {
+              "course": "Main Dishes"
+            },
+            "DISH": {
+              "confidence_score": 0.998,
+              "hierarchical_tags": "Main Dishes > Pizza > Other Meat Pizza > Pepperoni Pizza",
+              "level_1_tag": "Main Dishes",
+              "level_1_tag_id": 210864443733158,
+              "level_2_tag": "Pizza",
+              "level_2_tag_id": 31700172371850,
+              "level_3_tag": "Other Meat Pizza",
+              "level_3_tag_id": 163715986383454,
+              "level_4_tag": "Pepperoni Pizza",
+              "level_4_tag_id": 85298995790351,
+              "top_candidates": [
+                {
+                  "confidence_score": 0.998,
+                  "hierarchical_tags": "Main Dishes > Pizza > Other Meat Pizza > Pepperoni Pizza",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Pizza",
+                  "level_2_tag_id": 31700172371850,
+                  "level_3_tag": "Other Meat Pizza",
+                  "level_3_tag_id": 163715986383454,
+                  "level_4_tag": "Pepperoni Pizza",
+                  "level_4_tag_id": 85298995790351
+                },
+                {
+                  "confidence_score": 0.0014,
+                  "hierarchical_tags": "Main Dishes > Pizza > Other Pizza",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Pizza",
+                  "level_2_tag_id": 31700172371850,
+                  "level_3_tag": "Other Pizza",
+                  "level_3_tag_id": 54293926935245
+                },
+                {
+                  "confidence_score": 0.0002,
+                  "hierarchical_tags": "Main Dishes > Pizza",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Pizza",
+                  "level_2_tag_id": 31700172371850
+                }
+              ]
+            },
+            "DIETARY": {
+              "is_beef_free": false,
+              "is_healthy": false,
+              "is_high_protein": true,
+              "is_keto_friendly": false,
+              "is_kid_friendly": true,
+              "is_low_calorie": false,
+              "is_low_carb": false,
+              "is_low_fat": false,
+              "is_low_sodium": false,
+              "is_low_sugar": false,
+              "is_paleo_friendly": false,
+              "is_pescatarian": false,
+              "is_pescatarian_mentioned": false,
+              "is_pescatarian_options": false,
+              "is_pork_free": false,
+              "is_vegan": false,
+              "is_vegan_mentioned": false,
+              "is_vegan_options": false,
+              "is_vegetarian": false,
+              "is_vegetarian_mentioned": false,
+              "is_vegetarian_options": false
+            },
+            "ALLERGEN": {
+              "is_dairy_free": false,
+              "is_gluten_free": false,
+              "is_gluten_free_mentioned": false,
+              "is_gluten_free_options": false,
+              "is_nut_free": true,
+              "is_shellfish_free": true,
+              "is_soy_free": true
+            },
+            "MACRO": {
+              "estimated_calories": 2500,
+              "estimated_carbohydrates_grams": 250,
+              "estimated_fat_grams": 120,
+              "estimated_protein_grams": 100
+            },
+            "CUISINE": {
+              "cuisine": [
+                "Italian"
+              ]
+            }
+          }
+        },
+        {
+          "item_id": 7588995372,
+          "item_name": "Build Your Own",
+          "image_url": "https://cdn.doordash.com/media/photosV2/7fdfe53d-1210-4c14-b27b-8f6a6ebf762e-retina-large.jpeg",
+          "order_id": 3000011806672577,
+          "order_date": "2026-03-13T21:17:32.468000",
+          "webster_tags": {
+            "CUISINE": {
+              "cuisine": [
+                "Italian"
+              ]
+            },
+            "MACRO": {
+              "estimated_calories": 300,
+              "estimated_carbohydrates_grams": 35,
+              "estimated_fat_grams": 12,
+              "estimated_protein_grams": 12
+            },
+            "DISH": {
+              "confidence_score": 0.9971,
+              "hierarchical_tags": "Main Dishes > Pizza > Customizable Pizza",
+              "level_1_tag": "Main Dishes",
+              "level_1_tag_id": 210864443733158,
+              "level_2_tag": "Pizza",
+              "level_2_tag_id": 31700172371850,
+              "level_3_tag": "Customizable Pizza",
+              "level_3_tag_id": 246894587193897,
+              "top_candidates": [
+                {
+                  "confidence_score": 0.9971,
+                  "hierarchical_tags": "Main Dishes > Pizza > Customizable Pizza",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Pizza",
+                  "level_2_tag_id": 31700172371850,
+                  "level_3_tag": "Customizable Pizza",
+                  "level_3_tag_id": 246894587193897
+                },
+                {
+                  "confidence_score": 0.0021,
+                  "hierarchical_tags": "Main Dishes > Pizza > Other Pizza",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Pizza",
+                  "level_2_tag_id": 31700172371850,
+                  "level_3_tag": "Other Pizza",
+                  "level_3_tag_id": 54293926935245
+                },
+                {
+                  "confidence_score": 0.0002,
+                  "hierarchical_tags": "Main Dishes > Pizza > White Pizza > Cheese Pizza",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Pizza",
+                  "level_2_tag_id": 31700172371850,
+                  "level_3_tag": "White Pizza",
+                  "level_3_tag_id": 57722040298683,
+                  "level_4_tag": "Cheese Pizza",
+                  "level_4_tag_id": 131730195712358
+                }
+              ]
+            },
+            "PREPARATION": {
+              "dish_preparation_method": "Baked"
+            },
+            "FLAVOR": {
+              "is_bitter": false,
+              "is_cheesy": true,
+              "is_creamy": true,
+              "is_herbal": false,
+              "is_salty": true,
+              "is_smoky": false,
+              "is_sour": false,
+              "is_spicy": false,
+              "is_sweet": false,
+              "is_tangy": false,
+              "is_umami": true
+            },
+            "INGREDIENT": {
+              "fats_oils": [
+                "olive oil"
+              ],
+              "fruits_vegetables": [
+                "tomato"
+              ],
+              "grains_carbs": [
+                "flour"
+              ],
+              "proteins": [
+                "mozzarella cheese"
+              ],
+              "spices_seasonings": [
+                "salt",
+                "garlic",
+                "basil",
+                "oregano"
+              ]
+            },
+            "PORTION_SIZE": {
+              "portion_size": "1-2 people"
+            },
+            "COURSE": {
+              "course": "Main Dishes"
+            },
+            "DIETARY": {
+              "is_beef_free": true,
+              "is_healthy": false,
+              "is_high_protein": false,
+              "is_keto_friendly": false,
+              "is_kid_friendly": true,
+              "is_low_calorie": false,
+              "is_low_carb": false,
+              "is_low_fat": false,
+              "is_low_sodium": false,
+              "is_low_sugar": false,
+              "is_paleo_friendly": false,
+              "is_pescatarian": false,
+              "is_pescatarian_mentioned": false,
+              "is_pescatarian_options": false,
+              "is_pork_free": true,
+              "is_vegan": false,
+              "is_vegan_mentioned": false,
+              "is_vegan_options": false,
+              "is_vegetarian": false,
+              "is_vegetarian_mentioned": false,
+              "is_vegetarian_options": false
+            },
+            "ALLERGEN": {
+              "is_dairy_free": false,
+              "is_gluten_free": false,
+              "is_gluten_free_mentioned": false,
+              "is_gluten_free_options": false,
+              "is_nut_free": true,
+              "is_shellfish_free": true,
+              "is_soy_free": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "store_id": 24862126,
+      "store_name": "Papa Johns MKT (863)",
+      "business_name": "Papa Johns Pizza",
+      "business_id": 2746,
+      "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/ec70e527-a98d-4a33-9b58-b9e5bd70a752.png",
+      "header_image": "https://cdn.doordash.com/media/store/header/5aa751c3-4403-4bde-9efe-60dbd3bec536.png",
+      "logo_url": "https://cdn.doordash.com/media/restaurant/cover_square/78c97b12-be89-4f4e-ade8-2920378a2dbf.png",
+      "average_rating": "4.28",
+      "orders": [
+        {
+          "delivery_id": 225320930242,
+          "order_date": "2026-03-24T20:14:17.458000"
+        }
+      ],
+      "items": [
+        {
+          "item_id": 15997573719,
+          "item_name": "Epic Stuffed Crust Pizza",
+          "image_url": "https://cdn.doordash.com/media/photosV2/a66c73ca-bf28-4ab5-b84c-dac8b0d33e67-retina-large.jpg",
+          "order_id": 3000012015358770,
+          "order_date": "2026-03-24T23:52:04.763000",
+          "webster_tags": {
+            "DISH": {
+              "confidence_score": 0.5718,
+              "hierarchical_tags": "Main Dishes > Pizza > Customizable Pizza",
+              "level_1_tag": "Main Dishes",
+              "level_1_tag_id": 210864443733158,
+              "level_2_tag": "Pizza",
+              "level_2_tag_id": 31700172371850,
+              "level_3_tag": "Customizable Pizza",
+              "level_3_tag_id": 246894587193897,
+              "top_candidates": [
+                {
+                  "confidence_score": 0.5718,
+                  "hierarchical_tags": "Main Dishes > Pizza > Customizable Pizza",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Pizza",
+                  "level_2_tag_id": 31700172371850,
+                  "level_3_tag": "Customizable Pizza",
+                  "level_3_tag_id": 246894587193897
+                },
+                {
+                  "confidence_score": 0.3486,
+                  "hierarchical_tags": "Main Dishes > Pizza > Specialty Pizza > Garlic Stuffed Crust Pizza",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Pizza",
+                  "level_2_tag_id": 31700172371850,
+                  "level_3_tag": "Specialty Pizza",
+                  "level_3_tag_id": 280639195554830,
+                  "level_4_tag": "Garlic Stuffed Crust Pizza",
+                  "level_4_tag_id": 163864326377790
+                },
+                {
+                  "confidence_score": 0.033,
+                  "hierarchical_tags": "Main Dishes > Pizza > Other Pizza",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Pizza",
+                  "level_2_tag_id": 31700172371850,
+                  "level_3_tag": "Other Pizza",
+                  "level_3_tag_id": 54293926935245
+                }
+              ]
+            },
+            "PORTION_SIZE": {
+              "portion_size": "3-4 people"
+            },
+            "MACRO": {},
+            "DIETARY": {
+              "is_beef_free": true,
+              "is_healthy": false,
+              "is_high_protein": false,
+              "is_keto_friendly": false,
+              "is_kid_friendly": true,
+              "is_low_calorie": false,
+              "is_low_carb": false,
+              "is_low_fat": false,
+              "is_low_sodium": false,
+              "is_low_sugar": false,
+              "is_paleo_friendly": false,
+              "is_pescatarian": true,
+              "is_pescatarian_mentioned": false,
+              "is_pescatarian_options": true,
+              "is_pork_free": true,
+              "is_vegan": false,
+              "is_vegan_mentioned": false,
+              "is_vegan_options": true,
+              "is_vegetarian": true,
+              "is_vegetarian_mentioned": false,
+              "is_vegetarian_options": true
+            },
+            "PREPARATION": {
+              "dish_preparation_method": "Baked"
+            },
+            "CUISINE": {
+              "cuisine": [
+                "American"
+              ]
+            },
+            "INGREDIENT": {
+              "fats_oils": [],
+              "fruits_vegetables": [],
+              "grains_carbs": [],
+              "proteins": [],
+              "spices_seasonings": []
+            },
+            "ALLERGEN": {
+              "is_dairy_free": false,
+              "is_gluten_free": false,
+              "is_gluten_free_mentioned": false,
+              "is_gluten_free_options": false,
+              "is_nut_free": true,
+              "is_shellfish_free": true,
+              "is_soy_free": true
+            },
+            "FLAVOR": {
+              "is_bitter": false,
+              "is_cheesy": true,
+              "is_creamy": false,
+              "is_herbal": false,
+              "is_salty": true,
+              "is_smoky": false,
+              "is_sour": false,
+              "is_spicy": false,
+              "is_sweet": false,
+              "is_tangy": false,
+              "is_umami": false
+            },
+            "COURSE": {
+              "course": "Main Dishes"
+            }
+          }
+        },
+        {
+          "item_id": 15122729325,
+          "item_name": "Pepperoni Pizza",
+          "image_url": "https://cdn.doordash.com/media/photosV2/0a9b9da1-1402-44bc-842e-d98c44d8667d-retina-large.jpg",
+          "order_id": 3000012015358770,
+          "order_date": "2026-03-24T23:52:04.763000",
+          "webster_tags": {
+            "DIETARY": {
+              "is_beef_free": true,
+              "is_healthy": false,
+              "is_high_protein": true,
+              "is_keto_friendly": false,
+              "is_kid_friendly": true,
+              "is_low_calorie": false,
+              "is_low_carb": false,
+              "is_low_fat": false,
+              "is_low_sodium": false,
+              "is_low_sugar": false,
+              "is_paleo_friendly": false,
+              "is_pescatarian": false,
+              "is_pescatarian_mentioned": false,
+              "is_pescatarian_options": false,
+              "is_pork_free": false,
+              "is_vegan": false,
+              "is_vegan_mentioned": false,
+              "is_vegan_options": false,
+              "is_vegetarian": false,
+              "is_vegetarian_mentioned": false,
+              "is_vegetarian_options": false
+            },
+            "PREPARATION": {
+              "dish_preparation_method": "Baked"
+            },
+            "FLAVOR": {
+              "is_bitter": false,
+              "is_cheesy": true,
+              "is_creamy": false,
+              "is_herbal": false,
+              "is_salty": true,
+              "is_smoky": false,
+              "is_sour": false,
+              "is_spicy": false,
+              "is_sweet": false,
+              "is_tangy": false,
+              "is_umami": true
+            },
+            "ALLERGEN": {
+              "is_dairy_free": false,
+              "is_gluten_free": false,
+              "is_gluten_free_mentioned": false,
+              "is_gluten_free_options": false,
+              "is_nut_free": true,
+              "is_shellfish_free": true,
+              "is_soy_free": false
+            },
+            "DISH": {
+              "confidence_score": 0.9888,
+              "hierarchical_tags": "Main Dishes > Pizza > Other Meat Pizza > Pepperoni Pizza",
+              "level_1_tag": "Main Dishes",
+              "level_1_tag_id": 210864443733158,
+              "level_2_tag": "Pizza",
+              "level_2_tag_id": 31700172371850,
+              "level_3_tag": "Other Meat Pizza",
+              "level_3_tag_id": 163715986383454,
+              "level_4_tag": "Pepperoni Pizza",
+              "level_4_tag_id": 85298995790351,
+              "top_candidates": [
+                {
+                  "confidence_score": 0.9888,
+                  "hierarchical_tags": "Main Dishes > Pizza > Other Meat Pizza > Pepperoni Pizza",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Pizza",
+                  "level_2_tag_id": 31700172371850,
+                  "level_3_tag": "Other Meat Pizza",
+                  "level_3_tag_id": 163715986383454,
+                  "level_4_tag": "Pepperoni Pizza",
+                  "level_4_tag_id": 85298995790351
+                },
+                {
+                  "confidence_score": 0.0097,
+                  "hierarchical_tags": "Main Dishes > Pizza > Other Pizza",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Pizza",
+                  "level_2_tag_id": 31700172371850,
+                  "level_3_tag": "Other Pizza",
+                  "level_3_tag_id": 54293926935245
+                },
+                {
+                  "confidence_score": 0.0003,
+                  "hierarchical_tags": "Main Dishes > Pizza > White Pizza > Cheese Pizza",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Pizza",
+                  "level_2_tag_id": 31700172371850,
+                  "level_3_tag": "White Pizza",
+                  "level_3_tag_id": 57722040298683,
+                  "level_4_tag": "Cheese Pizza",
+                  "level_4_tag_id": 131730195712358
+                }
+              ]
+            },
+            "CUISINE": {
+              "cuisine": [
+                "Italian"
+              ]
+            },
+            "INGREDIENT": {
+              "fats_oils": [],
+              "fruits_vegetables": [],
+              "grains_carbs": [
+                "pizza"
+              ],
+              "proteins": [
+                "pepperoni",
+                "cheese"
+              ],
+              "spices_seasonings": [
+                "pizza sauce"
+              ]
+            },
+            "COURSE": {
+              "course": "Main Dishes"
+            },
+            "MACRO": {
+              "estimated_calories": 300,
+              "estimated_carbohydrates_grams": 30,
+              "estimated_fat_grams": 15,
+              "estimated_protein_grams": 15
+            },
+            "PORTION_SIZE": {
+              "portion_size": "3-4 people"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

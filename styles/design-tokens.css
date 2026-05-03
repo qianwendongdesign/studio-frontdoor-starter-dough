@@ -1,0 +1,204 @@
+/* ==========================================================
+   Font Face — Active weights used by the design system
+   For the full DD Norms library (all families & weights),
+   see fonts.css
+   ========================================================== */
+
+@font-face { font-family: "DD Norms"; src: url("fonts/WOFF2/DD Norms WOFF2 3-400/DD_Norms_Regular.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "DD Norms"; src: url("fonts/WOFF2/DD Norms WOFF2 3-400/DD_Norms_Medium.woff2") format("woff2"); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: "DD Norms"; src: url("fonts/WOFF2/DD Norms WOFF2 3-400/DD_Norms_Bold.woff2") format("woff2"); font-weight: 700; font-style: normal; font-display: swap; }
+
+
+/* ==========================================================
+   Design System Tokens
+   Source: Figma — Project Front Door (Variable Collection)
+   ========================================================== */
+
+:root {
+  /* ── Background ──────────────────────────────────────── */
+  --background-secondary:   #f1f1f1;
+  --background-tertiary:    #d6d6d6;
+  --background-disabled:    #c4c4c4;
+  --background-inverse:     #191919;
+  --background-accent:      #eb1700;
+
+  /* ── Foreground ──────────────────────────────────────── */
+  --foreground-primary:     #191919;
+  --foreground-secondary:   #606060;
+  --foreground-tertiary:    #8b8b8b;
+  --foreground-on-inverse:  #ffffff;
+  --foreground-accent:      #eb1700;
+
+  /* ── Stroke ──────────────────────────────────────────── */
+  --stroke-primary:         #191919;
+  --stroke-secondary:       #8b8b8b;
+  --stroke-tertiary:        #d6d6d6;
+  --stroke-disabled:        #f1f1f1;
+
+  /* ── Expressive Colors ────────────────────────────────── */
+  --color-delivery-red:     #ff3008;
+  --color-detergent:        #80d8ff;
+  --color-bouquet:          #ffc4fc;
+  --color-yolk:             #f2d531;
+  --color-motor-oil:        #681109;
+  --color-pinot-noir:       #4c0c3a;
+
+  /* ── Surfaces ────────────────────────────────────────── */
+  --surface-primary:        #ffffff;
+  --surface-overlay:        rgba(241, 241, 241, 0.5);
+
+  /* ── Accent Backgrounds ────────────────────────────── */
+  --background-accent-subtle: #fff0ed;
+
+  /* ── Component: Button Tertiary (from Prism Figma tokens) ── */
+  --comp-btn-tertiary-bg:     var(--background-secondary);  /* comp/color/button/tertiary/background/default */
+  --comp-btn-tertiary-border: var(--background-secondary);  /* comp/color/button/tertiary/border/default */
+  --comp-btn-tertiary-text:   var(--foreground-primary);    /* comp/color/button/tertiary/text/default */
+
+  /* ── Radii ───────────────────────────────────────────── */
+  --radius-card:            16px;
+
+  /* ── Spacing ──────────────────────────────────────────── */
+  --spacing-primary:        24px;  /* between top-level modules on page */
+  --spacing-secondary:      16px;  /* between elements in a module, device edge inset */
+  --spacing-tertiary:       12px;  /* within modules */
+  --spacing-internal1:      8px;   /* between large elements, e.g. cards in a carousel */
+  --spacing-internal2:      4px;   /* between small elements, e.g. photo to metadata */
+  --spacing-internal3:      2px;   /* smallest padding, e.g. between caption metadata */
+
+  /* ── Shadows / Elevation ────────────────────────────── */
+  --shadow-elevation-1:     0px 1px 2px 0px rgba(0, 0, 0, 0.1);
+  --shadow-elevation-2:     0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+  --shadow-elevation-3:     0px 4px 8px 0px rgba(0, 0, 0, 0.1);
+  --shadow-elevation-4:     0px 8px 16px 0px rgba(0, 0, 0, 0.1);
+  --shadow-elevation-5:     0px 12px 24px 0px rgba(0, 0, 0, 0.1);
+  --shadow-elevation-6:     0px 16px 32px 0px rgba(0, 0, 0, 0.1);
+  --shadow-elevation-7:     0px 24px 48px 0px rgba(0, 0, 0, 0.1);
+}
+
+
+/* ==========================================================
+   Typography Classes
+   Source: Figma — Project Front Door (Text Styles)
+   Font: DD Norms (Bold 700, Normal 400, Medium 500)
+   ========================================================== */
+
+.display-1 {
+  font-family: "DD Norms", sans-serif;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 42px;
+  letter-spacing: -0.03em;
+}
+
+.display-2 {
+  font-family: "DD Norms", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 34px;
+  letter-spacing: -0.04em;
+}
+
+.display-3 {
+  font-family: "DD Norms", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 34px;
+  letter-spacing: -0.01em;
+}
+
+.title-1 {
+  font-family: "DD Norms", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+}
+
+.title-2 {
+  font-family: "DD Norms", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+}
+
+.subtitle-1 {
+  font-family: "DD Norms", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+}
+
+.title-3 {
+  font-family: "DD Norms", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.01em;
+}
+
+.subtitle-2 {
+  font-family: "DD Norms", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.01em;
+}
+
+.label {
+  font-family: "DD Norms", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0;
+}
+
+.body-bold {
+  font-family: "DD Norms", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.01em;
+}
+
+.body-regular {
+  font-family: "DD Norms", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.01em;
+}
+
+.subtext-bold {
+  font-family: "DD Norms", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.01em;
+}
+
+.subtext-regular {
+  font-family: "DD Norms", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.01em;
+}
+
+.caption-bold {
+  font-family: "DD Norms", sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: -0.01em;
+}
+
+.caption-regular {
+  font-family: "DD Norms", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: -0.01em;
+}

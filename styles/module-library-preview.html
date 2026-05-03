@@ -1,0 +1,1598 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Module Library — Front Door Templates</title>
+  <link rel="stylesheet" href="design-tokens.css">
+  <style>
+    /* ── Typography Token Custom Properties ──
+       Mirrors base.css :root tokens so mockups can reference them.
+       Values must stay in sync with src/shared/styles/base.css. */
+    :root {
+      --font: "DD Norms", sans-serif;
+      --title-1-size: 24px;  --title-1-weight: 700; --title-1-lh: 24px; --title-1-ls: -0.01em;
+      --title-2-size: 20px;  --title-2-weight: 700; --title-2-lh: 24px; --title-2-ls: -0.01em;
+      --title-3-size: 14px;  --title-3-weight: 700; --title-3-lh: 20px; --title-3-ls: -0.01em;
+      --label-size: 14px;    --label-weight: 500;   --label-lh: 20px;   --label-ls: 0;
+      --body-bold-size: 16px;    --body-bold-weight: 700; --body-bold-lh: 20px; --body-bold-ls: -0.01em;
+      --body-regular-size: 16px; --body-regular-weight: 400; --body-regular-lh: 20px; --body-regular-ls: -0.01em;
+      --subtext-regular-size: 14px; --subtext-regular-weight: 400; --subtext-regular-lh: 20px; --subtext-regular-ls: -0.01em;
+      --caption-bold-size: 12px;    --caption-bold-weight: 700; --caption-bold-lh: 20px; --caption-bold-ls: -0.01em;
+      --caption-regular-size: 12px; --caption-regular-weight: 500; --caption-regular-lh: 20px; --caption-regular-ls: -0.01em;
+    }
+
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: var(--font);
+      background: var(--surface-primary);
+      color: var(--foreground-primary);
+      padding: 48px;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    h1 {
+      font-size: 32px;
+      font-weight: 700;
+      margin-bottom: var(--spacing-internal1);
+    }
+
+    .hero-card {
+      background: #eef4ff;
+      border: 1px solid #c8daf8;
+      border-radius: var(--radius-card);
+      padding: var(--spacing-primary) 28px;
+      margin-bottom: 48px;
+      max-width: 720px;
+    }
+
+    .hero-card .subtitle {
+      font-size: var(--body-bold-size);
+      font-weight: var(--body-bold-weight);
+      color: var(--foreground-secondary);
+      margin-bottom: var(--spacing-tertiary);
+    }
+
+    .hero-card .intro {
+      font-size: var(--body-regular-size);
+      line-height: 1.6;
+      color: var(--foreground-secondary);
+      margin-bottom: 0;
+      max-width: none;
+    }
+
+    .hero-card .intro strong { color: var(--foreground-primary); }
+
+    /* ── Module grid ── */
+    .module-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 16px;
+    }
+
+    /* ── Module card ── */
+    .module-card {
+      border: 1px solid var(--stroke-tertiary);
+      border-radius: var(--radius-card);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      transition: border-color 0.15s ease, box-shadow 0.15s ease;
+    }
+    .module-card:hover {
+      border-color: var(--foreground-tertiary);
+      box-shadow: var(--shadow-elevation-2);
+    }
+
+    .module-header {
+      padding: 12px 16px 8px;
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+
+    .module-name {
+      font-size: 15px;
+      font-weight: 700;
+    }
+
+    .module-desc {
+      font-size: 12px;
+      color: var(--foreground-tertiary);
+      line-height: 1.4;
+    }
+
+    .module-preview {
+      background: #fffbe6;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 16px 12px;
+      height: 200px;
+      overflow: hidden;
+    }
+
+    .module-phone {
+      width: 100%;
+      max-width: 393px;
+      background: var(--surface-primary);
+      border-radius: 12px;
+      box-shadow: var(--shadow-elevation-3);
+      overflow: hidden;
+      padding: 12px;
+      font-family: var(--font);
+      -webkit-font-smoothing: antialiased;
+      font-size: 13px;
+      transform: scale(0.85);
+      transform-origin: center center;
+    }
+
+    /* ── Collapsible specs ── */
+    .module-specs-toggle {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 16px;
+      border-top: 1px solid var(--background-secondary);
+      cursor: pointer;
+      user-select: none;
+      transition: background 0.1s ease;
+    }
+    .module-specs-toggle:hover { background: var(--background-secondary); }
+    .module-specs-label {
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--foreground-tertiary);
+    }
+    .module-specs-chevron {
+      font-size: 14px;
+      color: var(--foreground-tertiary);
+      transition: transform 0.2s ease;
+    }
+    .module-specs-toggle.open .module-specs-chevron {
+      transform: rotate(180deg);
+    }
+
+    .module-info {
+      padding: 0 16px 14px;
+      display: none;
+    }
+    .module-info.open {
+      display: block;
+    }
+    .module-info-copy {
+      display: flex;
+      justify-content: flex-end;
+      margin-bottom: 8px;
+    }
+    .copy-btn {
+      font-family: var(--font);
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--foreground-accent);
+      background: none;
+      border: 1px solid var(--foreground-accent);
+      border-radius: 6px;
+      padding: 3px 10px;
+      cursor: pointer;
+      transition: opacity 0.15s ease;
+    }
+    .copy-btn:hover { opacity: 0.7; }
+    .copy-btn.copied {
+      color: var(--foreground-secondary);
+      border-color: var(--foreground-tertiary);
+    }
+
+    .module-info-row {
+      margin-bottom: 6px;
+    }
+
+    .module-info-row:last-child { margin-bottom: 0; }
+
+    .module-info-label {
+      font-size: 10px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--foreground-tertiary);
+      margin-bottom: 1px;
+    }
+
+    .module-info-value {
+      font-size: 12px;
+      color: var(--foreground-primary);
+      line-height: 1.4;
+      word-break: break-all;
+    }
+
+    code {
+      font-family: "SF Mono", "Fira Code", monospace;
+      font-size: 11px;
+      background: var(--background-secondary);
+      padding: 1px 4px;
+      border-radius: 3px;
+    }
+
+    pre {
+      font-family: "SF Mono", "Fira Code", monospace;
+      font-size: 11px;
+      background: #f7f7f7;
+      border: 1px solid #e8e8e8;
+      border-radius: 6px;
+      padding: 8px 12px;
+      overflow-x: auto;
+      line-height: 1.5;
+    }
+
+    .eject-note {
+      font-size: 11px;
+      color: var(--foreground-tertiary);
+      font-style: italic;
+    }
+
+    /* ── Filter tabs ── */
+    .lib-tabs {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 32px;
+    }
+    .lib-tab {
+      padding: 6px 16px;
+      border-radius: 9999px;
+      border: 1px solid var(--stroke-tertiary);
+      background: var(--surface-primary);
+      font-family: var(--font);
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--foreground-secondary);
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+    .lib-tab:hover { border-color: var(--foreground-tertiary); }
+    .lib-tab--active {
+      background: var(--background-inverse);
+      color: var(--foreground-on-inverse);
+      border-color: var(--background-inverse);
+    }
+
+    .module-card[data-category] { display: none; }
+    .module-card.visible { display: block; }
+
+    /* ── Component preview image ── */
+    .component-preview-img {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain;
+      border-radius: 8px;
+      box-shadow: var(--shadow-elevation-2);
+    }
+
+    /* ═══════════════════════════════════════
+       Visual mockup styles
+       (CSS-only approximations of each module)
+       ═══════════════════════════════════════ */
+
+    /* Shared mockup primitives — typography uses token custom properties */
+    .mock-title {
+      /* Token: title-1 */
+      font-family: var(--font);
+      font-size: var(--title-1-size);
+      font-weight: var(--title-1-weight);
+      line-height: var(--title-1-lh);
+      letter-spacing: var(--title-1-ls);
+      margin-bottom: var(--spacing-secondary);
+    }
+
+    .mock-title--sm {
+      /* Token: title-2 */
+      font-size: var(--title-2-size);
+      line-height: var(--title-2-lh);
+    }
+
+    .mock-section-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: var(--spacing-secondary);
+    }
+
+    .mock-arrow-btn {
+      width: 32px;
+      height: 32px;
+      border-radius: 9999px;
+      background: var(--comp-btn-tertiary-bg);
+      border: 1px solid var(--comp-btn-tertiary-border);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: var(--body-bold-size);
+      color: var(--foreground-primary);
+      cursor: pointer;
+      transition: opacity 0.15s ease;
+    }
+    .mock-arrow-btn:hover { opacity: 0.8; }
+    .mock-arrow-btn:active { opacity: 0.6; }
+
+    .mock-img {
+      background: linear-gradient(135deg, var(--background-secondary), #e0e0e0);
+      border-radius: var(--radius-card);
+    }
+
+    .mock-chip {
+      /* Token: label — Prism comp/color/button/tertiary */
+      display: inline-flex;
+      align-items: center;
+      height: 32px;
+      gap: var(--spacing-internal2);
+      padding: var(--spacing-internal3) var(--spacing-tertiary) var(--spacing-internal3) var(--spacing-internal1);
+      border-radius: 9999px;
+      background: var(--comp-btn-tertiary-bg);
+      border: 1px solid var(--comp-btn-tertiary-border);
+      font-family: var(--font);
+      font-size: var(--label-size);
+      font-weight: var(--label-weight);
+      line-height: var(--label-lh);
+      letter-spacing: var(--label-ls);
+      color: var(--comp-btn-tertiary-text);
+      white-space: nowrap;
+      cursor: pointer;
+      transition: opacity 0.15s ease;
+    }
+    .mock-chip:hover { opacity: 0.8; }
+    .mock-chip:active { opacity: 0.6; }
+
+    .mock-chip-icon {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background: var(--background-tertiary);
+    }
+
+    .mock-chip-avatar {
+      width: 24px;
+      height: 24px;
+      border-radius: 9999px;
+      background: linear-gradient(135deg, var(--background-disabled), var(--foreground-tertiary));
+    }
+
+    .mock-store-name {
+      /* Token: title-3 */
+      font-family: var(--font);
+      font-size: var(--title-3-size);
+      font-weight: var(--title-3-weight);
+      line-height: var(--title-3-lh);
+      letter-spacing: var(--title-3-ls);
+      color: var(--foreground-primary);
+      margin-bottom: var(--spacing-internal3);
+    }
+
+    .mock-store-meta {
+      /* Token: caption-regular */
+      font-family: var(--font);
+      font-size: var(--caption-regular-size);
+      font-weight: var(--caption-regular-weight);
+      line-height: var(--caption-regular-lh);
+      letter-spacing: var(--caption-regular-ls);
+      color: var(--foreground-secondary);
+    }
+
+    /* Legacy mock-deal-tag aliased to shared .tag system */
+    .mock-deal-tag {
+      display: inline-flex;
+      align-self: flex-start;
+      padding: var(--spacing-internal3) var(--spacing-internal1);
+      border-radius: var(--spacing-internal2);
+      background: var(--background-accent-subtle);
+      color: var(--foreground-accent);
+      font-family: var(--font);
+      font-size: var(--caption-bold-size);
+      font-weight: var(--caption-bold-weight);
+      line-height: var(--caption-bold-lh);
+      letter-spacing: var(--caption-bold-ls);
+      margin-top: var(--spacing-internal3);
+    }
+
+    .mock-filter-tab {
+      /* Token: label — Prism comp/color/button */
+      display: inline-flex;
+      align-items: center;
+      height: 32px;
+      padding: var(--spacing-internal2) var(--spacing-tertiary);
+      border-radius: 9999px;
+      font-family: var(--font);
+      font-size: var(--label-size);
+      font-weight: var(--label-weight);
+      line-height: var(--label-lh);
+      letter-spacing: var(--label-ls);
+      white-space: nowrap;
+      border: none;
+      cursor: pointer;
+      transition: opacity 0.15s ease;
+    }
+    .mock-filter-tab:hover { opacity: 0.8; }
+    .mock-filter-tab:active { opacity: 0.6; }
+
+    .mock-filter-tab--active {
+      background: var(--background-inverse);
+      color: var(--foreground-on-inverse);
+    }
+
+    .mock-filter-tab--inactive {
+      background: var(--comp-btn-tertiary-bg);
+      color: var(--comp-btn-tertiary-text);
+    }
+
+    /* ── AddressBarModule mockup ── */
+    .mock-address-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: var(--spacing-internal2) 0;
+    }
+
+    .mock-address-left {
+      display: flex;
+      align-items: center;
+      gap: 3px;
+    }
+
+    .mock-address-text {
+      /* Token: body-bold */
+      font-family: var(--font);
+      font-size: var(--body-bold-size);
+      font-weight: var(--body-bold-weight);
+      line-height: var(--body-bold-lh);
+      letter-spacing: var(--body-bold-ls);
+      color: var(--foreground-primary);
+    }
+
+    .mock-address-chevron {
+      font-size: var(--caption-regular-size);
+      color: var(--foreground-primary);
+    }
+
+    .mock-icon-btn {
+      width: 40px;
+      height: 40px;
+      border-radius: 9999px;
+      background: var(--surface-overlay);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: opacity 0.15s ease;
+    }
+    .mock-icon-btn:hover { opacity: 0.8; }
+    .mock-icon-btn:active { opacity: 0.6; }
+    .mock-icon-btn svg {
+      width: 24px;
+      height: 24px;
+      color: var(--foreground-primary);
+    }
+
+    .mock-address-actions {
+      display: flex;
+      gap: var(--spacing-internal1);
+    }
+
+    /* ── CategoryTabBarModule mockup ── */
+    .mock-tab-bar {
+      display: flex;
+      border-bottom: 1px solid var(--stroke-tertiary);
+    }
+
+    .mock-tab {
+      /* Token: caption-regular */
+      flex: 0 0 80px;
+      min-width: 80px;
+      height: 60px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: var(--spacing-internal3);
+      padding-top: var(--spacing-internal3);
+      font-family: var(--font);
+      font-size: var(--caption-regular-size);
+      font-weight: var(--caption-regular-weight);
+      line-height: var(--caption-regular-lh);
+      letter-spacing: var(--caption-regular-ls);
+      color: var(--foreground-primary);
+      background: none;
+      border: none;
+      cursor: pointer;
+      transition: opacity 0.15s ease;
+    }
+    .mock-tab:hover { opacity: 0.7; }
+    .mock-tab:active { opacity: 0.5; }
+    .mock-tab svg { width: 25px; height: 25px; color: var(--foreground-primary); }
+
+    /* ── SearchFooterModule mockup ── */
+    .mock-footer {
+      position: relative;
+      padding-top: 94px;
+    }
+
+    .mock-footer-blur {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 94px;
+      background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5));
+      backdrop-filter: blur(23px);
+      -webkit-backdrop-filter: blur(23px);
+      -webkit-mask-image: linear-gradient(to bottom, transparent, black);
+      mask-image: linear-gradient(to bottom, transparent, black);
+    }
+
+    .mock-footer-inner {
+      display: flex;
+      align-items: center;
+      gap: var(--spacing-internal1);
+      padding: 0 30px;
+    }
+
+    .mock-search-pill {
+      /* Token: body-bold */
+      flex: 1;
+      height: 50px;
+      border-radius: 25px;
+      background: var(--surface-primary);
+      box-shadow: var(--shadow-elevation-3);
+      display: flex;
+      align-items: center;
+      gap: var(--spacing-internal1);
+      padding: 0 25px 0 13px;
+      font-family: var(--font);
+      font-size: var(--body-bold-size);
+      font-weight: var(--body-bold-weight);
+      line-height: var(--body-bold-lh);
+      letter-spacing: var(--body-bold-ls);
+      color: var(--foreground-primary);
+      cursor: pointer;
+      transition: opacity 0.15s ease;
+    }
+    .mock-search-pill:hover { opacity: 0.9; }
+    .mock-search-pill:active { opacity: 0.7; }
+    .mock-search-pill svg {
+      width: 25px;
+      height: 25px;
+      flex-shrink: 0;
+      color: var(--foreground-primary);
+    }
+
+    .mock-cart-pill {
+      /* Token: body-bold */
+      height: 50px;
+      border-radius: 25px;
+      background: var(--surface-primary);
+      box-shadow: var(--shadow-elevation-3);
+      display: flex;
+      align-items: center;
+      gap: var(--spacing-internal2);
+      padding: 0 17px 0 13px;
+      font-family: var(--font);
+      font-size: var(--body-bold-size);
+      font-weight: var(--body-bold-weight);
+      line-height: var(--body-bold-lh);
+      color: var(--foreground-primary);
+      cursor: pointer;
+      transition: opacity 0.15s ease;
+    }
+    .mock-cart-pill:hover { opacity: 0.9; }
+    .mock-cart-pill:active { opacity: 0.7; }
+    .mock-cart-pill svg {
+      width: 25px;
+      height: 25px;
+      color: var(--foreground-primary);
+    }
+
+    .mock-home-indicator {
+      width: 140px;
+      height: 5px;
+      border-radius: 105px;
+      background: var(--foreground-primary);
+      margin: var(--spacing-tertiary) auto 0;
+    }
+
+    /* ── SmartChipsModule mockup ── */
+    .mock-chips-scroll {
+      display: flex;
+      flex-direction: column;
+      gap: var(--spacing-internal2);
+      overflow: hidden;
+    }
+
+    .mock-chip-row {
+      display: flex;
+      gap: var(--spacing-internal1);
+    }
+
+    /* ── CardListModule mockup ── */
+    .mock-card-list {
+      background: var(--surface-primary);
+      border: 1px solid var(--background-secondary);
+      border-radius: var(--radius-card);
+      padding: var(--spacing-secondary);
+      box-shadow: var(--shadow-elevation-5);
+    }
+
+    /* Token: body-bold (store name in card list) */
+    .mock-card-list .mock-store-name {
+      font-family: var(--font);
+      font-size: var(--body-bold-size);
+      font-weight: var(--body-bold-weight);
+      line-height: var(--body-bold-lh);
+      letter-spacing: var(--body-bold-ls);
+    }
+
+    .mock-store-row {
+      display: flex;
+      align-items: center;
+      gap: var(--spacing-internal1);
+      padding: var(--spacing-internal1) 0;
+    }
+
+    .mock-store-logo {
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--background-tertiary), var(--foreground-tertiary));
+      flex-shrink: 0;
+    }
+
+    .mock-store-text {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .mock-thumbs {
+      display: flex;
+      position: relative;
+      width: 85px;
+      height: 56px;
+      flex-shrink: 0;
+    }
+
+    .mock-thumb {
+      width: 48px;
+      height: 48px;
+      border-radius: var(--spacing-internal1);
+      background: linear-gradient(135deg, #e0e0e0, var(--background-disabled));
+      border: 1px solid var(--surface-primary);
+      position: absolute;
+      top: var(--spacing-internal2);
+      box-shadow: var(--shadow-elevation-2);
+    }
+
+    .mock-thumb:nth-child(1) { left: 0; transform: rotate(10deg); z-index: 1; }
+    .mock-thumb:nth-child(2) { left: 14px; transform: rotate(-6deg); z-index: 2; }
+    .mock-thumb:nth-child(3) { left: 30px; z-index: 3; }
+
+    /* ── SpotlightModule mockup ── */
+    .mock-spotlight-media {
+      width: 100%;
+      height: 193px;
+      border-radius: var(--radius-card);
+      background: linear-gradient(135deg, var(--foreground-primary), var(--foreground-secondary));
+      margin-bottom: var(--spacing-secondary);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--foreground-on-inverse);
+      font-size: var(--label-size);
+      font-weight: var(--label-weight);
+      opacity: 0.6;
+    }
+
+    .mock-spotlight-copy h3 {
+      /* Token: title-2 */
+      font-family: var(--font);
+      font-size: var(--title-2-size);
+      font-weight: var(--title-2-weight);
+      line-height: var(--title-2-lh);
+      letter-spacing: var(--title-2-ls);
+      margin-bottom: var(--spacing-internal3);
+    }
+
+    .mock-spotlight-copy p {
+      /* Token: body-regular */
+      font-family: var(--font);
+      font-size: var(--body-regular-size);
+      font-weight: var(--body-regular-weight);
+      line-height: var(--body-regular-lh);
+      letter-spacing: var(--body-regular-ls);
+      color: var(--foreground-secondary);
+      margin-bottom: var(--spacing-secondary);
+    }
+
+    .mock-cta {
+      /* Token: body-bold — Prism comp/color/button/tertiary */
+      width: 100%;
+      height: 40px;
+      border-radius: 9999px;
+      background: var(--comp-btn-tertiary-bg);
+      border: 1px solid var(--comp-btn-tertiary-border);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: var(--font);
+      font-size: var(--body-bold-size);
+      font-weight: var(--body-bold-weight);
+      line-height: var(--body-bold-lh);
+      letter-spacing: var(--body-bold-ls);
+      color: var(--comp-btn-tertiary-text);
+      cursor: pointer;
+      transition: opacity 0.15s ease;
+    }
+    .mock-cta:hover { opacity: 0.8; }
+    .mock-cta:active { opacity: 0.6; }
+
+    /* ── FourPackModule / FourPackAIChipsModule mockup ── */
+    .mock-filter-row {
+      display: flex;
+      gap: var(--spacing-internal1);
+      margin-bottom: var(--spacing-secondary);
+      overflow: hidden;
+    }
+
+    .mock-store-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: var(--spacing-secondary) var(--spacing-internal1);
+    }
+
+    .mock-store-card-img {
+      width: 100%;
+      aspect-ratio: 1;
+      border-radius: var(--radius-card);
+      background: linear-gradient(135deg, var(--background-secondary), var(--background-tertiary));
+      margin-bottom: var(--spacing-internal1);
+    }
+
+    /* ── StandardCarouselModule mockup ── */
+    .mock-carousel-scroll {
+      display: flex;
+      gap: var(--spacing-internal1);
+      overflow: hidden;
+    }
+
+    .mock-carousel-card {
+      flex-shrink: 0;
+      width: 270px;
+    }
+
+    .mock-carousel-card-img {
+      width: 270px;
+      height: 130px;
+      border-radius: var(--radius-card);
+      background: linear-gradient(135deg, var(--background-secondary), var(--background-tertiary));
+      margin-bottom: var(--spacing-internal1);
+    }
+
+    .mock-carousel-card-name {
+      /* Token: body-bold */
+      font-family: var(--font);
+      font-size: var(--body-bold-size);
+      font-weight: var(--body-bold-weight);
+      line-height: var(--body-bold-lh);
+      letter-spacing: var(--body-bold-ls);
+      color: var(--foreground-primary);
+      margin-bottom: var(--spacing-internal3);
+    }
+
+    /* ── AI chip ── */
+    .mock-ai-chip {
+      /* Token: label */
+      display: inline-flex;
+      align-items: center;
+      height: 32px;
+      gap: var(--spacing-internal2);
+      padding: var(--spacing-internal2) var(--spacing-tertiary);
+      border-radius: 9999px;
+      background: var(--color-bouquet);
+      font-family: var(--font);
+      font-size: var(--label-size);
+      font-weight: var(--label-weight);
+      line-height: var(--label-lh);
+      letter-spacing: var(--label-ls);
+      white-space: nowrap;
+      cursor: pointer;
+      transition: opacity 0.15s ease;
+    }
+    .mock-ai-chip:hover { opacity: 0.8; }
+    .mock-ai-chip:active { opacity: 0.6; }
+
+    .mock-ai-icon {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background: var(--color-pinot-noir);
+    }
+
+    /* ── Menu list item mock ── */
+    .mock-menu-section-title {
+      font-family: var(--font);
+      font-size: var(--title-1-size);
+      font-weight: var(--title-1-weight);
+      line-height: var(--title-1-lh);
+      letter-spacing: var(--title-1-ls);
+      color: var(--foreground-primary);
+      padding: var(--spacing-secondary);
+      margin: 0;
+    }
+
+    .mock-menu-item {
+      display: flex;
+      align-items: center;
+      gap: var(--spacing-secondary);
+      padding: var(--spacing-secondary);
+      border-bottom: 1px solid var(--background-secondary);
+    }
+    .mock-menu-item:last-child { border-bottom: none; }
+
+    .mock-menu-info {
+      flex: 1;
+      min-width: 0;
+      display: flex;
+      flex-direction: column;
+      gap: var(--spacing-internal2);
+    }
+
+    .mock-menu-name {
+      font-family: var(--font);
+      font-size: var(--body-bold-size);
+      font-weight: var(--body-bold-weight);
+      line-height: var(--body-bold-lh);
+      letter-spacing: var(--body-bold-ls);
+      color: var(--foreground-primary);
+    }
+
+    .mock-menu-desc {
+      font-family: var(--font);
+      font-size: var(--body-regular-size);
+      font-weight: var(--body-regular-weight);
+      line-height: var(--body-regular-lh);
+      letter-spacing: var(--body-regular-ls);
+      color: var(--foreground-secondary);
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    .mock-menu-meta {
+      display: flex;
+      align-items: center;
+      gap: var(--spacing-internal3);
+      font-family: var(--font);
+      font-size: var(--subtext-regular-size);
+      font-weight: var(--subtext-regular-weight);
+      color: var(--foreground-secondary);
+    }
+
+    .mock-menu-meta svg {
+      width: 16px;
+      height: 16px;
+      flex-shrink: 0;
+    }
+
+    .mock-menu-img-wrap {
+      position: relative;
+      flex-shrink: 0;
+    }
+
+    .mock-menu-img {
+      width: 120px;
+      height: 120px;
+      border-radius: var(--spacing-secondary);
+      background: var(--background-secondary);
+      object-fit: cover;
+    }
+
+    .mock-menu-add {
+      position: absolute;
+      bottom: var(--spacing-internal2);
+      right: var(--spacing-internal2);
+      width: 34px;
+      height: 34px;
+      border-radius: 50%;
+      background: white;
+      border: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    }
+
+    .mock-menu-add svg {
+      width: 24px;
+      height: 24px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Module Library</h1>
+  <div class="hero-card">
+    <p class="subtitle">Front Door Template Library — Pre-built Layout Modules</p>
+    <div class="intro">
+      Modules are <strong>drop-in layout blocks</strong> that can be added to any page template. They always look the same by default, ensuring visual consistency across prototypes.
+      <br><br>
+      <strong>Using modules:</strong> Tell your AI agent <em>"Add a StandardCarouselModule at position 4 on the homepage feed"</em>
+      <br>
+      <strong>Customizing:</strong> Tell your agent <em>"I want to customize this carousel"</em> — it will eject the module into raw editable code.
+    </div>
+  </div>
+
+  <div class="lib-tabs">
+    <button class="lib-tab lib-tab--active" data-filter="all">All</button>
+    <button class="lib-tab" data-filter="prism">Prism</button>
+    <button class="lib-tab" data-filter="wes-system">Wes System</button>
+    <button class="lib-tab" data-filter="other">Other</button>
+  </div>
+
+  <div class="module-grid">
+
+  <!-- ════════════════════════════════════════════
+       PRISM COMPONENTS
+       ════════════════════════════════════════════ -->
+
+  <div class="module-card visible" data-category="prism">
+    <div class="module-header">
+      <div class="module-name">CustomPillRow</div>
+      <div class="module-desc">Horizontally scrollable filter pills with icons</div>
+    </div>
+    <div class="module-preview">
+      <img class="component-preview-img" src="component-previews/custom-chip-row.png" alt="CustomPillRow preview" />
+    </div>
+    <div class="module-specs-toggle"><span class="module-specs-label">Specs</span><span class="module-specs-chevron">▾</span></div>
+    <div class="module-info">
+      <div class="module-info-copy"><button class="copy-btn">Copy</button></div>
+      <div class="module-info-row">
+        <div class="module-info-label">Import</div>
+        <div class="module-info-value"><code>import { CustomPillRow } from '@shared/components/prism/CustomPillRow'</code></div>
+      </div>
+      <div class="module-info-row">
+        <div class="module-info-label">Built on</div>
+        <div class="module-info-value">@doordash/prism-react <code>Button</code> (tertiary, small, isToggleable)</div>
+      </div>
+      <div class="module-info-row">
+        <div class="module-info-label">Props</div>
+        <div class="module-info-value"><code>pills: PillConfig[]</code> — array of { label, leadingIcon, trailingIcon, isDashPass }<br><code>onToggle?: (index, toggled) => void</code></div>
+      </div>
+      <div class="module-info-row">
+        <div class="module-info-label">Requires</div>
+        <div class="module-info-value">PrismShell wrapper</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="module-card visible" data-category="prism">
+    <div class="module-header">
+      <div class="module-name">TabBar</div>
+      <div class="module-desc">Horizontal category tab bar with selected state</div>
+    </div>
+    <div class="module-preview">
+      <img class="component-preview-img" src="component-previews/tab-bar.png" alt="TabBar preview" />
+    </div>
+    <div class="module-specs-toggle"><span class="module-specs-label">Specs</span><span class="module-specs-chevron">▾</span></div>
+    <div class="module-info">
+      <div class="module-info-copy"><button class="copy-btn">Copy</button></div>
+      <div class="module-info-row">
+        <div class="module-info-label">Import</div>
+        <div class="module-info-value"><code>import { TabBar } from '@shared/components/prism/TabBar'</code></div>
+      </div>
+      <div class="module-info-row">
+        <div class="module-info-label">Built on</div>
+        <div class="module-info-value">@doordash/prism-react <code>ButtonTabs</code> + <code>ButtonTab</code></div>
+      </div>
+      <div class="module-info-row">
+        <div class="module-info-label">Props</div>
+        <div class="module-info-value"><code>tabs: string[]</code>, <code>selected?: string</code>, <code>size?: 'small' | 'medium' | 'large'</code>, <code>onSelect?: (tab) => void</code></div>
+      </div>
+      <div class="module-info-row">
+        <div class="module-info-label">Requires</div>
+        <div class="module-info-value">PrismShell wrapper</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="module-card visible" data-category="prism">
+    <div class="module-header">
+      <div class="module-name">BottomSearchBar</div>
+      <div class="module-desc">Sticky bottom search pill with cart count and home indicator</div>
+    </div>
+    <div class="module-preview">
+      <img class="component-preview-img" src="component-previews/bottom-search-bar.png" alt="BottomSearchBar preview" />
+    </div>
+    <div class="module-specs-toggle"><span class="module-specs-label">Specs</span><span class="module-specs-chevron">▾</span></div>
+    <div class="module-info">
+      <div class="module-info-copy"><button class="copy-btn">Copy</button></div>
+      <div class="module-info-row">
+        <div class="module-info-label">Import</div>
+        <div class="module-info-value"><code>import { BottomSearchBar } from '@shared/components/BottomSearchBar'</code></div>
+      </div>
+      <div class="module-info-row">
+        <div class="module-info-label">Built on</div>
+        <div class="module-info-value">@doordash/prism-react <code>Icon</code> (SearchLine, MicrophoneLine, DealsLine)</div>
+      </div>
+      <div class="module-info-row">
+        <div class="module-info-label">Props</div>
+        <div class="module-info-value"><code>label?: string</code> (default "Search grocery"), <code>cartCount?: number</code> (default 3)</div>
+      </div>
+      <div class="module-info-row">
+        <div class="module-info-label">Requires</div>
+        <div class="module-info-value">PrismShell wrapper</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ════════════════════════════════════════════
+       OTHER COMPONENTS
+       ════════════════════════════════════════════ -->
+
+  <div class="module-card visible" data-category="other">
+    <div class="module-header">
+      <div class="module-name">IOSStatusBar</div>
+      <div class="module-desc">iPhone status bar with Dynamic Island, cellular, wifi, and battery</div>
+    </div>
+    <div class="module-preview">
+      <img class="component-preview-img" src="component-previews/ios-status-bar.png" alt="IOSStatusBar preview" />
+    </div>
+    <div class="module-specs-toggle"><span class="module-specs-label">Specs</span><span class="module-specs-chevron">▾</span></div>
+    <div class="module-info">
+      <div class="module-info-copy"><button class="copy-btn">Copy</button></div>
+      <div class="module-info-row">
+        <div class="module-info-label">Import</div>
+        <div class="module-info-value"><code>import { IOSStatusBar } from '@shared/components/IOSStatusBar'</code></div>
+      </div>
+      <div class="module-info-row">
+        <div class="module-info-label">Props</div>
+        <div class="module-info-value"><code>time?: string</code> (default "9:41"), <code>dark?: boolean</code> (light/dark mode)</div>
+      </div>
+      <div class="module-info-row">
+        <div class="module-info-label">Works with</div>
+        <div class="module-info-value">Both design token templates and Prism templates (uses inline styles)</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ════════════════════════════════════════════
+       WES SYSTEM — 1. AddressBarModule
+       ════════════════════════════════════════════ -->
+  <div class="module-card visible" data-category="wes-system">
+    <div class="module-header">
+      <div class="module-name">AddressBarModule</div>
+      <div class="module-desc">Address text + notification/account icon buttons</div>
+    </div>
+    <div class="module-preview">
+      <img class="component-preview-img" src="component-previews/addressbar.png" alt="AddressBarModule preview" />
+    </div>
+    <div class="module-specs-toggle"><span class="module-specs-label">Specs</span><span class="module-specs-chevron">▾</span></div>
+    <div class="module-info">
+      <div class="module-info-copy"><button class="copy-btn">Copy</button></div>
+      <div class="module-info-row">
+        <div class="module-info-label">Import</div>
+        <div class="module-info-value"><code>import { AddressBarModule } from '@shared/modules/AddressBarModule'</code></div>
+      </div>
+      <div class="module-info-row">
+        <div class="module-info-label">Props</div>
+        <div class="module-info-value"><code>address?: string</code> — optional address text override (default: "283 Hayes St")</div>
+      </div>
+      <div class="module-info-row">
+        <div class="module-info-label">Usage</div>
+        <div class="module-info-value">
+          <pre>&lt;AddressBarModule /&gt;
+&lt;AddressBarModule address="1455 Market St" /&gt;</pre>
+        </div>
+      </div>
+      <div class="module-info-row">
+        <div class="module-info-label">Eject</div>
+        <div class="module-info-value"><span class="eject-note">Copy AddressBar.tsx into your page folder to customize icons and layout.</span></div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ════════════════════════════════════════════
+       2. CategoryTabBarModule
+       ════════════════════════════════════════════ -->
+  <div class="module-card visible" data-category="wes-system">
+    <div class="module-header">
+      <div class="module-name">CategoryTabBarModule</div>
+      <div class="module-desc">Scrollable icon tab row (Grocery, Going Out, etc.)</div>
+    </div>
+    <div class="module-preview">
+      <img class="component-preview-img" src="component-previews/categorytabbar.png" alt="CategoryTabBarModule preview" />
+    </div>
+    <div class="module-specs-toggle"><span class="module-specs-label">Specs</span><span class="module-specs-chevron">▾</span></div>
+    <div class="module-info">
+      <div class="module-info-copy"><button class="copy-btn">Copy</button></div>
+      <div class="module-info-row">
+        <div class="module-info-label">Import</div>
+        <div class="module-info-value"><code>import { CategoryTabBarModule } from '@shared/modules/CategoryTabBarModule'</code></div>
+      </div>
+      <div class="module-info-row">
+        <div class="module-info-label">Props</div>
+        <div class="module-info-value"><code>tabs?: { label: string; Icon: ComponentType }[]</code> — optional custom tab definitions</div>
+      </div>
+      <div class="module-info-row">
+        <div class="module-info-label">Usage</div>
+        <div class="module-info-value"><pre>&lt;CategoryTabBarModule /&gt;</pre></div>
+      </div>
+      <div class="module-info-row">
+        <div class="module-info-label">Eject</div>
+        <div class="module-info-value"><span class="eject-note">Copy CategoryTabBar.tsx into your page folder to customize tab data and icons.</span></div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ════════════════════════════════════════════
+       3. SmartChipsModule
+       ════════════════════════════════════════════ -->
+  <div class="module-card visible" data-category="wes-system">
+    <div class="module-header">
+      <div class="module-name">SmartChipsModule</div>
+      <div class="module-desc">Greeting text + scrollable filter chip rows</div>
+    </div>
+    <div class="module-preview">
+      <img class="component-preview-img" src="component-previews/smartchips.png" alt="SmartChipsModule preview" />
+    </div>
+    <div class="module-specs-toggle"><span class="module-specs-label">Specs</span><span class="module-specs-chevron">▾</span></div>
+    <div class="module-info">
+      <div class="module-info-copy"><button class="copy-btn">Copy</button></div>
+      <div class="module-info-row">
+        <div class="module-info-label">Import</div>
+        <div class="module-info-value"><code>import { SmartChipsModule } from '@shared/modules/SmartChipsModule'</code></div>
+      </div>
+      <div class="module-info-row">
+        <div class="module-info-label">Props</div>
+        <div class="module-info-value"><code>greeting?: string</code> — optional greeting text override</div>
+      </div>
+      <div class="module-info-row">
+        <div class="module-info-label">Usage</div>
+        <div class="module-info-value">
+          <pre>&lt;SmartChipsModule /&gt;
+&lt;SmartChipsModule greeting="Good morning, Sarah!" /&gt;</pre>
+        </div>
+      </div>
+      <div class="module-info-row">
+        <div class="module-info-label">Eject</div>
+        <div class="module-info-value"><span class="eject-note">Copy SmartChips.tsx into your page folder to customize chip data and layout.</span></div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ════════════════════════════════════════════
+       2. CardListModule
+       ════════════════════════════════════════════ -->
+  <div class="module-card visible" data-category="wes-system">
+    <div class="module-header">
+      <div class="module-name">CardListModule</div>
+      <div class="module-desc">Recent orders list with thumbnails</div>
+    </div>
+    <div class="module-preview">
+      <img class="component-preview-img" src="component-previews/card-list-module.png" alt="CardListModule preview" />
+    </div>
+    <div class="module-specs-toggle"><span class="module-specs-label">Specs</span><span class="module-specs-chevron">▾</span></div>
+    <div class="module-info">
+      <div class="module-info-copy"><button class="copy-btn">Copy</button></div>
+      <div class="module-info-row">
+        <div class="module-info-label">Import</div>
+        <div class="module-info-value"><code>import { CardListModule } from '@shared/modules/CardListModule'</code></div>
+      </div>
+      <div class="module-info-row">
+        <div class="module-info-label">Props</div>
+        <div class="module-info-value">None required</div>
+      </div>
+      <div class="module-info-row">
+        <div class="module-info-label">Usage</div>
+        <div class="module-info-value"><pre>&lt;CardListModule /&gt;</pre></div>
+      </div>
+      <div class="module-info-row">
+        <div class="module-info-label">Eject</div>
+        <div class="module-info-value"><span class="eject-note">Copy OrderAgain.tsx into your page folder to customize store data and layout.</span></div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ════════════════════════════════════════════
+       3. SpotlightModule
+       ════════════════════════════════════════════ -->
+  <div class="module-card visible" data-category="wes-system">
+    <div class="module-header">
+      <div class="module-name">SpotlightModule</div>
+      <div class="module-desc">Hero video/image with promotional copy + CTA</div>
+    </div>
+    <div class="module-preview">
+      <img class="component-preview-img" src="component-previews/spotlight.png" alt="SpotlightModule preview" />
+    </div>
+    <div class="module-specs-toggle"><span class="module-specs-label">Specs</span><span class="module-specs-chevron">▾</span></div>
+    <div class="module-info">
+      <div class="module-info-copy"><button class="copy-btn">Copy</button></div>
+      <div class="module-info-row">
+        <div class="module-info-label">Import</div>
+        <div class="module-info-value"><code>import { SpotlightModule } from '@shared/modules/SpotlightModule'</code></div>
+      </div>
+      <div class="module-info-row">
+        <div class="module-info-label">Props</div>
+        <div class="module-info-value">None required</div>
+      </div>
+      <div class="module-info-row">
+        <div class="module-info-label">Usage</div>
+        <div class="module-info-value"><pre>&lt;SpotlightModule /&gt;</pre></div>
+      </div>
+      <div class="module-info-row">
+        <div class="module-info-label">Eject</div>
+        <div class="module-info-value"><span class="eject-note">Copy Spotlight.tsx into your page folder to customize media, copy, and CTA.</span></div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ════════════════════════════════════════════
+       4. FourPackModule
+       ════════════════════════════════════════════ -->
+  <div class="module-card visible" data-category="wes-system">
+    <div class="module-header">
+      <div class="module-name">FourPackModule</div>
+      <div class="module-desc">Tab-filtered store grid (2x2) with crossfade images</div>
+    </div>
+    <div class="module-preview">
+      <img class="component-preview-img" src="component-previews/fourpack.png" alt="FourPackModule preview" />
+    </div>
+    <div class="module-specs-toggle"><span class="module-specs-label">Specs</span><span class="module-specs-chevron">▾</span></div>
+    <div class="module-info">
+      <div class="module-info-copy"><button class="copy-btn">Copy</button></div>
+      <div class="module-info-row">
+        <div class="module-info-label">Import</div>
+        <div class="module-info-value"><code>import { FourPackModule } from '@shared/modules/FourPackModule'</code></div>
+      </div>
+      <div class="module-info-row">
+        <div class="module-info-label">Props</div>
+        <div class="module-info-value">None required</div>
+      </div>
+      <div class="module-info-row">
+        <div class="module-info-label">Usage</div>
+        <div class="module-info-value"><pre>&lt;FourPackModule /&gt;</pre></div>
+      </div>
+      <div class="module-info-row">
+        <div class="module-info-label">Eject</div>
+        <div class="module-info-value"><span class="eject-note">Copy SimilarSection.tsx into your page folder to customize tabs, store data, and grid layout.</span></div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ════════════════════════════════════════════
+       5. StandardCarouselModule
+       ════════════════════════════════════════════ -->
+  <div class="module-card visible" data-category="wes-system">
+    <div class="module-header">
+      <div class="module-name">StandardCarouselModule</div>
+      <div class="module-desc">Horizontal scrolling store cards with title</div>
+    </div>
+    <div class="module-preview">
+      <img class="component-preview-img" src="component-previews/standardcarousel.png" alt="StandardCarouselModule preview" />
+    </div>
+    <div class="module-specs-toggle"><span class="module-specs-label">Specs</span><span class="module-specs-chevron">▾</span></div>
+    <div class="module-info">
+      <div class="module-info-copy"><button class="copy-btn">Copy</button></div>
+      <div class="module-info-row">
+        <div class="module-info-label">Import</div>
+        <div class="module-info-value"><code>import { StandardCarouselModule } from '@shared/modules/StandardCarouselModule'</code></div>
+      </div>
+      <div class="module-info-row">
+        <div class="module-info-label">Props</div>
+        <div class="module-info-value">
+          <code>title: string</code> — section heading<br>
+          <code>stores: Store[]</code> — array of store objects (<code>name</code>, <code>rating</code>, <code>time</code>, <code>dist</code>, <code>fee</code>, <code>tag?</code>, <code>img</code>)
+        </div>
+      </div>
+      <div class="module-info-row">
+        <div class="module-info-label">Usage</div>
+        <div class="module-info-value">
+          <pre>&lt;StandardCarouselModule title="Chicken and rice bowls" stores={stores.slice(0, 6)} /&gt;</pre>
+        </div>
+      </div>
+      <div class="module-info-row">
+        <div class="module-info-label">Eject</div>
+        <div class="module-info-value"><span class="eject-note">Copy CarouselSection.tsx into your page folder to customize card layout and styling.</span></div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ════════════════════════════════════════════
+       6. FourPackAIChipsModule
+       ════════════════════════════════════════════ -->
+  <div class="module-card visible" data-category="wes-system">
+    <div class="module-header">
+      <div class="module-name">FourPackAIChipsModule</div>
+      <div class="module-desc">AI-generated tab suggestions with animated sub-tabs</div>
+    </div>
+    <div class="module-preview">
+      <img class="component-preview-img" src="component-previews/foupackaichips.png" alt="FourPackAIChipsModule preview" />
+    </div>
+    <div class="module-specs-toggle"><span class="module-specs-label">Specs</span><span class="module-specs-chevron">▾</span></div>
+    <div class="module-info">
+      <div class="module-info-copy"><button class="copy-btn">Copy</button></div>
+      <div class="module-info-row">
+        <div class="module-info-label">Import</div>
+        <div class="module-info-value"><code>import { FourPackAIChipsModule } from '@shared/modules/FourPackAIChipsModule'</code></div>
+      </div>
+      <div class="module-info-row">
+        <div class="module-info-label">Props</div>
+        <div class="module-info-value">None required</div>
+      </div>
+      <div class="module-info-row">
+        <div class="module-info-label">Usage</div>
+        <div class="module-info-value"><pre>&lt;FourPackAIChipsModule /&gt;</pre></div>
+      </div>
+      <div class="module-info-row">
+        <div class="module-info-label">Eject</div>
+        <div class="module-info-value"><span class="eject-note">Copy DiscoverSection.tsx into your page folder to customize tabs, AI suggestion logic, and store data.</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ════════════════════════════════════════════
+       FilterChips (Reusable Component)
+       ════════════════════════════════════════════ -->
+  <div class="module-card visible" data-category="wes-system">
+    <div class="module-header">
+      <div class="module-name">FilterChips</div>
+      <div class="module-desc">Reusable horizontally scrollable pill row with active/inactive states</div>
+    </div>
+    <div class="module-preview">
+      <div class="module-phone">
+        <div style="padding: var(--spacing-secondary) 0;">
+          <div style="font-family: var(--font); font-size: var(--title-2-size); font-weight: var(--title-2-weight); margin-bottom: var(--spacing-secondary); padding: 0 var(--spacing-secondary);">What are you looking for?</div>
+          <div style="display:flex; gap:var(--spacing-internal1); padding:0 var(--spacing-secondary); overflow-x:auto;">
+            <div class="mock-filter-tab mock-filter-tab--active">Featured</div>
+            <div class="mock-filter-tab mock-filter-tab--inactive">Vegetarian</div>
+            <div class="mock-filter-tab mock-filter-tab--inactive">Healthier</div>
+            <div class="mock-filter-tab mock-filter-tab--inactive">High protein</div>
+            <div class="mock-filter-tab mock-filter-tab--inactive">Spicy</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="module-specs-toggle"><span class="module-specs-label">Specs</span><span class="module-specs-chevron">▾</span></div>
+    <div class="module-info">
+      <div class="module-info-copy"><button class="copy-btn">Copy</button></div>
+      <div class="module-info-row">
+        <div class="module-info-label">Import</div>
+        <div class="module-info-value"><code>import { FilterChips } from '@shared/components/FilterChips'</code></div>
+      </div>
+      <div class="module-info-row">
+        <div class="module-info-label">Props</div>
+        <div class="module-info-value">
+          <code>chips: string[] | FilterChipItem[]</code> — labels or objects with <code>label</code>, optional <code>icon</code>, optional <code>className</code><br>
+          <code>activeLabel: string</code> — currently active chip label<br>
+          <code>onSelect: (label: string) =&gt; void</code> — callback when a chip is tapped<br>
+          <code>containerClassName?: string</code> — extra class for the scroll container (e.g. <code>"menu-categories"</code>, <code>"filter-chips--section"</code>)
+        </div>
+      </div>
+      <div class="module-info-row">
+        <div class="module-info-label">Usage</div>
+        <div class="module-info-value">
+          <pre>&lt;FilterChips
+  chips={['Featured', 'Vegetarian', 'Healthier']}
+  activeLabel={active}
+  onSelect={setActive}
+/&gt;</pre>
+        </div>
+      </div>
+      <div class="module-info-row">
+        <div class="module-info-label">Variants</div>
+        <div class="module-info-value">
+          <code>containerClassName="filter-chips--section"</code> — edge-to-edge padding for homepage sections<br>
+          <code>containerClassName="menu-categories"</code> — adds bottom border for menu category tabs<br>
+          Pass <code>FilterChipItem[]</code> with <code>icon</code> and <code>className</code> for AI chips with shimmer/slide-in
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ════════════════════════════════════════════
+       9. SearchFooterModule
+       ════════════════════════════════════════════ -->
+  <div class="module-card visible" data-category="wes-system">
+    <div class="module-header">
+      <div class="module-name">SearchFooterModule</div>
+      <div class="module-desc">Search pill + cart pill floating footer</div>
+    </div>
+    <div class="module-preview">
+      <div class="module-phone">
+        <div class="mock-footer">
+          <div class="mock-footer-blur"></div>
+          <div class="mock-footer-inner">
+            <div class="mock-search-pill">
+              <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg"><g transform="translate(3.068, 3.068)"><path fill-rule="evenodd" clip-rule="evenodd" d="M11.7294 13.2115C10.5047 14.1287 8.98381 14.672 7.336 14.672C3.28444 14.672 0 11.3876 0 7.336C0 3.28444 3.28444 0 7.336 0C11.3876 0 14.672 3.28444 14.672 7.336C14.672 8.98381 14.1287 10.5047 13.2115 11.7294L18.557 17.075C18.9663 17.4842 18.9663 18.1478 18.557 18.557C18.1478 18.9663 17.4842 18.9663 17.075 18.557L11.7294 13.2115ZM12.576 7.336C12.576 10.23 10.23 12.576 7.336 12.576C4.44203 12.576 2.096 10.23 2.096 7.336C2.096 4.44203 4.44203 2.096 7.336 2.096C10.23 2.096 12.576 4.44203 12.576 7.336Z" fill="#191919"/></g></svg>
+              Search
+            </div>
+            <div class="mock-cart-pill">
+              <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg"><g transform="translate(2.237, 2.237)"><path fill-rule="evenodd" clip-rule="evenodd" d="M12.576 0H17.3819C19.1183 0 20.5259 1.40762 20.5259 3.144V7.9499C20.5259 8.78375 20.1947 9.58343 19.605 10.173L10.173 19.6051C8.94524 20.8329 6.95457 20.8329 5.72676 19.605L0.920856 14.7991C-0.306952 13.5713 -0.306952 11.5807 0.920856 10.3529L10.3529 0.920855C10.9425 0.331239 11.7422 0 12.576 0ZM12.576 2.096H17.3819C17.9607 2.096 18.4299 2.56521 18.4299 3.144V7.9499C18.4299 8.22785 18.3195 8.49441 18.123 8.69095L8.69095 18.123C8.28168 18.5322 7.61813 18.5322 7.20886 18.123L2.40295 13.317C1.99368 12.9078 1.99368 12.2442 2.40295 11.835L11.835 2.40295C12.0315 2.20641 12.2981 2.096 12.576 2.096Z" fill="#191919"/><path d="M16.3339 5.764C16.3339 6.63219 15.6301 7.336 14.7619 7.336C13.8937 7.336 13.1899 6.63219 13.1899 5.764C13.1899 4.89581 13.8937 4.192 14.7619 4.192C15.6301 4.192 16.3339 4.89581 16.3339 5.764Z" fill="#191919"/></g></svg>
+              3
+            </div>
+          </div>
+          <div class="mock-home-indicator"></div>
+        </div>
+      </div>
+    </div>
+    <div class="module-specs-toggle"><span class="module-specs-label">Specs</span><span class="module-specs-chevron">▾</span></div>
+    <div class="module-info">
+      <div class="module-info-copy"><button class="copy-btn">Copy</button></div>
+      <div class="module-info-row">
+        <div class="module-info-label">Import</div>
+        <div class="module-info-value"><code>import { SearchFooterModule } from '@shared/modules/SearchFooterModule'</code></div>
+      </div>
+      <div class="module-info-row">
+        <div class="module-info-label">Props</div>
+        <div class="module-info-value">None required</div>
+      </div>
+      <div class="module-info-row">
+        <div class="module-info-label">Usage</div>
+        <div class="module-info-value"><pre>&lt;SearchFooterModule /&gt;</pre></div>
+      </div>
+      <div class="module-info-row">
+        <div class="module-info-label">Eject</div>
+        <div class="module-info-value"><span class="eject-note">Copy Footer.tsx into your page folder to customize search and cart layout.</span></div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- ════════════════════════════════════════════
+       11. MenuListModule
+       ════════════════════════════════════════════ -->
+  <div class="module-card visible" data-category="wes-system">
+    <div class="module-header">
+      <div class="module-name">MenuListModule</div>
+      <div class="module-desc">Vertical menu item list with images and add-to-cart buttons</div>
+    </div>
+    <div class="module-preview">
+      <div class="module-phone">
+        <div class="mock-menu-section-title">Breakfast</div>
+
+        <div class="mock-menu-item">
+          <div class="mock-menu-info">
+            <div class="mock-menu-name">Harvest Bowl</div>
+            <div class="mock-menu-desc">Roasted chicken, sweet potatoes, apples, goat cheese, warm wild rice.</div>
+            <div class="mock-menu-meta">
+              <span>$11.95</span>
+              <span>&middot;</span>
+              <svg viewBox="0 0 16 16" fill="none"><path d="M8 1.33c-.2 0-.38.08-.52.2l-5.3 4.8A1.22 1.22 0 0 0 2.8 8.2l.53-.48v4.95c0 .73.6 1.33 1.34 1.33h6.66c.74 0 1.34-.6 1.34-1.33V7.72l.52.48c.48.44 1.24.02 1.13-.6a1.2 1.2 0 0 0-.31-.47L8.52 1.54A.73.73 0 0 0 8 1.33Z" fill="currentColor"/></svg>
+              <span>92% (69)</span>
+            </div>
+            <span class="mock-deal-tag" style="margin-top:var(--spacing-internal3)">$2.00 off</span>
+          </div>
+          <div class="mock-menu-img-wrap">
+            <div class="mock-menu-img"></div>
+            <div class="mock-menu-add">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M12 5V19M5 12H19" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+            </div>
+          </div>
+        </div>
+
+        <div class="mock-menu-item">
+          <div class="mock-menu-info">
+            <div class="mock-menu-name">Kale Caesar</div>
+            <div class="mock-menu-desc">Shredded kale, parmesan crisps, tomatoes, lemon squeeze.</div>
+            <div class="mock-menu-meta">
+              <span>$10.95</span>
+              <span>&middot;</span>
+              <svg viewBox="0 0 16 16" fill="none"><path d="M8 1.33c-.2 0-.38.08-.52.2l-5.3 4.8A1.22 1.22 0 0 0 2.8 8.2l.53-.48v4.95c0 .73.6 1.33 1.34 1.33h6.66c.74 0 1.34-.6 1.34-1.33V7.72l.52.48c.48.44 1.24.02 1.13-.6a1.2 1.2 0 0 0-.31-.47L8.52 1.54A.73.73 0 0 0 8 1.33Z" fill="currentColor"/></svg>
+              <span>88% (66)</span>
+            </div>
+            <span class="mock-deal-tag" style="background:var(--background-secondary);color:var(--foreground-primary);margin-top:var(--spacing-internal3)">#2 Most Liked</span>
+          </div>
+          <div class="mock-menu-img-wrap">
+            <div class="mock-menu-img"></div>
+            <div class="mock-menu-add">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M12 5V19M5 12H19" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+            </div>
+          </div>
+        </div>
+
+        <div class="mock-menu-item">
+          <div class="mock-menu-info">
+            <div class="mock-menu-name">Crispy Rice Bowl</div>
+            <div class="mock-menu-desc">Blackened chicken, crispy rice, raw carrots, shredded cabbage.</div>
+            <div class="mock-menu-meta">
+              <span>$12.65</span>
+            </div>
+          </div>
+          <div class="mock-menu-img-wrap">
+            <div class="mock-menu-img"></div>
+            <div class="mock-menu-add">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M12 5V19M5 12H19" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="module-specs-toggle"><span class="module-specs-label">Specs</span><span class="module-specs-chevron">▾</span></div>
+    <div class="module-info">
+      <div class="module-info-copy"><button class="copy-btn">Copy</button></div>
+      <div class="module-info-row">
+        <div class="module-info-label">Import</div>
+        <div class="module-info-value"><code>import { MenuSection } from '@shared/components/MenuSection'</code></div>
+      </div>
+      <div class="module-info-row">
+        <div class="module-info-label">Props</div>
+        <div class="module-info-value"><code>title</code> (string, default "Breakfast"), <code>items</code> (MenuItem[]), <code>onAddToCart</code> (callback, optional)</div>
+      </div>
+      <div class="module-info-row">
+        <div class="module-info-label">Usage</div>
+        <div class="module-info-value"><pre>&lt;MenuSection title="Breakfast" items={store.menu} /&gt;</pre></div>
+      </div>
+      <div class="module-info-row">
+        <div class="module-info-label">Eject</div>
+        <div class="module-info-value"><span class="eject-note">Copy MenuSection.tsx into your page folder to customize item layout, tags, and add-to-cart behavior.</span></div>
+      </div>
+    </div>
+  </div>
+
+  </div><!-- /.module-grid -->
+
+  <script>
+    // Filter tabs
+    document.querySelectorAll('.lib-tab').forEach(tab => {
+      tab.addEventListener('click', () => {
+        document.querySelectorAll('.lib-tab').forEach(t => t.classList.remove('lib-tab--active'));
+        tab.classList.add('lib-tab--active');
+        const filter = tab.dataset.filter;
+        document.querySelectorAll('.module-card[data-category]').forEach(card => {
+          if (filter === 'all' || card.dataset.category === filter) {
+            card.classList.add('visible');
+          } else {
+            card.classList.remove('visible');
+          }
+        });
+      });
+    });
+
+    // Specs toggle
+    document.querySelectorAll('.module-specs-toggle').forEach(toggle => {
+      toggle.addEventListener('click', () => {
+        toggle.classList.toggle('open');
+        const info = toggle.nextElementSibling;
+        if (info) info.classList.toggle('open');
+      });
+    });
+
+    // Copy specs
+    document.querySelectorAll('.copy-btn').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const info = btn.closest('.module-info');
+        const rows = info.querySelectorAll('.module-info-row');
+        let text = '';
+        rows.forEach(row => {
+          const label = row.querySelector('.module-info-label')?.textContent?.trim();
+          const value = row.querySelector('.module-info-value')?.textContent?.trim();
+          if (label && value) text += label + ': ' + value + '\n';
+        });
+        navigator.clipboard.writeText(text).then(() => {
+          btn.textContent = 'Copied!';
+          btn.classList.add('copied');
+          setTimeout(() => { btn.textContent = 'Copy'; btn.classList.remove('copied'); }, 1500);
+        });
+      });
+    });
+  </script>
+
+</body>
+</html>

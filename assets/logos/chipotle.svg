@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80">
+  <circle cx="40" cy="40" r="40" fill="#441400"/>
+  <!-- Chipotle pepper flame mark -->
+  <path d="M40 16 C40 16 48 24 48 34 C48 40 44 44 40 46 C36 44 32 40 32 34 C32 24 40 16 40 16Z" fill="#CE2027"/>
+  <path d="M40 46 C40 46 34 50 33 56 C33 60 36 63 40 63 C44 63 47 60 47 56 C46 50 40 46 40 46Z" fill="#CE2027"/>
+  <path d="M40 30 C40 30 44 35 44 40 C44 44 42 46 40 47" stroke="#FF6B35" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.7"/>
+</svg>

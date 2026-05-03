@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Front Door Design System</title>
+  <link rel="stylesheet" href="design-tokens.css">
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #ffffff;
+      color: #191919;
+      padding: 48px;
+    }
+
+    h1 {
+      font-size: 32px;
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+
+    .subtitle {
+      font-size: 14px;
+      color: #8b8b8b;
+      margin-bottom: 48px;
+    }
+
+    section {
+      margin-bottom: 56px;
+    }
+
+    .section-title {
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #8b8b8b;
+      margin-bottom: 20px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid #d6d6d6;
+    }
+
+    /* ── Colors ── */
+    .color-group {
+      margin-bottom: 24px;
+    }
+
+    .color-group-label {
+      font-size: 13px;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+
+    .color-row {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .color-chip {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 6px;
+      width: 120px;
+    }
+
+    .color-swatch {
+      width: 120px;
+      height: 64px;
+      border-radius: 8px;
+      border: 1px solid rgba(0,0,0,0.08);
+    }
+
+    .color-label {
+      font-size: 11px;
+      font-weight: 600;
+      text-align: center;
+    }
+
+    .color-value {
+      font-size: 10px;
+      color: #8b8b8b;
+      font-family: "SF Mono", "Fira Code", monospace;
+    }
+
+    /* ── Typography ── */
+    .type-row {
+      display: flex;
+      align-items: baseline;
+      gap: 24px;
+      padding: 12px 0;
+      border-bottom: 1px solid #f1f1f1;
+    }
+
+    .type-meta {
+      width: 200px;
+      flex-shrink: 0;
+    }
+
+    .type-name {
+      font-size: 12px;
+      font-weight: 700;
+      font-family: "SF Mono", "Fira Code", monospace;
+    }
+
+    .type-specs {
+      font-size: 10px;
+      color: #8b8b8b;
+      font-family: "SF Mono", "Fira Code", monospace;
+      margin-top: 2px;
+    }
+
+    .type-preview {
+      flex: 1;
+    }
+
+    /* ── Spacing ── */
+    .spacing-row {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      margin-bottom: 12px;
+    }
+
+    .spacing-bar {
+      height: 32px;
+      background: var(--background-accent);
+      border-radius: 4px;
+      opacity: 0.15;
+    }
+
+    .spacing-bar-fill {
+      height: 100%;
+      background: var(--background-accent);
+      border-radius: 4px;
+    }
+
+    .spacing-label {
+      width: 160px;
+      flex-shrink: 0;
+    }
+
+    .spacing-name {
+      font-size: 12px;
+      font-weight: 700;
+      font-family: "SF Mono", "Fira Code", monospace;
+    }
+
+    .spacing-desc {
+      font-size: 10px;
+      color: #8b8b8b;
+      margin-top: 1px;
+    }
+
+    .spacing-value {
+      font-size: 11px;
+      font-family: "SF Mono", "Fira Code", monospace;
+      color: #606060;
+      width: 40px;
+      flex-shrink: 0;
+    }
+
+    /* ── Shadows ── */
+    .shadow-row {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    .shadow-chip {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .shadow-box {
+      width: 100px;
+      height: 100px;
+      background: #ffffff;
+      border-radius: var(--radius-card);
+    }
+
+    .shadow-label {
+      font-size: 11px;
+      font-weight: 600;
+      font-family: "SF Mono", "Fira Code", monospace;
+    }
+
+    .shadow-specs {
+      font-size: 9px;
+      color: #8b8b8b;
+      font-family: "SF Mono", "Fira Code", monospace;
+    }
+
+    /* ── Radii ── */
+    .radius-demo {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .radius-box {
+      width: 100px;
+      height: 100px;
+      background: var(--background-secondary);
+      border: 1px solid var(--stroke-tertiary);
+      border-radius: var(--radius-card);
+    }
+
+    .radius-label {
+      font-size: 12px;
+      font-family: "SF Mono", "Fira Code", monospace;
+    }
+
+    .radius-value {
+      font-size: 11px;
+      color: #8b8b8b;
+      font-family: "SF Mono", "Fira Code", monospace;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Front Door Design System</h1>
+  <p class="subtitle">Project Front Door — Token & Style Reference</p>
+
+  <div style="background: #eef4ff; border: 1px solid #c8daf8; border-radius: 12px; padding: 20px 24px; margin-bottom: 48px;">
+    <div style="font-size: 16px; font-weight: 700; margin-bottom: 6px;">Keep your designs clean</div>
+    <div style="font-size: 15px; line-height: 1.5; color: #494949;">Tell the AI <em>"use styles and tokens in the Front Door Design System"</em> for all new prototype elements.</div>
+  </div>
+
+  <!-- ════════ COLORS ════════ -->
+  <section>
+    <div class="section-title">Colors</div>
+
+    <div class="color-group">
+      <div class="color-group-label">Background</div>
+      <div class="color-row">
+        <div class="color-chip">
+          <div class="color-swatch" style="background: var(--background-secondary)"></div>
+          <div class="color-label">Secondary</div>
+          <div class="color-value">#f1f1f1</div>
+        </div>
+        <div class="color-chip">
+          <div class="color-swatch" style="background: var(--background-tertiary)"></div>
+          <div class="color-label">Tertiary</div>
+          <div class="color-value">#d6d6d6</div>
+        </div>
+        <div class="color-chip">
+          <div class="color-swatch" style="background: var(--background-disabled)"></div>
+          <div class="color-label">Disabled</div>
+          <div class="color-value">#c4c4c4</div>
+        </div>
+        <div class="color-chip">
+          <div class="color-swatch" style="background: var(--background-inverse)"></div>
+          <div class="color-label">Inverse</div>
+          <div class="color-value">#191919</div>
+        </div>
+        <div class="color-chip">
+          <div class="color-swatch" style="background: var(--background-accent)"></div>
+          <div class="color-label">Accent</div>
+          <div class="color-value">#eb1700</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="color-group">
+      <div class="color-group-label">Foreground</div>
+      <div class="color-row">
+        <div class="color-chip">
+          <div class="color-swatch" style="background: var(--foreground-primary)"></div>
+          <div class="color-label">Primary</div>
+          <div class="color-value">#191919</div>
+        </div>
+        <div class="color-chip">
+          <div class="color-swatch" style="background: var(--foreground-secondary)"></div>
+          <div class="color-label">Secondary</div>
+          <div class="color-value">#606060</div>
+        </div>
+        <div class="color-chip">
+          <div class="color-swatch" style="background: var(--foreground-tertiary)"></div>
+          <div class="color-label">Tertiary</div>
+          <div class="color-value">#8b8b8b</div>
+        </div>
+        <div class="color-chip">
+          <div class="color-swatch" style="background: var(--foreground-on-inverse)"></div>
+          <div class="color-label">On Inverse</div>
+          <div class="color-value">#ffffff</div>
+        </div>
+        <div class="color-chip">
+          <div class="color-swatch" style="background: var(--foreground-accent)"></div>
+          <div class="color-label">Accent</div>
+          <div class="color-value">#eb1700</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="color-group">
+      <div class="color-group-label">Stroke</div>
+      <div class="color-row">
+        <div class="color-chip">
+          <div class="color-swatch" style="background: var(--stroke-primary)"></div>
+          <div class="color-label">Primary</div>
+          <div class="color-value">#191919</div>
+        </div>
+        <div class="color-chip">
+          <div class="color-swatch" style="background: var(--stroke-secondary)"></div>
+          <div class="color-label">Secondary</div>
+          <div class="color-value">#8b8b8b</div>
+        </div>
+        <div class="color-chip">
+          <div class="color-swatch" style="background: var(--stroke-tertiary)"></div>
+          <div class="color-label">Tertiary</div>
+          <div class="color-value">#d6d6d6</div>
+        </div>
+        <div class="color-chip">
+          <div class="color-swatch" style="background: var(--stroke-disabled)"></div>
+          <div class="color-label">Disabled</div>
+          <div class="color-value">#f1f1f1</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════ EXPRESSIVE COLORS ════════ -->
+  <section>
+    <div class="section-title">Expressive Colors</div>
+    <div class="color-row">
+      <div class="color-chip">
+        <div class="color-swatch" style="background: var(--color-delivery-red)"></div>
+        <div class="color-label">Delivery Red</div>
+        <div class="color-value">#ff3008</div>
+      </div>
+      <div class="color-chip">
+        <div class="color-swatch" style="background: var(--color-detergent)"></div>
+        <div class="color-label">Detergent</div>
+        <div class="color-value">#80d8ff</div>
+      </div>
+      <div class="color-chip">
+        <div class="color-swatch" style="background: var(--color-bouquet)"></div>
+        <div class="color-label">Bouquet</div>
+        <div class="color-value">#ffc4fc</div>
+      </div>
+      <div class="color-chip">
+        <div class="color-swatch" style="background: var(--color-yolk)"></div>
+        <div class="color-label">Yolk</div>
+        <div class="color-value">#f2d531</div>
+      </div>
+      <div class="color-chip">
+        <div class="color-swatch" style="background: var(--color-motor-oil)"></div>
+        <div class="color-label">Motor Oil</div>
+        <div class="color-value">#681109</div>
+      </div>
+      <div class="color-chip">
+        <div class="color-swatch" style="background: var(--color-pinot-noir)"></div>
+        <div class="color-label">Pinot Noir</div>
+        <div class="color-value">#4c0c3a</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════ TYPOGRAPHY ════════ -->
+  <section>
+    <div class="section-title">Typography</div>
+
+    <div class="type-row">
+      <div class="type-meta">
+        <div class="type-name">.display-1</div>
+        <div class="type-specs">Bold 56px / 42px / -3%</div>
+      </div>
+      <div class="type-preview display-1">Display 1</div>
+    </div>
+
+    <div class="type-row">
+      <div class="type-meta">
+        <div class="type-name">.display-2</div>
+        <div class="type-specs">Bold 40px / 34px / -4%</div>
+      </div>
+      <div class="type-preview display-2">Display 2</div>
+    </div>
+
+    <div class="type-row">
+      <div class="type-meta">
+        <div class="type-name">.display-3</div>
+        <div class="type-specs">Bold 32px / 34px / -1%</div>
+      </div>
+      <div class="type-preview display-3">Display 3</div>
+    </div>
+
+    <div class="type-row">
+      <div class="type-meta">
+        <div class="type-name">.title-1</div>
+        <div class="type-specs">Bold 24px / 24px / -1%</div>
+      </div>
+      <div class="type-preview title-1">Title 1</div>
+    </div>
+
+    <div class="type-row">
+      <div class="type-meta">
+        <div class="type-name">.title-2</div>
+        <div class="type-specs">Bold 20px / 24px / -1%</div>
+      </div>
+      <div class="type-preview title-2">Title 2</div>
+    </div>
+
+    <div class="type-row">
+      <div class="type-meta">
+        <div class="type-name">.subtitle-1</div>
+        <div class="type-specs">Normal 20px / 24px / -1%</div>
+      </div>
+      <div class="type-preview subtitle-1">Subtitle 1</div>
+    </div>
+
+    <div class="type-row">
+      <div class="type-meta">
+        <div class="type-name">.title-3</div>
+        <div class="type-specs">Bold 14px / 20px / -1%</div>
+      </div>
+      <div class="type-preview title-3">Title 3</div>
+    </div>
+
+    <div class="type-row">
+      <div class="type-meta">
+        <div class="type-name">.subtitle-2</div>
+        <div class="type-specs">Normal 14px / 20px / -1%</div>
+      </div>
+      <div class="type-preview subtitle-2">Subtitle 2</div>
+    </div>
+
+    <div class="type-row">
+      <div class="type-meta">
+        <div class="type-name">.body-bold</div>
+        <div class="type-specs">Bold 16px / 20px / -1%</div>
+      </div>
+      <div class="type-preview body-bold">Body Bold</div>
+    </div>
+
+    <div class="type-row">
+      <div class="type-meta">
+        <div class="type-name">.body-regular</div>
+        <div class="type-specs">Normal 16px / 20px / -1%</div>
+      </div>
+      <div class="type-preview body-regular">Body Regular</div>
+    </div>
+
+    <div class="type-row">
+      <div class="type-meta">
+        <div class="type-name">.caption-bold</div>
+        <div class="type-specs">Bold 12px / 20px / -1%</div>
+      </div>
+      <div class="type-preview caption-bold">Caption Bold</div>
+    </div>
+
+    <div class="type-row">
+      <div class="type-meta">
+        <div class="type-name">.caption-regular</div>
+        <div class="type-specs">Medium 12px / 20px / -1%</div>
+      </div>
+      <div class="type-preview caption-regular">Caption Regular</div>
+    </div>
+  </section>
+
+  <!-- ════════ SPACING ════════ -->
+  <section>
+    <div class="section-title">Spacing</div>
+
+    <div class="spacing-row">
+      <div class="spacing-label">
+        <div class="spacing-name">--spacing-primary</div>
+        <div class="spacing-desc">Between top-level modules</div>
+      </div>
+      <div class="spacing-value">24px</div>
+      <div class="spacing-bar-fill" style="width: 240px; background: var(--background-accent);"></div>
+    </div>
+
+    <div class="spacing-row">
+      <div class="spacing-label">
+        <div class="spacing-name">--spacing-secondary</div>
+        <div class="spacing-desc">Between elements, device inset</div>
+      </div>
+      <div class="spacing-value">16px</div>
+      <div class="spacing-bar-fill" style="width: 160px; background: var(--background-accent);"></div>
+    </div>
+
+    <div class="spacing-row">
+      <div class="spacing-label">
+        <div class="spacing-name">--spacing-tertiary</div>
+        <div class="spacing-desc">Within modules</div>
+      </div>
+      <div class="spacing-value">12px</div>
+      <div class="spacing-bar-fill" style="width: 120px; background: var(--background-accent);"></div>
+    </div>
+
+    <div class="spacing-row">
+      <div class="spacing-label">
+        <div class="spacing-name">--spacing-internal1</div>
+        <div class="spacing-desc">Between large elements (cards)</div>
+      </div>
+      <div class="spacing-value">8px</div>
+      <div class="spacing-bar-fill" style="width: 80px; background: var(--background-accent);"></div>
+    </div>
+
+    <div class="spacing-row">
+      <div class="spacing-label">
+        <div class="spacing-name">--spacing-internal2</div>
+        <div class="spacing-desc">Between small elements</div>
+      </div>
+      <div class="spacing-value">4px</div>
+      <div class="spacing-bar-fill" style="width: 40px; background: var(--background-accent);"></div>
+    </div>
+
+    <div class="spacing-row">
+      <div class="spacing-label">
+        <div class="spacing-name">--spacing-internal3</div>
+        <div class="spacing-desc">Smallest padding</div>
+      </div>
+      <div class="spacing-value">2px</div>
+      <div class="spacing-bar-fill" style="width: 20px; background: var(--background-accent);"></div>
+    </div>
+  </section>
+
+  <!-- ════════ RADII ════════ -->
+  <section>
+    <div class="section-title">Border Radius</div>
+    <div class="radius-demo">
+      <div class="radius-box"></div>
+      <div>
+        <div class="radius-label">--radius-card</div>
+        <div class="radius-value">16px</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════ SHADOWS ════════ -->
+  <section>
+    <div class="section-title">Elevation / Shadows</div>
+    <div class="shadow-row">
+
+      <div class="shadow-chip">
+        <div class="shadow-box" style="box-shadow: var(--shadow-elevation-1)"></div>
+        <div class="shadow-label">elevation-1</div>
+        <div class="shadow-specs">0 1 2 0</div>
+      </div>
+
+      <div class="shadow-chip">
+        <div class="shadow-box" style="box-shadow: var(--shadow-elevation-2)"></div>
+        <div class="shadow-label">elevation-2</div>
+        <div class="shadow-specs">0 2 4 0</div>
+      </div>
+
+      <div class="shadow-chip">
+        <div class="shadow-box" style="box-shadow: var(--shadow-elevation-3)"></div>
+        <div class="shadow-label">elevation-3</div>
+        <div class="shadow-specs">0 4 8 0</div>
+      </div>
+
+      <div class="shadow-chip">
+        <div class="shadow-box" style="box-shadow: var(--shadow-elevation-4)"></div>
+        <div class="shadow-label">elevation-4</div>
+        <div class="shadow-specs">0 8 16 0</div>
+      </div>
+
+      <div class="shadow-chip">
+        <div class="shadow-box" style="box-shadow: var(--shadow-elevation-5)"></div>
+        <div class="shadow-label">elevation-5</div>
+        <div class="shadow-specs">0 12 24 0</div>
+      </div>
+
+      <div class="shadow-chip">
+        <div class="shadow-box" style="box-shadow: var(--shadow-elevation-6)"></div>
+        <div class="shadow-label">elevation-6</div>
+        <div class="shadow-specs">0 16 32 0</div>
+      </div>
+
+      <div class="shadow-chip">
+        <div class="shadow-box" style="box-shadow: var(--shadow-elevation-7)"></div>
+        <div class="shadow-label">elevation-7</div>
+        <div class="shadow-specs">0 24 48 0</div>
+      </div>
+
+    </div>
+  </section>
+
+</body>
+</html>

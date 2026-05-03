@@ -1,0 +1,343 @@
+/* ==========================================================
+   Design System Tokens & Fonts
+   Imports real DD Norms font faces + color/spacing/shadow tokens
+   from the project's design-system-reference.
+   ========================================================== */
+
+@import '../../../styles/design-tokens.css';
+
+/* ==========================================================
+   Typography Token Custom Properties
+   Mirrors the predefined classes from design-tokens.css
+   (.title-1, .body-bold, .caption-regular, etc.) as reusable
+   CSS custom properties for use inside component selectors.
+   ========================================================== */
+
+:root {
+  /* Font stacks */
+  --font: "DD Norms", sans-serif;
+  --font-compact: "DD Norms Compact", sans-serif;
+
+  /* ── Token: title-1 ── 24px Bold (section headings, greeting) */
+  --title-1-size: 24px;
+  --title-1-weight: 700;
+  --title-1-lh: 24px;
+  --title-1-ls: -0.01em;
+
+  /* ── Token: title-2 ── 20px Bold (sub-headings, spotlight headline) */
+  --title-2-size: 20px;
+  --title-2-weight: 700;
+  --title-2-lh: 24px;
+  --title-2-ls: -0.01em;
+
+  /* ── Token: title-3 ── 14px Bold (small titles, store card names) */
+  --title-3-size: 14px;
+  --title-3-weight: 700;
+  --title-3-lh: 20px;
+  --title-3-ls: -0.01em;
+
+  /* ── Token: label ── 14px Medium, DD Norms (chips, tab bar labels, button text, filter tabs) */
+  --label-size: 14px;
+  --label-weight: 500;
+  --label-lh: 20px;
+  --label-ls: 0;
+
+  /* ── Token: subtitle-2 ── 14px Regular (kept for reference, see label above) */
+  --subtitle-2-size: 14px;
+  --subtitle-2-weight: 400;
+  --subtitle-2-lh: 20px;
+  --subtitle-2-ls: -0.01em;
+
+  /* ── Token: body-bold ── 16px Bold (store names, carousel titles, buttons) */
+  --body-bold-size: 16px;
+  --body-bold-weight: 700;
+  --body-bold-lh: 20px;
+  --body-bold-ls: -0.01em;
+
+  /* ── Token: body-regular ── 16px Regular (body text, descriptions) */
+  --body-regular-size: 16px;
+  --body-regular-weight: 400;
+  --body-regular-lh: 20px;
+  --body-regular-ls: -0.01em;
+
+  /* ── Token: subtext-bold ── 14px Bold (list prices, metadata emphasis) */
+  --subtext-bold-size: 14px;
+  --subtext-bold-weight: 700;
+  --subtext-bold-lh: 20px;
+  --subtext-bold-ls: -0.01em;
+
+  /* ── Token: subtext-regular ── 14px Regular (list metadata, secondary info) */
+  --subtext-regular-size: 14px;
+  --subtext-regular-weight: 400;
+  --subtext-regular-lh: 20px;
+  --subtext-regular-ls: -0.01em;
+
+  /* ── Token: caption-bold ── 12px Bold (ratings, deal tags) */
+  --caption-bold-size: 12px;
+  --caption-bold-weight: 700;
+  --caption-bold-lh: 20px;
+  --caption-bold-ls: -0.01em;
+
+  /* ── Token: caption-regular ── 12px Medium (meta text, detail lines) */
+  --caption-regular-size: 12px;
+  --caption-regular-weight: 500;
+  --caption-regular-lh: 20px;
+  --caption-regular-ls: -0.01em;
+
+  /* Tab bar uses label token with DD Norms Compact font family */
+}
+
+
+/* ==========================================================
+   Reset & Shell
+   ========================================================== */
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body, #root { height: 100%; }
+html { overflow: hidden; }
+
+/* ── Force light mode ──
+   Remove this block and uncomment the dark-mode media query
+   below to restore adaptive dark/light behavior. */
+:root { color-scheme: light only; }
+
+body {
+  font-family: var(--font);
+  background: var(--background-tertiary);
+  color: var(--foreground-primary);
+  -webkit-font-smoothing: antialiased;
+  overflow: hidden;
+}
+
+#root {
+  max-width: 393px;
+  margin: 0 auto;
+  height: min(852px, 90vh);
+  background: var(--surface-primary);
+  position: relative;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+#root::-webkit-scrollbar { display: none; }
+
+
+/* ==========================================================
+   iOS Status Bar  (native — not Prism tokens)
+   ========================================================== */
+
+.status-bar {
+  position: sticky;
+  top: 0;
+  z-index: 200;
+  height: 56px;
+  display: flex;
+  align-items: flex-end;
+  background: #fff;
+  color: var(--foreground-primary);
+}
+.status-bar__left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 56px;
+}
+.status-bar__time {
+  font-family: 'SF Pro Text', 'SF Pro Display', -apple-system, system-ui, sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: -0.408px;
+  line-height: 22px;
+  text-align: center;
+}
+.status-bar__center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 56px;
+  padding-top: var(--spacing-internal1);
+  flex-shrink: 0;
+}
+.dynamic-island {
+  width: 131px;
+  height: 40px;
+  border-radius: 105px;
+  background: #000;
+}
+.status-bar__right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-internal1);
+  height: 56px;
+}
+.status-bar__right svg { color: var(--foreground-primary); }
+.status-bar__battery { position: relative; width: 29px; height: 14px; }
+.status-bar__battery-outline { position: absolute; top: 0; left: 0; }
+.status-bar__battery-fill { position: absolute; top: 2px; left: 2px; }
+.status-bar__battery-cap { position: absolute; top: 5px; right: -1px; }
+
+.status-bar--dark {
+  background: transparent;
+  color: var(--foreground-on-inverse);
+  position: absolute;
+  z-index: 200;
+  width: 100%;
+}
+.status-bar--dark .status-bar__time { color: var(--foreground-on-inverse); }
+.status-bar--dark .status-bar__right svg { color: var(--foreground-on-inverse); }
+
+/* ── Dark mode (disabled while light mode is forced above) ──
+   To re-enable: remove the `color-scheme: light only` rule
+   and uncomment this block.
+@media (prefers-color-scheme: dark) {
+  .status-bar { background: #000; color: var(--foreground-on-inverse); }
+  .status-bar__right svg { color: var(--foreground-on-inverse); }
+  .dynamic-island { background: #1a1a1a; }
+}
+*/
+
+
+/* ==========================================================
+   Page Load Animation
+   Staggered entrance: opacity + translateY + subtle scale.
+   Easing matches cubic-bezier(0.25, 0.1, 0.25, 1).
+   ========================================================== */
+
+@keyframes pageEntrance {
+  from { opacity: 0; transform: translateY(16px) scale(0.97); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+.address-bar,
+.tab-bar {
+  animation: pageEntrance 0.6s cubic-bezier(0.25, 0.1, 0.25, 1) both;
+}
+.tab-bar { animation-delay: 0.06s; }
+
+.feed > * {
+  animation: pageEntrance 0.6s cubic-bezier(0.25, 0.1, 0.25, 1) both;
+}
+.feed > *:nth-child(1) { animation-delay: 0.10s; }
+.feed > *:nth-child(2) { animation-delay: 0.18s; }
+.feed > *:nth-child(3) { animation-delay: 0.26s; }
+.feed > *:nth-child(4) { animation-delay: 0.34s; }
+.feed > *:nth-child(5) { animation-delay: 0.42s; }
+.feed > *:nth-child(6) { animation-delay: 0.50s; }
+.feed > *:nth-child(7) { animation-delay: 0.58s; }
+.feed > *:nth-child(8) { animation-delay: 0.66s; }
+
+.app-footer {
+  animation: pageEntrance 0.6s cubic-bezier(0.25, 0.1, 0.25, 1) both;
+  animation-delay: 0.40s;
+}
+
+
+/* ==========================================================
+   Footer
+   ========================================================== */
+
+.app-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  max-width: 393px;
+  margin: 0 auto;
+  z-index: 100;
+  pointer-events: none;
+}
+.footer-blur {
+  height: 94px;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5));
+  backdrop-filter: blur(23px);
+  -webkit-backdrop-filter: blur(23px);
+  -webkit-mask-image: linear-gradient(to bottom, transparent, black);
+  mask-image: linear-gradient(to bottom, transparent, black);
+  pointer-events: auto;
+}
+.footer-inner {
+  position: absolute;
+  bottom: 27px;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-internal1);
+  padding: 0 30px;
+  pointer-events: auto;
+}
+.search-pill {
+  flex: 1;
+  height: 50px;
+  border-radius: 25px;
+  background: var(--surface-primary);
+  box-shadow: var(--shadow-elevation-3);
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-internal1);
+  padding: 0 25px 0 13px;
+  cursor: pointer;
+  transition: opacity 0.15s ease;
+}
+.search-pill:hover { opacity: 0.9; }
+.search-pill:active { opacity: 0.7; }
+.search-pill svg {
+  width: 25px;
+  height: 25px;
+  flex-shrink: 0;
+  color: var(--foreground-primary);
+}
+/* Token: body-bold */
+.search-pill span {
+  font-family: var(--font);
+  font-size: var(--body-bold-size);
+  font-weight: var(--body-bold-weight);
+  line-height: var(--body-bold-lh);
+  letter-spacing: var(--body-bold-ls);
+  color: var(--foreground-primary);
+}
+.cart-pill {
+  height: 50px;
+  border-radius: 25px;
+  background: var(--surface-primary);
+  box-shadow: var(--shadow-elevation-3);
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-internal2);
+  padding: 0 17px 0 13px;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.15s ease;
+}
+.cart-pill:hover { opacity: 0.9; }
+.cart-pill:active { opacity: 0.7; }
+.cart-pill svg {
+  width: 25px;
+  height: 25px;
+  color: var(--foreground-primary);
+}
+/* Token: body-bold (closest to 15px/700 cart count) */
+.cart-pill span {
+  font-family: var(--font);
+  font-size: var(--body-bold-size);
+  font-weight: var(--body-bold-weight);
+  line-height: var(--body-bold-lh);
+  color: var(--foreground-primary);
+}
+.home-indicator {
+  width: 140px;
+  height: 5px;
+  border-radius: 105px;
+  background: var(--foreground-primary);
+  margin: 0 auto;
+  position: absolute;
+  bottom: var(--spacing-internal1);
+  left: 50%;
+  transform: translateX(-50%);
+}

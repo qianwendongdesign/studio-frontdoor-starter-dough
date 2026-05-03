@@ -1,0 +1,4185 @@
+{
+  "consumer_id": "342146572",
+  "fetched_at": "2026-03-27T19:00:19.960872Z",
+  "stores": [
+    {
+      "store_id": 2233068,
+      "store_name": "Amazona's Pizza (Telegraph Ave)",
+      "business_name": "Amazona's Pizza",
+      "business_id": 908789,
+      "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/d2d9c031-1533-4835-8ee4-7fd3a5d84380.png",
+      "header_image": "https://cdn.doordash.com/media/store/header/bd43772e-6073-4edb-ae3f-0d4db2646f5e.jpg",
+      "logo_url": "https://cdn.doordash.com/media/restaurant/cover_square/01ca2dff-960b-4c57-9aae-18cd09d50f8d.jpg",
+      "average_rating": "4.67",
+      "orders": [
+        {
+          "delivery_id": 270803230470,
+          "order_date": "2026-03-22T18:21:52.771000"
+        },
+        {
+          "delivery_id": 314517786946,
+          "order_date": "2026-01-10T18:31:00.483358"
+        }
+      ],
+      "items": [
+        {
+          "item_id": 828334263,
+          "item_name": "Senza Una Donna 14\"",
+          "image_url": "https://cdn.doordash.com/media/photosV2/6af94ac0-f3bb-42de-acfd-2d3e8244c93c-retina-large.jpg",
+          "order_id": 3000011983531449,
+          "order_date": "2026-03-23T00:50:56.695000",
+          "webster_tags": {
+            "CUISINE": {
+              "cuisine": [
+                "Italian",
+                "American"
+              ]
+            },
+            "PORTION_SIZE": {
+              "portion_size": "3-4 people"
+            },
+            "FLAVOR": {
+              "is_bitter": false,
+              "is_cheesy": false,
+              "is_creamy": false,
+              "is_herbal": false,
+              "is_salty": true,
+              "is_smoky": false,
+              "is_sour": false,
+              "is_spicy": false,
+              "is_sweet": false,
+              "is_tangy": true,
+              "is_umami": true
+            },
+            "COURSE": {
+              "course": "Main Dishes"
+            },
+            "DISH": {
+              "confidence_score": 0.3706,
+              "hierarchical_tags": "Main Dishes > Pizza > New York Style Pizza",
+              "level_1_tag": "Main Dishes",
+              "level_1_tag_id": 210864443733158,
+              "level_2_tag": "Pizza",
+              "level_2_tag_id": 31700172371850,
+              "level_3_tag": "New York Style Pizza",
+              "level_3_tag_id": 119761982330472,
+              "top_candidates": [
+                {
+                  "confidence_score": 0.3706,
+                  "hierarchical_tags": "Main Dishes > Pizza > New York Style Pizza",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Pizza",
+                  "level_2_tag_id": 31700172371850,
+                  "level_3_tag": "New York Style Pizza",
+                  "level_3_tag_id": 119761982330472
+                },
+                {
+                  "confidence_score": 0.314,
+                  "hierarchical_tags": "Main Dishes > Pizza > Other Meat Pizza > Pepperoni Pizza",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Pizza",
+                  "level_2_tag_id": 31700172371850,
+                  "level_3_tag": "Other Meat Pizza",
+                  "level_3_tag_id": 163715986383454,
+                  "level_4_tag": "Pepperoni Pizza",
+                  "level_4_tag_id": 85298995790351
+                },
+                {
+                  "confidence_score": 0.1694,
+                  "hierarchical_tags": "Main Dishes > Pizza > Neapolitan Pizza",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Pizza",
+                  "level_2_tag_id": 31700172371850,
+                  "level_3_tag": "Neapolitan Pizza",
+                  "level_3_tag_id": 44876572073460
+                }
+              ]
+            },
+            "DIETARY": {
+              "is_beef_free": true,
+              "is_healthy": false,
+              "is_high_protein": false,
+              "is_keto_friendly": false,
+              "is_kid_friendly": true,
+              "is_low_calorie": false,
+              "is_low_carb": false,
+              "is_low_fat": false,
+              "is_low_sodium": false,
+              "is_low_sugar": true,
+              "is_paleo_friendly": false,
+              "is_pescatarian": false,
+              "is_pescatarian_mentioned": false,
+              "is_pescatarian_options": false,
+              "is_pork_free": false,
+              "is_vegan": false,
+              "is_vegan_mentioned": false,
+              "is_vegan_options": false,
+              "is_vegetarian": false,
+              "is_vegetarian_mentioned": false,
+              "is_vegetarian_options": false
+            },
+            "MACRO": {
+              "estimated_calories": 350,
+              "estimated_carbohydrates_grams": 40,
+              "estimated_fat_grams": 15,
+              "estimated_protein_grams": 20
+            },
+            "INGREDIENT": {
+              "fats_oils": [
+                "olive oil",
+                "mozzarella cheese",
+                "parmesan cheese"
+              ],
+              "fruits_vegetables": [
+                "tomato",
+                "onion"
+              ],
+              "grains_carbs": [],
+              "proteins": [
+                "pork"
+              ],
+              "spices_seasonings": []
+            },
+            "ALLERGEN": {
+              "is_dairy_free": false,
+              "is_gluten_free": false,
+              "is_gluten_free_mentioned": false,
+              "is_gluten_free_options": false,
+              "is_nut_free": true,
+              "is_shellfish_free": true,
+              "is_soy_free": true
+            },
+            "PREPARATION": {
+              "dish_preparation_method": "Baked"
+            }
+          }
+        },
+        {
+          "item_id": 3011871530,
+          "item_name": "2 ltr soda",
+          "image_url": "https://cdn.doordash.com/media/photosV2/e1c09b22-05b7-4dba-a6d1-7b15ad23a025-retina-large.jpg",
+          "order_id": 3000010715708821,
+          "order_date": "2026-01-11T02:03:01.945000",
+          "webster_tags": {
+            "PREPARATION": {},
+            "DIETARY": {
+              "is_beef_free": true,
+              "is_healthy": false,
+              "is_high_protein": false,
+              "is_keto_friendly": false,
+              "is_kid_friendly": false,
+              "is_low_calorie": false,
+              "is_low_carb": false,
+              "is_low_fat": true,
+              "is_low_sodium": true,
+              "is_low_sugar": false,
+              "is_paleo_friendly": false,
+              "is_pescatarian": true,
+              "is_pescatarian_mentioned": false,
+              "is_pescatarian_options": true,
+              "is_pork_free": true,
+              "is_vegan": true,
+              "is_vegan_mentioned": false,
+              "is_vegan_options": true,
+              "is_vegetarian": true,
+              "is_vegetarian_mentioned": false,
+              "is_vegetarian_options": true
+            },
+            "ALLERGEN": {
+              "is_dairy_free": true,
+              "is_gluten_free": true,
+              "is_gluten_free_mentioned": false,
+              "is_gluten_free_options": true,
+              "is_nut_free": true,
+              "is_shellfish_free": true,
+              "is_soy_free": true
+            },
+            "MACRO": {
+              "estimated_calories": 250,
+              "estimated_carbohydrates_grams": 65,
+              "estimated_fat_grams": 0,
+              "estimated_protein_grams": 0
+            },
+            "PORTION_SIZE": {
+              "portion_size": "1-2 people"
+            },
+            "COURSE": {
+              "course": "Non-Alcoholic Beverages"
+            },
+            "CUISINE": {
+              "cuisine": []
+            },
+            "FLAVOR": {
+              "is_bitter": false,
+              "is_cheesy": false,
+              "is_creamy": false,
+              "is_herbal": false,
+              "is_salty": false,
+              "is_smoky": false,
+              "is_sour": false,
+              "is_spicy": false,
+              "is_sweet": false,
+              "is_tangy": false,
+              "is_umami": false
+            },
+            "DISH": {
+              "confidence_score": 0.7925,
+              "hierarchical_tags": "Non-Alcoholic Beverages > Soda & Lemonade > Other Soda",
+              "level_1_tag": "Non-Alcoholic Beverages",
+              "level_1_tag_id": 45609908728411,
+              "level_2_tag": "Soda & Lemonade",
+              "level_2_tag_id": 171749987195687,
+              "level_3_tag": "Other Soda",
+              "level_3_tag_id": 159763243659706,
+              "top_candidates": [
+                {
+                  "confidence_score": 0.7925,
+                  "hierarchical_tags": "Non-Alcoholic Beverages > Soda & Lemonade > Other Soda",
+                  "level_1_tag": "Non-Alcoholic Beverages",
+                  "level_1_tag_id": 45609908728411,
+                  "level_2_tag": "Soda & Lemonade",
+                  "level_2_tag_id": 171749987195687,
+                  "level_3_tag": "Other Soda",
+                  "level_3_tag_id": 159763243659706
+                },
+                {
+                  "confidence_score": 0.1131,
+                  "hierarchical_tags": "Non-Alcoholic Beverages > Soda & Lemonade > Mixed Flavor Soda",
+                  "level_1_tag": "Non-Alcoholic Beverages",
+                  "level_1_tag_id": 45609908728411,
+                  "level_2_tag": "Soda & Lemonade",
+                  "level_2_tag_id": 171749987195687,
+                  "level_3_tag": "Mixed Flavor Soda",
+                  "level_3_tag_id": 87119126718015
+                },
+                {
+                  "confidence_score": 0.0472,
+                  "hierarchical_tags": "Non-Alcoholic Beverages > Soda & Lemonade > Fruit Flavored Soda > Lemon And Lime Soda",
+                  "level_1_tag": "Non-Alcoholic Beverages",
+                  "level_1_tag_id": 45609908728411,
+                  "level_2_tag": "Soda & Lemonade",
+                  "level_2_tag_id": 171749987195687,
+                  "level_3_tag": "Fruit Flavored Soda",
+                  "level_3_tag_id": 161637087265444,
+                  "level_4_tag": "Lemon And Lime Soda",
+                  "level_4_tag_id": 182498352632770
+                }
+              ]
+            },
+            "INGREDIENT": {
+              "fats_oils": [],
+              "fruits_vegetables": [],
+              "grains_carbs": [],
+              "proteins": [],
+              "spices_seasonings": []
+            }
+          }
+        },
+        {
+          "item_id": 3011871530,
+          "item_name": "2 ltr soda",
+          "image_url": "https://cdn.doordash.com/media/photosV2/e1c09b22-05b7-4dba-a6d1-7b15ad23a025-retina-large.jpg",
+          "order_id": 3000011983531449,
+          "order_date": "2026-03-23T00:50:56.695000",
+          "webster_tags": {
+            "PREPARATION": {},
+            "DIETARY": {
+              "is_beef_free": true,
+              "is_healthy": false,
+              "is_high_protein": false,
+              "is_keto_friendly": false,
+              "is_kid_friendly": false,
+              "is_low_calorie": false,
+              "is_low_carb": false,
+              "is_low_fat": true,
+              "is_low_sodium": true,
+              "is_low_sugar": false,
+              "is_paleo_friendly": false,
+              "is_pescatarian": true,
+              "is_pescatarian_mentioned": false,
+              "is_pescatarian_options": true,
+              "is_pork_free": true,
+              "is_vegan": true,
+              "is_vegan_mentioned": false,
+              "is_vegan_options": true,
+              "is_vegetarian": true,
+              "is_vegetarian_mentioned": false,
+              "is_vegetarian_options": true
+            },
+            "ALLERGEN": {
+              "is_dairy_free": true,
+              "is_gluten_free": true,
+              "is_gluten_free_mentioned": false,
+              "is_gluten_free_options": true,
+              "is_nut_free": true,
+              "is_shellfish_free": true,
+              "is_soy_free": true
+            },
+            "MACRO": {
+              "estimated_calories": 250,
+              "estimated_carbohydrates_grams": 65,
+              "estimated_fat_grams": 0,
+              "estimated_protein_grams": 0
+            },
+            "PORTION_SIZE": {
+              "portion_size": "1-2 people"
+            },
+            "COURSE": {
+              "course": "Non-Alcoholic Beverages"
+            },
+            "CUISINE": {
+              "cuisine": []
+            },
+            "FLAVOR": {
+              "is_bitter": false,
+              "is_cheesy": false,
+              "is_creamy": false,
+              "is_herbal": false,
+              "is_salty": false,
+              "is_smoky": false,
+              "is_sour": false,
+              "is_spicy": false,
+              "is_sweet": false,
+              "is_tangy": false,
+              "is_umami": false
+            },
+            "DISH": {
+              "confidence_score": 0.7925,
+              "hierarchical_tags": "Non-Alcoholic Beverages > Soda & Lemonade > Other Soda",
+              "level_1_tag": "Non-Alcoholic Beverages",
+              "level_1_tag_id": 45609908728411,
+              "level_2_tag": "Soda & Lemonade",
+              "level_2_tag_id": 171749987195687,
+              "level_3_tag": "Other Soda",
+              "level_3_tag_id": 159763243659706,
+              "top_candidates": [
+                {
+                  "confidence_score": 0.7925,
+                  "hierarchical_tags": "Non-Alcoholic Beverages > Soda & Lemonade > Other Soda",
+                  "level_1_tag": "Non-Alcoholic Beverages",
+                  "level_1_tag_id": 45609908728411,
+                  "level_2_tag": "Soda & Lemonade",
+                  "level_2_tag_id": 171749987195687,
+                  "level_3_tag": "Other Soda",
+                  "level_3_tag_id": 159763243659706
+                },
+                {
+                  "confidence_score": 0.1131,
+                  "hierarchical_tags": "Non-Alcoholic Beverages > Soda & Lemonade > Mixed Flavor Soda",
+                  "level_1_tag": "Non-Alcoholic Beverages",
+                  "level_1_tag_id": 45609908728411,
+                  "level_2_tag": "Soda & Lemonade",
+                  "level_2_tag_id": 171749987195687,
+                  "level_3_tag": "Mixed Flavor Soda",
+                  "level_3_tag_id": 87119126718015
+                },
+                {
+                  "confidence_score": 0.0472,
+                  "hierarchical_tags": "Non-Alcoholic Beverages > Soda & Lemonade > Fruit Flavored Soda > Lemon And Lime Soda",
+                  "level_1_tag": "Non-Alcoholic Beverages",
+                  "level_1_tag_id": 45609908728411,
+                  "level_2_tag": "Soda & Lemonade",
+                  "level_2_tag_id": 171749987195687,
+                  "level_3_tag": "Fruit Flavored Soda",
+                  "level_3_tag_id": 161637087265444,
+                  "level_4_tag": "Lemon And Lime Soda",
+                  "level_4_tag_id": 182498352632770
+                }
+              ]
+            },
+            "INGREDIENT": {
+              "fats_oils": [],
+              "fruits_vegetables": [],
+              "grains_carbs": [],
+              "proteins": [],
+              "spices_seasonings": []
+            }
+          }
+        },
+        {
+          "item_id": 7244388639,
+          "item_name": "BBQ wings (6pcs)",
+          "image_url": "https://cdn.doordash.com/media/photos/e6d8d97c-30c7-49ed-ab72-f439ffe9a27c-retina-large-jpeg",
+          "order_id": 3000011983531449,
+          "order_date": "2026-03-23T00:50:56.695000",
+          "webster_tags": {
+            "PORTION_SIZE": {
+              "portion_size": "1-2 people"
+            },
+            "ALLERGEN": {
+              "is_dairy_free": false,
+              "is_gluten_free": false,
+              "is_gluten_free_mentioned": false,
+              "is_gluten_free_options": false,
+              "is_nut_free": true,
+              "is_shellfish_free": true,
+              "is_soy_free": true
+            },
+            "FLAVOR": {
+              "is_bitter": false,
+              "is_cheesy": false,
+              "is_creamy": false,
+              "is_herbal": false,
+              "is_salty": true,
+              "is_smoky": true,
+              "is_sour": false,
+              "is_spicy": false,
+              "is_sweet": true,
+              "is_tangy": false,
+              "is_umami": false
+            },
+            "CUISINE": {
+              "cuisine": [
+                "American"
+              ]
+            },
+            "COURSE": {
+              "course": "Appetizer"
+            },
+            "DISH": {
+              "confidence_score": 0.7119,
+              "hierarchical_tags": "Main Dishes > Grilled, Roasted & Fried Meat > Chicken Dishes > Chicken Wings",
+              "level_1_tag": "Main Dishes",
+              "level_1_tag_id": 210864443733158,
+              "level_2_tag": "Grilled, Roasted & Fried Meat",
+              "level_2_tag_id": 174621345861389,
+              "level_3_tag": "Chicken Dishes",
+              "level_3_tag_id": 22307459401616,
+              "level_4_tag": "Chicken Wings",
+              "level_4_tag_id": 201502179196750,
+              "top_candidates": [
+                {
+                  "confidence_score": 0.7119,
+                  "hierarchical_tags": "Main Dishes > Grilled, Roasted & Fried Meat > Chicken Dishes > Chicken Wings",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Grilled, Roasted & Fried Meat",
+                  "level_2_tag_id": 174621345861389,
+                  "level_3_tag": "Chicken Dishes",
+                  "level_3_tag_id": 22307459401616,
+                  "level_4_tag": "Chicken Wings",
+                  "level_4_tag_id": 201502179196750
+                },
+                {
+                  "confidence_score": 0.2285,
+                  "hierarchical_tags": "Appetizer > Grilled, Roasted & Fried Meat Snacks > Chicken Wings > Spicy Chicken Wings",
+                  "level_1_tag": "Appetizer",
+                  "level_1_tag_id": 188857423961001,
+                  "level_2_tag": "Grilled, Roasted & Fried Meat Snacks",
+                  "level_2_tag_id": 45726524724632,
+                  "level_3_tag": "Chicken Wings",
+                  "level_3_tag_id": 112991392948171,
+                  "level_4_tag": "Spicy Chicken Wings",
+                  "level_4_tag_id": 74720280110021
+                },
+                {
+                  "confidence_score": 0.0166,
+                  "hierarchical_tags": "Appetizer > Grilled, Roasted & Fried Meat Snacks > Chicken Wings > Boneless Chicken Wings",
+                  "level_1_tag": "Appetizer",
+                  "level_1_tag_id": 188857423961001,
+                  "level_2_tag": "Grilled, Roasted & Fried Meat Snacks",
+                  "level_2_tag_id": 45726524724632,
+                  "level_3_tag": "Chicken Wings",
+                  "level_3_tag_id": 112991392948171,
+                  "level_4_tag": "Boneless Chicken Wings",
+                  "level_4_tag_id": 32002948076869
+                }
+              ]
+            },
+            "INGREDIENT": {
+              "fats_oils": [],
+              "fruits_vegetables": [],
+              "grains_carbs": [],
+              "proteins": [
+                "chicken"
+              ],
+              "spices_seasonings": []
+            },
+            "DIETARY": {
+              "is_beef_free": true,
+              "is_healthy": false,
+              "is_high_protein": true,
+              "is_keto_friendly": false,
+              "is_kid_friendly": false,
+              "is_low_calorie": false,
+              "is_low_carb": false,
+              "is_low_fat": false,
+              "is_low_sodium": false,
+              "is_low_sugar": false,
+              "is_paleo_friendly": false,
+              "is_pescatarian": false,
+              "is_pescatarian_mentioned": false,
+              "is_pescatarian_options": false,
+              "is_pork_free": true,
+              "is_vegan": false,
+              "is_vegan_mentioned": false,
+              "is_vegan_options": false,
+              "is_vegetarian": false,
+              "is_vegetarian_mentioned": false,
+              "is_vegetarian_options": false
+            },
+            "PREPARATION": {
+              "dish_preparation_method": "Fried"
+            },
+            "MACRO": {}
+          }
+        },
+        {
+          "item_id": 7244388639,
+          "item_name": "BBQ wings (6pcs)",
+          "image_url": "https://cdn.doordash.com/media/photos/e6d8d97c-30c7-49ed-ab72-f439ffe9a27c-retina-large-jpeg",
+          "order_id": 3000010715708821,
+          "order_date": "2026-01-11T02:03:01.945000",
+          "webster_tags": {
+            "PORTION_SIZE": {
+              "portion_size": "1-2 people"
+            },
+            "ALLERGEN": {
+              "is_dairy_free": false,
+              "is_gluten_free": false,
+              "is_gluten_free_mentioned": false,
+              "is_gluten_free_options": false,
+              "is_nut_free": true,
+              "is_shellfish_free": true,
+              "is_soy_free": true
+            },
+            "FLAVOR": {
+              "is_bitter": false,
+              "is_cheesy": false,
+              "is_creamy": false,
+              "is_herbal": false,
+              "is_salty": true,
+              "is_smoky": true,
+              "is_sour": false,
+              "is_spicy": false,
+              "is_sweet": true,
+              "is_tangy": false,
+              "is_umami": false
+            },
+            "CUISINE": {
+              "cuisine": [
+                "American"
+              ]
+            },
+            "COURSE": {
+              "course": "Appetizer"
+            },
+            "DISH": {
+              "confidence_score": 0.7119,
+              "hierarchical_tags": "Main Dishes > Grilled, Roasted & Fried Meat > Chicken Dishes > Chicken Wings",
+              "level_1_tag": "Main Dishes",
+              "level_1_tag_id": 210864443733158,
+              "level_2_tag": "Grilled, Roasted & Fried Meat",
+              "level_2_tag_id": 174621345861389,
+              "level_3_tag": "Chicken Dishes",
+              "level_3_tag_id": 22307459401616,
+              "level_4_tag": "Chicken Wings",
+              "level_4_tag_id": 201502179196750,
+              "top_candidates": [
+                {
+                  "confidence_score": 0.7119,
+                  "hierarchical_tags": "Main Dishes > Grilled, Roasted & Fried Meat > Chicken Dishes > Chicken Wings",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Grilled, Roasted & Fried Meat",
+                  "level_2_tag_id": 174621345861389,
+                  "level_3_tag": "Chicken Dishes",
+                  "level_3_tag_id": 22307459401616,
+                  "level_4_tag": "Chicken Wings",
+                  "level_4_tag_id": 201502179196750
+                },
+                {
+                  "confidence_score": 0.2285,
+                  "hierarchical_tags": "Appetizer > Grilled, Roasted & Fried Meat Snacks > Chicken Wings > Spicy Chicken Wings",
+                  "level_1_tag": "Appetizer",
+                  "level_1_tag_id": 188857423961001,
+                  "level_2_tag": "Grilled, Roasted & Fried Meat Snacks",
+                  "level_2_tag_id": 45726524724632,
+                  "level_3_tag": "Chicken Wings",
+                  "level_3_tag_id": 112991392948171,
+                  "level_4_tag": "Spicy Chicken Wings",
+                  "level_4_tag_id": 74720280110021
+                },
+                {
+                  "confidence_score": 0.0166,
+                  "hierarchical_tags": "Appetizer > Grilled, Roasted & Fried Meat Snacks > Chicken Wings > Boneless Chicken Wings",
+                  "level_1_tag": "Appetizer",
+                  "level_1_tag_id": 188857423961001,
+                  "level_2_tag": "Grilled, Roasted & Fried Meat Snacks",
+                  "level_2_tag_id": 45726524724632,
+                  "level_3_tag": "Chicken Wings",
+                  "level_3_tag_id": 112991392948171,
+                  "level_4_tag": "Boneless Chicken Wings",
+                  "level_4_tag_id": 32002948076869
+                }
+              ]
+            },
+            "INGREDIENT": {
+              "fats_oils": [],
+              "fruits_vegetables": [],
+              "grains_carbs": [],
+              "proteins": [
+                "chicken"
+              ],
+              "spices_seasonings": []
+            },
+            "DIETARY": {
+              "is_beef_free": true,
+              "is_healthy": false,
+              "is_high_protein": true,
+              "is_keto_friendly": false,
+              "is_kid_friendly": false,
+              "is_low_calorie": false,
+              "is_low_carb": false,
+              "is_low_fat": false,
+              "is_low_sodium": false,
+              "is_low_sugar": false,
+              "is_paleo_friendly": false,
+              "is_pescatarian": false,
+              "is_pescatarian_mentioned": false,
+              "is_pescatarian_options": false,
+              "is_pork_free": true,
+              "is_vegan": false,
+              "is_vegan_mentioned": false,
+              "is_vegan_options": false,
+              "is_vegetarian": false,
+              "is_vegetarian_mentioned": false,
+              "is_vegetarian_options": false
+            },
+            "PREPARATION": {
+              "dish_preparation_method": "Fried"
+            },
+            "MACRO": {}
+          }
+        },
+        {
+          "item_id": 828353571,
+          "item_name": "Cheese Only (16\" 10 Slices)",
+          "image_url": "https://cdn.doordash.com/media/photosV2/9c5ada39-bc5b-403f-80d4-1451d86c76fa-retina-large.jpg",
+          "order_id": 3000010715708821,
+          "order_date": "2026-01-11T02:03:01.945000",
+          "webster_tags": {
+            "INGREDIENT": {
+              "fats_oils": [],
+              "fruits_vegetables": [
+                "tomato",
+                "corn",
+                "onion"
+              ],
+              "grains_carbs": [],
+              "proteins": [],
+              "spices_seasonings": []
+            },
+            "MACRO": {
+              "estimated_calories": 250,
+              "estimated_carbohydrates_grams": 30,
+              "estimated_fat_grams": 10,
+              "estimated_protein_grams": 12
+            },
+            "FLAVOR": {
+              "is_bitter": false,
+              "is_cheesy": true,
+              "is_creamy": false,
+              "is_herbal": false,
+              "is_salty": true,
+              "is_smoky": false,
+              "is_sour": false,
+              "is_spicy": false,
+              "is_sweet": false,
+              "is_tangy": false,
+              "is_umami": false
+            },
+            "COURSE": {
+              "course": "Main Dishes"
+            },
+            "CUISINE": {
+              "cuisine": [
+                "Italian",
+                "American"
+              ]
+            },
+            "DIETARY": {
+              "is_beef_free": true,
+              "is_healthy": false,
+              "is_high_protein": false,
+              "is_keto_friendly": false,
+              "is_kid_friendly": true,
+              "is_low_calorie": false,
+              "is_low_carb": false,
+              "is_low_fat": false,
+              "is_low_sodium": false,
+              "is_low_sugar": true,
+              "is_paleo_friendly": false,
+              "is_pescatarian": true,
+              "is_pescatarian_mentioned": false,
+              "is_pescatarian_options": true,
+              "is_pork_free": true,
+              "is_vegan": false,
+              "is_vegan_mentioned": false,
+              "is_vegan_options": true,
+              "is_vegetarian": true,
+              "is_vegetarian_mentioned": false,
+              "is_vegetarian_options": true
+            },
+            "PREPARATION": {
+              "dish_preparation_method": "Baked"
+            },
+            "PORTION_SIZE": {
+              "portion_size": "5-10 people"
+            },
+            "DISH": {
+              "confidence_score": 0.9946,
+              "hierarchical_tags": "Main Dishes > Pizza > White Pizza > Cheese Pizza",
+              "level_1_tag": "Main Dishes",
+              "level_1_tag_id": 210864443733158,
+              "level_2_tag": "Pizza",
+              "level_2_tag_id": 31700172371850,
+              "level_3_tag": "White Pizza",
+              "level_3_tag_id": 57722040298683,
+              "level_4_tag": "Cheese Pizza",
+              "level_4_tag_id": 131730195712358,
+              "top_candidates": [
+                {
+                  "confidence_score": 0.9946,
+                  "hierarchical_tags": "Main Dishes > Pizza > White Pizza > Cheese Pizza",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Pizza",
+                  "level_2_tag_id": 31700172371850,
+                  "level_3_tag": "White Pizza",
+                  "level_3_tag_id": 57722040298683,
+                  "level_4_tag": "Cheese Pizza",
+                  "level_4_tag_id": 131730195712358
+                },
+                {
+                  "confidence_score": 0.0023,
+                  "hierarchical_tags": "Main Dishes > Pizza > White Pizza > Multi Cheese Pizza",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Pizza",
+                  "level_2_tag_id": 31700172371850,
+                  "level_3_tag": "White Pizza",
+                  "level_3_tag_id": 57722040298683,
+                  "level_4_tag": "Multi Cheese Pizza",
+                  "level_4_tag_id": 157698625846407
+                },
+                {
+                  "confidence_score": 0.0013,
+                  "hierarchical_tags": "Main Dishes > Pizza > Other Pizza",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Pizza",
+                  "level_2_tag_id": 31700172371850,
+                  "level_3_tag": "Other Pizza",
+                  "level_3_tag_id": 54293926935245
+                }
+              ]
+            },
+            "ALLERGEN": {
+              "is_dairy_free": false,
+              "is_gluten_free": false,
+              "is_gluten_free_mentioned": false,
+              "is_gluten_free_options": false,
+              "is_nut_free": true,
+              "is_shellfish_free": true,
+              "is_soy_free": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "store_id": 25479791,
+      "store_name": "Branch Street Deli and Pizzeria (E Branch St)",
+      "business_name": "Branch Street Deli and Pizzeria",
+      "business_id": 11705344,
+      "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/bad7c5cf-0801-48ef-aa9d-2aa317d70d3f.png",
+      "header_image": "https://cdn.doordash.com/media/store/header/d4b1112f-78af-4b43-a639-9f05eb76348c.jpg",
+      "logo_url": "https://cdn.doordash.com/media/restaurant/cover_square/f0185254-014d-4c28-8c87-c1628798fdd3.png",
+      "average_rating": "4.69",
+      "orders": [
+        {
+          "delivery_id": 224446476186,
+          "order_date": "2025-12-27T13:27:44.225262"
+        }
+      ],
+      "items": [
+        {
+          "item_id": 31006371672,
+          "item_name": "Chicken Caesar Wrap",
+          "image_url": "https://cdn.doordash.com/media/yelp/a7464ca5-0e9e-4149-aa9a-4e71d16fe8ec-032a24d6-f36a-4ea4-8942-673b71ec3edf.jpg",
+          "order_id": 3000010475027047,
+          "order_date": "2025-12-27T20:59:39.145000",
+          "webster_tags": {
+            "PORTION_SIZE": {
+              "portion_size": "1-2 people"
+            },
+            "MACRO": {
+              "estimated_calories": 700,
+              "estimated_carbohydrates_grams": 70,
+              "estimated_fat_grams": 35,
+              "estimated_protein_grams": 35
+            },
+            "PREPARATION": {
+              "dish_preparation_method": "Grilled"
+            },
+            "CUISINE": {
+              "cuisine": [
+                "American"
+              ]
+            },
+            "ALLERGEN": {
+              "is_dairy_free": false,
+              "is_gluten_free": false,
+              "is_gluten_free_mentioned": false,
+              "is_gluten_free_options": false,
+              "is_nut_free": true,
+              "is_shellfish_free": true,
+              "is_soy_free": false
+            },
+            "DIETARY": {
+              "is_beef_free": true,
+              "is_healthy": false,
+              "is_high_protein": true,
+              "is_keto_friendly": false,
+              "is_kid_friendly": true,
+              "is_low_calorie": false,
+              "is_low_carb": false,
+              "is_low_fat": false,
+              "is_low_sodium": false,
+              "is_low_sugar": false,
+              "is_paleo_friendly": false,
+              "is_pescatarian": false,
+              "is_pescatarian_mentioned": false,
+              "is_pescatarian_options": false,
+              "is_pork_free": true,
+              "is_vegan": false,
+              "is_vegan_mentioned": false,
+              "is_vegan_options": false,
+              "is_vegetarian": false,
+              "is_vegetarian_mentioned": false,
+              "is_vegetarian_options": false
+            },
+            "FLAVOR": {
+              "is_bitter": false,
+              "is_cheesy": false,
+              "is_creamy": true,
+              "is_herbal": false,
+              "is_salty": true,
+              "is_smoky": false,
+              "is_sour": false,
+              "is_spicy": false,
+              "is_sweet": false,
+              "is_tangy": true,
+              "is_umami": false
+            },
+            "DISH": {
+              "confidence_score": 0.9917,
+              "hierarchical_tags": "Main Dishes > Wraps > Vegetarian Wrap > Caesar Wrap",
+              "level_1_tag": "Main Dishes",
+              "level_1_tag_id": 210864443733158,
+              "level_2_tag": "Wraps",
+              "level_2_tag_id": 58581609213245,
+              "level_3_tag": "Vegetarian Wrap",
+              "level_3_tag_id": 265125120741892,
+              "level_4_tag": "Caesar Wrap",
+              "level_4_tag_id": 115667347911929,
+              "top_candidates": [
+                {
+                  "confidence_score": 0.9917,
+                  "hierarchical_tags": "Main Dishes > Wraps > Vegetarian Wrap > Caesar Wrap",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Wraps",
+                  "level_2_tag_id": 58581609213245,
+                  "level_3_tag": "Vegetarian Wrap",
+                  "level_3_tag_id": 265125120741892,
+                  "level_4_tag": "Caesar Wrap",
+                  "level_4_tag_id": 115667347911929
+                },
+                {
+                  "confidence_score": 0.0057,
+                  "hierarchical_tags": "Main Dishes > Wraps > Other Wraps",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Wraps",
+                  "level_2_tag_id": 58581609213245,
+                  "level_3_tag": "Other Wraps",
+                  "level_3_tag_id": 81500533321011
+                },
+                {
+                  "confidence_score": 0.0006,
+                  "hierarchical_tags": "Main Dishes > Salads > Meat Salad > Chicken Caesar Salad",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Salads",
+                  "level_2_tag_id": 279801517666096,
+                  "level_3_tag": "Meat Salad",
+                  "level_3_tag_id": 105541625446848,
+                  "level_4_tag": "Chicken Caesar Salad",
+                  "level_4_tag_id": 32602670171363
+                }
+              ]
+            },
+            "INGREDIENT": {
+              "fats_oils": [],
+              "fruits_vegetables": [
+                "kale"
+              ],
+              "grains_carbs": [
+                "tortilla",
+                "croutons"
+              ],
+              "proteins": [
+                "chicken"
+              ],
+              "spices_seasonings": []
+            },
+            "COURSE": {
+              "course": "Main Dishes"
+            }
+          }
+        },
+        {
+          "item_id": 31006371687,
+          "item_name": "French Fries",
+          "image_url": "https://cdn.doordash.com/media/photosV2/9a8f92f8-b87e-42ac-a962-7e53ed735f2b-retina-large.jpg",
+          "order_id": 3000010475027047,
+          "order_date": "2025-12-27T20:59:39.145000",
+          "webster_tags": {
+            "PORTION_SIZE": {
+              "portion_size": "1-2 people"
+            },
+            "COURSE": {
+              "course": "Side Dishes & Condiments"
+            },
+            "PREPARATION": {
+              "dish_preparation_method": "Fried"
+            },
+            "INGREDIENT": {
+              "fats_oils": [
+                "lard"
+              ],
+              "fruits_vegetables": [
+                "potato"
+              ],
+              "grains_carbs": [],
+              "proteins": [],
+              "spices_seasonings": [
+                "salt"
+              ]
+            },
+            "CUISINE": {
+              "cuisine": [
+                "American"
+              ]
+            },
+            "DISH": {
+              "confidence_score": 0.9951,
+              "hierarchical_tags": "Side Dishes & Condiments > Fries > French Fries",
+              "level_1_tag": "Side Dishes & Condiments",
+              "level_1_tag_id": 106755224903116,
+              "level_2_tag": "Fries",
+              "level_2_tag_id": 169421326269319,
+              "level_3_tag": "French Fries",
+              "level_3_tag_id": 258781038999846,
+              "top_candidates": [
+                {
+                  "confidence_score": 0.9951,
+                  "hierarchical_tags": "Side Dishes & Condiments > Fries > French Fries",
+                  "level_1_tag": "Side Dishes & Condiments",
+                  "level_1_tag_id": 106755224903116,
+                  "level_2_tag": "Fries",
+                  "level_2_tag_id": 169421326269319,
+                  "level_3_tag": "French Fries",
+                  "level_3_tag_id": 258781038999846
+                },
+                {
+                  "confidence_score": 0.0012,
+                  "hierarchical_tags": "Side Dishes & Condiments > Other Side Dishes & Condiments",
+                  "level_1_tag": "Side Dishes & Condiments",
+                  "level_1_tag_id": 106755224903116,
+                  "level_2_tag": "Other Side Dishes & Condiments",
+                  "level_2_tag_id": 193097298078480
+                },
+                {
+                  "confidence_score": 0.0007,
+                  "hierarchical_tags": "Side Dishes & Condiments > Potato Sides > Fried Potatoes",
+                  "level_1_tag": "Side Dishes & Condiments",
+                  "level_1_tag_id": 106755224903116,
+                  "level_2_tag": "Potato Sides",
+                  "level_2_tag_id": 232992856081390,
+                  "level_3_tag": "Fried Potatoes",
+                  "level_3_tag_id": 128322746730356
+                }
+              ]
+            },
+            "DIETARY": {
+              "is_beef_free": false,
+              "is_healthy": false,
+              "is_high_protein": false,
+              "is_keto_friendly": false,
+              "is_kid_friendly": true,
+              "is_low_calorie": false,
+              "is_low_carb": false,
+              "is_low_fat": false,
+              "is_low_sodium": false,
+              "is_low_sugar": true,
+              "is_paleo_friendly": false,
+              "is_pescatarian": false,
+              "is_pescatarian_mentioned": false,
+              "is_pescatarian_options": false,
+              "is_pork_free": true,
+              "is_vegan": false,
+              "is_vegan_mentioned": false,
+              "is_vegan_options": false,
+              "is_vegetarian": false,
+              "is_vegetarian_mentioned": false,
+              "is_vegetarian_options": false
+            },
+            "MACRO": {
+              "estimated_calories": 400,
+              "estimated_carbohydrates_grams": 48,
+              "estimated_fat_grams": 22,
+              "estimated_protein_grams": 5
+            },
+            "ALLERGEN": {
+              "is_dairy_free": true,
+              "is_gluten_free": true,
+              "is_gluten_free_mentioned": false,
+              "is_gluten_free_options": true,
+              "is_nut_free": true,
+              "is_shellfish_free": true,
+              "is_soy_free": true
+            },
+            "FLAVOR": {
+              "is_bitter": false,
+              "is_cheesy": false,
+              "is_creamy": false,
+              "is_herbal": false,
+              "is_salty": true,
+              "is_smoky": false,
+              "is_sour": false,
+              "is_spicy": false,
+              "is_sweet": false,
+              "is_tangy": false,
+              "is_umami": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "store_id": 35650647,
+      "store_name": "Hyphy Burger - 898 W Grand Ave",
+      "business_name": "Hyphy Burger",
+      "business_id": 14714399,
+      "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/77564faf-e494-45e9-914b-4f31877b7293.png",
+      "header_image": "https://cdn.doordash.com/media/store/header/a804f319-bdbd-4cf0-bc5f-873dd16efc2a.jpg",
+      "logo_url": "https://cdn.doordash.com/media/restaurant/cover_square/ce79277f-c7c7-4f30-8a77-86d26e4692e6.jpeg",
+      "average_rating": "4.62",
+      "orders": [
+        {
+          "delivery_id": 317490291747,
+          "order_date": "2026-01-30T19:00:38.250770"
+        },
+        {
+          "delivery_id": 214117846924,
+          "order_date": "2026-01-09T20:15:11.498401"
+        }
+      ],
+      "items": [
+        {
+          "item_id": 32195248782,
+          "item_name": "Stunna Shakes",
+          "image_url": "https://cdn.doordash.com/media/photosV2/31777ab6-4de6-4c2c-89b6-134035352b32-retina-large.jpg",
+          "order_id": 3000011044952597,
+          "order_date": "2026-01-31T02:38:25.930000",
+          "webster_tags": {
+            "COURSE": {
+              "course": "Non-Alcoholic Beverages"
+            },
+            "PORTION_SIZE": {
+              "portion_size": "1-2 people"
+            },
+            "INGREDIENT": {
+              "fats_oils": [],
+              "fruits_vegetables": [],
+              "grains_carbs": [
+                "cereal",
+                "sugar"
+              ],
+              "proteins": [],
+              "spices_seasonings": []
+            },
+            "FLAVOR": {
+              "is_bitter": false,
+              "is_cheesy": false,
+              "is_creamy": true,
+              "is_herbal": false,
+              "is_salty": false,
+              "is_smoky": false,
+              "is_sour": false,
+              "is_spicy": false,
+              "is_sweet": true,
+              "is_tangy": false,
+              "is_umami": false
+            },
+            "DIETARY": {
+              "is_beef_free": true,
+              "is_healthy": false,
+              "is_high_protein": false,
+              "is_keto_friendly": false,
+              "is_kid_friendly": true,
+              "is_low_calorie": false,
+              "is_low_carb": false,
+              "is_low_fat": false,
+              "is_low_sodium": false,
+              "is_low_sugar": false,
+              "is_paleo_friendly": false,
+              "is_pescatarian": true,
+              "is_pescatarian_mentioned": false,
+              "is_pescatarian_options": true,
+              "is_pork_free": true,
+              "is_vegan": false,
+              "is_vegan_mentioned": false,
+              "is_vegan_options": false,
+              "is_vegetarian": true,
+              "is_vegetarian_mentioned": false,
+              "is_vegetarian_options": true
+            },
+            "MACRO": {
+              "estimated_calories": 700,
+              "estimated_carbohydrates_grams": 100,
+              "estimated_fat_grams": 30,
+              "estimated_protein_grams": 15
+            },
+            "DISH": {
+              "confidence_score": 0.9272,
+              "hierarchical_tags": "Non-Alcoholic Beverages > Shakes > Other Shakes",
+              "level_1_tag": "Non-Alcoholic Beverages",
+              "level_1_tag_id": 45609908728411,
+              "level_2_tag": "Shakes",
+              "level_2_tag_id": 214930307980438,
+              "level_3_tag": "Other Shakes",
+              "level_3_tag_id": 83852057084701,
+              "top_candidates": [
+                {
+                  "confidence_score": 0.9272,
+                  "hierarchical_tags": "Non-Alcoholic Beverages > Shakes > Other Shakes",
+                  "level_1_tag": "Non-Alcoholic Beverages",
+                  "level_1_tag_id": 45609908728411,
+                  "level_2_tag": "Shakes",
+                  "level_2_tag_id": 214930307980438,
+                  "level_3_tag": "Other Shakes",
+                  "level_3_tag_id": 83852057084701
+                },
+                {
+                  "confidence_score": 0.041,
+                  "hierarchical_tags": "Non-Alcoholic Beverages > Shakes > Other Flavored Milkshake",
+                  "level_1_tag": "Non-Alcoholic Beverages",
+                  "level_1_tag_id": 45609908728411,
+                  "level_2_tag": "Shakes",
+                  "level_2_tag_id": 214930307980438,
+                  "level_3_tag": "Other Flavored Milkshake",
+                  "level_3_tag_id": 28243761339030
+                },
+                {
+                  "confidence_score": 0.0096,
+                  "hierarchical_tags": "Non-Alcoholic Beverages > Shakes > Milkshake > Strawberry Milkshake",
+                  "level_1_tag": "Non-Alcoholic Beverages",
+                  "level_1_tag_id": 45609908728411,
+                  "level_2_tag": "Shakes",
+                  "level_2_tag_id": 214930307980438,
+                  "level_3_tag": "Milkshake",
+                  "level_3_tag_id": 61362733576035,
+                  "level_4_tag": "Strawberry Milkshake",
+                  "level_4_tag_id": 202552710686589
+                }
+              ]
+            },
+            "ALLERGEN": {
+              "is_dairy_free": false,
+              "is_gluten_free": false,
+              "is_gluten_free_mentioned": false,
+              "is_gluten_free_options": false,
+              "is_nut_free": false,
+              "is_shellfish_free": true,
+              "is_soy_free": false
+            }
+          }
+        },
+        {
+          "item_id": 32195248782,
+          "item_name": "Stunna Shakes",
+          "image_url": "https://cdn.doordash.com/media/photosV2/31777ab6-4de6-4c2c-89b6-134035352b32-retina-large.jpg",
+          "order_id": 3000010699492041,
+          "order_date": "2026-01-10T03:51:16.394000",
+          "webster_tags": {
+            "COURSE": {
+              "course": "Non-Alcoholic Beverages"
+            },
+            "PORTION_SIZE": {
+              "portion_size": "1-2 people"
+            },
+            "INGREDIENT": {
+              "fats_oils": [],
+              "fruits_vegetables": [],
+              "grains_carbs": [
+                "cereal",
+                "sugar"
+              ],
+              "proteins": [],
+              "spices_seasonings": []
+            },
+            "FLAVOR": {
+              "is_bitter": false,
+              "is_cheesy": false,
+              "is_creamy": true,
+              "is_herbal": false,
+              "is_salty": false,
+              "is_smoky": false,
+              "is_sour": false,
+              "is_spicy": false,
+              "is_sweet": true,
+              "is_tangy": false,
+              "is_umami": false
+            },
+            "DIETARY": {
+              "is_beef_free": true,
+              "is_healthy": false,
+              "is_high_protein": false,
+              "is_keto_friendly": false,
+              "is_kid_friendly": true,
+              "is_low_calorie": false,
+              "is_low_carb": false,
+              "is_low_fat": false,
+              "is_low_sodium": false,
+              "is_low_sugar": false,
+              "is_paleo_friendly": false,
+              "is_pescatarian": true,
+              "is_pescatarian_mentioned": false,
+              "is_pescatarian_options": true,
+              "is_pork_free": true,
+              "is_vegan": false,
+              "is_vegan_mentioned": false,
+              "is_vegan_options": false,
+              "is_vegetarian": true,
+              "is_vegetarian_mentioned": false,
+              "is_vegetarian_options": true
+            },
+            "MACRO": {
+              "estimated_calories": 700,
+              "estimated_carbohydrates_grams": 100,
+              "estimated_fat_grams": 30,
+              "estimated_protein_grams": 15
+            },
+            "DISH": {
+              "confidence_score": 0.9272,
+              "hierarchical_tags": "Non-Alcoholic Beverages > Shakes > Other Shakes",
+              "level_1_tag": "Non-Alcoholic Beverages",
+              "level_1_tag_id": 45609908728411,
+              "level_2_tag": "Shakes",
+              "level_2_tag_id": 214930307980438,
+              "level_3_tag": "Other Shakes",
+              "level_3_tag_id": 83852057084701,
+              "top_candidates": [
+                {
+                  "confidence_score": 0.9272,
+                  "hierarchical_tags": "Non-Alcoholic Beverages > Shakes > Other Shakes",
+                  "level_1_tag": "Non-Alcoholic Beverages",
+                  "level_1_tag_id": 45609908728411,
+                  "level_2_tag": "Shakes",
+                  "level_2_tag_id": 214930307980438,
+                  "level_3_tag": "Other Shakes",
+                  "level_3_tag_id": 83852057084701
+                },
+                {
+                  "confidence_score": 0.041,
+                  "hierarchical_tags": "Non-Alcoholic Beverages > Shakes > Other Flavored Milkshake",
+                  "level_1_tag": "Non-Alcoholic Beverages",
+                  "level_1_tag_id": 45609908728411,
+                  "level_2_tag": "Shakes",
+                  "level_2_tag_id": 214930307980438,
+                  "level_3_tag": "Other Flavored Milkshake",
+                  "level_3_tag_id": 28243761339030
+                },
+                {
+                  "confidence_score": 0.0096,
+                  "hierarchical_tags": "Non-Alcoholic Beverages > Shakes > Milkshake > Strawberry Milkshake",
+                  "level_1_tag": "Non-Alcoholic Beverages",
+                  "level_1_tag_id": 45609908728411,
+                  "level_2_tag": "Shakes",
+                  "level_2_tag_id": 214930307980438,
+                  "level_3_tag": "Milkshake",
+                  "level_3_tag_id": 61362733576035,
+                  "level_4_tag": "Strawberry Milkshake",
+                  "level_4_tag_id": 202552710686589
+                }
+              ]
+            },
+            "ALLERGEN": {
+              "is_dairy_free": false,
+              "is_gluten_free": false,
+              "is_gluten_free_mentioned": false,
+              "is_gluten_free_options": false,
+              "is_nut_free": false,
+              "is_shellfish_free": true,
+              "is_soy_free": false
+            }
+          }
+        },
+        {
+          "item_id": 32195248776,
+          "item_name": "6 Mini Donuts",
+          "image_url": "https://cdn.doordash.com/media/photosV2/81ee9eb0-f887-4702-9d5b-0cff4a344e17-retina-large.jpg",
+          "order_id": 3000011044952597,
+          "order_date": "2026-01-31T02:38:25.930000",
+          "webster_tags": {
+            "COURSE": {
+              "course": "Desserts"
+            },
+            "ALLERGEN": {
+              "is_dairy_free": false,
+              "is_gluten_free": false,
+              "is_gluten_free_mentioned": false,
+              "is_gluten_free_options": false,
+              "is_nut_free": false,
+              "is_shellfish_free": true,
+              "is_soy_free": false
+            },
+            "PREPARATION": {
+              "dish_preparation_method": "Fried"
+            },
+            "FLAVOR": {
+              "is_bitter": false,
+              "is_cheesy": false,
+              "is_creamy": false,
+              "is_herbal": false,
+              "is_salty": false,
+              "is_smoky": false,
+              "is_sour": false,
+              "is_spicy": false,
+              "is_sweet": true,
+              "is_tangy": false,
+              "is_umami": false
+            },
+            "DIETARY": {
+              "is_beef_free": true,
+              "is_healthy": false,
+              "is_high_protein": false,
+              "is_keto_friendly": false,
+              "is_kid_friendly": true,
+              "is_low_calorie": false,
+              "is_low_carb": false,
+              "is_low_fat": false,
+              "is_low_sodium": false,
+              "is_low_sugar": false,
+              "is_paleo_friendly": false,
+              "is_pescatarian": true,
+              "is_pescatarian_mentioned": false,
+              "is_pescatarian_options": true,
+              "is_pork_free": true,
+              "is_vegan": false,
+              "is_vegan_mentioned": false,
+              "is_vegan_options": false,
+              "is_vegetarian": true,
+              "is_vegetarian_mentioned": false,
+              "is_vegetarian_options": true
+            },
+            "INGREDIENT": {
+              "fats_oils": [
+                "butter"
+              ],
+              "fruits_vegetables": [],
+              "grains_carbs": [
+                "flour"
+              ],
+              "proteins": [
+                "eggs"
+              ],
+              "spices_seasonings": [
+                "cinnamon"
+              ]
+            },
+            "MACRO": {
+              "estimated_calories": 1200,
+              "estimated_carbohydrates_grams": 160,
+              "estimated_fat_grams": 60,
+              "estimated_protein_grams": 15
+            },
+            "CUISINE": {
+              "cuisine": [
+                "American"
+              ]
+            },
+            "DISH": {
+              "confidence_score": 0.4548,
+              "hierarchical_tags": "Desserts > Doughnuts",
+              "level_1_tag": "Desserts",
+              "level_1_tag_id": 62710586898487,
+              "level_2_tag": "Doughnuts",
+              "level_2_tag_id": 75888274578888,
+              "top_candidates": [
+                {
+                  "confidence_score": 0.4548,
+                  "hierarchical_tags": "Desserts > Doughnuts",
+                  "level_1_tag": "Desserts",
+                  "level_1_tag_id": 62710586898487,
+                  "level_2_tag": "Doughnuts",
+                  "level_2_tag_id": 75888274578888
+                },
+                {
+                  "confidence_score": 0.4324,
+                  "hierarchical_tags": "Desserts > Doughnuts > Other Doughnuts",
+                  "level_1_tag": "Desserts",
+                  "level_1_tag_id": 62710586898487,
+                  "level_2_tag": "Doughnuts",
+                  "level_2_tag_id": 75888274578888,
+                  "level_3_tag": "Other Doughnuts",
+                  "level_3_tag_id": 263169596792840
+                },
+                {
+                  "confidence_score": 0.0754,
+                  "hierarchical_tags": "Desserts > Doughnuts > Assorted Doughnuts",
+                  "level_1_tag": "Desserts",
+                  "level_1_tag_id": 62710586898487,
+                  "level_2_tag": "Doughnuts",
+                  "level_2_tag_id": 75888274578888,
+                  "level_3_tag": "Assorted Doughnuts",
+                  "level_3_tag_id": 224083404678184
+                }
+              ]
+            },
+            "PORTION_SIZE": {
+              "portion_size": "1-2 people"
+            }
+          }
+        },
+        {
+          "item_id": 32195248773,
+          "item_name": "Hyphy Meal",
+          "image_url": "https://cdn.doordash.com/media/ugc/4ec02770-b377-476a-8a77-998fc4061e9c-27bc0383-35e7-4b7a-9437-0929dd4b2285.jpg",
+          "order_id": 3000010699492041,
+          "order_date": "2026-01-10T03:51:16.394000",
+          "webster_tags": {
+            "FLAVOR": {
+              "is_bitter": false,
+              "is_cheesy": true,
+              "is_creamy": false,
+              "is_herbal": false,
+              "is_salty": true,
+              "is_smoky": false,
+              "is_sour": false,
+              "is_spicy": false,
+              "is_sweet": false,
+              "is_tangy": false,
+              "is_umami": false
+            },
+            "DIETARY": {
+              "is_beef_free": false,
+              "is_healthy": false,
+              "is_high_protein": true,
+              "is_keto_friendly": false,
+              "is_kid_friendly": true,
+              "is_low_calorie": false,
+              "is_low_carb": false,
+              "is_low_fat": false,
+              "is_low_sodium": false,
+              "is_low_sugar": false,
+              "is_paleo_friendly": false,
+              "is_pescatarian": false,
+              "is_pescatarian_mentioned": false,
+              "is_pescatarian_options": false,
+              "is_pork_free": true,
+              "is_vegan": false,
+              "is_vegan_mentioned": false,
+              "is_vegan_options": false,
+              "is_vegetarian": false,
+              "is_vegetarian_mentioned": false,
+              "is_vegetarian_options": false
+            },
+            "COURSE": {
+              "course": "Bundled Meals & Combos"
+            },
+            "PORTION_SIZE": {
+              "portion_size": "1-2 people"
+            },
+            "MACRO": {
+              "estimated_calories": 1200,
+              "estimated_carbohydrates_grams": 100,
+              "estimated_fat_grams": 70,
+              "estimated_protein_grams": 60
+            },
+            "DISH": {
+              "confidence_score": 0.2737,
+              "hierarchical_tags": "Main Dishes > Grilled, Roasted & Fried Meat > Other Grilled, Roasted And Fried Meat > Grilled Combo",
+              "level_1_tag": "Main Dishes",
+              "level_1_tag_id": 210864443733158,
+              "level_2_tag": "Grilled, Roasted & Fried Meat",
+              "level_2_tag_id": 174621345861389,
+              "level_3_tag": "Other Grilled, Roasted And Fried Meat",
+              "level_3_tag_id": 165951158512919,
+              "level_4_tag": "Grilled Combo",
+              "level_4_tag_id": 68267433932111,
+              "top_candidates": [
+                {
+                  "confidence_score": 0.2737,
+                  "hierarchical_tags": "Main Dishes > Grilled, Roasted & Fried Meat > Other Grilled, Roasted And Fried Meat > Grilled Combo",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Grilled, Roasted & Fried Meat",
+                  "level_2_tag_id": 174621345861389,
+                  "level_3_tag": "Other Grilled, Roasted And Fried Meat",
+                  "level_3_tag_id": 165951158512919,
+                  "level_4_tag": "Grilled Combo",
+                  "level_4_tag_id": 68267433932111
+                },
+                {
+                  "confidence_score": 0.2595,
+                  "hierarchical_tags": "Main Dishes > Other Main Dishes > Other Dishes",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Other Main Dishes",
+                  "level_2_tag_id": 148169457863313,
+                  "level_3_tag": "Other Dishes",
+                  "level_3_tag_id": 258399283952297
+                },
+                {
+                  "confidence_score": 0.1411,
+                  "hierarchical_tags": "Main Dishes > Grilled, Roasted & Fried Meat > Other Grilled, Roasted And Fried Meat > Burger Combo",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Grilled, Roasted & Fried Meat",
+                  "level_2_tag_id": 174621345861389,
+                  "level_3_tag": "Other Grilled, Roasted And Fried Meat",
+                  "level_3_tag_id": 165951158512919,
+                  "level_4_tag": "Burger Combo",
+                  "level_4_tag_id": 151864088519762
+                }
+              ]
+            },
+            "ALLERGEN": {
+              "is_dairy_free": false,
+              "is_gluten_free": false,
+              "is_gluten_free_mentioned": false,
+              "is_gluten_free_options": false,
+              "is_nut_free": true,
+              "is_shellfish_free": true,
+              "is_soy_free": false
+            },
+            "INGREDIENT": {
+              "fats_oils": [],
+              "fruits_vegetables": [
+                "onion"
+              ],
+              "grains_carbs": [
+                "bread",
+                "potato"
+              ],
+              "proteins": [
+                "beef",
+                "cheddar cheese"
+              ],
+              "spices_seasonings": []
+            },
+            "CUISINE": {
+              "cuisine": [
+                "American"
+              ]
+            }
+          }
+        },
+        {
+          "item_id": 32195248773,
+          "item_name": "Hyphy Meal",
+          "image_url": "https://cdn.doordash.com/media/ugc/4ec02770-b377-476a-8a77-998fc4061e9c-27bc0383-35e7-4b7a-9437-0929dd4b2285.jpg",
+          "order_id": 3000011044952597,
+          "order_date": "2026-01-31T02:38:25.930000",
+          "webster_tags": {
+            "FLAVOR": {
+              "is_bitter": false,
+              "is_cheesy": true,
+              "is_creamy": false,
+              "is_herbal": false,
+              "is_salty": true,
+              "is_smoky": false,
+              "is_sour": false,
+              "is_spicy": false,
+              "is_sweet": false,
+              "is_tangy": false,
+              "is_umami": false
+            },
+            "DIETARY": {
+              "is_beef_free": false,
+              "is_healthy": false,
+              "is_high_protein": true,
+              "is_keto_friendly": false,
+              "is_kid_friendly": true,
+              "is_low_calorie": false,
+              "is_low_carb": false,
+              "is_low_fat": false,
+              "is_low_sodium": false,
+              "is_low_sugar": false,
+              "is_paleo_friendly": false,
+              "is_pescatarian": false,
+              "is_pescatarian_mentioned": false,
+              "is_pescatarian_options": false,
+              "is_pork_free": true,
+              "is_vegan": false,
+              "is_vegan_mentioned": false,
+              "is_vegan_options": false,
+              "is_vegetarian": false,
+              "is_vegetarian_mentioned": false,
+              "is_vegetarian_options": false
+            },
+            "COURSE": {
+              "course": "Bundled Meals & Combos"
+            },
+            "PORTION_SIZE": {
+              "portion_size": "1-2 people"
+            },
+            "MACRO": {
+              "estimated_calories": 1200,
+              "estimated_carbohydrates_grams": 100,
+              "estimated_fat_grams": 70,
+              "estimated_protein_grams": 60
+            },
+            "DISH": {
+              "confidence_score": 0.2737,
+              "hierarchical_tags": "Main Dishes > Grilled, Roasted & Fried Meat > Other Grilled, Roasted And Fried Meat > Grilled Combo",
+              "level_1_tag": "Main Dishes",
+              "level_1_tag_id": 210864443733158,
+              "level_2_tag": "Grilled, Roasted & Fried Meat",
+              "level_2_tag_id": 174621345861389,
+              "level_3_tag": "Other Grilled, Roasted And Fried Meat",
+              "level_3_tag_id": 165951158512919,
+              "level_4_tag": "Grilled Combo",
+              "level_4_tag_id": 68267433932111,
+              "top_candidates": [
+                {
+                  "confidence_score": 0.2737,
+                  "hierarchical_tags": "Main Dishes > Grilled, Roasted & Fried Meat > Other Grilled, Roasted And Fried Meat > Grilled Combo",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Grilled, Roasted & Fried Meat",
+                  "level_2_tag_id": 174621345861389,
+                  "level_3_tag": "Other Grilled, Roasted And Fried Meat",
+                  "level_3_tag_id": 165951158512919,
+                  "level_4_tag": "Grilled Combo",
+                  "level_4_tag_id": 68267433932111
+                },
+                {
+                  "confidence_score": 0.2595,
+                  "hierarchical_tags": "Main Dishes > Other Main Dishes > Other Dishes",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Other Main Dishes",
+                  "level_2_tag_id": 148169457863313,
+                  "level_3_tag": "Other Dishes",
+                  "level_3_tag_id": 258399283952297
+                },
+                {
+                  "confidence_score": 0.1411,
+                  "hierarchical_tags": "Main Dishes > Grilled, Roasted & Fried Meat > Other Grilled, Roasted And Fried Meat > Burger Combo",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Grilled, Roasted & Fried Meat",
+                  "level_2_tag_id": 174621345861389,
+                  "level_3_tag": "Other Grilled, Roasted And Fried Meat",
+                  "level_3_tag_id": 165951158512919,
+                  "level_4_tag": "Burger Combo",
+                  "level_4_tag_id": 151864088519762
+                }
+              ]
+            },
+            "ALLERGEN": {
+              "is_dairy_free": false,
+              "is_gluten_free": false,
+              "is_gluten_free_mentioned": false,
+              "is_gluten_free_options": false,
+              "is_nut_free": true,
+              "is_shellfish_free": true,
+              "is_soy_free": false
+            },
+            "INGREDIENT": {
+              "fats_oils": [],
+              "fruits_vegetables": [
+                "onion"
+              ],
+              "grains_carbs": [
+                "bread",
+                "potato"
+              ],
+              "proteins": [
+                "beef",
+                "cheddar cheese"
+              ],
+              "spices_seasonings": []
+            },
+            "CUISINE": {
+              "cuisine": [
+                "American"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "store_id": 23606076,
+      "store_name": "Millennium Market (Market St)",
+      "business_name": "Millennium Market",
+      "business_id": 11230075,
+      "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/c8b29e71-12f2-41c9-befb-bb446421be6c.png",
+      "header_image": "https://cdn.doordash.com/media/store/header/521604bb-aa01-4bac-85fa-9e486a568197.png",
+      "logo_url": "https://cdn.doordash.com/media/restaurant/cover_square/178e90e4-1de9-465a-8d06-fc2d4219d8ef.jpg",
+      "average_rating": "4.71",
+      "orders": [
+        {
+          "delivery_id": 324109141081,
+          "order_date": "2026-02-28T22:58:25.575705"
+        }
+      ],
+      "items": [
+        {
+          "item_id": 23016079913,
+          "item_name": "Johnnie Walker Black Label 80 Proof Blended Aged 12 Year Scotch Whisky Bottle (375 ml)",
+          "image_url": "",
+          "order_id": 3000011573509973,
+          "order_date": "2026-03-01T06:35:57.720000",
+          "webster_tags": {}
+        },
+        {
+          "item_id": 17407998029,
+          "item_name": "Guinness Draught Stout Beer (11.2 fl oz \u00d7 6 ct)",
+          "image_url": "",
+          "order_id": 3000011573509973,
+          "order_date": "2026-03-01T06:35:57.720000",
+          "webster_tags": {}
+        }
+      ]
+    },
+    {
+      "store_id": 773994,
+      "store_name": "Pintoh Thai Street Food (Franklin St)",
+      "business_name": "Pintoh Thai Street Food",
+      "business_id": 348880,
+      "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/dfff5344-8d95-48b2-bf8d-d81d6d5c4048.png",
+      "header_image": "https://cdn.doordash.com/media/store/header/348880.jpg",
+      "logo_url": "https://cdn.doordash.com/media/restaurant/cover_square/69be92e8-c422-4c45-904b-b194d06edca6.png",
+      "average_rating": "4.77",
+      "orders": [
+        {
+          "delivery_id": 269535286895,
+          "order_date": "2026-01-18T19:16:43.322509"
+        }
+      ],
+      "items": [
+        {
+          "item_id": 143949879,
+          "item_name": "Peanut Sauce",
+          "image_url": "https://cdn.doordash.com/media/photos/51d694e1-1915-4858-8c75-95eb231228b5-retina-large-jpeg",
+          "order_id": 3000010850310901,
+          "order_date": "2026-01-19T02:36:14.244000",
+          "webster_tags": {
+            "ALLERGEN": {
+              "is_dairy_free": true,
+              "is_gluten_free": false,
+              "is_gluten_free_mentioned": false,
+              "is_gluten_free_options": false,
+              "is_nut_free": false,
+              "is_shellfish_free": true,
+              "is_soy_free": false
+            },
+            "INGREDIENT": {
+              "fats_oils": [
+                "peanut butter"
+              ],
+              "fruits_vegetables": [
+                "garlic"
+              ],
+              "grains_carbs": [],
+              "proteins": [
+                "peanuts",
+                "soy"
+              ],
+              "spices_seasonings": [
+                "ginger",
+                "soy sauce",
+                "chili pepper",
+                "salt"
+              ]
+            },
+            "MACRO": {
+              "estimated_calories": 250,
+              "estimated_carbohydrates_grams": 15,
+              "estimated_fat_grams": 20,
+              "estimated_protein_grams": 8
+            },
+            "CUISINE": {
+              "cuisine": [
+                "Asian",
+                "Thai",
+                "Indonesian",
+                "Malaysian"
+              ]
+            },
+            "FLAVOR": {
+              "is_bitter": false,
+              "is_cheesy": false,
+              "is_creamy": true,
+              "is_herbal": false,
+              "is_salty": true,
+              "is_smoky": false,
+              "is_sour": false,
+              "is_spicy": true,
+              "is_sweet": true,
+              "is_tangy": true,
+              "is_umami": true
+            },
+            "PREPARATION": {},
+            "DISH": {
+              "confidence_score": 0.9956,
+              "hierarchical_tags": "Side Dishes & Condiments > Dips & Sauces > Peanut Sauce",
+              "level_1_tag": "Side Dishes & Condiments",
+              "level_1_tag_id": 106755224903116,
+              "level_2_tag": "Dips & Sauces",
+              "level_2_tag_id": 56019730563936,
+              "level_3_tag": "Peanut Sauce",
+              "level_3_tag_id": 110834165688250,
+              "top_candidates": [
+                {
+                  "confidence_score": 0.9956,
+                  "hierarchical_tags": "Side Dishes & Condiments > Dips & Sauces > Peanut Sauce",
+                  "level_1_tag": "Side Dishes & Condiments",
+                  "level_1_tag_id": 106755224903116,
+                  "level_2_tag": "Dips & Sauces",
+                  "level_2_tag_id": 56019730563936,
+                  "level_3_tag": "Peanut Sauce",
+                  "level_3_tag_id": 110834165688250
+                },
+                {
+                  "confidence_score": 0.0013,
+                  "hierarchical_tags": "Side Dishes & Condiments > Dips & Sauces > Other Dips And Sauces",
+                  "level_1_tag": "Side Dishes & Condiments",
+                  "level_1_tag_id": 106755224903116,
+                  "level_2_tag": "Dips & Sauces",
+                  "level_2_tag_id": 56019730563936,
+                  "level_3_tag": "Other Dips And Sauces",
+                  "level_3_tag_id": 56386272635211
+                },
+                {
+                  "confidence_score": 0.0008,
+                  "hierarchical_tags": "Desserts > Pies & Tarts > Other Pies And Tarts > Peanut Butter Pie",
+                  "level_1_tag": "Desserts",
+                  "level_1_tag_id": 62710586898487,
+                  "level_2_tag": "Pies & Tarts",
+                  "level_2_tag_id": 19882444706744,
+                  "level_3_tag": "Other Pies And Tarts",
+                  "level_3_tag_id": 172059323247509,
+                  "level_4_tag": "Peanut Butter Pie",
+                  "level_4_tag_id": 153745917580330
+                }
+              ]
+            },
+            "DIETARY": {
+              "is_beef_free": true,
+              "is_healthy": false,
+              "is_high_protein": true,
+              "is_keto_friendly": false,
+              "is_kid_friendly": true,
+              "is_low_calorie": false,
+              "is_low_carb": false,
+              "is_low_fat": false,
+              "is_low_sodium": false,
+              "is_low_sugar": false,
+              "is_paleo_friendly": false,
+              "is_pescatarian": false,
+              "is_pescatarian_mentioned": false,
+              "is_pescatarian_options": false,
+              "is_pork_free": true,
+              "is_vegan": false,
+              "is_vegan_mentioned": false,
+              "is_vegan_options": false,
+              "is_vegetarian": false,
+              "is_vegetarian_mentioned": false,
+              "is_vegetarian_options": false
+            },
+            "PORTION_SIZE": {
+              "portion_size": "1-2 people"
+            },
+            "COURSE": {
+              "course": "Side Dishes & Condiments"
+            }
+          }
+        },
+        {
+          "item_id": 143949860,
+          "item_name": "Pad Thai with Shrimp",
+          "image_url": "https://cdn.doordash.com/media/photos/011f6326-dc17-476f-bb56-2b03fecd180b-retina-large-jpeg",
+          "order_id": 3000010850310901,
+          "order_date": "2026-01-19T02:36:14.244000",
+          "webster_tags": {
+            "DISH": {
+              "confidence_score": 0.9995,
+              "hierarchical_tags": "Main Dishes > Noodles > Wok And Fried Noodles > Pad Thai",
+              "level_1_tag": "Main Dishes",
+              "level_1_tag_id": 210864443733158,
+              "level_2_tag": "Noodles",
+              "level_2_tag_id": 278917347054105,
+              "level_3_tag": "Wok And Fried Noodles",
+              "level_3_tag_id": 134306923027113,
+              "level_4_tag": "Pad Thai",
+              "level_4_tag_id": 256782346388105,
+              "top_candidates": [
+                {
+                  "confidence_score": 0.9995,
+                  "hierarchical_tags": "Main Dishes > Noodles > Wok And Fried Noodles > Pad Thai",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Noodles",
+                  "level_2_tag_id": 278917347054105,
+                  "level_3_tag": "Wok And Fried Noodles",
+                  "level_3_tag_id": 134306923027113,
+                  "level_4_tag": "Pad Thai",
+                  "level_4_tag_id": 256782346388105
+                },
+                {
+                  "confidence_score": 0.0002,
+                  "hierarchical_tags": "Main Dishes > Other Main Dishes > Other Dishes",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Other Main Dishes",
+                  "level_2_tag_id": 148169457863313,
+                  "level_3_tag": "Other Dishes",
+                  "level_3_tag_id": 258399283952297
+                },
+                {
+                  "confidence_score": 0.0002,
+                  "hierarchical_tags": "Main Dishes > Grilled, Roasted & Fried Meat > Other Grilled, Roasted And Fried Meat > Grilled Combo",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Grilled, Roasted & Fried Meat",
+                  "level_2_tag_id": 174621345861389,
+                  "level_3_tag": "Other Grilled, Roasted And Fried Meat",
+                  "level_3_tag_id": 165951158512919,
+                  "level_4_tag": "Grilled Combo",
+                  "level_4_tag_id": 68267433932111
+                }
+              ]
+            },
+            "COURSE": {
+              "course": "Main Dishes"
+            },
+            "INGREDIENT": {
+              "fats_oils": [],
+              "fruits_vegetables": [
+                "bean sprout",
+                "chives",
+                "shallot"
+              ],
+              "grains_carbs": [
+                "rice noodles"
+              ],
+              "proteins": [
+                "shrimp",
+                "tofu",
+                "eggs"
+              ],
+              "spices_seasonings": [
+                "tamarind sauce",
+                "peanuts"
+              ]
+            },
+            "DIETARY": {
+              "is_beef_free": true,
+              "is_healthy": false,
+              "is_high_protein": false,
+              "is_keto_friendly": false,
+              "is_kid_friendly": false,
+              "is_low_calorie": false,
+              "is_low_carb": false,
+              "is_low_fat": false,
+              "is_low_sodium": false,
+              "is_low_sugar": false,
+              "is_paleo_friendly": false,
+              "is_pescatarian": true,
+              "is_pescatarian_mentioned": false,
+              "is_pescatarian_options": true,
+              "is_pork_free": true,
+              "is_vegan": false,
+              "is_vegan_mentioned": false,
+              "is_vegan_options": false,
+              "is_vegetarian": false,
+              "is_vegetarian_mentioned": false,
+              "is_vegetarian_options": false
+            },
+            "MACRO": {},
+            "CUISINE": {
+              "cuisine": [
+                "Thai"
+              ]
+            },
+            "PREPARATION": {},
+            "FLAVOR": {
+              "is_bitter": false,
+              "is_cheesy": false,
+              "is_creamy": false,
+              "is_herbal": false,
+              "is_salty": true,
+              "is_smoky": false,
+              "is_sour": true,
+              "is_spicy": true,
+              "is_sweet": true,
+              "is_tangy": false,
+              "is_umami": false
+            },
+            "PORTION_SIZE": {
+              "portion_size": "1-2 people"
+            },
+            "ALLERGEN": {
+              "is_dairy_free": false,
+              "is_gluten_free": false,
+              "is_gluten_free_mentioned": false,
+              "is_gluten_free_options": false,
+              "is_nut_free": false,
+              "is_shellfish_free": false,
+              "is_soy_free": false
+            }
+          }
+        },
+        {
+          "item_id": 2845002114,
+          "item_name": "Thai Cha Kiew (Green Tea)",
+          "image_url": "https://cdn.doordash.com/media/photosV2/8f6238fc-26d5-4425-85ec-04ba91f1b332-retina-large.png",
+          "order_id": 3000010850310901,
+          "order_date": "2026-01-19T02:36:14.244000",
+          "webster_tags": {
+            "PREPARATION": {},
+            "DISH": {
+              "confidence_score": 0.644,
+              "hierarchical_tags": "Non-Alcoholic Beverages > Tea > Green Tea",
+              "level_1_tag": "Non-Alcoholic Beverages",
+              "level_1_tag_id": 45609908728411,
+              "level_2_tag": "Tea",
+              "level_2_tag_id": 212273073712824,
+              "level_3_tag": "Green Tea",
+              "level_3_tag_id": 28123413118704,
+              "top_candidates": [
+                {
+                  "confidence_score": 0.644,
+                  "hierarchical_tags": "Non-Alcoholic Beverages > Tea > Green Tea",
+                  "level_1_tag": "Non-Alcoholic Beverages",
+                  "level_1_tag_id": 45609908728411,
+                  "level_2_tag": "Tea",
+                  "level_2_tag_id": 212273073712824,
+                  "level_3_tag": "Green Tea",
+                  "level_3_tag_id": 28123413118704
+                },
+                {
+                  "confidence_score": 0.243,
+                  "hierarchical_tags": "Non-Alcoholic Beverages > Tea > Milk Tea > Thai Milk Tea",
+                  "level_1_tag": "Non-Alcoholic Beverages",
+                  "level_1_tag_id": 45609908728411,
+                  "level_2_tag": "Tea",
+                  "level_2_tag_id": 212273073712824,
+                  "level_3_tag": "Milk Tea",
+                  "level_3_tag_id": 18172928958317,
+                  "level_4_tag": "Thai Milk Tea",
+                  "level_4_tag_id": 156641448056945
+                },
+                {
+                  "confidence_score": 0.0377,
+                  "hierarchical_tags": "Non-Alcoholic Beverages > Tea > Iced Tea > Iced Green Tea",
+                  "level_1_tag": "Non-Alcoholic Beverages",
+                  "level_1_tag_id": 45609908728411,
+                  "level_2_tag": "Tea",
+                  "level_2_tag_id": 212273073712824,
+                  "level_3_tag": "Iced Tea",
+                  "level_3_tag_id": 93576019039109,
+                  "level_4_tag": "Iced Green Tea",
+                  "level_4_tag_id": 109626614979202
+                }
+              ]
+            },
+            "INGREDIENT": {
+              "fats_oils": [],
+              "fruits_vegetables": [],
+              "grains_carbs": [],
+              "proteins": [],
+              "spices_seasonings": [
+                "green tea"
+              ]
+            },
+            "ALLERGEN": {
+              "is_dairy_free": false,
+              "is_gluten_free": true,
+              "is_gluten_free_mentioned": false,
+              "is_gluten_free_options": true,
+              "is_nut_free": true,
+              "is_shellfish_free": true,
+              "is_soy_free": false
+            },
+            "DIETARY": {
+              "is_beef_free": true,
+              "is_healthy": false,
+              "is_high_protein": false,
+              "is_keto_friendly": false,
+              "is_kid_friendly": false,
+              "is_low_calorie": false,
+              "is_low_carb": false,
+              "is_low_fat": false,
+              "is_low_sodium": true,
+              "is_low_sugar": false,
+              "is_paleo_friendly": false,
+              "is_pescatarian": true,
+              "is_pescatarian_mentioned": false,
+              "is_pescatarian_options": true,
+              "is_pork_free": true,
+              "is_vegan": false,
+              "is_vegan_mentioned": false,
+              "is_vegan_options": false,
+              "is_vegetarian": true,
+              "is_vegetarian_mentioned": false,
+              "is_vegetarian_options": true
+            },
+            "CUISINE": {
+              "cuisine": [
+                "Thai"
+              ]
+            },
+            "PORTION_SIZE": {
+              "portion_size": "1-2 people"
+            },
+            "MACRO": {
+              "estimated_calories": 250,
+              "estimated_carbohydrates_grams": 40,
+              "estimated_fat_grams": 8,
+              "estimated_protein_grams": 8
+            },
+            "COURSE": {
+              "course": "Non-Alcoholic Beverages"
+            },
+            "FLAVOR": {
+              "is_bitter": false,
+              "is_cheesy": false,
+              "is_creamy": true,
+              "is_herbal": false,
+              "is_salty": false,
+              "is_smoky": false,
+              "is_sour": false,
+              "is_spicy": false,
+              "is_sweet": true,
+              "is_tangy": false,
+              "is_umami": false
+            }
+          }
+        },
+        {
+          "item_id": 143949724,
+          "item_name": "Por Tod",
+          "image_url": "https://cdn.doordash.com/media/photos/a43def2a-664a-40ec-bf5e-94c494590f56-retina-large.jpg",
+          "order_id": 3000010850310901,
+          "order_date": "2026-01-19T02:36:14.244000",
+          "webster_tags": {
+            "DIETARY": {
+              "is_beef_free": true,
+              "is_healthy": false,
+              "is_high_protein": false,
+              "is_keto_friendly": false,
+              "is_kid_friendly": true,
+              "is_low_calorie": false,
+              "is_low_carb": false,
+              "is_low_fat": false,
+              "is_low_sodium": false,
+              "is_low_sugar": false,
+              "is_paleo_friendly": false,
+              "is_pescatarian": true,
+              "is_pescatarian_mentioned": false,
+              "is_pescatarian_options": true,
+              "is_pork_free": true,
+              "is_vegan": false,
+              "is_vegan_mentioned": false,
+              "is_vegan_options": false,
+              "is_vegetarian": true,
+              "is_vegetarian_mentioned": false,
+              "is_vegetarian_options": true
+            },
+            "PREPARATION": {
+              "dish_preparation_method": "Fried"
+            },
+            "MACRO": {},
+            "DISH": {
+              "confidence_score": 0.1754,
+              "hierarchical_tags": "Appetizer > Wraps > Roll",
+              "level_1_tag": "Appetizer",
+              "level_1_tag_id": 188857423961001,
+              "level_2_tag": "Wraps",
+              "level_2_tag_id": 251796562906609,
+              "level_3_tag": "Roll",
+              "level_3_tag_id": 87572163474485,
+              "top_candidates": [
+                {
+                  "confidence_score": 0.1754,
+                  "hierarchical_tags": "Appetizer > Wraps > Roll",
+                  "level_1_tag": "Appetizer",
+                  "level_1_tag_id": 188857423961001,
+                  "level_2_tag": "Wraps",
+                  "level_2_tag_id": 251796562906609,
+                  "level_3_tag": "Roll",
+                  "level_3_tag_id": 87572163474485
+                },
+                {
+                  "confidence_score": 0.1388,
+                  "hierarchical_tags": "Main Dishes > Noodles > Other Noodles",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Noodles",
+                  "level_2_tag_id": 278917347054105,
+                  "level_3_tag": "Other Noodles",
+                  "level_3_tag_id": 3628236239049
+                },
+                {
+                  "confidence_score": 0.1096,
+                  "hierarchical_tags": "Main Dishes > Noodles",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Noodles",
+                  "level_2_tag_id": 278917347054105
+                }
+              ]
+            },
+            "PORTION_SIZE": {
+              "portion_size": "1-2 people"
+            },
+            "ALLERGEN": {
+              "is_dairy_free": true,
+              "is_gluten_free": false,
+              "is_gluten_free_mentioned": false,
+              "is_gluten_free_options": false,
+              "is_nut_free": true,
+              "is_shellfish_free": true,
+              "is_soy_free": false
+            },
+            "INGREDIENT": {
+              "fats_oils": [],
+              "fruits_vegetables": [
+                "cabbage",
+                "carrot"
+              ],
+              "grains_carbs": [
+                "noodles"
+              ],
+              "proteins": [],
+              "spices_seasonings": []
+            },
+            "FLAVOR": {
+              "is_bitter": false,
+              "is_cheesy": false,
+              "is_creamy": false,
+              "is_herbal": false,
+              "is_salty": true,
+              "is_smoky": false,
+              "is_sour": true,
+              "is_spicy": false,
+              "is_sweet": true,
+              "is_tangy": false,
+              "is_umami": false
+            },
+            "CUISINE": {
+              "cuisine": [
+                "Thai"
+              ]
+            },
+            "COURSE": {
+              "course": "Appetizer"
+            }
+          }
+        },
+        {
+          "item_id": 5839991420,
+          "item_name": "Kang Dang Moo",
+          "image_url": "https://cdn.doordash.com/media/photosV2/06233eda-b453-4838-8ce2-4e140dc2ec03-retina-large.JPG",
+          "order_id": 3000010850310901,
+          "order_date": "2026-01-19T02:36:14.244000",
+          "webster_tags": {
+            "DIETARY": {
+              "is_beef_free": true,
+              "is_healthy": false,
+              "is_high_protein": true,
+              "is_keto_friendly": false,
+              "is_kid_friendly": false,
+              "is_low_calorie": false,
+              "is_low_carb": false,
+              "is_low_fat": false,
+              "is_low_sodium": false,
+              "is_low_sugar": false,
+              "is_paleo_friendly": false,
+              "is_pescatarian": false,
+              "is_pescatarian_mentioned": false,
+              "is_pescatarian_options": false,
+              "is_pork_free": false,
+              "is_vegan": false,
+              "is_vegan_mentioned": false,
+              "is_vegan_options": false,
+              "is_vegetarian": false,
+              "is_vegetarian_mentioned": false,
+              "is_vegetarian_options": false
+            },
+            "PREPARATION": {
+              "dish_preparation_method": "Braised"
+            },
+            "FLAVOR": {
+              "is_bitter": false,
+              "is_cheesy": false,
+              "is_creamy": true,
+              "is_herbal": true,
+              "is_salty": true,
+              "is_smoky": false,
+              "is_sour": false,
+              "is_spicy": true,
+              "is_sweet": false,
+              "is_tangy": false,
+              "is_umami": false
+            },
+            "INGREDIENT": {
+              "fats_oils": [
+                "coconut milk"
+              ],
+              "fruits_vegetables": [
+                "pumpkin",
+                "bell pepper",
+                "basil",
+                "tomato"
+              ],
+              "grains_carbs": [],
+              "proteins": [
+                "pork"
+              ],
+              "spices_seasonings": [
+                "red curry"
+              ]
+            },
+            "PORTION_SIZE": {
+              "portion_size": "1-2 people"
+            },
+            "DISH": {
+              "confidence_score": 0.4441,
+              "hierarchical_tags": "Main Dishes > Curry > Other Curry",
+              "level_1_tag": "Main Dishes",
+              "level_1_tag_id": 210864443733158,
+              "level_2_tag": "Curry",
+              "level_2_tag_id": 54437205323342,
+              "level_3_tag": "Other Curry",
+              "level_3_tag_id": 102232947653998,
+              "top_candidates": [
+                {
+                  "confidence_score": 0.4441,
+                  "hierarchical_tags": "Main Dishes > Curry > Other Curry",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Curry",
+                  "level_2_tag_id": 54437205323342,
+                  "level_3_tag": "Other Curry",
+                  "level_3_tag_id": 102232947653998
+                },
+                {
+                  "confidence_score": 0.313,
+                  "hierarchical_tags": "Main Dishes > Curry > Red Curry > Red Curry Chicken",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Curry",
+                  "level_2_tag_id": 54437205323342,
+                  "level_3_tag": "Red Curry",
+                  "level_3_tag_id": 157542757175383,
+                  "level_4_tag": "Red Curry Chicken",
+                  "level_4_tag_id": 236195452138605
+                },
+                {
+                  "confidence_score": 0.1702,
+                  "hierarchical_tags": "Main Dishes > Other Main Dishes > Other Dishes",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Other Main Dishes",
+                  "level_2_tag_id": 148169457863313,
+                  "level_3_tag": "Other Dishes",
+                  "level_3_tag_id": 258399283952297
+                }
+              ]
+            },
+            "COURSE": {
+              "course": "Main Dishes"
+            },
+            "ALLERGEN": {
+              "is_dairy_free": false,
+              "is_gluten_free": true,
+              "is_gluten_free_mentioned": false,
+              "is_gluten_free_options": true,
+              "is_nut_free": true,
+              "is_shellfish_free": true,
+              "is_soy_free": false
+            },
+            "CUISINE": {
+              "cuisine": [
+                "Thai"
+              ]
+            },
+            "MACRO": {}
+          }
+        },
+        {
+          "item_id": 162965992,
+          "item_name": "Rice (side)",
+          "image_url": "https://cdn.doordash.com/media/photos/f77e25f9-d6e0-4db3-a8a4-4283b588ba77-retina-large.jpg",
+          "order_id": 3000010850310901,
+          "order_date": "2026-01-19T02:36:14.244000",
+          "webster_tags": {
+            "FLAVOR": {
+              "is_bitter": false,
+              "is_cheesy": false,
+              "is_creamy": false,
+              "is_herbal": false,
+              "is_salty": false,
+              "is_smoky": false,
+              "is_sour": false,
+              "is_spicy": false,
+              "is_sweet": false,
+              "is_tangy": false,
+              "is_umami": false
+            },
+            "DIETARY": {
+              "is_beef_free": true,
+              "is_healthy": true,
+              "is_high_protein": false,
+              "is_keto_friendly": false,
+              "is_kid_friendly": true,
+              "is_low_calorie": false,
+              "is_low_carb": false,
+              "is_low_fat": true,
+              "is_low_sodium": true,
+              "is_low_sugar": true,
+              "is_paleo_friendly": true,
+              "is_pescatarian": true,
+              "is_pescatarian_mentioned": false,
+              "is_pescatarian_options": true,
+              "is_pork_free": true,
+              "is_vegan": true,
+              "is_vegan_mentioned": false,
+              "is_vegan_options": true,
+              "is_vegetarian": true,
+              "is_vegetarian_mentioned": false,
+              "is_vegetarian_options": true
+            },
+            "MACRO": {
+              "estimated_calories": 150,
+              "estimated_carbohydrates_grams": 33,
+              "estimated_fat_grams": 0,
+              "estimated_protein_grams": 3
+            },
+            "DISH": {
+              "confidence_score": 0.8525,
+              "hierarchical_tags": "Side Dishes & Condiments > Grains & Rice > Other Rice",
+              "level_1_tag": "Side Dishes & Condiments",
+              "level_1_tag_id": 106755224903116,
+              "level_2_tag": "Grains & Rice",
+              "level_2_tag_id": 250558610249238,
+              "level_3_tag": "Other Rice",
+              "level_3_tag_id": 118274388434716,
+              "top_candidates": [
+                {
+                  "confidence_score": 0.8525,
+                  "hierarchical_tags": "Side Dishes & Condiments > Grains & Rice > Other Rice",
+                  "level_1_tag": "Side Dishes & Condiments",
+                  "level_1_tag_id": 106755224903116,
+                  "level_2_tag": "Grains & Rice",
+                  "level_2_tag_id": 250558610249238,
+                  "level_3_tag": "Other Rice",
+                  "level_3_tag_id": 118274388434716
+                },
+                {
+                  "confidence_score": 0.1447,
+                  "hierarchical_tags": "Main Dishes > Rice",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Rice",
+                  "level_2_tag_id": 181516058753836
+                },
+                {
+                  "confidence_score": 0.002,
+                  "hierarchical_tags": "Main Dishes > Rice > Mexican Rice",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Rice",
+                  "level_2_tag_id": 181516058753836,
+                  "level_3_tag": "Mexican Rice",
+                  "level_3_tag_id": 272882597860399
+                }
+              ]
+            },
+            "ALLERGEN": {
+              "is_dairy_free": true,
+              "is_gluten_free": true,
+              "is_gluten_free_mentioned": false,
+              "is_gluten_free_options": true,
+              "is_nut_free": true,
+              "is_shellfish_free": true,
+              "is_soy_free": true
+            },
+            "INGREDIENT": {
+              "fats_oils": [],
+              "fruits_vegetables": [
+                "carrot"
+              ],
+              "grains_carbs": [
+                "rice"
+              ],
+              "proteins": [],
+              "spices_seasonings": []
+            },
+            "PREPARATION": {
+              "dish_preparation_method": "Boiled"
+            },
+            "COURSE": {
+              "course": "Side Dishes & Condiments"
+            },
+            "CUISINE": {
+              "cuisine": [
+                "Asian"
+              ]
+            },
+            "PORTION_SIZE": {
+              "portion_size": "1-2 people"
+            }
+          }
+        },
+        {
+          "item_id": 143949877,
+          "item_name": "Roti",
+          "image_url": "https://cdn.doordash.com/media/ugc/65560da0-1354-4246-8ab4-800ba71fc193.png",
+          "order_id": 3000010850310901,
+          "order_date": "2026-01-19T02:36:14.244000",
+          "webster_tags": {
+            "PORTION_SIZE": {
+              "portion_size": "1-2 people"
+            },
+            "INGREDIENT": {
+              "fats_oils": [
+                "ghee"
+              ],
+              "fruits_vegetables": [],
+              "grains_carbs": [
+                "roti",
+                "flour"
+              ],
+              "proteins": [],
+              "spices_seasonings": [
+                "salt"
+              ]
+            },
+            "ALLERGEN": {
+              "is_dairy_free": false,
+              "is_gluten_free": false,
+              "is_gluten_free_mentioned": false,
+              "is_gluten_free_options": false,
+              "is_nut_free": true,
+              "is_shellfish_free": true,
+              "is_soy_free": true
+            },
+            "CUISINE": {
+              "cuisine": [
+                "Indian",
+                "Malaysian",
+                "Singaporean",
+                "Sri Lankan"
+              ]
+            },
+            "DIETARY": {
+              "is_beef_free": true,
+              "is_healthy": false,
+              "is_high_protein": false,
+              "is_keto_friendly": false,
+              "is_kid_friendly": true,
+              "is_low_calorie": false,
+              "is_low_carb": false,
+              "is_low_fat": false,
+              "is_low_sodium": false,
+              "is_low_sugar": true,
+              "is_paleo_friendly": false,
+              "is_pescatarian": true,
+              "is_pescatarian_mentioned": false,
+              "is_pescatarian_options": true,
+              "is_pork_free": true,
+              "is_vegan": false,
+              "is_vegan_mentioned": false,
+              "is_vegan_options": false,
+              "is_vegetarian": true,
+              "is_vegetarian_mentioned": false,
+              "is_vegetarian_options": true
+            },
+            "PREPARATION": {
+              "dish_preparation_method": "Fried"
+            },
+            "MACRO": {
+              "estimated_calories": 250,
+              "estimated_carbohydrates_grams": 35,
+              "estimated_fat_grams": 10,
+              "estimated_protein_grams": 5
+            },
+            "COURSE": {
+              "course": "Side Dishes & Condiments"
+            },
+            "FLAVOR": {
+              "is_bitter": false,
+              "is_cheesy": false,
+              "is_creamy": false,
+              "is_herbal": false,
+              "is_salty": true,
+              "is_smoky": false,
+              "is_sour": false,
+              "is_spicy": false,
+              "is_sweet": false,
+              "is_tangy": false,
+              "is_umami": false
+            },
+            "DISH": {
+              "confidence_score": 1,
+              "hierarchical_tags": "Side Dishes & Condiments > Bread > Flatbreads > Roti",
+              "level_1_tag": "Side Dishes & Condiments",
+              "level_1_tag_id": 106755224903116,
+              "level_2_tag": "Bread",
+              "level_2_tag_id": 160034518213137,
+              "level_3_tag": "Flatbreads",
+              "level_3_tag_id": 7012334215515,
+              "level_4_tag": "Roti",
+              "level_4_tag_id": 52201508998954,
+              "top_candidates": [
+                {
+                  "confidence_score": 1,
+                  "hierarchical_tags": "Side Dishes & Condiments > Bread > Flatbreads > Roti",
+                  "level_1_tag": "Side Dishes & Condiments",
+                  "level_1_tag_id": 106755224903116,
+                  "level_2_tag": "Bread",
+                  "level_2_tag_id": 160034518213137,
+                  "level_3_tag": "Flatbreads",
+                  "level_3_tag_id": 7012334215515,
+                  "level_4_tag": "Roti",
+                  "level_4_tag_id": 52201508998954
+                },
+                {
+                  "confidence_score": 0,
+                  "hierarchical_tags": "Side Dishes & Condiments > Other Side Dishes & Condiments",
+                  "level_1_tag": "Side Dishes & Condiments",
+                  "level_1_tag_id": 106755224903116,
+                  "level_2_tag": "Other Side Dishes & Condiments",
+                  "level_2_tag_id": 193097298078480
+                },
+                {
+                  "confidence_score": 0,
+                  "hierarchical_tags": "Side Dishes & Condiments > Grains & Rice > Other Rice",
+                  "level_1_tag": "Side Dishes & Condiments",
+                  "level_1_tag_id": 106755224903116,
+                  "level_2_tag": "Grains & Rice",
+                  "level_2_tag_id": 250558610249238,
+                  "level_3_tag": "Other Rice",
+                  "level_3_tag_id": 118274388434716
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "store_id": 2491645,
+      "store_name": "moonbowls (Healthy Korean Bowls- Adeline St)",
+      "business_name": "moonbowls - Healthy Korean Bowls",
+      "business_id": 182813,
+      "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/5c514092-b9e7-4f1a-bd0a-2617c6479124.png",
+      "header_image": "https://cdn.doordash.com/media/store/header/8a0768bc-545e-4ec9-a60d-ecee1a41ced8.0_banner",
+      "logo_url": "https://cdn.doordash.com/media/restaurant/cover_square/dc57d5d1-c276-44a0-a588-b750b19b4f28.png",
+      "average_rating": "4.64",
+      "orders": [
+        {
+          "delivery_id": 212141374670,
+          "order_date": "2026-03-25T20:02:03.901000"
+        },
+        {
+          "delivery_id": 224892695742,
+          "order_date": "2026-03-14T18:26:17.444736"
+        },
+        {
+          "delivery_id": 212588716432,
+          "order_date": "2026-02-20T19:28:45.450633"
+        },
+        {
+          "delivery_id": 351417571773,
+          "order_date": "2025-12-30T18:14:40.123781"
+        }
+      ],
+      "items": [
+        {
+          "item_id": 33662534284,
+          "item_name": "Roasted Tofu - Side",
+          "image_url": "https://cdn.doordash.com/media/photosV2/3f4081b8-fd24-4fe0-91c4-c34cbd6f0d82-retina-large.jpeg",
+          "order_id": 3000011832699924,
+          "order_date": "2026-03-15T01:02:17.768000",
+          "webster_tags": {
+            "INGREDIENT": {
+              "fats_oils": [
+                "vegetable oil"
+              ],
+              "fruits_vegetables": [
+                "scallion"
+              ],
+              "grains_carbs": [],
+              "proteins": [
+                "tofu"
+              ],
+              "spices_seasonings": [
+                "sesame seeds"
+              ]
+            },
+            "PORTION_SIZE": {
+              "portion_size": "1-2 people"
+            },
+            "MACRO": {
+              "estimated_calories": 200,
+              "estimated_carbohydrates_grams": 6,
+              "estimated_fat_grams": 13,
+              "estimated_protein_grams": 16
+            },
+            "ALLERGEN": {
+              "is_dairy_free": true,
+              "is_gluten_free": true,
+              "is_gluten_free_mentioned": true,
+              "is_gluten_free_options": true,
+              "is_nut_free": true,
+              "is_shellfish_free": true,
+              "is_soy_free": false
+            },
+            "COURSE": {
+              "course": "Side Dishes & Condiments"
+            },
+            "DISH": {
+              "confidence_score": 0.7271,
+              "hierarchical_tags": "Main Dishes > Grilled, Roasted & Fried Vegetarian > Tofu",
+              "level_1_tag": "Main Dishes",
+              "level_1_tag_id": 210864443733158,
+              "level_2_tag": "Grilled, Roasted & Fried Vegetarian",
+              "level_2_tag_id": 159855685667109,
+              "level_3_tag": "Tofu",
+              "level_3_tag_id": 177328095266999,
+              "top_candidates": [
+                {
+                  "confidence_score": 0.7271,
+                  "hierarchical_tags": "Main Dishes > Grilled, Roasted & Fried Vegetarian > Tofu",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Grilled, Roasted & Fried Vegetarian",
+                  "level_2_tag_id": 159855685667109,
+                  "level_3_tag": "Tofu",
+                  "level_3_tag_id": 177328095266999
+                },
+                {
+                  "confidence_score": 0.0686,
+                  "hierarchical_tags": "Side Dishes & Condiments > Other Side Dishes & Condiments",
+                  "level_1_tag": "Side Dishes & Condiments",
+                  "level_1_tag_id": 106755224903116,
+                  "level_2_tag": "Other Side Dishes & Condiments",
+                  "level_2_tag_id": 193097298078480
+                },
+                {
+                  "confidence_score": 0.058,
+                  "hierarchical_tags": "Main Dishes > Other Main Dishes > Tofu > Agedashi Tofu",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Other Main Dishes",
+                  "level_2_tag_id": 148169457863313,
+                  "level_3_tag": "Tofu",
+                  "level_3_tag_id": 193995361649225,
+                  "level_4_tag": "Agedashi Tofu",
+                  "level_4_tag_id": 81539148639319
+                }
+              ]
+            },
+            "PREPARATION": {
+              "dish_preparation_method": "Roasted"
+            },
+            "FLAVOR": {
+              "is_bitter": false,
+              "is_cheesy": false,
+              "is_creamy": false,
+              "is_herbal": false,
+              "is_salty": false,
+              "is_smoky": false,
+              "is_sour": false,
+              "is_spicy": false,
+              "is_sweet": false,
+              "is_tangy": false,
+              "is_umami": true
+            },
+            "CUISINE": {
+              "cuisine": [
+                "Asian"
+              ]
+            },
+            "DIETARY": {
+              "is_beef_free": true,
+              "is_healthy": true,
+              "is_high_protein": true,
+              "is_keto_friendly": false,
+              "is_kid_friendly": true,
+              "is_low_calorie": false,
+              "is_low_carb": false,
+              "is_low_fat": false,
+              "is_low_sodium": false,
+              "is_low_sugar": true,
+              "is_paleo_friendly": false,
+              "is_pescatarian": true,
+              "is_pescatarian_mentioned": false,
+              "is_pescatarian_options": true,
+              "is_pork_free": true,
+              "is_vegan": true,
+              "is_vegan_mentioned": true,
+              "is_vegan_options": true,
+              "is_vegetarian": true,
+              "is_vegetarian_mentioned": true,
+              "is_vegetarian_options": true
+            }
+          }
+        },
+        {
+          "item_id": 33662534272,
+          "item_name": "Fried Chicken Bowl",
+          "image_url": "https://cdn.doordash.com/media/photosV2/a4b73b6c-b58e-4c93-94a7-46ee55ca69a1-retina-large.jpeg",
+          "order_id": 3000010530670992,
+          "order_date": "2025-12-31T01:43:59.232000",
+          "webster_tags": {
+            "INGREDIENT": {
+              "fats_oils": [
+                "peanut butter"
+              ],
+              "fruits_vegetables": [
+                "onion",
+                "lemon",
+                "cucumber",
+                "radish",
+                "corn",
+                "avocado",
+                "pineapple",
+                "broccoli",
+                "mushroom",
+                "sweet potato",
+                "kale"
+              ],
+              "grains_carbs": [
+                "rice",
+                "cauliflower rice",
+                "quinoa",
+                "sweet potato noodles"
+              ],
+              "proteins": [
+                "chicken"
+              ],
+              "spices_seasonings": [
+                "sesame seeds",
+                "chili powder",
+                "gochujang",
+                "honey",
+                "ranch",
+                "sesame oil",
+                "vinegar",
+                "ginger",
+                "garlic",
+                "soy sauce",
+                "kimchi"
+              ]
+            },
+            "COURSE": {
+              "course": "Main Dishes"
+            },
+            "MACRO": {
+              "estimated_calories": 750,
+              "estimated_carbohydrates_grams": 70,
+              "estimated_fat_grams": 35,
+              "estimated_protein_grams": 45
+            },
+            "ALLERGEN": {
+              "is_dairy_free": false,
+              "is_gluten_free": true,
+              "is_gluten_free_mentioned": true,
+              "is_gluten_free_options": true,
+              "is_nut_free": false,
+              "is_shellfish_free": true,
+              "is_soy_free": false
+            },
+            "PREPARATION": {
+              "dish_preparation_method": "Fried"
+            },
+            "FLAVOR": {
+              "is_bitter": false,
+              "is_cheesy": false,
+              "is_creamy": true,
+              "is_herbal": false,
+              "is_salty": true,
+              "is_smoky": false,
+              "is_sour": false,
+              "is_spicy": true,
+              "is_sweet": true,
+              "is_tangy": true,
+              "is_umami": true
+            },
+            "PORTION_SIZE": {
+              "portion_size": "1-2 people"
+            },
+            "CUISINE": {
+              "cuisine": [
+                "Korean",
+                "Asian"
+              ]
+            },
+            "DISH": {
+              "confidence_score": 0.4382,
+              "hierarchical_tags": "Main Dishes > Bowls > Meat Bowl > Other Meat Bowl",
+              "level_1_tag": "Main Dishes",
+              "level_1_tag_id": 210864443733158,
+              "level_2_tag": "Bowls",
+              "level_2_tag_id": 134341825813121,
+              "level_3_tag": "Meat Bowl",
+              "level_3_tag_id": 245574501808255,
+              "level_4_tag": "Other Meat Bowl",
+              "level_4_tag_id": 247570014291096,
+              "top_candidates": [
+                {
+                  "confidence_score": 0.4382,
+                  "hierarchical_tags": "Main Dishes > Bowls > Meat Bowl > Other Meat Bowl",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Bowls",
+                  "level_2_tag_id": 134341825813121,
+                  "level_3_tag": "Meat Bowl",
+                  "level_3_tag_id": 245574501808255,
+                  "level_4_tag": "Other Meat Bowl",
+                  "level_4_tag_id": 247570014291096
+                },
+                {
+                  "confidence_score": 0.3013,
+                  "hierarchical_tags": "Main Dishes > Grilled, Roasted & Fried Meat > Chicken Dishes > Fried Chicken Plate",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Grilled, Roasted & Fried Meat",
+                  "level_2_tag_id": 174621345861389,
+                  "level_3_tag": "Chicken Dishes",
+                  "level_3_tag_id": 22307459401616,
+                  "level_4_tag": "Fried Chicken Plate",
+                  "level_4_tag_id": 258495965989683
+                },
+                {
+                  "confidence_score": 0.0659,
+                  "hierarchical_tags": "Main Dishes > Bowls > Meat Bowl > Spicy Chicken Bowl",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Bowls",
+                  "level_2_tag_id": 134341825813121,
+                  "level_3_tag": "Meat Bowl",
+                  "level_3_tag_id": 245574501808255,
+                  "level_4_tag": "Spicy Chicken Bowl",
+                  "level_4_tag_id": 125238237944434
+                }
+              ]
+            },
+            "DIETARY": {
+              "is_beef_free": true,
+              "is_healthy": false,
+              "is_high_protein": true,
+              "is_keto_friendly": false,
+              "is_kid_friendly": false,
+              "is_low_calorie": false,
+              "is_low_carb": false,
+              "is_low_fat": false,
+              "is_low_sodium": false,
+              "is_low_sugar": false,
+              "is_paleo_friendly": false,
+              "is_pescatarian": false,
+              "is_pescatarian_mentioned": false,
+              "is_pescatarian_options": true,
+              "is_pork_free": true,
+              "is_vegan": false,
+              "is_vegan_mentioned": false,
+              "is_vegan_options": true,
+              "is_vegetarian": false,
+              "is_vegetarian_mentioned": false,
+              "is_vegetarian_options": true
+            }
+          }
+        },
+        {
+          "item_id": 33662534282,
+          "item_name": "Grilled BBQ Chicken - Side",
+          "image_url": "https://cdn.doordash.com/media/photosV2/0e20078f-056c-4cf9-9045-c580db85088a-retina-large.jpeg",
+          "order_id": 3000011418449866,
+          "order_date": "2026-02-21T02:55:13.810000",
+          "webster_tags": {
+            "ALLERGEN": {
+              "is_dairy_free": true,
+              "is_gluten_free": true,
+              "is_gluten_free_mentioned": true,
+              "is_gluten_free_options": true,
+              "is_nut_free": true,
+              "is_shellfish_free": true,
+              "is_soy_free": false
+            },
+            "PORTION_SIZE": {
+              "portion_size": "1-2 people"
+            },
+            "DISH": {
+              "confidence_score": 0.6284,
+              "hierarchical_tags": "Main Dishes > Grilled, Roasted & Fried Meat > Chicken Dishes > Bbq Chicken",
+              "level_1_tag": "Main Dishes",
+              "level_1_tag_id": 210864443733158,
+              "level_2_tag": "Grilled, Roasted & Fried Meat",
+              "level_2_tag_id": 174621345861389,
+              "level_3_tag": "Chicken Dishes",
+              "level_3_tag_id": 22307459401616,
+              "level_4_tag": "Bbq Chicken",
+              "level_4_tag_id": 68624839788377,
+              "top_candidates": [
+                {
+                  "confidence_score": 0.6284,
+                  "hierarchical_tags": "Main Dishes > Grilled, Roasted & Fried Meat > Chicken Dishes > Bbq Chicken",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Grilled, Roasted & Fried Meat",
+                  "level_2_tag_id": 174621345861389,
+                  "level_3_tag": "Chicken Dishes",
+                  "level_3_tag_id": 22307459401616,
+                  "level_4_tag": "Bbq Chicken",
+                  "level_4_tag_id": 68624839788377
+                },
+                {
+                  "confidence_score": 0.1553,
+                  "hierarchical_tags": "Main Dishes > Grilled, Roasted & Fried Meat > Chicken Dishes > Bbq Grilled Chicken",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Grilled, Roasted & Fried Meat",
+                  "level_2_tag_id": 174621345861389,
+                  "level_3_tag": "Chicken Dishes",
+                  "level_3_tag_id": 22307459401616,
+                  "level_4_tag": "Bbq Grilled Chicken",
+                  "level_4_tag_id": 167124205314743
+                },
+                {
+                  "confidence_score": 0.1036,
+                  "hierarchical_tags": "Main Dishes > Grilled, Roasted & Fried Meat > Other Grilled, Roasted And Fried Meat",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Grilled, Roasted & Fried Meat",
+                  "level_2_tag_id": 174621345861389,
+                  "level_3_tag": "Other Grilled, Roasted And Fried Meat",
+                  "level_3_tag_id": 165951158512919
+                }
+              ]
+            },
+            "INGREDIENT": {
+              "fats_oils": [],
+              "fruits_vegetables": [
+                "onion"
+              ],
+              "grains_carbs": [],
+              "proteins": [
+                "chicken"
+              ],
+              "spices_seasonings": [
+                "sesame seeds"
+              ]
+            },
+            "CUISINE": {
+              "cuisine": [
+                "American"
+              ]
+            },
+            "PREPARATION": {
+              "dish_preparation_method": "Grilled"
+            },
+            "FLAVOR": {
+              "is_bitter": false,
+              "is_cheesy": false,
+              "is_creamy": false,
+              "is_herbal": false,
+              "is_salty": true,
+              "is_smoky": true,
+              "is_sour": false,
+              "is_spicy": false,
+              "is_sweet": true,
+              "is_tangy": false,
+              "is_umami": false
+            },
+            "COURSE": {
+              "course": "Side Dishes & Condiments"
+            },
+            "DIETARY": {
+              "is_beef_free": true,
+              "is_healthy": true,
+              "is_high_protein": true,
+              "is_keto_friendly": true,
+              "is_kid_friendly": true,
+              "is_low_calorie": false,
+              "is_low_carb": true,
+              "is_low_fat": false,
+              "is_low_sodium": false,
+              "is_low_sugar": false,
+              "is_paleo_friendly": true,
+              "is_pescatarian": false,
+              "is_pescatarian_mentioned": false,
+              "is_pescatarian_options": false,
+              "is_pork_free": true,
+              "is_vegan": false,
+              "is_vegan_mentioned": false,
+              "is_vegan_options": false,
+              "is_vegetarian": false,
+              "is_vegetarian_mentioned": false,
+              "is_vegetarian_options": false
+            },
+            "MACRO": {
+              "estimated_calories": 250,
+              "estimated_carbohydrates_grams": 10,
+              "estimated_fat_grams": 10,
+              "estimated_protein_grams": 30
+            }
+          }
+        },
+        {
+          "item_id": 33662534272,
+          "item_name": "Fried Chicken Bowl",
+          "image_url": "https://cdn.doordash.com/media/photosV2/a4b73b6c-b58e-4c93-94a7-46ee55ca69a1-retina-large.jpeg",
+          "order_id": 3000012038130698,
+          "order_date": "2026-03-26T02:25:11.461000",
+          "webster_tags": {
+            "INGREDIENT": {
+              "fats_oils": [
+                "peanut butter"
+              ],
+              "fruits_vegetables": [
+                "onion",
+                "lemon",
+                "cucumber",
+                "radish",
+                "corn",
+                "avocado",
+                "pineapple",
+                "broccoli",
+                "mushroom",
+                "sweet potato",
+                "kale"
+              ],
+              "grains_carbs": [
+                "rice",
+                "cauliflower rice",
+                "quinoa",
+                "sweet potato noodles"
+              ],
+              "proteins": [
+                "chicken"
+              ],
+              "spices_seasonings": [
+                "sesame seeds",
+                "chili powder",
+                "gochujang",
+                "honey",
+                "ranch",
+                "sesame oil",
+                "vinegar",
+                "ginger",
+                "garlic",
+                "soy sauce",
+                "kimchi"
+              ]
+            },
+            "COURSE": {
+              "course": "Main Dishes"
+            },
+            "MACRO": {
+              "estimated_calories": 750,
+              "estimated_carbohydrates_grams": 70,
+              "estimated_fat_grams": 35,
+              "estimated_protein_grams": 45
+            },
+            "ALLERGEN": {
+              "is_dairy_free": false,
+              "is_gluten_free": true,
+              "is_gluten_free_mentioned": true,
+              "is_gluten_free_options": true,
+              "is_nut_free": false,
+              "is_shellfish_free": true,
+              "is_soy_free": false
+            },
+            "PREPARATION": {
+              "dish_preparation_method": "Fried"
+            },
+            "FLAVOR": {
+              "is_bitter": false,
+              "is_cheesy": false,
+              "is_creamy": true,
+              "is_herbal": false,
+              "is_salty": true,
+              "is_smoky": false,
+              "is_sour": false,
+              "is_spicy": true,
+              "is_sweet": true,
+              "is_tangy": true,
+              "is_umami": true
+            },
+            "PORTION_SIZE": {
+              "portion_size": "1-2 people"
+            },
+            "CUISINE": {
+              "cuisine": [
+                "Korean",
+                "Asian"
+              ]
+            },
+            "DISH": {
+              "confidence_score": 0.4382,
+              "hierarchical_tags": "Main Dishes > Bowls > Meat Bowl > Other Meat Bowl",
+              "level_1_tag": "Main Dishes",
+              "level_1_tag_id": 210864443733158,
+              "level_2_tag": "Bowls",
+              "level_2_tag_id": 134341825813121,
+              "level_3_tag": "Meat Bowl",
+              "level_3_tag_id": 245574501808255,
+              "level_4_tag": "Other Meat Bowl",
+              "level_4_tag_id": 247570014291096,
+              "top_candidates": [
+                {
+                  "confidence_score": 0.4382,
+                  "hierarchical_tags": "Main Dishes > Bowls > Meat Bowl > Other Meat Bowl",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Bowls",
+                  "level_2_tag_id": 134341825813121,
+                  "level_3_tag": "Meat Bowl",
+                  "level_3_tag_id": 245574501808255,
+                  "level_4_tag": "Other Meat Bowl",
+                  "level_4_tag_id": 247570014291096
+                },
+                {
+                  "confidence_score": 0.3013,
+                  "hierarchical_tags": "Main Dishes > Grilled, Roasted & Fried Meat > Chicken Dishes > Fried Chicken Plate",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Grilled, Roasted & Fried Meat",
+                  "level_2_tag_id": 174621345861389,
+                  "level_3_tag": "Chicken Dishes",
+                  "level_3_tag_id": 22307459401616,
+                  "level_4_tag": "Fried Chicken Plate",
+                  "level_4_tag_id": 258495965989683
+                },
+                {
+                  "confidence_score": 0.0659,
+                  "hierarchical_tags": "Main Dishes > Bowls > Meat Bowl > Spicy Chicken Bowl",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Bowls",
+                  "level_2_tag_id": 134341825813121,
+                  "level_3_tag": "Meat Bowl",
+                  "level_3_tag_id": 245574501808255,
+                  "level_4_tag": "Spicy Chicken Bowl",
+                  "level_4_tag_id": 125238237944434
+                }
+              ]
+            },
+            "DIETARY": {
+              "is_beef_free": true,
+              "is_healthy": false,
+              "is_high_protein": true,
+              "is_keto_friendly": false,
+              "is_kid_friendly": false,
+              "is_low_calorie": false,
+              "is_low_carb": false,
+              "is_low_fat": false,
+              "is_low_sodium": false,
+              "is_low_sugar": false,
+              "is_paleo_friendly": false,
+              "is_pescatarian": false,
+              "is_pescatarian_mentioned": false,
+              "is_pescatarian_options": true,
+              "is_pork_free": true,
+              "is_vegan": false,
+              "is_vegan_mentioned": false,
+              "is_vegan_options": true,
+              "is_vegetarian": false,
+              "is_vegetarian_mentioned": false,
+              "is_vegetarian_options": true
+            }
+          }
+        },
+        {
+          "item_id": 33662534299,
+          "item_name": "Spicy Special Sauce",
+          "image_url": "https://cdn.doordash.com/media/photosV2/50545974-e6e8-4abf-9e7f-1b7e842a36e3-retina-large.jpeg",
+          "order_id": 3000012038130698,
+          "order_date": "2026-03-26T02:25:11.461000",
+          "webster_tags": {
+            "DISH": {
+              "confidence_score": 0.7129,
+              "hierarchical_tags": "Side Dishes & Condiments > Dips & Sauces > Other Dips And Sauces",
+              "level_1_tag": "Side Dishes & Condiments",
+              "level_1_tag_id": 106755224903116,
+              "level_2_tag": "Dips & Sauces",
+              "level_2_tag_id": 56019730563936,
+              "level_3_tag": "Other Dips And Sauces",
+              "level_3_tag_id": 56386272635211,
+              "top_candidates": [
+                {
+                  "confidence_score": 0.7129,
+                  "hierarchical_tags": "Side Dishes & Condiments > Dips & Sauces > Other Dips And Sauces",
+                  "level_1_tag": "Side Dishes & Condiments",
+                  "level_1_tag_id": 106755224903116,
+                  "level_2_tag": "Dips & Sauces",
+                  "level_2_tag_id": 56019730563936,
+                  "level_3_tag": "Other Dips And Sauces",
+                  "level_3_tag_id": 56386272635211
+                },
+                {
+                  "confidence_score": 0.2717,
+                  "hierarchical_tags": "Sauces, Condiments & Dressings > Condiments > Hot Sauce",
+                  "level_1_tag": "Sauces, Condiments & Dressings",
+                  "level_1_tag_id": 1954276667990,
+                  "level_2_tag": "Condiments",
+                  "level_2_tag_id": 109306521671287,
+                  "level_3_tag": "Hot Sauce",
+                  "level_3_tag_id": 281410307423256
+                },
+                {
+                  "confidence_score": 0.0086,
+                  "hierarchical_tags": "Sauces, Condiments & Dressings > Dressings > Ranch Sauce > Spicy Ranch Sauce",
+                  "level_1_tag": "Sauces, Condiments & Dressings",
+                  "level_1_tag_id": 1954276667990,
+                  "level_2_tag": "Dressings",
+                  "level_2_tag_id": 36891124181987,
+                  "level_3_tag": "Ranch Sauce",
+                  "level_3_tag_id": 268400993053364,
+                  "level_4_tag": "Spicy Ranch Sauce",
+                  "level_4_tag_id": 82856160654852
+                }
+              ]
+            },
+            "COURSE": {
+              "course": "Side Dishes & Condiments"
+            },
+            "ALLERGEN": {
+              "is_dairy_free": true,
+              "is_gluten_free": true,
+              "is_gluten_free_mentioned": true,
+              "is_gluten_free_options": true,
+              "is_nut_free": true,
+              "is_shellfish_free": true,
+              "is_soy_free": false
+            },
+            "MACRO": {
+              "estimated_calories": 50,
+              "estimated_carbohydrates_grams": 3,
+              "estimated_fat_grams": 5,
+              "estimated_protein_grams": 0
+            },
+            "PORTION_SIZE": {
+              "portion_size": "1-2 people"
+            },
+            "FLAVOR": {
+              "is_bitter": false,
+              "is_cheesy": false,
+              "is_creamy": true,
+              "is_herbal": false,
+              "is_salty": true,
+              "is_smoky": false,
+              "is_sour": false,
+              "is_spicy": true,
+              "is_sweet": false,
+              "is_tangy": false,
+              "is_umami": true
+            },
+            "DIETARY": {
+              "is_beef_free": true,
+              "is_healthy": false,
+              "is_high_protein": false,
+              "is_keto_friendly": false,
+              "is_kid_friendly": false,
+              "is_low_calorie": false,
+              "is_low_carb": false,
+              "is_low_fat": false,
+              "is_low_sodium": false,
+              "is_low_sugar": false,
+              "is_paleo_friendly": false,
+              "is_pescatarian": true,
+              "is_pescatarian_mentioned": false,
+              "is_pescatarian_options": true,
+              "is_pork_free": true,
+              "is_vegan": true,
+              "is_vegan_mentioned": true,
+              "is_vegan_options": true,
+              "is_vegetarian": true,
+              "is_vegetarian_mentioned": true,
+              "is_vegetarian_options": true
+            }
+          }
+        },
+        {
+          "item_id": 33662534280,
+          "item_name": "KBBQ Steak - Side",
+          "image_url": "https://cdn.doordash.com/media/photosV2/71c9781d-fd23-48f9-8cd6-3ddfa5cc8214-retina-large.jpeg",
+          "order_id": 3000010530670992,
+          "order_date": "2025-12-31T01:43:59.232000",
+          "webster_tags": {
+            "FLAVOR": {
+              "is_bitter": false,
+              "is_cheesy": false,
+              "is_creamy": false,
+              "is_herbal": false,
+              "is_salty": true,
+              "is_smoky": false,
+              "is_sour": false,
+              "is_spicy": false,
+              "is_sweet": true,
+              "is_tangy": false,
+              "is_umami": true
+            },
+            "COURSE": {
+              "course": "Side Dishes & Condiments"
+            },
+            "CUISINE": {
+              "cuisine": [
+                "Korean"
+              ]
+            },
+            "DISH": {
+              "confidence_score": 0.1658,
+              "hierarchical_tags": "Side Dishes & Condiments > Other Side Dishes & Condiments",
+              "level_1_tag": "Side Dishes & Condiments",
+              "level_1_tag_id": 106755224903116,
+              "level_2_tag": "Other Side Dishes & Condiments",
+              "level_2_tag_id": 193097298078480,
+              "top_candidates": [
+                {
+                  "confidence_score": 0.1658,
+                  "hierarchical_tags": "Side Dishes & Condiments > Other Side Dishes & Condiments",
+                  "level_1_tag": "Side Dishes & Condiments",
+                  "level_1_tag_id": 106755224903116,
+                  "level_2_tag": "Other Side Dishes & Condiments",
+                  "level_2_tag_id": 193097298078480
+                },
+                {
+                  "confidence_score": 0.1423,
+                  "hierarchical_tags": "Main Dishes > Other Main Dishes > Other Dishes",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Other Main Dishes",
+                  "level_2_tag_id": 148169457863313,
+                  "level_3_tag": "Other Dishes",
+                  "level_3_tag_id": 258399283952297
+                },
+                {
+                  "confidence_score": 0.1348,
+                  "hierarchical_tags": "Main Dishes > Beef > Ribeye",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Beef",
+                  "level_2_tag_id": 178749269992731,
+                  "level_3_tag": "Ribeye",
+                  "level_3_tag_id": 248222002750824
+                }
+              ]
+            },
+            "PORTION_SIZE": {
+              "portion_size": "1-2 people"
+            },
+            "DIETARY": {
+              "is_beef_free": false,
+              "is_healthy": false,
+              "is_high_protein": true,
+              "is_keto_friendly": false,
+              "is_kid_friendly": false,
+              "is_low_calorie": false,
+              "is_low_carb": false,
+              "is_low_fat": false,
+              "is_low_sodium": false,
+              "is_low_sugar": false,
+              "is_paleo_friendly": false,
+              "is_pescatarian": false,
+              "is_pescatarian_mentioned": false,
+              "is_pescatarian_options": false,
+              "is_pork_free": true,
+              "is_vegan": false,
+              "is_vegan_mentioned": false,
+              "is_vegan_options": false,
+              "is_vegetarian": false,
+              "is_vegetarian_mentioned": false,
+              "is_vegetarian_options": false
+            },
+            "ALLERGEN": {
+              "is_dairy_free": true,
+              "is_gluten_free": true,
+              "is_gluten_free_mentioned": true,
+              "is_gluten_free_options": true,
+              "is_nut_free": true,
+              "is_shellfish_free": true,
+              "is_soy_free": false
+            },
+            "INGREDIENT": {
+              "fats_oils": [
+                "sesame oil"
+              ],
+              "fruits_vegetables": [
+                "scallions"
+              ],
+              "grains_carbs": [],
+              "proteins": [
+                "beef"
+              ],
+              "spices_seasonings": [
+                "soy sauce",
+                "ginger",
+                "garlic",
+                "sesame seeds",
+                "sugar",
+                "black pepper"
+              ]
+            },
+            "MACRO": {
+              "estimated_calories": 400,
+              "estimated_carbohydrates_grams": 25,
+              "estimated_fat_grams": 20,
+              "estimated_protein_grams": 25
+            }
+          }
+        },
+        {
+          "item_id": 33662534255,
+          "item_name": "Chopsticks and napkin",
+          "image_url": "",
+          "order_id": 3000010530670992,
+          "order_date": "2025-12-31T01:43:59.232000",
+          "webster_tags": {
+            "MACRO": {
+              "estimated_calories": 0,
+              "estimated_carbohydrates_grams": 0,
+              "estimated_fat_grams": 0,
+              "estimated_protein_grams": 0
+            },
+            "PORTION_SIZE": {
+              "portion_size": "1-2 people"
+            },
+            "ALLERGEN": {
+              "is_dairy_free": true,
+              "is_gluten_free": true,
+              "is_gluten_free_mentioned": false,
+              "is_gluten_free_options": true,
+              "is_nut_free": true,
+              "is_shellfish_free": true,
+              "is_soy_free": true
+            },
+            "COURSE": {
+              "course": "Restaurant Supplies"
+            },
+            "DIETARY": {
+              "is_beef_free": true,
+              "is_healthy": true,
+              "is_high_protein": false,
+              "is_keto_friendly": true,
+              "is_kid_friendly": true,
+              "is_low_calorie": true,
+              "is_low_carb": true,
+              "is_low_fat": true,
+              "is_low_sodium": true,
+              "is_low_sugar": true,
+              "is_paleo_friendly": true,
+              "is_pescatarian": true,
+              "is_pescatarian_mentioned": false,
+              "is_pescatarian_options": true,
+              "is_pork_free": true,
+              "is_vegan": true,
+              "is_vegan_mentioned": false,
+              "is_vegan_options": true,
+              "is_vegetarian": true,
+              "is_vegetarian_mentioned": false,
+              "is_vegetarian_options": true
+            },
+            "DISH": {
+              "confidence_score": 0.49,
+              "hierarchical_tags": "Main Dishes > Other Main Dishes > Other Dishes",
+              "level_1_tag": "Main Dishes",
+              "level_1_tag_id": 210864443733158,
+              "level_2_tag": "Other Main Dishes",
+              "level_2_tag_id": 148169457863313,
+              "level_3_tag": "Other Dishes",
+              "level_3_tag_id": 258399283952297,
+              "top_candidates": [
+                {
+                  "confidence_score": 0.49,
+                  "hierarchical_tags": "Main Dishes > Other Main Dishes > Other Dishes",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Other Main Dishes",
+                  "level_2_tag_id": 148169457863313,
+                  "level_3_tag": "Other Dishes",
+                  "level_3_tag_id": 258399283952297
+                },
+                {
+                  "confidence_score": 0.1309,
+                  "hierarchical_tags": "Side Dishes & Condiments > Other Side Dishes & Condiments",
+                  "level_1_tag": "Side Dishes & Condiments",
+                  "level_1_tag_id": 106755224903116,
+                  "level_2_tag": "Other Side Dishes & Condiments",
+                  "level_2_tag_id": 193097298078480
+                },
+                {
+                  "confidence_score": 0.1191,
+                  "hierarchical_tags": "Appetizer > Grilled, Roasted & Fried Meat Snacks > Skewer > Other Skewer",
+                  "level_1_tag": "Appetizer",
+                  "level_1_tag_id": 188857423961001,
+                  "level_2_tag": "Grilled, Roasted & Fried Meat Snacks",
+                  "level_2_tag_id": 45726524724632,
+                  "level_3_tag": "Skewer",
+                  "level_3_tag_id": 264656354602415,
+                  "level_4_tag": "Other Skewer",
+                  "level_4_tag_id": 204998292952786
+                }
+              ]
+            }
+          }
+        },
+        {
+          "item_id": 33662534262,
+          "item_name": "Avocado Bulgogi\t",
+          "image_url": "https://cdn.doordash.com/media/photosV2/ee9ab1fc-c4e0-4b28-8b90-bf38515d8cc4-retina-large.jpeg",
+          "order_id": 3000011832699924,
+          "order_date": "2026-03-15T01:02:17.768000",
+          "webster_tags": {
+            "PORTION_SIZE": {
+              "portion_size": "1-2 people"
+            },
+            "DIETARY": {
+              "is_beef_free": false,
+              "is_healthy": true,
+              "is_high_protein": true,
+              "is_keto_friendly": false,
+              "is_kid_friendly": false,
+              "is_low_calorie": false,
+              "is_low_carb": false,
+              "is_low_fat": false,
+              "is_low_sodium": false,
+              "is_low_sugar": false,
+              "is_paleo_friendly": false,
+              "is_pescatarian": true,
+              "is_pescatarian_mentioned": false,
+              "is_pescatarian_options": true,
+              "is_pork_free": true,
+              "is_vegan": true,
+              "is_vegan_mentioned": true,
+              "is_vegan_options": true,
+              "is_vegetarian": true,
+              "is_vegetarian_mentioned": false,
+              "is_vegetarian_options": true
+            },
+            "INGREDIENT": {
+              "fats_oils": [],
+              "fruits_vegetables": [
+                "avocado",
+                "sweet potato",
+                "kale",
+                "onion",
+                "lemon",
+                "cabbage",
+                "kimchi"
+              ],
+              "grains_carbs": [
+                "rice",
+                "noodles"
+              ],
+              "proteins": [
+                "meat substitute"
+              ],
+              "spices_seasonings": [
+                "sesame seeds",
+                "sauce"
+              ]
+            },
+            "DISH": {
+              "confidence_score": 0.4558,
+              "hierarchical_tags": "Main Dishes > Bowls > Gogi Bowl > Bulgogi Bowl",
+              "level_1_tag": "Main Dishes",
+              "level_1_tag_id": 210864443733158,
+              "level_2_tag": "Bowls",
+              "level_2_tag_id": 134341825813121,
+              "level_3_tag": "Gogi Bowl",
+              "level_3_tag_id": 192245344045288,
+              "level_4_tag": "Bulgogi Bowl",
+              "level_4_tag_id": 20790461425669,
+              "top_candidates": [
+                {
+                  "confidence_score": 0.4558,
+                  "hierarchical_tags": "Main Dishes > Bowls > Gogi Bowl > Bulgogi Bowl",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Bowls",
+                  "level_2_tag_id": 134341825813121,
+                  "level_3_tag": "Gogi Bowl",
+                  "level_3_tag_id": 192245344045288,
+                  "level_4_tag": "Bulgogi Bowl",
+                  "level_4_tag_id": 20790461425669
+                },
+                {
+                  "confidence_score": 0.2365,
+                  "hierarchical_tags": "Main Dishes > Bowls > Gogi Bowl > Bulgogi Beef Bowl",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Bowls",
+                  "level_2_tag_id": 134341825813121,
+                  "level_3_tag": "Gogi Bowl",
+                  "level_3_tag_id": 192245344045288,
+                  "level_4_tag": "Bulgogi Beef Bowl",
+                  "level_4_tag_id": 209571411613892
+                },
+                {
+                  "confidence_score": 0.1587,
+                  "hierarchical_tags": "Main Dishes > Bowls > Other Bowls",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Bowls",
+                  "level_2_tag_id": 134341825813121,
+                  "level_3_tag": "Other Bowls",
+                  "level_3_tag_id": 263242887005024
+                }
+              ]
+            },
+            "FLAVOR": {
+              "is_bitter": false,
+              "is_cheesy": false,
+              "is_creamy": true,
+              "is_herbal": false,
+              "is_salty": true,
+              "is_smoky": false,
+              "is_sour": false,
+              "is_spicy": true,
+              "is_sweet": true,
+              "is_tangy": true,
+              "is_umami": true
+            },
+            "ALLERGEN": {
+              "is_dairy_free": true,
+              "is_gluten_free": true,
+              "is_gluten_free_mentioned": true,
+              "is_gluten_free_options": true,
+              "is_nut_free": true,
+              "is_shellfish_free": true,
+              "is_soy_free": false
+            },
+            "CUISINE": {
+              "cuisine": [
+                "Korean",
+                "American"
+              ]
+            },
+            "MACRO": {
+              "estimated_calories": 550,
+              "estimated_carbohydrates_grams": 65,
+              "estimated_fat_grams": 25,
+              "estimated_protein_grams": 25
+            },
+            "COURSE": {
+              "course": "Main Dishes"
+            }
+          }
+        },
+        {
+          "item_id": 33662534279,
+          "item_name": "Sweet Potato Noodles (Low Cal) - Side",
+          "image_url": "https://cdn.doordash.com/media/photosV2/b34b2449-2cd4-4f10-a931-3f0ceadf5abd-retina-large.jpeg",
+          "order_id": 3000012038130698,
+          "order_date": "2026-03-26T02:25:11.461000",
+          "webster_tags": {
+            "DISH": {
+              "confidence_score": 0.3274,
+              "hierarchical_tags": "Main Dishes > Noodles > Other Noodles",
+              "level_1_tag": "Main Dishes",
+              "level_1_tag_id": 210864443733158,
+              "level_2_tag": "Noodles",
+              "level_2_tag_id": 278917347054105,
+              "level_3_tag": "Other Noodles",
+              "level_3_tag_id": 3628236239049,
+              "top_candidates": [
+                {
+                  "confidence_score": 0.3274,
+                  "hierarchical_tags": "Main Dishes > Noodles > Other Noodles",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Noodles",
+                  "level_2_tag_id": 278917347054105,
+                  "level_3_tag": "Other Noodles",
+                  "level_3_tag_id": 3628236239049
+                },
+                {
+                  "confidence_score": 0.2917,
+                  "hierarchical_tags": "Main Dishes > Noodles",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Noodles",
+                  "level_2_tag_id": 278917347054105
+                },
+                {
+                  "confidence_score": 0.1296,
+                  "hierarchical_tags": "Main Dishes > Noodles > Vegetarian Noodles",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Noodles",
+                  "level_2_tag_id": 278917347054105,
+                  "level_3_tag": "Vegetarian Noodles",
+                  "level_3_tag_id": 45109629041653
+                }
+              ]
+            },
+            "PORTION_SIZE": {
+              "portion_size": "1-2 people"
+            },
+            "CUISINE": {
+              "cuisine": [
+                "Korean"
+              ]
+            },
+            "FLAVOR": {
+              "is_bitter": false,
+              "is_cheesy": false,
+              "is_creamy": false,
+              "is_herbal": false,
+              "is_salty": true,
+              "is_smoky": false,
+              "is_sour": false,
+              "is_spicy": false,
+              "is_sweet": false,
+              "is_tangy": false,
+              "is_umami": true
+            },
+            "INGREDIENT": {
+              "fats_oils": [],
+              "fruits_vegetables": [
+                "sweet potato",
+                "onion"
+              ],
+              "grains_carbs": [
+                "noodles"
+              ],
+              "proteins": [],
+              "spices_seasonings": []
+            },
+            "MACRO": {
+              "estimated_calories": 150,
+              "estimated_carbohydrates_grams": 35,
+              "estimated_fat_grams": 1,
+              "estimated_protein_grams": 2
+            },
+            "DIETARY": {
+              "is_beef_free": true,
+              "is_healthy": true,
+              "is_high_protein": false,
+              "is_keto_friendly": false,
+              "is_kid_friendly": true,
+              "is_low_calorie": true,
+              "is_low_carb": false,
+              "is_low_fat": true,
+              "is_low_sodium": false,
+              "is_low_sugar": true,
+              "is_paleo_friendly": true,
+              "is_pescatarian": true,
+              "is_pescatarian_mentioned": false,
+              "is_pescatarian_options": true,
+              "is_pork_free": true,
+              "is_vegan": true,
+              "is_vegan_mentioned": true,
+              "is_vegan_options": true,
+              "is_vegetarian": true,
+              "is_vegetarian_mentioned": true,
+              "is_vegetarian_options": true
+            },
+            "ALLERGEN": {
+              "is_dairy_free": true,
+              "is_gluten_free": true,
+              "is_gluten_free_mentioned": true,
+              "is_gluten_free_options": true,
+              "is_nut_free": true,
+              "is_shellfish_free": true,
+              "is_soy_free": true
+            },
+            "COURSE": {
+              "course": "Side Dishes & Condiments"
+            }
+          }
+        },
+        {
+          "item_id": 33662534262,
+          "item_name": "Avocado Bulgogi\t",
+          "image_url": "https://cdn.doordash.com/media/photosV2/0c19d01e-7144-401a-8457-b7c0f79d0870-retina-large.jpeg",
+          "order_id": 3000011418449866,
+          "order_date": "2026-02-21T02:55:13.810000",
+          "webster_tags": {
+            "PORTION_SIZE": {
+              "portion_size": "1-2 people"
+            },
+            "DIETARY": {
+              "is_beef_free": false,
+              "is_healthy": true,
+              "is_high_protein": true,
+              "is_keto_friendly": false,
+              "is_kid_friendly": false,
+              "is_low_calorie": false,
+              "is_low_carb": false,
+              "is_low_fat": false,
+              "is_low_sodium": false,
+              "is_low_sugar": false,
+              "is_paleo_friendly": false,
+              "is_pescatarian": true,
+              "is_pescatarian_mentioned": false,
+              "is_pescatarian_options": true,
+              "is_pork_free": true,
+              "is_vegan": true,
+              "is_vegan_mentioned": true,
+              "is_vegan_options": true,
+              "is_vegetarian": true,
+              "is_vegetarian_mentioned": false,
+              "is_vegetarian_options": true
+            },
+            "INGREDIENT": {
+              "fats_oils": [],
+              "fruits_vegetables": [
+                "avocado",
+                "sweet potato",
+                "kale",
+                "onion",
+                "lemon",
+                "cabbage",
+                "kimchi"
+              ],
+              "grains_carbs": [
+                "rice",
+                "noodles"
+              ],
+              "proteins": [
+                "meat substitute"
+              ],
+              "spices_seasonings": [
+                "sesame seeds",
+                "sauce"
+              ]
+            },
+            "DISH": {
+              "confidence_score": 0.4558,
+              "hierarchical_tags": "Main Dishes > Bowls > Gogi Bowl > Bulgogi Bowl",
+              "level_1_tag": "Main Dishes",
+              "level_1_tag_id": 210864443733158,
+              "level_2_tag": "Bowls",
+              "level_2_tag_id": 134341825813121,
+              "level_3_tag": "Gogi Bowl",
+              "level_3_tag_id": 192245344045288,
+              "level_4_tag": "Bulgogi Bowl",
+              "level_4_tag_id": 20790461425669,
+              "top_candidates": [
+                {
+                  "confidence_score": 0.4558,
+                  "hierarchical_tags": "Main Dishes > Bowls > Gogi Bowl > Bulgogi Bowl",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Bowls",
+                  "level_2_tag_id": 134341825813121,
+                  "level_3_tag": "Gogi Bowl",
+                  "level_3_tag_id": 192245344045288,
+                  "level_4_tag": "Bulgogi Bowl",
+                  "level_4_tag_id": 20790461425669
+                },
+                {
+                  "confidence_score": 0.2365,
+                  "hierarchical_tags": "Main Dishes > Bowls > Gogi Bowl > Bulgogi Beef Bowl",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Bowls",
+                  "level_2_tag_id": 134341825813121,
+                  "level_3_tag": "Gogi Bowl",
+                  "level_3_tag_id": 192245344045288,
+                  "level_4_tag": "Bulgogi Beef Bowl",
+                  "level_4_tag_id": 209571411613892
+                },
+                {
+                  "confidence_score": 0.1587,
+                  "hierarchical_tags": "Main Dishes > Bowls > Other Bowls",
+                  "level_1_tag": "Main Dishes",
+                  "level_1_tag_id": 210864443733158,
+                  "level_2_tag": "Bowls",
+                  "level_2_tag_id": 134341825813121,
+                  "level_3_tag": "Other Bowls",
+                  "level_3_tag_id": 263242887005024
+                }
+              ]
+            },
+            "FLAVOR": {
+              "is_bitter": false,
+              "is_cheesy": false,
+              "is_creamy": true,
+              "is_herbal": false,
+              "is_salty": true,
+              "is_smoky": false,
+              "is_sour": false,
+              "is_spicy": true,
+              "is_sweet": true,
+              "is_tangy": true,
+              "is_umami": true
+            },
+            "ALLERGEN": {
+              "is_dairy_free": true,
+              "is_gluten_free": true,
+              "is_gluten_free_mentioned": true,
+              "is_gluten_free_options": true,
+              "is_nut_free": true,
+              "is_shellfish_free": true,
+              "is_soy_free": false
+            },
+            "CUISINE": {
+              "cuisine": [
+                "Korean",
+                "American"
+              ]
+            },
+            "MACRO": {
+              "estimated_calories": 550,
+              "estimated_carbohydrates_grams": 65,
+              "estimated_fat_grams": 25,
+              "estimated_protein_grams": 25
+            },
+            "COURSE": {
+              "course": "Main Dishes"
+            }
+          }
+        },
+        {
+          "item_id": 33662534304,
+          "item_name": "Creamy Avocado Sauce",
+          "image_url": "https://cdn.doordash.com/media/photosV2/a5fc09ad-f613-4262-a4e8-048d370aa7c9-retina-large.jpeg",
+          "order_id": 3000011832699924,
+          "order_date": "2026-03-15T01:02:17.768000",
+          "webster_tags": {
+            "COURSE": {
+              "course": "Side Dishes & Condiments"
+            },
+            "INGREDIENT": {
+              "fats_oils": [],
+              "fruits_vegetables": [
+                "avocado"
+              ],
+              "grains_carbs": [],
+              "proteins": [],
+              "spices_seasonings": [
+                "chili pepper"
+              ]
+            },
+            "FLAVOR": {
+              "is_bitter": false,
+              "is_cheesy": false,
+              "is_creamy": true,
+              "is_herbal": false,
+              "is_salty": false,
+              "is_smoky": false,
+              "is_sour": false,
+              "is_spicy": true,
+              "is_sweet": false,
+              "is_tangy": false,
+              "is_umami": false
+            },
+            "ALLERGEN": {
+              "is_dairy_free": true,
+              "is_gluten_free": true,
+              "is_gluten_free_mentioned": true,
+              "is_gluten_free_options": true,
+              "is_nut_free": true,
+              "is_shellfish_free": true,
+              "is_soy_free": true
+            },
+            "PORTION_SIZE": {
+              "portion_size": "1-2 people"
+            },
+            "DISH": {
+              "confidence_score": 0.7363,
+              "hierarchical_tags": "Side Dishes & Condiments > Dips & Sauces > Other Dips And Sauces",
+              "level_1_tag": "Side Dishes & Condiments",
+              "level_1_tag_id": 106755224903116,
+              "level_2_tag": "Dips & Sauces",
+              "level_2_tag_id": 56019730563936,
+              "level_3_tag": "Other Dips And Sauces",
+              "level_3_tag_id": 56386272635211,
+              "top_candidates": [
+                {
+                  "confidence_score": 0.7363,
+                  "hierarchical_tags": "Side Dishes & Condiments > Dips & Sauces > Other Dips And Sauces",
+                  "level_1_tag": "Side Dishes & Condiments",
+                  "level_1_tag_id": 106755224903116,
+                  "level_2_tag": "Dips & Sauces",
+                  "level_2_tag_id": 56019730563936,
+                  "level_3_tag": "Other Dips And Sauces",
+                  "level_3_tag_id": 56386272635211
+                },
+                {
+                  "confidence_score": 0.2241,
+                  "hierarchical_tags": "Side Dishes & Condiments > Dips & Sauces > Avocado Sauce",
+                  "level_1_tag": "Side Dishes & Condiments",
+                  "level_1_tag_id": 106755224903116,
+                  "level_2_tag": "Dips & Sauces",
+                  "level_2_tag_id": 56019730563936,
+                  "level_3_tag": "Avocado Sauce",
+                  "level_3_tag_id": 190297004206875
+                },
+                {
+                  "confidence_score": 0.0224,
+                  "hierarchical_tags": "Sauces, Condiments & Dressings > Condiments > Hot Sauce",
+                  "level_1_tag": "Sauces, Condiments & Dressings",
+                  "level_1_tag_id": 1954276667990,
+                  "level_2_tag": "Condiments",
+                  "level_2_tag_id": 109306521671287,
+                  "level_3_tag": "Hot Sauce",
+                  "level_3_tag_id": 281410307423256
+                }
+              ]
+            },
+            "DIETARY": {
+              "is_beef_free": true,
+              "is_healthy": true,
+              "is_high_protein": false,
+              "is_keto_friendly": true,
+              "is_kid_friendly": false,
+              "is_low_calorie": false,
+              "is_low_carb": true,
+              "is_low_fat": false,
+              "is_low_sodium": false,
+              "is_low_sugar": true,
+              "is_paleo_friendly": true,
+              "is_pescatarian": true,
+              "is_pescatarian_mentioned": false,
+              "is_pescatarian_options": true,
+              "is_pork_free": true,
+              "is_vegan": true,
+              "is_vegan_mentioned": true,
+              "is_vegan_options": true,
+              "is_vegetarian": true,
+              "is_vegetarian_mentioned": true,
+              "is_vegetarian_options": true
+            },
+            "MACRO": {
+              "estimated_calories": 150,
+              "estimated_carbohydrates_grams": 8,
+              "estimated_fat_grams": 14,
+              "estimated_protein_grams": 2
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
