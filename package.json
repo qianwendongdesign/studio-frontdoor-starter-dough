@@ -4,9 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predev": "node scripts/install-hooks.cjs",
     "dev": "vite",
-    "build": "node scripts/update-prototype-dates.cjs && (tsc -b || true) && rm -rf docs && vite build && rm -rf docs/styles && cp -r styles docs/styles && touch docs/.nojekyll",
+    "build": "(tsc -b || true) && rm -rf docs && vite build && rm -rf docs/styles && cp -r styles docs/styles && touch docs/.nojekyll",
     "preview": "vite preview",
     "parse-reviews": "node scripts/parse-tsv-to-reviews.cjs",
     "generate-consumer-tags": "node scripts/generate-consumer-tags.cjs",
@@ -17,7 +16,7 @@
     "check:local": "node scripts/harness/check-local.cjs"
   },
   "dependencies": {
-    "@doordash/prism-react": "file:../web-next/packages/prism-react",
+    "@doordash/prism-react": "file:/Users/qianwendong/Downloads/Users 2/qianwen.dong/Projects/web-next/packages/prism-react",
     "framer-motion": "^12.38.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
