@@ -32,7 +32,7 @@ export function PhoneFrame({ children }: { children: ReactNode }) {
       display: 'flex',
       alignItems: 'center',
       justifyContent: 'center',
-      background: '#1c1c1e',
+      background: '#000',
       overflow: 'hidden',
     }}>
       {/* Device shell */}
