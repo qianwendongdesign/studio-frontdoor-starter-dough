@@ -10,10 +10,19 @@ export function PhoneFrame({ children }: { children: ReactNode }) {
   const [scale, setScale] = useState(1)
 
   useEffect(() => {
-    // Reset body so it doesn't interfere with full-viewport layout
+    // Override base.css body/root styles that constrain the PhoneFrame
     document.body.style.margin = '0'
     document.body.style.padding = '0'
     document.body.style.overflow = 'hidden'
+    document.body.style.background = '#000'
+    const root = document.getElementById('root')
+    if (root) {
+      root.style.maxWidth = 'none'
+      root.style.margin = '0'
+      root.style.height = '100%'
+      root.style.background = 'transparent'
+      root.style.overflow = 'visible'
+    }
 
     const update = () => {
       const padding = 32
