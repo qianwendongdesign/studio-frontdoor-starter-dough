@@ -174,10 +174,10 @@ function transformOrder(
   const suffix = itemCount > 1 ? ` +${itemCount - 1}` : ''
   const meta = `${minutes} min · ${firstItem}${suffix}`
 
-  // Thumbs: item image URLs
+  // Thumbs: item image URLs — skip empty and MASKED placeholder URLs
   const thumbs = items
     .map((item) => item.image_url)
-    .filter((url) => url && url.length > 0)
+    .filter((url) => url && url.length > 0 && !url.includes('/MASKED'))
 
   // ThumbStyle: single for 1, two for 2, default for 3+
   const thumbStyle: ThumbStyle =
