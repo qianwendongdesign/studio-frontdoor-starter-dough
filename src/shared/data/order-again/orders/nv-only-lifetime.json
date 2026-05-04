@@ -259,7 +259,7 @@
         {
           "item_id": 29210384829,
           "item_name": "Blackstone Gourmet Snack Co. Parmesan & Proscuitto Flavoured Deli Style Potato Chips (175 g)",
-          "image_url": "",
+          "image_url": "https://images.unsplash.com/photo-1566478989037-eec170784d0b?w=600&q=80",
           "order_id": 3000012035830897,
           "order_date": "2026-03-26T00:29:13.370000",
           "webster_tags": {}
@@ -299,7 +299,7 @@
         {
           "item_id": 29256498323,
           "item_name": "Emporium Selection Gourmet Gouda Slices (200 g)",
-          "image_url": "",
+          "image_url": "https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?w=600&q=80",
           "order_id": 3000012035830897,
           "order_date": "2026-03-26T00:29:13.370000",
           "webster_tags": {}
@@ -331,7 +331,7 @@
         {
           "item_id": 29209446670,
           "item_name": "Lodge Farms Free Range Eggs (600 g)",
-          "image_url": "",
+          "image_url": "https://images.unsplash.com/photo-1506976785307-8732e854ad03?w=600&q=80",
           "order_id": 3000012035830897,
           "order_date": "2026-03-26T00:29:13.370000",
           "webster_tags": {}
@@ -1025,7 +1025,7 @@
         {
           "item_id": 38762833637,
           "item_name": "Plum Black",
-          "image_url": "",
+          "image_url": "https://images.unsplash.com/photo-1619566636858-adf3ef46400b?w=600&q=80",
           "order_id": 3000012036075839,
           "order_date": "2026-03-26T00:39:18.563000",
           "webster_tags": {}
@@ -1057,7 +1057,7 @@
         {
           "item_id": 38762833642,
           "item_name": "Yellow Flesh Nectarines",
-          "image_url": "",
+          "image_url": "https://images.unsplash.com/photo-1518635017498-87f514b751ba?w=600&q=80",
           "order_id": 3000012036075839,
           "order_date": "2026-03-26T00:39:18.563000",
           "webster_tags": {}
@@ -1121,7 +1121,7 @@
         {
           "item_id": 38762809893,
           "item_name": "Avofresh Classic Avocado Guacamole (160 g)",
-          "image_url": "",
+          "image_url": "https://images.unsplash.com/photo-1610348725531-843dff563e2c?w=600&q=80",
           "order_id": 3000012036075839,
           "order_date": "2026-03-26T00:39:18.563000",
           "webster_tags": {}
