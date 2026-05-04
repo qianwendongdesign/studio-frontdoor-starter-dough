@@ -2,6 +2,7 @@ import { StatusBar } from '@shared/components/StatusBar'
 import { ProfileAddressBar } from '@shared/components/ProfileAddressBar'
 import { CategoryTabBar } from '@shared/components/CategoryTabBar'
 import { SmartChips } from '@shared/components/SmartChips'
+import { BobaFavesCard } from '@shared/components/BobaFavesCard'
 import { ReorderFavorites } from '@shared/components/ReorderFavorites'
 import { Spotlight } from '@shared/components/Spotlight'
 import { SimilarSection } from '@shared/components/SimilarSection'
@@ -31,6 +32,7 @@ export function TreatmentBFeed() {
 
         <div className="feed">
           <SmartChips />
+          <BobaFavesCard />
           <ReorderFavorites merchants={merchants} />
           <Spotlight />
           <SimilarSection />
