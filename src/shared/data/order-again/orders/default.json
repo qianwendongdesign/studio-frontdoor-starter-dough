@@ -1790,6 +1790,13 @@
               "spices_seasonings": []
             }
           }
+        },
+        {
+          "item_id": 41585894900,
+          "item_name": "Crispy Tater Tots",
+          "image_url": "https://cdn.doordash.com/media/photosV2/e9bc2492-4b31-4a97-8adf-a43daed42201-retina-large.JPG",
+          "order_id": 3000011369872447,
+          "order_date": "2026-02-18T19:06:41.780000"
         }
       ]
     },
@@ -2082,6 +2089,13 @@
               ]
             }
           }
+        },
+        {
+          "item_id": 41585894901,
+          "item_name": "Coca-Cola",
+          "image_url": "https://cdn.doordash.com/media/photosV2/d9d6d82f-ba49-4abf-b58c-cff1150f7091-retina-large.jpg",
+          "order_id": 3000011008948340,
+          "order_date": "2026-01-29T03:44:04.602000"
         }
       ]
     },
