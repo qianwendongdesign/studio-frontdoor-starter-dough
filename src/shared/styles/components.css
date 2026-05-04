@@ -111,6 +111,9 @@
   top: 56px;
   z-index: 150;
   display: flex;
+  gap: 24px;
+  padding-left: 12px;
+  padding-right: 12px;
   overflow-x: auto;
   background: var(--surface-primary);
   border-bottom: 1px solid var(--stroke-tertiary);
@@ -122,8 +125,6 @@
 .tab {
   flex: 0 0 auto;
   min-width: 0;
-  padding-left: 12px;
-  padding-right: 12px;
   height: 60px;
   display: flex;
   flex-direction: column;
