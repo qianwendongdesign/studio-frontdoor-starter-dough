@@ -16,8 +16,9 @@ function formatClockTime(minutesFromNoon: number): string {
 function collectImages(order: FlattenedOrder): string[] {
   const imgs: string[] = []
   for (const item of order.items) {
-    if (item.image_url && item.image_url.length > 0 && !imgs.includes(item.image_url)) {
-      imgs.push(item.image_url)
+    const url = item.image_url
+    if (url && url.length > 0 && !url.includes('/MASKED') && !imgs.includes(url)) {
+      imgs.push(url)
       if (imgs.length >= 3) break
     }
   }
@@ -30,7 +31,7 @@ function collectImages(order: FlattenedOrder): string[] {
 function collectItems(order: FlattenedOrder): [string, string, string] | undefined {
   const names: string[] = []
   for (const item of order.items) {
-    if (item.item_name && !names.includes(item.item_name)) {
+    if (item.item_name && item.item_name !== 'MASKED' && !names.includes(item.item_name)) {
       names.push(item.item_name)
       if (names.length >= 3) break
     }
