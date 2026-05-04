@@ -3,6 +3,7 @@ import { ProfileAddressBar } from '@shared/components/ProfileAddressBar'
 import { CategoryTabBar } from '@shared/components/CategoryTabBar'
 import { SmartChips } from '@shared/components/SmartChips'
 import { BobaFavesCard } from '@shared/components/BobaFavesCard'
+import { HealthyBowlsCard } from '@shared/components/HealthyBowlsCard'
 import { ReorderFavorites } from '@shared/components/ReorderFavorites'
 import { Spotlight } from '@shared/components/Spotlight'
 import { SimilarSection } from '@shared/components/SimilarSection'
@@ -32,7 +33,13 @@ export function TreatmentBFeed() {
 
         <div className="feed">
           <SmartChips />
-          <ReorderFavorites merchants={merchants} extraCard={<BobaFavesCard />} extraCardAfterIndex={0} />
+          <ReorderFavorites
+            merchants={merchants}
+            extraCards={[
+              { card: <BobaFavesCard />, afterIndex: 0 },
+              { card: <HealthyBowlsCard />, afterIndex: 2 },
+            ]}
+          />
           <Spotlight />
           <SimilarSection />
           <CarouselSection title="Chicken and rice bowls" stores={stores.slice(0, 6)} />

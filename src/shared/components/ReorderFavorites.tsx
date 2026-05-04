@@ -87,13 +87,17 @@ function ReorderCard({ merchant }: { merchant: CardMerchant }) {
   )
 }
 
-interface ReorderFavoritesProps {
-  merchants: CardMerchant[]
-  extraCard?: ReactNode
-  extraCardAfterIndex?: number
+export interface ExtraCard {
+  card: ReactNode
+  afterIndex: number
 }
 
-export function ReorderFavorites({ merchants, extraCard, extraCardAfterIndex = 0 }: ReorderFavoritesProps) {
+interface ReorderFavoritesProps {
+  merchants: CardMerchant[]
+  extraCards?: ExtraCard[]
+}
+
+export function ReorderFavorites({ merchants, extraCards }: ReorderFavoritesProps) {
   const scrollRef = useDragToScroll()
 
   return (
@@ -103,7 +107,11 @@ export function ReorderFavorites({ merchants, extraCard, extraCardAfterIndex = 0
         {merchants.map((m, i) => (
           <Fragment key={`${m.name}-${i}`}>
             <ReorderCard merchant={m} />
-            {extraCard && i === extraCardAfterIndex && extraCard}
+            {extraCards
+              ?.filter((e) => e.afterIndex === i)
+              .map((e, idx) => (
+                <Fragment key={`extra-${i}-${idx}`}>{e.card}</Fragment>
+              ))}
           </Fragment>
         ))}
       </div>

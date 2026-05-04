@@ -442,6 +442,10 @@
   pointer-events: none;
 }
 
+.boba-faves-card--healthy-bowls .boba-faves-card__gradient {
+  background: linear-gradient(to bottom, rgba(99, 54, 2, 0) 25%, #633602 65%);
+}
+
 .boba-faves-card__top-blur {
   position: absolute;
   left: 0;
