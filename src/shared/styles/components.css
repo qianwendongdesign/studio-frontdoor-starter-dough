@@ -1009,6 +1009,9 @@
   line-height: var(--body-bold-lh);
   letter-spacing: var(--body-bold-ls);
   color: var(--foreground-primary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .reorder-fav-card__stats {
