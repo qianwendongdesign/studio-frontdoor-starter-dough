@@ -3,11 +3,11 @@ import { PhoneFrame } from '@shared/components/PhoneFrame'
 import { HomepageFeed } from './HomepageFeed'
 import { TreatmentBFeed } from './TreatmentBFeed'
 
-type Treatment = 'A' | 'B'
-const TREATMENTS: Treatment[] = ['A', 'B']
+type Treatment = '1' | '2'
+const TREATMENTS: Treatment[] = ['1', '2']
 
 export function TreatmentCanvas() {
-  const [active, setActive] = useState<Treatment>('A')
+  const [active, setActive] = useState<Treatment>('1')
 
   return (
     <>
@@ -49,7 +49,7 @@ export function TreatmentCanvas() {
       </div>
 
       <PhoneFrame>
-        {active === 'A' ? <HomepageFeed /> : <TreatmentBFeed />}
+        {active === '1' ? <HomepageFeed /> : <TreatmentBFeed />}
       </PhoneFrame>
     </>
   )
