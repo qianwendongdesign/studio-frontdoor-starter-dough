@@ -7,43 +7,31 @@ const imgAvatar2 = 'https://www.figma.com/api/mcp/asset/350ffa2a-107b-4eba-bbf1-
 
 export function BobaFavesCard() {
   return (
-    <section className="boba-faves-section">
-      <div className="boba-faves-scroll">
-        <article className="boba-faves-card">
-          <img alt="" className="boba-faves-card__bg" src={imgBg} />
+    <article className="boba-faves-card">
+      <img alt="" className="boba-faves-card__bg" src={imgBg} />
 
-          {/* Bottom dark gradient */}
-          <div className="boba-faves-card__gradient" />
+      <div className="boba-faves-card__gradient" />
+      <div className="boba-faves-card__top-blur" />
+      <div className="boba-faves-card__skrim" />
 
-          {/* Top blur scrim */}
-          <div className="boba-faves-card__top-blur" />
-
-          {/* Top dark skrim */}
-          <div className="boba-faves-card__skrim" />
-
-          {/* Title + subtitle */}
-          <div className="boba-faves-card__info">
-            <h3 className="boba-faves-card__title">Boba faves</h3>
-            <div className="boba-faves-card__subtitle-row">
-              <div className="boba-faves-card__avatars">
-                <img alt="" className="boba-faves-card__avatar" src={imgAvatar1} />
-                <img alt="" className="boba-faves-card__avatar boba-faves-card__avatar--second" src={imgAvatar2} />
-              </div>
-              <p className="boba-faves-card__subtitle-text">Wow Tea Drink, Tong Sui, MT Boba...</p>
-            </div>
+      <div className="boba-faves-card__info">
+        <h3 className="boba-faves-card__title">Boba faves</h3>
+        <div className="boba-faves-card__subtitle-row">
+          <div className="boba-faves-card__avatars">
+            <img alt="" className="boba-faves-card__avatar" src={imgAvatar1} />
+            <img alt="" className="boba-faves-card__avatar boba-faves-card__avatar--second" src={imgAvatar2} />
           </div>
-
-          {/* Dish thumbnails */}
-          <div className="boba-faves-card__thumbs">
-            <div className="boba-faves-card__thumb"><img alt="" src={imgThumb1} /></div>
-            <div className="boba-faves-card__thumb"><img alt="" src={imgThumb2} /></div>
-            <div className="boba-faves-card__thumb"><img alt="" src={imgThumb3} /></div>
-          </div>
-
-          {/* CTA */}
-          <button className="boba-faves-card__cta">View list</button>
-        </article>
+          <p className="boba-faves-card__subtitle-text">Wow Tea Drink, Tong Sui, MT Boba...</p>
+        </div>
       </div>
-    </section>
+
+      <div className="boba-faves-card__thumbs">
+        <div className="boba-faves-card__thumb"><img alt="" src={imgThumb1} /></div>
+        <div className="boba-faves-card__thumb"><img alt="" src={imgThumb2} /></div>
+        <div className="boba-faves-card__thumb"><img alt="" src={imgThumb3} /></div>
+      </div>
+
+      <button className="boba-faves-card__cta">View list</button>
+    </article>
   )
 }

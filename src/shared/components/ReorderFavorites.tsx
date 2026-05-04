@@ -1,3 +1,4 @@
+import { Fragment, ReactNode } from 'react'
 import { useDragToScroll } from '@shared/hooks/useDragToScroll'
 import { AddIcon } from '@shared/icons/icons'
 
@@ -83,7 +84,13 @@ function ReorderCard({ merchant }: { merchant: CardMerchant }) {
   )
 }
 
-export function ReorderFavorites({ merchants }: { merchants: CardMerchant[] }) {
+interface ReorderFavoritesProps {
+  merchants: CardMerchant[]
+  extraCard?: ReactNode
+  extraCardAfterIndex?: number
+}
+
+export function ReorderFavorites({ merchants, extraCard, extraCardAfterIndex = 0 }: ReorderFavoritesProps) {
   const scrollRef = useDragToScroll()
 
   return (
@@ -91,7 +98,10 @@ export function ReorderFavorites({ merchants }: { merchants: CardMerchant[] }) {
       <h2 className="section-title reorder-favorites__title">Reorder your favorites</h2>
       <div className="reorder-favorites__scroll" ref={scrollRef}>
         {merchants.map((m, i) => (
-          <ReorderCard key={`${m.name}-${i}`} merchant={m} />
+          <Fragment key={`${m.name}-${i}`}>
+            <ReorderCard merchant={m} />
+            {extraCard && i === extraCardAfterIndex && extraCard}
+          </Fragment>
         ))}
       </div>
     </section>

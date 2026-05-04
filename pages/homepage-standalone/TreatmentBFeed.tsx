@@ -32,8 +32,7 @@ export function TreatmentBFeed() {
 
         <div className="feed">
           <SmartChips />
-          <BobaFavesCard />
-          <ReorderFavorites merchants={merchants} />
+          <ReorderFavorites merchants={merchants} extraCard={<BobaFavesCard />} extraCardAfterIndex={0} />
           <Spotlight />
           <SimilarSection />
           <CarouselSection title="Chicken and rice bowls" stores={stores.slice(0, 6)} />
