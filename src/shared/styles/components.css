@@ -112,7 +112,7 @@
   z-index: 150;
   display: flex;
   gap: 24px;
-  padding-left: 12px;
+  padding-left: 16px;
   padding-right: 12px;
   overflow-x: auto;
   background: var(--surface-primary);
