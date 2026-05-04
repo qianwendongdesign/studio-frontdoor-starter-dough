@@ -52,11 +52,6 @@ function ReorderCard({ merchant }: { merchant: CardMerchant }) {
             <ClockIcon />
             <span>Deliver by {merchant.deliverBy}</span>
           </div>
-          {labels && labels.length >= 3 && (
-            <div className="reorder-fav-card__dishes" title={labels.join(' · ')}>
-              {labels[0]} · {labels[1]} · {labels[2]}
-            </div>
-          )}
         </div>
       </div>
 
