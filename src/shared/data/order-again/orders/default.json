@@ -1636,6 +1636,13 @@
               "is_umami": false
             }
           }
+        },
+        {
+          "item_id": 41585894900,
+          "item_name": "Crispy Tater Tots",
+          "image_url": "https://cdn.doordash.com/media/photosV2/e9bc2492-4b31-4a97-8adf-a43daed42201-retina-large.JPG",
+          "order_id": 3000011369872447,
+          "order_date": "2026-02-18T19:06:41.780000"
         }
       ]
     },
@@ -1790,13 +1797,6 @@
               "spices_seasonings": []
             }
           }
-        },
-        {
-          "item_id": 41585894900,
-          "item_name": "Crispy Tater Tots",
-          "image_url": "https://cdn.doordash.com/media/photosV2/e9bc2492-4b31-4a97-8adf-a43daed42201-retina-large.JPG",
-          "order_id": 3000011369872447,
-          "order_date": "2026-02-18T19:06:41.780000"
         }
       ]
     },
