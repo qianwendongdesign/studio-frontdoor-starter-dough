@@ -120,8 +120,10 @@
 
 /* Token: caption-regular (compact labels under icons) */
 .tab {
-  flex: 0 0 56px;
-  min-width: 56px;
+  flex: 0 0 auto;
+  min-width: 0;
+  padding-left: 12px;
+  padding-right: 12px;
   height: 60px;
   display: flex;
   flex-direction: column;
