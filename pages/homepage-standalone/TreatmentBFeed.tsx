@@ -15,6 +15,17 @@ import { loadReorderFavoritesFromCurrentUrl } from '@shared/data/reorderFavorite
 
 const merchants = loadReorderFavoritesFromCurrentUrl()
 
+const isNvProfile =
+  typeof window !== 'undefined' &&
+  (new URLSearchParams(window.location.search).get('profile') ?? '').startsWith('nv-')
+
+const extraCards = isNvProfile
+  ? []
+  : [
+      { card: <BobaFavesCard />, afterIndex: 0 },
+      { card: <HealthyBowlsCard />, afterIndex: 2 },
+    ]
+
 export function TreatmentBFeed() {
   const stores = useStores()
 
@@ -33,13 +44,7 @@ export function TreatmentBFeed() {
 
         <div className="feed">
           <SmartChips />
-          <ReorderFavorites
-            merchants={merchants}
-            extraCards={[
-              { card: <BobaFavesCard />, afterIndex: 0 },
-              { card: <HealthyBowlsCard />, afterIndex: 2 },
-            ]}
-          />
+          <ReorderFavorites merchants={merchants} extraCards={extraCards} />
           <Spotlight />
           <SimilarSection />
           <CarouselSection title="Chicken and rice bowls" stores={stores.slice(0, 6)} />
