@@ -25,6 +25,8 @@ export function BobaFavesCard() {
         </div>
       </div>
 
+      <div className="boba-faves-card__spacer" />
+
       <div className="boba-faves-card__thumbs">
         <div className="boba-faves-card__thumb"><img alt="" src={imgThumb1} /></div>
         <div className="boba-faves-card__thumb"><img alt="" src={imgThumb2} /></div>

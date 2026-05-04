@@ -412,13 +412,16 @@
 .boba-faves-scroll::-webkit-scrollbar { display: none; }
 .boba-faves-scroll:active { cursor: grabbing; }
 
+/* Flex column matching reorder card size; bg image is absolute behind all content */
 .boba-faves-card {
   flex-shrink: 0;
-  width: 240px;
-  height: 323px;
+  width: 288px;
   border-radius: var(--radius-card);
   overflow: hidden;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: var(--spacing-secondary);
 }
 
 .boba-faves-card__bg {
@@ -428,19 +431,17 @@
   height: 100%;
   object-fit: cover;
   pointer-events: none;
+  z-index: 0;
 }
 
-/* Bottom-up dark navy gradient for readability of thumbnails + button */
 .boba-faves-card__gradient {
   position: absolute;
-  left: 0;
-  top: 65px;
-  width: 240px;
-  height: 258px;
-  background: linear-gradient(to bottom, rgba(34, 63, 49, 0) 0%, #0f1e3a 54.457%);
+  inset: 0;
+  background: linear-gradient(to bottom, rgba(34, 63, 49, 0) 25%, #0f1e3a 65%);
+  z-index: 1;
+  pointer-events: none;
 }
 
-/* Blurred scrim across the top portion — fades out downward */
 .boba-faves-card__top-blur {
   position: absolute;
   left: 0;
@@ -452,9 +453,10 @@
   background: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 100%);
   -webkit-mask-image: linear-gradient(to bottom, black 40%, transparent 100%);
   mask-image: linear-gradient(to bottom, black 40%, transparent 100%);
+  z-index: 2;
+  pointer-events: none;
 }
 
-/* Subtle dark overlay at the top for title legibility */
 .boba-faves-card__skrim {
   position: absolute;
   left: 0;
@@ -463,16 +465,22 @@
   height: 92px;
   background: linear-gradient(to top, rgba(40, 40, 40, 0) 0%, rgba(39, 39, 39, 0.6) 51.5%);
   opacity: 0.6;
+  z-index: 2;
+  pointer-events: none;
 }
 
 .boba-faves-card__info {
-  position: absolute;
-  left: 16px;
-  top: 16px;
-  width: 196px;
+  position: relative;
+  z-index: 3;
   display: flex;
   flex-direction: column;
   gap: 4px;
+}
+
+/* Pushes thumbnails + button to the bottom */
+.boba-faves-card__spacer {
+  flex: 1;
+  min-height: var(--spacing-secondary);
 }
 
 .boba-faves-card__title {
@@ -525,22 +533,21 @@
 }
 
 .boba-faves-card__thumbs {
-  position: absolute;
-  left: 16px;
-  top: 189px;
+  position: relative;
+  z-index: 3;
   display: flex;
   gap: 8px;
-  align-items: center;
+  margin-bottom: var(--spacing-internal2);
 }
 
+/* Each thumb grows equally to fill the card width */
 .boba-faves-card__thumb {
-  width: 64px;
+  flex: 1;
   height: 70px;
   border-radius: 12px;
   overflow: hidden;
   border: 2px solid #fff;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
-  flex-shrink: 0;
   position: relative;
 }
 
@@ -554,10 +561,9 @@
 }
 
 .boba-faves-card__cta {
-  position: absolute;
-  left: 16px;
-  top: 275px;
-  width: 208px;
+  position: relative;
+  z-index: 3;
+  width: 100%;
   min-height: 32px;
   border-radius: 9999px;
   background: rgba(255, 255, 255, 0.1);
