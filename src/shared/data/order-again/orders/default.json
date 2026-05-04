@@ -157,6 +157,20 @@
               "estimated_protein_grams": 20
             }
           }
+        },
+        {
+          "item_id": 22696776958,
+          "item_name": "Basil Pesto Shells",
+          "image_url": "https://cdn.doordash.com/media/photosV2/2f159369-dcdb-4c72-abcc-fa1ba2c20414-retina-large.jpg",
+          "order_id": 3000010889841662,
+          "order_date": "2026-01-21T19:22:19.993000"
+        },
+        {
+          "item_id": 22696776959,
+          "item_name": "Chocolate Chip Cookie",
+          "image_url": "https://cdn.doordash.com/media/photosV2/3a59fb44-c826-4472-a637-a271745ddda8-retina-large.png",
+          "order_id": 3000010889841662,
+          "order_date": "2026-01-21T19:22:19.993000"
         }
       ]
     },
