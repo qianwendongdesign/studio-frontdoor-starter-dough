@@ -42,6 +42,7 @@ export type CardMerchant = {
 function ReorderCard({ merchant }: { merchant: CardMerchant }) {
   const [hero, a, b] = merchant.images
   const labels = merchant.items
+  const isTwoItems = b === hero
 
   return (
     <article className="reorder-fav-card">
@@ -56,7 +57,7 @@ function ReorderCard({ merchant }: { merchant: CardMerchant }) {
         </div>
       </div>
 
-      <div className="reorder-fav-card__grid">
+      <div className={`reorder-fav-card__grid${isTwoItems ? ' reorder-fav-card__grid--two' : ''}`}>
         <div className="reorder-fav-card__cell reorder-fav-card__cell--hero">
           <img src={hero} alt="" className="reorder-fav-card__img" draggable={false} />
           <QuickAddButton
@@ -69,12 +70,14 @@ function ReorderCard({ merchant }: { merchant: CardMerchant }) {
             label={labels?.[1] ? `Quick add ${labels[1]} from ${merchant.name}` : 'Quick add'}
           />
         </div>
-        <div className="reorder-fav-card__cell">
-          <img src={b} alt="" className="reorder-fav-card__img" draggable={false} />
-          <QuickAddButton
-            label={labels?.[2] ? `Quick add ${labels[2]} from ${merchant.name}` : 'Quick add'}
-          />
-        </div>
+        {!isTwoItems && (
+          <div className="reorder-fav-card__cell">
+            <img src={b} alt="" className="reorder-fav-card__img" draggable={false} />
+            <QuickAddButton
+              label={labels?.[2] ? `Quick add ${labels[2]} from ${merchant.name}` : 'Quick add'}
+            />
+          </div>
+        )}
       </div>
 
       <button type="button" className="reorder-fav-card__cta">
