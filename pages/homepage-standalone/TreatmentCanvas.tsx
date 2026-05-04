@@ -1,0 +1,56 @@
+import { useState } from 'react'
+import { PhoneFrame } from '@shared/components/PhoneFrame'
+import { HomepageFeed } from './HomepageFeed'
+import { TreatmentBFeed } from './TreatmentBFeed'
+
+type Treatment = 'A' | 'B'
+const TREATMENTS: Treatment[] = ['A', 'B']
+
+export function TreatmentCanvas() {
+  const [active, setActive] = useState<Treatment>('A')
+
+  return (
+    <>
+      {/* Treatment tabs pinned to left side of canvas */}
+      <div style={{
+        position: 'fixed',
+        left: 20,
+        top: '50%',
+        transform: 'translateY(-50%)',
+        zIndex: 1000,
+        display: 'flex',
+        flexDirection: 'column',
+        gap: 6,
+      }}>
+        {TREATMENTS.map((t) => (
+          <button
+            key={t}
+            onClick={() => setActive(t)}
+            style={{
+              padding: '9px 15px',
+              borderRadius: 8,
+              border: '1px solid',
+              borderColor: active === t ? 'rgba(255,255,255,0.25)' : 'rgba(255,255,255,0.1)',
+              cursor: 'pointer',
+              background: active === t ? 'rgba(255,255,255,0.95)' : 'rgba(255,255,255,0.08)',
+              color: active === t ? '#111' : 'rgba(255,255,255,0.5)',
+              fontSize: 12,
+              fontWeight: active === t ? 600 : 400,
+              fontFamily: '-apple-system, BlinkMacSystemFont, sans-serif',
+              letterSpacing: '0.01em',
+              lineHeight: '1',
+              transition: 'all 0.15s ease',
+              whiteSpace: 'nowrap',
+            }}
+          >
+            Treatment {t}
+          </button>
+        ))}
+      </div>
+
+      <PhoneFrame>
+        {active === 'A' ? <HomepageFeed /> : <TreatmentBFeed />}
+      </PhoneFrame>
+    </>
+  )
+}
