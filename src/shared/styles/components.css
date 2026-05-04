@@ -132,10 +132,10 @@
   gap: var(--spacing-internal3);
   padding-top: var(--spacing-internal3);
   font-family: var(--font);
-  font-size: var(--caption-regular-size);
-  font-weight: var(--caption-regular-weight);
-  line-height: var(--caption-regular-lh);
-  letter-spacing: var(--caption-regular-ls);
+  font-size: var(--label-size);
+  font-weight: var(--label-weight);
+  line-height: var(--label-lh);
+  letter-spacing: var(--label-ls);
   color: var(--foreground-primary);
   background: none;
   border: none;
