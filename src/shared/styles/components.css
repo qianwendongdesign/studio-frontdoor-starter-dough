@@ -772,7 +772,7 @@
   width: 288px;
   padding: var(--spacing-secondary);
   background: var(--surface-primary);
-  border: 1px solid var(--stroke-tertiary);
+  border: 1px solid var(--stroke-disabled);
   border-radius: var(--radius-card);
   box-shadow: var(--shadow-elevation-1);
   display: flex;

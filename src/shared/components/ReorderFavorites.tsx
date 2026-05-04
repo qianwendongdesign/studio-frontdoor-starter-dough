@@ -48,13 +48,6 @@ function ReorderCard({ merchant }: { merchant: CardMerchant }) {
         <img src={merchant.logo} alt="" className="reorder-fav-card__logo" width={40} height={40} />
         <div className="reorder-fav-card__headline">
           <div className="reorder-fav-card__name">{merchant.name}</div>
-          {(merchant.rating || merchant.deliveryEta) && (
-            <div className="reorder-fav-card__stats">
-              {merchant.rating && <span>★ {merchant.rating}</span>}
-              {merchant.rating && merchant.deliveryEta && <span aria-hidden> · </span>}
-              {merchant.deliveryEta && <span>{merchant.deliveryEta}</span>}
-            </div>
-          )}
           <div className="reorder-fav-card__meta">
             <ClockIcon />
             <span>Deliver by {merchant.deliverBy}</span>
