@@ -6,8 +6,21 @@ import { TreatmentBFeed } from './TreatmentBFeed'
 type Treatment = '1' | '2'
 const TREATMENTS: Treatment[] = ['1', '2']
 
+function getInitialTreatment(): Treatment {
+  if (typeof window === 'undefined') return '1'
+  const t = new URLSearchParams(window.location.search).get('treatment')
+  return t === '2' ? '2' : '1'
+}
+
 export function TreatmentCanvas() {
-  const [active, setActive] = useState<Treatment>('1')
+  const [active, setActive] = useState<Treatment>(getInitialTreatment)
+
+  function selectTreatment(t: Treatment) {
+    setActive(t)
+    const url = new URL(window.location.href)
+    url.searchParams.set('treatment', t)
+    window.history.replaceState({}, '', url.toString())
+  }
 
   return (
     <>
@@ -25,7 +38,7 @@ export function TreatmentCanvas() {
         {TREATMENTS.map((t) => (
           <button
             key={t}
-            onClick={() => setActive(t)}
+            onClick={() => selectTreatment(t)}
             style={{
               padding: '9px 15px',
               borderRadius: 8,
