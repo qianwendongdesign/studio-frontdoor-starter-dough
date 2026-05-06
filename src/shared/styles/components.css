@@ -166,11 +166,11 @@
    Smart Chips
    ========================================================== */
 
-/* Token: title-1 */
+/* Token: title-1 — extra bold (800) override */
 .greeting {
   font-family: var(--font);
   font-size: var(--title-1-size);
-  font-weight: var(--title-1-weight);
+  font-weight: 800;
   line-height: var(--title-1-lh);
   letter-spacing: var(--title-1-ls);
   margin-top: var(--spacing-tertiary);
@@ -947,6 +947,7 @@
   width: 100%;
   margin: 0 0 var(--spacing-secondary) 0;
   padding: 0;
+  font-weight: 800;
 }
 
 .reorder-favorites__scroll {

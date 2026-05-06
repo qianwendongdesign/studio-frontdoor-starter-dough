@@ -7,6 +7,7 @@
 @font-face { font-family: "DD Norms"; src: url("fonts/WOFF2/DD Norms WOFF2 3-400/DD_Norms_Regular.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
 @font-face { font-family: "DD Norms"; src: url("fonts/WOFF2/DD Norms WOFF2 3-400/DD_Norms_Medium.woff2") format("woff2"); font-weight: 500; font-style: normal; font-display: swap; }
 @font-face { font-family: "DD Norms"; src: url("fonts/WOFF2/DD Norms WOFF2 3-400/DD_Norms_Bold.woff2") format("woff2"); font-weight: 700; font-style: normal; font-display: swap; }
+@font-face { font-family: "DD Norms"; src: url("fonts/WOFF2/DD Norms WOFF2 3-400/DD_Norms_ExtraBold.woff2") format("woff2"); font-weight: 800; font-style: normal; font-display: swap; }
 
 
 /* ==========================================================
