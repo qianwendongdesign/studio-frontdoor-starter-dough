@@ -89,7 +89,14 @@ function ReorderCard({ merchant, onViewCart }: { merchant: CardMerchant; onViewC
         )}
       </div>
 
-      <button type="button" className="reorder-fav-card__cta" onClick={() => onViewCart?.(merchant)}>
+      <button
+        type="button"
+        className="reorder-fav-card__cta"
+        onClick={(e) => {
+          e.stopPropagation()
+          onViewCart?.(merchant)
+        }}
+      >
         View cart
       </button>
     </article>
