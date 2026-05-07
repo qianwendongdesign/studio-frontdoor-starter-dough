@@ -14,6 +14,7 @@ import { Footer } from '@shared/components/Footer'
 import { CartSheet, type CartSheetItem } from '@shared/components/CartSheet'
 import { useStores } from '@shared/hooks/useStores'
 import { loadReorderFavoritesFromCurrentUrl } from '@shared/data/reorderFavoritesAdapter'
+import { makeDraftItemNames } from '@shared/data/draftItems'
 
 const merchants = loadReorderFavoritesFromCurrentUrl()
 
@@ -35,9 +36,10 @@ function buildItemsForMerchant(m: CardMerchant): CartSheetItem[] {
   const isTwoItems = b === hero
   const slots = isTwoItems ? [hero, a] : [hero, a, b]
   const labels = m.items
+  const fallback = makeDraftItemNames(m.name, slots.length)
   return slots.map((image, i) => ({
     id: `${m.name}-${i}`,
-    name: labels?.[i]?.trim() || `Item ${i + 1}`,
+    name: labels?.[i]?.trim() || fallback[i],
     price: DRAFT_ITEM_PRICE,
     image,
   }))

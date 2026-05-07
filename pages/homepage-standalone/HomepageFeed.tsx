@@ -12,6 +12,7 @@ import { Footer } from '@shared/components/Footer'
 import { CartSheet, type CartSheetItem, type CartSheetStore } from '@shared/components/CartSheet'
 import { useStores } from '@shared/hooks/useStores'
 import { type OrderAgainStoreViewModel } from '@shared/data/orderAgainProfiles'
+import { makeDraftItemNames } from '@shared/data/draftItems'
 
 interface FeedStore {
   name: string
@@ -24,10 +25,9 @@ interface FeedStore {
 }
 
 const DRAFT_ITEM_PRICE = 15.99
-const DRAFT_ITEM_NAMES = ['Item 1', 'Item 2', 'Item 3']
 
 function buildDraftItems(store: FeedStore): CartSheetItem[] {
-  return DRAFT_ITEM_NAMES.map((name, i) => ({
+  return makeDraftItemNames(store.name, 3).map((name, i) => ({
     id: `${store.name}-${i}`,
     name,
     price: DRAFT_ITEM_PRICE,
@@ -50,7 +50,7 @@ function cartFromOrderAgainRow(row: OrderAgainStoreViewModel): ActiveCart {
           price: DRAFT_PRICE,
           image: it.image,
         }))
-      : DRAFT_ITEM_NAMES.map((name, i) => ({
+      : makeDraftItemNames(row.name, 3).map((name, i) => ({
           id: `${row.name}-${i}`,
           name,
           price: DRAFT_PRICE,
