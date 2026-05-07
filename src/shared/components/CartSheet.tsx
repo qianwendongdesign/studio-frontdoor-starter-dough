@@ -112,6 +112,11 @@ export function CartSheet({ store, items, onClose }: CartSheetProps) {
     return { itemCount: count, subtotal: Math.round(sum * 100) / 100 }
   }, [items, quantities])
 
+  const portalTarget =
+    (typeof document !== 'undefined' && document.getElementById('phone-screen')) ||
+    (typeof document !== 'undefined' ? document.body : null)
+  if (!portalTarget) return null
+
   return createPortal(
     <div className="cart-sheet-root" role="presentation">
       <button
@@ -227,6 +232,6 @@ export function CartSheet({ store, items, onClose }: CartSheetProps) {
         <div className="cart-sheet-home-indicator" aria-hidden />
       </div>
     </div>,
-    document.body,
+    portalTarget,
   )
 }

@@ -94,7 +94,7 @@ export function PhoneFrame({ children }: { children: ReactNode }) {
           }} />
 
           {/* Screen bezel + clip */}
-          <div style={{
+          <div id="phone-screen" style={{
             position: 'absolute',
             top: BEZEL, left: BEZEL,
             width: SCREEN_W, height: SCREEN_H,
