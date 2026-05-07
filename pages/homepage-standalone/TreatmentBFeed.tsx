@@ -1,15 +1,17 @@
+import { useState } from 'react'
 import { StatusBar } from '@shared/components/StatusBar'
 import { ProfileAddressBar } from '@shared/components/ProfileAddressBar'
 import { CategoryTabBar } from '@shared/components/CategoryTabBar'
 import { SmartChips } from '@shared/components/SmartChips'
 import { BobaFavesCard } from '@shared/components/BobaFavesCard'
 import { HealthyBowlsCard } from '@shared/components/HealthyBowlsCard'
-import { ReorderFavorites } from '@shared/components/ReorderFavorites'
+import { ReorderFavorites, type CardMerchant } from '@shared/components/ReorderFavorites'
 import { Spotlight } from '@shared/components/Spotlight'
 import { SimilarSection } from '@shared/components/SimilarSection'
 import { CarouselSection } from '@shared/components/CarouselSection'
 import { DiscoverSection } from '@shared/components/DiscoverSection'
 import { Footer } from '@shared/components/Footer'
+import { CartSheet, type CartSheetItem } from '@shared/components/CartSheet'
 import { useStores } from '@shared/hooks/useStores'
 import { loadReorderFavoritesFromCurrentUrl } from '@shared/data/reorderFavoritesAdapter'
 
@@ -26,8 +28,24 @@ const extraCards = isNvProfile
       { card: <HealthyBowlsCard />, afterIndex: 2 },
     ]
 
+const DRAFT_ITEM_PRICE = 15.99
+
+function buildItemsForMerchant(m: CardMerchant): CartSheetItem[] {
+  const [hero, a, b] = m.images
+  const isTwoItems = b === hero
+  const slots = isTwoItems ? [hero, a] : [hero, a, b]
+  const labels = m.items
+  return slots.map((image, i) => ({
+    id: `${m.name}-${i}`,
+    name: labels?.[i]?.trim() || `Item ${i + 1}`,
+    price: DRAFT_ITEM_PRICE,
+    image,
+  }))
+}
+
 export function TreatmentBFeed() {
   const stores = useStores()
+  const [cartMerchant, setCartMerchant] = useState<CardMerchant | null>(null)
 
   return (
     <>
@@ -44,7 +62,11 @@ export function TreatmentBFeed() {
 
         <div className="feed">
           <SmartChips />
-          <ReorderFavorites merchants={merchants} extraCards={extraCards} />
+          <ReorderFavorites
+            merchants={merchants}
+            extraCards={extraCards}
+            onViewCart={setCartMerchant}
+          />
           <Spotlight />
           <SimilarSection />
           <CarouselSection title="Chicken and rice bowls" stores={stores.slice(0, 6)} />
@@ -54,6 +76,19 @@ export function TreatmentBFeed() {
       </div>
 
       <Footer />
+
+      {cartMerchant && (
+        <CartSheet
+          store={{
+            name: cartMerchant.name,
+            logo: cartMerchant.logo,
+            rating: cartMerchant.rating,
+            time: cartMerchant.deliveryEta || `Deliver by ${cartMerchant.deliverBy}`,
+          }}
+          items={buildItemsForMerchant(cartMerchant)}
+          onClose={() => setCartMerchant(null)}
+        />
+      )}
     </>
   )
 }

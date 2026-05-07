@@ -39,7 +39,7 @@ export type CardMerchant = {
   deliveryEta?: string
 }
 
-function ReorderCard({ merchant }: { merchant: CardMerchant }) {
+function ReorderCard({ merchant, onViewCart }: { merchant: CardMerchant; onViewCart?: (m: CardMerchant) => void }) {
   const [hero, a, b] = merchant.images
   const labels = merchant.items
   const isTwoItems = b === hero
@@ -80,7 +80,7 @@ function ReorderCard({ merchant }: { merchant: CardMerchant }) {
         )}
       </div>
 
-      <button type="button" className="reorder-fav-card__cta">
+      <button type="button" className="reorder-fav-card__cta" onClick={() => onViewCart?.(merchant)}>
         View cart
       </button>
     </article>
@@ -95,9 +95,10 @@ export interface ExtraCard {
 interface ReorderFavoritesProps {
   merchants: CardMerchant[]
   extraCards?: ExtraCard[]
+  onViewCart?: (m: CardMerchant) => void
 }
 
-export function ReorderFavorites({ merchants, extraCards }: ReorderFavoritesProps) {
+export function ReorderFavorites({ merchants, extraCards, onViewCart }: ReorderFavoritesProps) {
   const scrollRef = useDragToScroll()
 
   return (
@@ -106,7 +107,7 @@ export function ReorderFavorites({ merchants, extraCards }: ReorderFavoritesProp
       <div className="reorder-favorites__scroll" ref={scrollRef}>
         {merchants.map((m, i) => (
           <Fragment key={`${m.name}-${i}`}>
-            <ReorderCard merchant={m} />
+            <ReorderCard merchant={m} onViewCart={onViewCart} />
             {extraCards
               ?.filter((e) => e.afterIndex === i)
               .map((e, idx) => (
