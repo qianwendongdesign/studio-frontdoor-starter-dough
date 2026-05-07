@@ -21,7 +21,12 @@ function ClockIcon() {
 
 function QuickAddButton({ label }: { label: string }) {
   return (
-    <button type="button" className="reorder-fav-card__quick-add" aria-label={label}>
+    <button
+      type="button"
+      className="reorder-fav-card__quick-add"
+      aria-label={label}
+      onClick={(e) => e.stopPropagation()}
+    >
       <span className="reorder-fav-card__quick-add-icon">
         <AddIcon />
       </span>
@@ -45,7 +50,11 @@ function ReorderCard({ merchant, onViewCart }: { merchant: CardMerchant; onViewC
   const isTwoItems = b === hero
 
   return (
-    <article className="reorder-fav-card">
+    <article
+      className="reorder-fav-card"
+      onClick={onViewCart ? () => onViewCart(merchant) : undefined}
+      style={onViewCart ? { cursor: 'pointer' } : undefined}
+    >
       <div className="reorder-fav-card__header">
         <img src={merchant.logo} alt="" className="reorder-fav-card__logo" width={40} height={40} />
         <div className="reorder-fav-card__headline">
