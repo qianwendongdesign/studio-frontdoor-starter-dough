@@ -9,8 +9,9 @@ import { SimilarSection } from '@shared/components/SimilarSection'
 import { CarouselSection } from '@shared/components/CarouselSection'
 import { DiscoverSection } from '@shared/components/DiscoverSection'
 import { Footer } from '@shared/components/Footer'
-import { CartSheet, type CartSheetItem } from '@shared/components/CartSheet'
+import { CartSheet, type CartSheetItem, type CartSheetStore } from '@shared/components/CartSheet'
 import { useStores } from '@shared/hooks/useStores'
+import { type OrderAgainStoreViewModel } from '@shared/data/orderAgainProfiles'
 
 interface FeedStore {
   name: string
@@ -33,9 +34,37 @@ function buildDraftItems(store: FeedStore): CartSheetItem[] {
   }))
 }
 
+interface ActiveCart {
+  store: CartSheetStore
+  items: CartSheetItem[]
+}
+
+const DRAFT_PRICE = 15.99
+
+function cartFromOrderAgainRow(row: OrderAgainStoreViewModel): ActiveCart {
+  const items: CartSheetItem[] =
+    row.items.length > 0
+      ? row.items.map((it, i) => ({
+          id: `${row.name}-${i}`,
+          name: it.name,
+          price: DRAFT_PRICE,
+          image: it.image,
+        }))
+      : DRAFT_ITEM_NAMES.map((name, i) => ({
+          id: `${row.name}-${i}`,
+          name,
+          price: DRAFT_PRICE,
+        }))
+  return {
+    store: { name: row.name, logo: row.logo, time: row.timeText },
+    items,
+  }
+}
+
 export function HomepageFeed() {
   const stores = useStores()
   const [cartStore, setCartStore] = useState<FeedStore | null>(null)
+  const [activeCart, setActiveCart] = useState<ActiveCart | null>(null)
 
   return (
     <>
@@ -53,7 +82,7 @@ export function HomepageFeed() {
 
         <div className="feed">
           <SmartChips />
-          <OrderAgain />
+          <OrderAgain onRowClick={(row) => setActiveCart(cartFromOrderAgainRow(row))} />
           <Spotlight />
           <SimilarSection />
           <CarouselSection
@@ -83,6 +112,14 @@ export function HomepageFeed() {
           }}
           items={buildDraftItems(cartStore)}
           onClose={() => setCartStore(null)}
+        />
+      )}
+
+      {activeCart && (
+        <CartSheet
+          store={activeCart.store}
+          items={activeCart.items}
+          onClose={() => setActiveCart(null)}
         />
       )}
     </>

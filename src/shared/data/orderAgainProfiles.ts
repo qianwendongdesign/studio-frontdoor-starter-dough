@@ -7,6 +7,8 @@ export interface OrderAgainStoreViewModel {
   logo: string
   thumbs: string[]
   thumbStyle: ThumbStyle
+  timeText: string
+  items: { name: string; image: string }[]
 }
 
 export interface OrderHistoryStore {
@@ -172,12 +174,15 @@ function transformOrder(
   const minutes = pseudoRandomMinutes(order.businessName + order.orderDate)
   const firstItem = items[0]?.item_name ?? ''
   const suffix = itemCount > 1 ? ` +${itemCount - 1}` : ''
-  const meta = `${minutes} min · ${firstItem}${suffix}`
+  const timeText = `${minutes} min`
+  const meta = `${timeText} · ${firstItem}${suffix}`
 
-  // Thumbs: item image URLs — skip empty and MASKED placeholder URLs
-  const thumbs = items
-    .map((item) => item.image_url)
-    .filter((url) => url && url.length > 0 && !url.includes('/MASKED'))
+  // Items with name + image, skipping ones with masked URLs (parallel to thumbs filter)
+  const itemsWithImages = items
+    .filter((item) => item.image_url && item.image_url.length > 0 && !item.image_url.includes('/MASKED'))
+    .map((item) => ({ name: item.item_name, image: item.image_url }))
+
+  const thumbs = itemsWithImages.map((it) => it.image)
 
   // ThumbStyle: single for 1, two for 2, default for 3+
   const thumbStyle: ThumbStyle =
@@ -196,6 +201,8 @@ function transformOrder(
     logo: order.logoUrl,
     thumbs,
     thumbStyle,
+    timeText,
+    items: itemsWithImages,
   }
 }
 

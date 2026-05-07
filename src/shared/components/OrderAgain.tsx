@@ -1,7 +1,14 @@
 import { ChevronRightIcon } from '@shared/icons/icons'
-import { loadOrderAgainStoresFromCurrentUrl } from '@shared/data/orderAgainProfiles'
+import {
+  loadOrderAgainStoresFromCurrentUrl,
+  type OrderAgainStoreViewModel,
+} from '@shared/data/orderAgainProfiles'
 
-export function OrderAgain() {
+interface OrderAgainProps {
+  onRowClick?: (store: OrderAgainStoreViewModel) => void
+}
+
+export function OrderAgain({ onRowClick }: OrderAgainProps) {
   const stores = loadOrderAgainStoresFromCurrentUrl()
 
   return (
@@ -11,7 +18,24 @@ export function OrderAgain() {
         <button className="icon-btn-sm" aria-label="See all"><ChevronRightIcon /></button>
       </div>
       {stores.map((store) => (
-        <div key={store.name} className="store-row">
+        <div
+          key={store.name}
+          className="store-row"
+          onClick={onRowClick ? () => onRowClick(store) : undefined}
+          style={onRowClick ? { cursor: 'pointer' } : undefined}
+          role={onRowClick ? 'button' : undefined}
+          tabIndex={onRowClick ? 0 : undefined}
+          onKeyDown={
+            onRowClick
+              ? (e) => {
+                  if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault()
+                    onRowClick(store)
+                  }
+                }
+              : undefined
+          }
+        >
           {store.logo ? (
             <img src={store.logo} alt="" className="store-logo" width={48} height={48} />
           ) : (
