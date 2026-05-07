@@ -52,7 +52,14 @@ function ReorderCard({ merchant, onViewCart }: { merchant: CardMerchant; onViewC
   return (
     <article
       className="reorder-fav-card"
-      onClick={onViewCart ? () => onViewCart(merchant) : undefined}
+      onClick={
+        onViewCart
+          ? (e) => {
+              if ((e.target as HTMLElement).closest('button')) return
+              onViewCart(merchant)
+            }
+          : undefined
+      }
       style={onViewCart ? { cursor: 'pointer' } : undefined}
     >
       <div className="reorder-fav-card__header">
