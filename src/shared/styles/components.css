@@ -2340,6 +2340,8 @@
 .cart-sheet-store-dot {
   margin: 0 4px;
   color: #606060;
+  font-size: 14px;
+  line-height: 20px;
 }
 .cart-sheet-store-chevron {
   display: flex;
