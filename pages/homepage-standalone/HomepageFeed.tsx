@@ -41,12 +41,6 @@ interface ActiveCart {
 
 const DRAFT_PRICE = 15.99
 
-function formatRating(raw: string | undefined): string | undefined {
-  if (!raw) return undefined
-  const n = Number(raw)
-  return Number.isFinite(n) ? n.toFixed(1) : raw
-}
-
 function cartFromOrderAgainRow(row: OrderAgainStoreViewModel): ActiveCart {
   const items: CartSheetItem[] =
     row.items.length > 0
@@ -66,7 +60,7 @@ function cartFromOrderAgainRow(row: OrderAgainStoreViewModel): ActiveCart {
       name: row.name,
       logo: row.logo,
       time: row.timeText,
-      rating: formatRating(row.rating),
+      rating: row.rating,
     },
     items,
   }

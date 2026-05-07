@@ -54,6 +54,14 @@ function formatMoney(n: number) {
   return `$${n.toFixed(2)}`
 }
 
+function formatRating(raw: string | undefined): string | undefined {
+  if (!raw) return undefined
+  const n = Number(raw)
+  if (!Number.isFinite(n)) return raw
+  // Truncate to one decimal (e.g., "4.77" → "4.7", not rounded to "4.8")
+  return (Math.trunc(n * 10) / 10).toFixed(1)
+}
+
 function getInitials(name: string) {
   const cleaned = name.replace(/[^A-Za-z\s]/g, '').trim()
   const parts = cleaned.split(/\s+/).filter(Boolean)
@@ -151,11 +159,14 @@ export function CartSheet({ store, items, onClose }: CartSheetProps) {
             <div className="cart-sheet-store-info">
               <div className="cart-sheet-store-name">{store.name}</div>
               <div className="cart-sheet-store-meta">
-                {store.rating && (
-                  <span className="cart-sheet-store-rating">
-                    {store.rating} <StarIcon />
-                  </span>
-                )}
+                {(() => {
+                  const rating = formatRating(store.rating)
+                  return rating ? (
+                    <span className="cart-sheet-store-rating">
+                      {rating} <StarIcon />
+                    </span>
+                  ) : null
+                })()}
                 {store.time && (
                   <>
                     <span className="cart-sheet-store-dot">·</span>
