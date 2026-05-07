@@ -9,6 +9,7 @@ export interface OrderAgainStoreViewModel {
   thumbStyle: ThumbStyle
   timeText: string
   items: { name: string; image: string }[]
+  rating?: string
 }
 
 export interface OrderHistoryStore {
@@ -203,6 +204,7 @@ function transformOrder(
     thumbStyle,
     timeText,
     items: itemsWithImages,
+    rating: order.averageRating,
   }
 }
 
