@@ -2324,13 +2324,13 @@
   gap: 2px;
   font-family: var(--font);
   font-weight: 500;
-  font-size: 12px;
-  line-height: 18px;
+  font-size: 14px;
+  line-height: 20px;
   letter-spacing: -0.01em;
   color: #606060;
   margin-top: 2px;
 }
-.cart-sheet-store-meta svg { width: 12px; height: 12px; }
+.cart-sheet-store-meta svg { width: 14px; height: 14px; }
 .cart-sheet-store-rating {
   display: inline-flex;
   align-items: center;
