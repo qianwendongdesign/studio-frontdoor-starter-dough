@@ -2460,7 +2460,7 @@
 .cart-sheet-subtotal-label {
   font-family: var(--font);
   font-size: var(--body-regular-size);
-  font-weight: var(--body-regular-weight);
+  font-weight: 500;
   line-height: var(--body-regular-lh);
   letter-spacing: var(--body-regular-ls);
   color: #000;
@@ -2468,7 +2468,7 @@
 .cart-sheet-subtotal-count {
   font-family: var(--font);
   font-size: var(--body-regular-size);
-  font-weight: var(--body-regular-weight);
+  font-weight: 500;
   line-height: var(--body-regular-lh);
   letter-spacing: var(--body-regular-ls);
   color: #707070;
