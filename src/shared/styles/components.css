@@ -2279,7 +2279,7 @@
   display: flex;
   align-items: center;
   gap: 10px;
-  padding: 8px;
+  padding: 10px 8px;
   background: #f7f7f7;
   border-radius: 12px;
 }
