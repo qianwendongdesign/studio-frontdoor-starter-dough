@@ -42,7 +42,8 @@ export const BOBA_FAVES_COLLECTION: CollectionSheetData = {
       price: 8.2,
       image: 'https://cdn.doordash.com/media/photosV2/b6bf46e5-ce37-44da-9aea-a9b9fe7a4b8e-retina-large.png',
       storeName: 'Boba Guys',
-      storeLogo: imgAvatar2,
+      storeLogo:
+        'https://images.squarespace-cdn.com/content/v1/50ce46ece4b01020c34fd52b/3e54cccc-1ef8-4d78-aa69-7fe7983c4f45/bobaguys_logo_FINAL+%283%29.png?format=300w',
     },
     {
       id: 'boba-4',
@@ -50,7 +51,8 @@ export const BOBA_FAVES_COLLECTION: CollectionSheetData = {
       price: 6.75,
       image: 'https://cdn.doordash.com/media/photosV2/d549f613-e013-49d9-9595-3604c92eab6d-retina-large.jpg',
       storeName: 'Sharetea',
-      storeLogo: imgAvatar1,
+      storeLogo:
+        'https://images.squarespace-cdn.com/content/v1/68f206cca9dce96f2599130d/1760692086495-86LAD44UNHCZCYEARGQV/logo.png?format=300w',
     },
   ],
 }
