@@ -2459,24 +2459,27 @@
 }
 .cart-sheet-subtotal-label {
   font-family: var(--font);
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 20px;
+  font-size: var(--body-regular-size);
+  font-weight: var(--body-regular-weight);
+  line-height: var(--body-regular-lh);
+  letter-spacing: var(--body-regular-ls);
   color: #000;
 }
 .cart-sheet-subtotal-count {
   font-family: var(--font);
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 20px;
+  font-size: var(--body-regular-size);
+  font-weight: var(--body-regular-weight);
+  line-height: var(--body-regular-lh);
+  letter-spacing: var(--body-regular-ls);
   color: #707070;
 }
 .cart-sheet-subtotal-spacer { flex: 1; }
 .cart-sheet-subtotal-value {
   font-family: var(--font);
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
+  font-size: var(--body-bold-size);
+  font-weight: var(--body-bold-weight);
+  line-height: var(--body-bold-lh);
+  letter-spacing: var(--body-bold-ls);
   color: #000;
 }
 
