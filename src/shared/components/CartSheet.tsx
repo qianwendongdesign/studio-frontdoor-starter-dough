@@ -38,11 +38,11 @@ function TrashLineIcon() {
 
 function PlusLineIcon() {
   return (
-    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden>
+    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden>
       <path
-        d="M6 2.5v7M2.5 6h7"
+        d="M8 3v10M3 8h10"
         stroke="currentColor"
-        strokeWidth="1.25"
+        strokeWidth="1.5"
         strokeLinecap="round"
       />
     </svg>
