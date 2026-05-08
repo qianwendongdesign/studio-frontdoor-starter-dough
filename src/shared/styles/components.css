@@ -2284,8 +2284,8 @@
   border-radius: 12px;
 }
 .cart-sheet-store-logo {
-  width: 48px;
-  height: 48px;
+  width: 40px;
+  height: 40px;
   border-radius: 9999px;
   background: #d6d6d6;
   flex-shrink: 0;
@@ -2313,8 +2313,8 @@
 .cart-sheet-store-name {
   font-family: var(--font);
   font-weight: 700;
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 16px;
+  line-height: 20px;
   letter-spacing: -0.01em;
   color: #191919;
 }
