@@ -291,7 +291,7 @@
   gap: var(--spacing-internal1);
   padding: var(--spacing-internal1) 0;
 }
-.store-row + .store-row { border-top: none; }
+.store-row + .store-row { border-top: none; margin-top: 4px; }
 
 .store-logo {
   width: 48px;
