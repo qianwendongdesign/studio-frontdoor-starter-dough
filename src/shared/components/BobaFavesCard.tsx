@@ -85,7 +85,10 @@ export function BobaFavesCard({ onViewList }: BobaFavesCardProps) {
       <div className="boba-faves-card__spacer" />
 
       <div className="boba-faves-card__thumbs">
-        <div className="boba-faves-card__thumb"><img alt="" src={imgThumb1} /></div>
+        {/* First thumb shows the Strawberry Matcha Latte (item 4 in the sheet) */}
+        <div className="boba-faves-card__thumb">
+          <img alt="" src={BOBA_FAVES_COLLECTION.items[3].image} />
+        </div>
         <div className="boba-faves-card__thumb"><img alt="" src={imgThumb2} /></div>
         <div className="boba-faves-card__thumb"><img alt="" src={imgThumb3} /></div>
       </div>
