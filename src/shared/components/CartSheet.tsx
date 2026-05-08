@@ -25,13 +25,12 @@ interface CartSheetProps {
 
 function TrashLineIcon() {
   return (
-    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden>
+    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden xmlns="http://www.w3.org/2000/svg">
       <path
-        d="M3 3V10c0 .55.45 1 1 1h4c.55 0 1-.45 1-1V3M5 5.25V8.5M7 5.25V8.5M1.5 3h9M4.5 3V2c0-.27.22-.5.5-.5h2c.28 0 .5.23.5.5v1"
-        stroke="currentColor"
-        strokeWidth="1"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M6.99976 0C7.69011 0 8.25 0.559888 8.25 1.25024V2.25H10.5C10.9142 2.25 11.25 2.58579 11.25 3C11.25 3.41421 10.9142 3.75 10.5 3.75V9.75C10.5 10.9926 9.49264 12 8.25 12H3.75C2.50736 12 1.5 10.9926 1.5 9.75V3.75C1.08579 3.75 0.75 3.41421 0.75 3C0.75 2.58579 1.08579 2.25 1.5 2.25H3.75V1.25024C3.75 0.559888 4.30989 0 5.00024 0H6.99976ZM3 9.75C3 10.1642 3.33579 10.5 3.75 10.5H8.25C8.66421 10.5 9 10.1642 9 9.75V3.75H3V9.75ZM5.25 2.25H6.75V1.5H5.25V2.25Z"
+        fill="currentColor"
       />
     </svg>
   )
