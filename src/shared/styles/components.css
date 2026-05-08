@@ -301,6 +301,7 @@
   flex-shrink: 0;
 }
 .store-text { flex: 1; min-width: 0; }
+.store-text > .tag { margin-top: 2px; }
 
 /* Token: body-bold */
 .store-name {
