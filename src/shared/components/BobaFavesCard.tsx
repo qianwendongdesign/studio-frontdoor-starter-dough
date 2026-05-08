@@ -34,7 +34,7 @@ export const BOBA_FAVES_COLLECTION: CollectionSheetData = {
       image: imgThumb3,
       storeName: 'MT Boba',
       storeLogo:
-        'https://a.storyblok.com/f/287879189776283/650x140/aa2c064c43/gong-cha-bubble-tea-logo-footer.png',
+        'https://upload.wikimedia.org/wikipedia/en/thumb/6/67/Gong_Cha_logo.svg/250px-Gong_Cha_logo.svg.png',
     },
     // Pulled from DoorDash listings (Boba Guys NY, Sharetea menus)
     {
