@@ -13,7 +13,7 @@ export const BOBA_FAVES_COLLECTION: CollectionSheetData = {
   items: [
     {
       id: 'boba-0',
-      name: 'Brown Sugar Milk Tea',
+      name: 'Matcha Milk Tea',
       price: 6.5,
       image: imgThumb1,
       storeName: 'Wow Tea Drink',
@@ -21,16 +21,16 @@ export const BOBA_FAVES_COLLECTION: CollectionSheetData = {
     },
     {
       id: 'boba-1',
-      name: 'Honey Oolong Boba',
-      price: 5.95,
+      name: 'Mango Passion Fruit Tea',
+      price: 6.25,
       image: imgThumb2,
       storeName: 'Tong Sui',
       storeLogo: imgAvatar2,
     },
     {
       id: 'boba-2',
-      name: 'Mango Green Tea',
-      price: 6.25,
+      name: 'Brown Sugar Boba Milk Tea',
+      price: 6.95,
       image: imgThumb3,
       storeName: 'MT Boba',
       storeLogo: imgAvatar1,
