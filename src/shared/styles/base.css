@@ -258,7 +258,7 @@ body {
   -webkit-backdrop-filter: blur(23px);
   -webkit-mask-image: linear-gradient(to bottom, transparent, black);
   mask-image: linear-gradient(to bottom, transparent, black);
-  pointer-events: auto;
+  pointer-events: none;
 }
 .footer-inner {
   position: absolute;
