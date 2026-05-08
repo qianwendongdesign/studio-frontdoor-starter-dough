@@ -90,13 +90,16 @@ export function CartSheet({ store, items, onClose }: CartSheetProps) {
     }
   }, [])
 
+  const [isExiting, setIsExiting] = useState(false)
+  const requestClose = useCallback(() => setIsExiting(true), [])
+
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
-      if (e.key === 'Escape') onClose()
+      if (e.key === 'Escape') requestClose()
     }
     window.addEventListener('keydown', onKey)
     return () => window.removeEventListener('keydown', onKey)
-  }, [onClose])
+  }, [requestClose])
 
   const bump = useCallback((id: string, delta: number) => {
     setQuantities((q) => {
@@ -125,18 +128,24 @@ export function CartSheet({ store, items, onClose }: CartSheetProps) {
   if (!portalTarget) return null
 
   return createPortal(
-    <div className="cart-sheet-root" role="presentation">
+    <div
+      className={`cart-sheet-root${isExiting ? ' cart-sheet-root--exiting' : ''}`}
+      role="presentation"
+    >
       <button
         type="button"
         className="cart-sheet-backdrop"
         aria-label="Close"
-        onClick={onClose}
+        onClick={requestClose}
       />
       <div
         className="cart-sheet"
         role="dialog"
         aria-modal="true"
         aria-labelledby="cart-sheet-title"
+        onAnimationEnd={(e) => {
+          if (isExiting && e.animationName === 'cartSheetPanelOut') onClose()
+        }}
       >
         <div className="cart-sheet-grabber-wrap">
           <div className="cart-sheet-grabber" aria-hidden />
