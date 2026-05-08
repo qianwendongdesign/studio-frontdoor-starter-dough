@@ -50,18 +50,7 @@ function ReorderCard({ merchant, onViewCart }: { merchant: CardMerchant; onViewC
   const isTwoItems = b === hero
 
   return (
-    <article
-      className="reorder-fav-card"
-      onClick={
-        onViewCart
-          ? (e) => {
-              if ((e.target as HTMLElement).closest('button')) return
-              onViewCart(merchant)
-            }
-          : undefined
-      }
-      style={onViewCart ? { cursor: 'pointer' } : undefined}
-    >
+    <article className="reorder-fav-card">
       <div className="reorder-fav-card__header">
         <img src={merchant.logo} alt="" className="reorder-fav-card__logo" width={40} height={40} />
         <div className="reorder-fav-card__headline">
