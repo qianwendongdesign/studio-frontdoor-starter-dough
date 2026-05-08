@@ -18,6 +18,7 @@ export const HEALTHY_BOWLS_COLLECTION: CollectionSheetData = {
       image: imgThumb1,
       storeName: 'Moon Bowls',
       storeLogo: imgAvatar1,
+      deliveryTime: '24 min',
     },
     {
       id: 'healthy-1',
@@ -26,6 +27,7 @@ export const HEALTHY_BOWLS_COLLECTION: CollectionSheetData = {
       image: imgThumb2,
       storeName: 'MIXT',
       storeLogo: imgAvatar2,
+      deliveryTime: '31 min',
     },
     {
       id: 'healthy-2',
@@ -34,6 +36,7 @@ export const HEALTHY_BOWLS_COLLECTION: CollectionSheetData = {
       image: imgThumb3,
       storeName: 'Chipotle Mexican Grill',
       storeLogo: imgAvatar1,
+      deliveryTime: '18 min',
     },
   ],
 }

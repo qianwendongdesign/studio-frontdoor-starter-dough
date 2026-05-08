@@ -2749,6 +2749,23 @@
   text-overflow: ellipsis;
   white-space: nowrap;
 }
+.collection-sheet-item-store-dot {
+  font-family: var(--font);
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 700;
+  color: #606060;
+  margin: 0 2px;
+}
+.collection-sheet-item-store-time {
+  font-family: var(--font);
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: -0.01em;
+  color: #606060;
+  white-space: nowrap;
+}
 
 .collection-sheet-add-btn {
   width: 32px;

@@ -8,6 +8,7 @@ export interface CollectionItem {
   image: string
   storeName: string
   storeLogo?: string
+  deliveryTime?: string
 }
 
 export interface CollectionSheetData {
@@ -122,6 +123,12 @@ export function CollectionSheet({ data, onClose }: CollectionSheetProps) {
                     {it.storeLogo && <img src={it.storeLogo} alt="" draggable={false} />}
                   </span>
                   <span className="collection-sheet-item-store-name">{it.storeName}</span>
+                  {it.deliveryTime && (
+                    <>
+                      <span className="collection-sheet-item-store-dot">·</span>
+                      <span className="collection-sheet-item-store-time">{it.deliveryTime}</span>
+                    </>
+                  )}
                 </div>
               </div>
               <button

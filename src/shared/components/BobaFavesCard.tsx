@@ -18,6 +18,7 @@ export const BOBA_FAVES_COLLECTION: CollectionSheetData = {
       image: imgThumb1,
       storeName: 'Wow Tea Drink',
       storeLogo: imgAvatar1,
+      deliveryTime: '22 min',
     },
     {
       id: 'boba-1',
@@ -26,6 +27,7 @@ export const BOBA_FAVES_COLLECTION: CollectionSheetData = {
       image: imgThumb2,
       storeName: 'Tong Sui',
       storeLogo: imgAvatar2,
+      deliveryTime: '28 min',
     },
     {
       id: 'boba-2',
@@ -35,6 +37,7 @@ export const BOBA_FAVES_COLLECTION: CollectionSheetData = {
       storeName: 'MT Boba',
       storeLogo:
         'https://upload.wikimedia.org/wikipedia/en/thumb/6/67/Gong_Cha_logo.svg/250px-Gong_Cha_logo.svg.png',
+      deliveryTime: '19 min',
     },
     // Pulled from DoorDash listings (Boba Guys NY, Sharetea menus)
     {
@@ -45,6 +48,7 @@ export const BOBA_FAVES_COLLECTION: CollectionSheetData = {
       storeName: 'Boba Guys',
       storeLogo:
         'https://images.squarespace-cdn.com/content/v1/50ce46ece4b01020c34fd52b/3e54cccc-1ef8-4d78-aa69-7fe7983c4f45/bobaguys_logo_FINAL+%283%29.png?format=300w',
+      deliveryTime: '34 min',
     },
     {
       id: 'boba-4',
@@ -54,6 +58,7 @@ export const BOBA_FAVES_COLLECTION: CollectionSheetData = {
       storeName: 'Sharetea',
       storeLogo:
         'https://images.squarespace-cdn.com/content/v1/68f206cca9dce96f2599130d/1760692086495-86LAD44UNHCZCYEARGQV/logo.png?format=300w',
+      deliveryTime: '25 min',
     },
   ],
 }
