@@ -2723,6 +2723,7 @@
   margin-top: 2px;
 }
 .collection-sheet-item-store-logo {
+  box-sizing: content-box;
   width: 18px;
   height: 18px;
   border-radius: 9999px;
