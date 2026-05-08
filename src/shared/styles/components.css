@@ -124,7 +124,7 @@
 /* Token: caption-regular (compact labels under icons) */
 .tab {
   flex: 0 0 auto;
-  min-width: 0;
+  min-width: 46px;
   height: 60px;
   display: flex;
   flex-direction: column;
