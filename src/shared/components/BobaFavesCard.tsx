@@ -20,6 +20,17 @@ export const BOBA_FAVES_COLLECTION: CollectionSheetData = {
       storeLogo: imgAvatar1,
       deliveryTime: '22 min',
     },
+    // Pulled from DoorDash (Boba Guys NY)
+    {
+      id: 'boba-3',
+      name: 'Strawberry Matcha Latte',
+      price: 8.2,
+      image: 'https://cdn.doordash.com/media/photosV2/b6bf46e5-ce37-44da-9aea-a9b9fe7a4b8e-retina-large.png',
+      storeName: 'Boba Guys',
+      storeLogo:
+        'https://images.squarespace-cdn.com/content/v1/50ce46ece4b01020c34fd52b/3e54cccc-1ef8-4d78-aa69-7fe7983c4f45/bobaguys_logo_FINAL+%283%29.png?format=300w',
+      deliveryTime: '34 min',
+    },
     {
       id: 'boba-1',
       name: 'Mango Passion Fruit Tea',
@@ -39,17 +50,7 @@ export const BOBA_FAVES_COLLECTION: CollectionSheetData = {
         'https://upload.wikimedia.org/wikipedia/en/thumb/6/67/Gong_Cha_logo.svg/250px-Gong_Cha_logo.svg.png',
       deliveryTime: '19 min',
     },
-    // Pulled from DoorDash listings (Boba Guys NY, Sharetea menus)
-    {
-      id: 'boba-3',
-      name: 'Strawberry Matcha Latte',
-      price: 8.2,
-      image: 'https://cdn.doordash.com/media/photosV2/b6bf46e5-ce37-44da-9aea-a9b9fe7a4b8e-retina-large.png',
-      storeName: 'Boba Guys',
-      storeLogo:
-        'https://images.squarespace-cdn.com/content/v1/50ce46ece4b01020c34fd52b/3e54cccc-1ef8-4d78-aa69-7fe7983c4f45/bobaguys_logo_FINAL+%283%29.png?format=300w',
-      deliveryTime: '34 min',
-    },
+    // Pulled from DoorDash (Sharetea)
     {
       id: 'boba-4',
       name: 'Taro Milk Tea',
@@ -90,9 +91,9 @@ export function BobaFavesCard({ onViewList }: BobaFavesCardProps) {
       <div className="boba-faves-card__spacer" />
 
       <div className="boba-faves-card__thumbs">
-        {/* First thumb shows the Strawberry Matcha Latte (item 4 in the sheet) */}
+        {/* First thumb shows the Strawberry Matcha Latte (now 2nd item in the sheet) */}
         <div className="boba-faves-card__thumb">
-          <img alt="" src={BOBA_FAVES_COLLECTION.items[3].image} />
+          <img alt="" src={BOBA_FAVES_COLLECTION.items[1].image} />
         </div>
         <div className="boba-faves-card__thumb"><img alt="" src={imgThumb2} /></div>
         <div className="boba-faves-card__thumb"><img alt="" src={imgThumb3} /></div>
