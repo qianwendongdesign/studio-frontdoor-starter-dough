@@ -33,7 +33,8 @@ export const BOBA_FAVES_COLLECTION: CollectionSheetData = {
       price: 6.95,
       image: imgThumb3,
       storeName: 'MT Boba',
-      storeLogo: imgAvatar1,
+      storeLogo:
+        'https://a.storyblok.com/f/287879189776283/650x140/aa2c064c43/gong-cha-bubble-tea-logo-footer.png',
     },
     // Pulled from DoorDash listings (Boba Guys NY, Sharetea menus)
     {
