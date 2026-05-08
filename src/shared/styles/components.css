@@ -313,12 +313,12 @@
   color: var(--foreground-primary);
 }
 
-/* Token: caption-regular */
+/* Token: caption-regular (line-height tightened to 18px for store rows) */
 .store-meta {
   font-family: var(--font);
   font-size: var(--caption-regular-size);
   font-weight: var(--caption-regular-weight);
-  line-height: var(--caption-regular-lh);
+  line-height: 18px;
   letter-spacing: var(--caption-regular-ls);
   color: var(--foreground-secondary);
 }
