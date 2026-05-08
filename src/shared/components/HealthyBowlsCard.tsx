@@ -1,9 +1,9 @@
 import type { CollectionSheetData } from './CollectionSheet'
 
-const imgBg = 'https://www.figma.com/api/mcp/asset/ec75879e-c7e1-45d8-b0ee-b295ed44446d'
 const imgThumb1 = 'https://www.figma.com/api/mcp/asset/21f52239-271c-40fd-b4c3-f8586b173504'
 const imgThumb2 = 'https://www.figma.com/api/mcp/asset/91640292-5fa2-46bc-b955-0e552ed1e8a8'
 const imgThumb3 = 'https://www.figma.com/api/mcp/asset/7f12cb4d-0c61-475b-b374-28fefd61ca76'
+const imgBg = imgThumb1
 const imgAvatar1 = 'https://www.figma.com/api/mcp/asset/097ebe7a-9496-4a69-8500-48a6b247451e'
 const imgAvatar2 = 'https://www.figma.com/api/mcp/asset/3e0690f7-ef62-4978-b312-fc50fb5621ee'
 
