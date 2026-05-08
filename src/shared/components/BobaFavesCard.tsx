@@ -1,4 +1,3 @@
-import { makeDraftItemNames } from '@shared/data/draftItems'
 import type { CollectionSheetData } from './CollectionSheet'
 
 const imgBg = 'https://www.figma.com/api/mcp/asset/7c7963e7-81ea-4db9-82e3-5b85f114c3cd'
@@ -8,21 +7,35 @@ const imgThumb3 = 'https://www.figma.com/api/mcp/asset/18d469ad-d05b-4870-8a36-1
 const imgAvatar1 = 'https://www.figma.com/api/mcp/asset/b98f2f89-93d1-4358-99d4-66a71dc8a800'
 const imgAvatar2 = 'https://www.figma.com/api/mcp/asset/350ffa2a-107b-4eba-bbf1-55ff243a404e'
 
-const STORES = ['Wow Tea Drink', 'Tong Sui', 'MT Boba']
-const THUMBS = [imgThumb1, imgThumb2, imgThumb3]
-const LOGOS = [imgAvatar1, imgAvatar2, imgAvatar1]
-
 export const BOBA_FAVES_COLLECTION: CollectionSheetData = {
   title: 'Boba faves',
   subtitle: 'Inspired by your usuals',
-  items: makeDraftItemNames('boba-faves', THUMBS.length).map((name, i) => ({
-    id: `boba-${i}`,
-    name,
-    price: 15.99,
-    image: THUMBS[i],
-    storeName: STORES[i],
-    storeLogo: LOGOS[i],
-  })),
+  items: [
+    {
+      id: 'boba-0',
+      name: 'Brown Sugar Milk Tea',
+      price: 6.5,
+      image: imgThumb1,
+      storeName: 'Wow Tea Drink',
+      storeLogo: imgAvatar1,
+    },
+    {
+      id: 'boba-1',
+      name: 'Honey Oolong Boba',
+      price: 5.95,
+      image: imgThumb2,
+      storeName: 'Tong Sui',
+      storeLogo: imgAvatar2,
+    },
+    {
+      id: 'boba-2',
+      name: 'Mango Green Tea',
+      price: 6.25,
+      image: imgThumb3,
+      storeName: 'MT Boba',
+      storeLogo: imgAvatar1,
+    },
+  ],
 }
 
 interface BobaFavesCardProps {

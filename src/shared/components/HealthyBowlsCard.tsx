@@ -1,4 +1,3 @@
-import { makeDraftItemNames } from '@shared/data/draftItems'
 import type { CollectionSheetData } from './CollectionSheet'
 
 const imgBg = 'https://www.figma.com/api/mcp/asset/ec75879e-c7e1-45d8-b0ee-b295ed44446d'
@@ -8,21 +7,35 @@ const imgThumb3 = 'https://www.figma.com/api/mcp/asset/7f12cb4d-0c61-475b-b374-2
 const imgAvatar1 = 'https://www.figma.com/api/mcp/asset/097ebe7a-9496-4a69-8500-48a6b247451e'
 const imgAvatar2 = 'https://www.figma.com/api/mcp/asset/3e0690f7-ef62-4978-b312-fc50fb5621ee'
 
-const STORES = ['Moon Bowls', 'MIXT', 'Chipotle Mexican Grill']
-const THUMBS = [imgThumb1, imgThumb2, imgThumb3]
-const LOGOS = [imgAvatar1, imgAvatar2, imgAvatar1]
-
 export const HEALTHY_BOWLS_COLLECTION: CollectionSheetData = {
   title: 'Healthy bowls',
   subtitle: 'Inspired by your usuals',
-  items: makeDraftItemNames('healthy-bowls', THUMBS.length).map((name, i) => ({
-    id: `healthy-${i}`,
-    name,
-    price: 15.99,
-    image: THUMBS[i],
-    storeName: STORES[i],
-    storeLogo: LOGOS[i],
-  })),
+  items: [
+    {
+      id: 'healthy-0',
+      name: 'Mediterranean Quinoa Bowl',
+      price: 13.95,
+      image: imgThumb1,
+      storeName: 'Moon Bowls',
+      storeLogo: imgAvatar1,
+    },
+    {
+      id: 'healthy-1',
+      name: 'Harvest Kale Bowl',
+      price: 12.5,
+      image: imgThumb2,
+      storeName: 'MIXT',
+      storeLogo: imgAvatar2,
+    },
+    {
+      id: 'healthy-2',
+      name: 'Chicken Burrito Bowl',
+      price: 11.25,
+      image: imgThumb3,
+      storeName: 'Chipotle Mexican Grill',
+      storeLogo: imgAvatar1,
+    },
+  ],
 }
 
 interface HealthyBowlsCardProps {
