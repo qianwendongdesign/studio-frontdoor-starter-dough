@@ -12,6 +12,7 @@ import { CarouselSection } from '@shared/components/CarouselSection'
 import { DiscoverSection } from '@shared/components/DiscoverSection'
 import { Footer } from '@shared/components/Footer'
 import { CartSheet, type CartSheetItem } from '@shared/components/CartSheet'
+import { CollectionSheet, type CollectionSheetData } from '@shared/components/CollectionSheet'
 import { useStores } from '@shared/hooks/useStores'
 import { loadReorderFavoritesFromCurrentUrl } from '@shared/data/reorderFavoritesAdapter'
 import { makeDraftItemNames } from '@shared/data/draftItems'
@@ -21,13 +22,6 @@ const merchants = loadReorderFavoritesFromCurrentUrl()
 const isNvProfile =
   typeof window !== 'undefined' &&
   (new URLSearchParams(window.location.search).get('profile') ?? '').startsWith('nv-')
-
-const extraCards = isNvProfile
-  ? []
-  : [
-      { card: <BobaFavesCard />, afterIndex: 0 },
-      { card: <HealthyBowlsCard />, afterIndex: 2 },
-    ]
 
 const DRAFT_ITEM_PRICE = 15.99
 
@@ -48,6 +42,14 @@ function buildItemsForMerchant(m: CardMerchant): CartSheetItem[] {
 export function TreatmentBFeed() {
   const stores = useStores()
   const [cartMerchant, setCartMerchant] = useState<CardMerchant | null>(null)
+  const [collection, setCollection] = useState<CollectionSheetData | null>(null)
+
+  const extraCards = isNvProfile
+    ? []
+    : [
+        { card: <BobaFavesCard onViewList={setCollection} />, afterIndex: 0 },
+        { card: <HealthyBowlsCard onViewList={setCollection} />, afterIndex: 2 },
+      ]
 
   return (
     <>
@@ -89,6 +91,13 @@ export function TreatmentBFeed() {
           }}
           items={buildItemsForMerchant(cartMerchant)}
           onClose={() => setCartMerchant(null)}
+        />
+      )}
+
+      {collection && (
+        <CollectionSheet
+          data={collection}
+          onClose={() => setCollection(null)}
         />
       )}
     </>

@@ -2541,3 +2541,245 @@
   border-radius: 100px;
   background: #191919;
 }
+
+
+/* ==========================================================
+   Collection Sheet — Boba faves / Healthy bowls list
+   ========================================================== */
+
+.collection-sheet-root {
+  position: absolute;
+  inset: 0;
+  z-index: 500;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  pointer-events: none;
+}
+
+.collection-sheet-backdrop,
+.collection-sheet { pointer-events: auto; }
+
+.collection-sheet-backdrop {
+  position: absolute;
+  inset: 0;
+  border: none;
+  padding: 0;
+  margin: 0;
+  background: rgba(0, 0, 0, 0.45);
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .collection-sheet-backdrop { animation: collectionSheetBackdropIn 0.2s ease-out both; }
+  .collection-sheet { animation: collectionSheetPanelIn 0.4s cubic-bezier(0.32, 0.72, 0, 1) both; }
+  .collection-sheet-root--exiting .collection-sheet-backdrop {
+    animation: collectionSheetBackdropOut 0.3s ease-in both;
+  }
+  .collection-sheet-root--exiting .collection-sheet {
+    animation: collectionSheetPanelOut 0.3s cubic-bezier(0.4, 0, 1, 1) both;
+  }
+}
+
+@keyframes collectionSheetBackdropIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes collectionSheetPanelIn {
+  from { transform: translateY(100%); }
+  to { transform: translateY(0); }
+}
+@keyframes collectionSheetBackdropOut {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+@keyframes collectionSheetPanelOut {
+  from { transform: translateY(0); }
+  to { transform: translateY(100%); }
+}
+
+.collection-sheet {
+  position: relative;
+  width: 100%;
+  max-height: 100%;
+  background: #fff;
+  border-radius: 25px 25px 0 0;
+  box-shadow: 0 4px 17px rgba(25, 25, 25, 0.2);
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.collection-sheet-grabber-wrap {
+  display: flex;
+  justify-content: center;
+  padding: 8px 0;
+  flex-shrink: 0;
+}
+.collection-sheet-grabber {
+  width: 24px;
+  height: 4px;
+  border-radius: 200px;
+  background: #d6d6d6;
+}
+
+.collection-sheet-header {
+  padding: 16px 16px 16px;
+  flex-shrink: 0;
+}
+.collection-sheet-title {
+  font-family: var(--font);
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 29px;
+  letter-spacing: -0.01em;
+  color: #191919;
+}
+.collection-sheet-subtitle {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-top: 2px;
+  font-family: var(--font);
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: -0.01em;
+  color: #606060;
+}
+.collection-sheet-subtitle-icon {
+  display: inline-flex;
+  width: 14px;
+  height: 14px;
+  align-items: center;
+  justify-content: center;
+  color: #606060;
+}
+
+.collection-sheet-items {
+  list-style: none;
+  margin: 0;
+  padding: 0 16px 8px;
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  scrollbar-width: none;
+}
+.collection-sheet-items::-webkit-scrollbar { display: none; }
+
+.collection-sheet-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.collection-sheet-item-image {
+  width: 64px;
+  height: 64px;
+  border-radius: 12px;
+  background: rgba(0, 0, 0, 0.2);
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.collection-sheet-item-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.collection-sheet-item-info {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+}
+.collection-sheet-item-name {
+  font-family: var(--font);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.01em;
+  color: #191919;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.collection-sheet-item-price {
+  font-family: var(--font);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.01em;
+  color: #606060;
+}
+.collection-sheet-item-store {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-top: 2px;
+}
+.collection-sheet-item-store-logo {
+  width: 16px;
+  height: 16px;
+  border-radius: 9999px;
+  border: 1px solid #e9eaec;
+  overflow: hidden;
+  flex-shrink: 0;
+  background: #fff;
+}
+.collection-sheet-item-store-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.collection-sheet-item-store-name {
+  font-family: var(--font);
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: -0.01em;
+  color: #606060;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.collection-sheet-add-btn {
+  width: 32px;
+  height: 32px;
+  border-radius: 9999px;
+  border: 1px solid #e9eaec;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  flex-shrink: 0;
+  color: #191919;
+  padding: 0;
+  transition: opacity 0.12s ease;
+}
+.collection-sheet-add-btn:hover { opacity: 0.7; }
+.collection-sheet-add-btn:active { opacity: 0.5; }
+
+.collection-sheet-home-indicator {
+  height: 36px;
+  position: relative;
+  flex-shrink: 0;
+}
+.collection-sheet-home-indicator::after {
+  content: '';
+  position: absolute;
+  bottom: 9px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 140px;
+  height: 5px;
+  border-radius: 100px;
+  background: #191919;
+}
