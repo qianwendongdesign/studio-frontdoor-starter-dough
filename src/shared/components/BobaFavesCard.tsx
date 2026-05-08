@@ -35,6 +35,23 @@ export const BOBA_FAVES_COLLECTION: CollectionSheetData = {
       storeName: 'MT Boba',
       storeLogo: imgAvatar1,
     },
+    // Pulled from DoorDash listings (Boba Guys NY, Sharetea menus)
+    {
+      id: 'boba-3',
+      name: 'Strawberry Matcha Latte',
+      price: 8.2,
+      image: 'https://cdn.doordash.com/media/photosV2/b6bf46e5-ce37-44da-9aea-a9b9fe7a4b8e-retina-large.png',
+      storeName: 'Boba Guys',
+      storeLogo: imgAvatar2,
+    },
+    {
+      id: 'boba-4',
+      name: 'Taro Milk Tea',
+      price: 6.75,
+      image: 'https://cdn.doordash.com/media/photosV2/d549f613-e013-49d9-9595-3604c92eab6d-retina-large.jpg',
+      storeName: 'Sharetea',
+      storeLogo: imgAvatar1,
+    },
   ],
 }
 
