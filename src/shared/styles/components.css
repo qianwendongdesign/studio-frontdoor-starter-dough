@@ -125,6 +125,8 @@
 .tab {
   flex: 0 0 auto;
   min-width: 46px;
+  padding-left: 6px;
+  padding-right: 6px;
   height: 60px;
   display: flex;
   flex-direction: column;
