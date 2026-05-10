@@ -246,6 +246,11 @@
   margin-bottom: var(--spacing-primary);
 }
 
+/* Match the extra-bold weight of T2 'Reorder your favorites' */
+.order-again .section-title {
+  font-weight: 800;
+}
+
 .section-header {
   display: flex;
   align-items: center;
