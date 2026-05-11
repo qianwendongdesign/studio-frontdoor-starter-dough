@@ -2,9 +2,13 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import path from 'path'
 
+// Vercel sets VERCEL=1 at build time. Pages serves from a subpath
+// (/studio-frontdoor-starter-dough/), Vercel serves from /.
+const isVercel = !!process.env.VERCEL
+
 export default defineConfig({
   plugins: [react()],
-  base: '/studio-frontdoor-starter-dough/',
+  base: isVercel ? '/' : '/studio-frontdoor-starter-dough/',
   resolve: {
     alias: {
       '@shared': path.resolve(__dirname, 'src/shared'),
