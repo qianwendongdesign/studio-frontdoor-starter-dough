@@ -16,7 +16,6 @@
     "check:local": "node scripts/harness/check-local.cjs"
   },
   "dependencies": {
-    "@doordash/prism-react": "file:/Users/qianwendong/Downloads/Users 2/qianwen.dong/Projects/web-next/packages/prism-react",
     "framer-motion": "^12.38.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
