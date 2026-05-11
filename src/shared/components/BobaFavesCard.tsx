@@ -1,11 +1,16 @@
 import type { CollectionSheetData } from './CollectionSheet'
 
-const imgBg = 'https://www.figma.com/api/mcp/asset/7c7963e7-81ea-4db9-82e3-5b85f114c3cd'
-const imgThumb1 = 'https://www.figma.com/api/mcp/asset/6f9cf554-1682-4f3c-800f-8427f9100b81'
-const imgThumb2 = 'https://www.figma.com/api/mcp/asset/c3a562af-0c38-41f1-a3d2-43b16c4364e4'
-const imgThumb3 = 'https://www.figma.com/api/mcp/asset/18d469ad-d05b-4870-8a36-1c233b428ad2'
-const imgAvatar1 = 'https://www.figma.com/api/mcp/asset/b98f2f89-93d1-4358-99d4-66a71dc8a800'
-const imgAvatar2 = 'https://www.figma.com/api/mcp/asset/350ffa2a-107b-4eba-bbf1-55ff243a404e'
+// Stable DoorDash CDN drink photos (the Figma MCP URLs expire after 7 days,
+// which was breaking the card images.)
+const imgThumb1 = 'https://cdn.doordash.com/media/photosV2/8f6238fc-26d5-4425-85ec-04ba91f1b332-retina-large.png' // green tea
+const imgThumb2 = 'https://cdn.doordash.com/media/photosV2/8e23483d-7bbd-4dc1-a6db-81e51872ee5e-retina-large.png' // mango refresher
+const imgThumb3 = 'https://cdn.doordash.com/media/photosV2/b5187869-ca3b-4f70-9184-7544322b339a-retina-large.jpg' // coffee / brown
+const imgBg = imgThumb1
+const LOGO_BOBA_GUYS = 'https://images.squarespace-cdn.com/content/v1/50ce46ece4b01020c34fd52b/3e54cccc-1ef8-4d78-aa69-7fe7983c4f45/bobaguys_logo_FINAL+%283%29.png?format=300w'
+const LOGO_SHARETEA = 'https://images.squarespace-cdn.com/content/v1/68f206cca9dce96f2599130d/1760692086495-86LAD44UNHCZCYEARGQV/logo.png?format=300w'
+const LOGO_GONG_CHA = 'https://upload.wikimedia.org/wikipedia/en/thumb/6/67/Gong_Cha_logo.svg/250px-Gong_Cha_logo.svg.png'
+const imgAvatar1 = LOGO_BOBA_GUYS
+const imgAvatar2 = LOGO_SHARETEA
 
 export const BOBA_FAVES_COLLECTION: CollectionSheetData = {
   title: 'Boba faves',
@@ -27,8 +32,7 @@ export const BOBA_FAVES_COLLECTION: CollectionSheetData = {
       price: 8.2,
       image: 'https://cdn.doordash.com/media/photosV2/b6bf46e5-ce37-44da-9aea-a9b9fe7a4b8e-retina-large.png',
       storeName: 'Boba Guys',
-      storeLogo:
-        'https://images.squarespace-cdn.com/content/v1/50ce46ece4b01020c34fd52b/3e54cccc-1ef8-4d78-aa69-7fe7983c4f45/bobaguys_logo_FINAL+%283%29.png?format=300w',
+      storeLogo: LOGO_BOBA_GUYS,
       deliveryTime: '34 min',
     },
     {
@@ -46,8 +50,7 @@ export const BOBA_FAVES_COLLECTION: CollectionSheetData = {
       price: 6.95,
       image: imgThumb3,
       storeName: 'MT Boba',
-      storeLogo:
-        'https://upload.wikimedia.org/wikipedia/en/thumb/6/67/Gong_Cha_logo.svg/250px-Gong_Cha_logo.svg.png',
+      storeLogo: LOGO_GONG_CHA,
       deliveryTime: '19 min',
     },
     // Pulled from DoorDash (Sharetea)
@@ -57,8 +60,7 @@ export const BOBA_FAVES_COLLECTION: CollectionSheetData = {
       price: 6.75,
       image: 'https://cdn.doordash.com/media/photosV2/d549f613-e013-49d9-9595-3604c92eab6d-retina-large.jpg',
       storeName: 'Sharetea',
-      storeLogo:
-        'https://images.squarespace-cdn.com/content/v1/68f206cca9dce96f2599130d/1760692086495-86LAD44UNHCZCYEARGQV/logo.png?format=300w',
+      storeLogo: LOGO_SHARETEA,
       deliveryTime: '25 min',
     },
   ],
