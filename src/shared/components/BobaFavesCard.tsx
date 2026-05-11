@@ -1,16 +1,18 @@
 import type { CollectionSheetData } from './CollectionSheet'
 
-// Stable DoorDash CDN drink photos (the Figma MCP URLs expire after 7 days,
-// which was breaking the card images.)
-const imgThumb1 = 'https://cdn.doordash.com/media/photosV2/8f6238fc-26d5-4425-85ec-04ba91f1b332-retina-large.png' // green tea
-const imgThumb2 = 'https://cdn.doordash.com/media/photosV2/8e23483d-7bbd-4dc1-a6db-81e51872ee5e-retina-large.png' // mango refresher
-const imgThumb3 = 'https://cdn.doordash.com/media/photosV2/b5187869-ca3b-4f70-9184-7544322b339a-retina-large.jpg' // coffee / brown
-const imgBg = imgThumb1
+// Boba faves card assets sourced from Figma node 43681:15457.
+// Heads up: Figma MCP asset URLs have a 7-day TTL — refetch from that node if
+// the images stop loading.
+const imgBg = 'https://www.figma.com/api/mcp/asset/054884a3-1a42-4a02-a453-6a1036ecfacb'
+const imgThumb1 = 'https://www.figma.com/api/mcp/asset/4e8e1a47-0a12-4429-806d-1f4dccc709c2' // WOW! cup w/ green
+const imgThumb2 = 'https://www.figma.com/api/mcp/asset/63259761-32d1-4a50-976b-f44da029119c' // yellow / mango
+const imgThumb3 = 'https://www.figma.com/api/mcp/asset/06cf2120-fa3d-4585-b71f-6661e6bcab40' // brown boba milk tea
+const imgAvatar1 = 'https://www.figma.com/api/mcp/asset/ec9e89bc-f282-4b1b-8cab-eecf48187f75'
+const imgAvatar2 = 'https://www.figma.com/api/mcp/asset/33f166ba-c29f-4c9a-9de9-b1a4071c7aee'
+// Brand logos for the real boba shops referenced in the sheet
 const LOGO_BOBA_GUYS = 'https://images.squarespace-cdn.com/content/v1/50ce46ece4b01020c34fd52b/3e54cccc-1ef8-4d78-aa69-7fe7983c4f45/bobaguys_logo_FINAL+%283%29.png?format=300w'
 const LOGO_SHARETEA = 'https://images.squarespace-cdn.com/content/v1/68f206cca9dce96f2599130d/1760692086495-86LAD44UNHCZCYEARGQV/logo.png?format=300w'
 const LOGO_GONG_CHA = 'https://upload.wikimedia.org/wikipedia/en/thumb/6/67/Gong_Cha_logo.svg/250px-Gong_Cha_logo.svg.png'
-const imgAvatar1 = LOGO_BOBA_GUYS
-const imgAvatar2 = LOGO_SHARETEA
 
 export const BOBA_FAVES_COLLECTION: CollectionSheetData = {
   title: 'Boba faves',
