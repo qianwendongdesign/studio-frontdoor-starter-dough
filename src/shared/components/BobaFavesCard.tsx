@@ -3,8 +3,10 @@ import type { CollectionSheetData } from './CollectionSheet'
 // Boba faves card assets sourced from Figma node 43681:15457.
 // Heads up: Figma MCP asset URLs have a 7-day TTL — refetch from that node if
 // the images stop loading.
-const imgBg = 'https://www.figma.com/api/mcp/asset/054884a3-1a42-4a02-a453-6a1036ecfacb'
 const imgThumb1 = 'https://www.figma.com/api/mcp/asset/4e8e1a47-0a12-4429-806d-1f4dccc709c2' // WOW! cup w/ green
+// Figma's exported imgCard11 asset is a blank PNG; the design's visual hero is
+// the same WOW! cup as thumb1, so reuse that here.
+const imgBg = imgThumb1
 const imgThumb2 = 'https://www.figma.com/api/mcp/asset/63259761-32d1-4a50-976b-f44da029119c' // yellow / mango
 const imgThumb3 = 'https://www.figma.com/api/mcp/asset/06cf2120-fa3d-4585-b71f-6661e6bcab40' // brown boba milk tea
 const imgAvatar1 = 'https://www.figma.com/api/mcp/asset/ec9e89bc-f282-4b1b-8cab-eecf48187f75'
