@@ -258,11 +258,11 @@
   margin-bottom: var(--spacing-secondary);
 }
 
-/* Token: title-1 */
+/* Token: title-1, extra bold (matches the 'Time for dinner, Liam?' greeting) */
 .section-title {
   font-family: var(--font);
   font-size: var(--title-1-size);
-  font-weight: var(--title-1-weight);
+  font-weight: 800;
   line-height: var(--title-1-lh);
   letter-spacing: var(--title-1-ls);
 }
