@@ -4,15 +4,16 @@ const imgThumb1 = 'https://www.figma.com/api/mcp/asset/21f52239-271c-40fd-b4c3-f
 const imgThumb2 = 'https://www.figma.com/api/mcp/asset/91640292-5fa2-46bc-b955-0e552ed1e8a8'
 const imgThumb3 = 'https://www.figma.com/api/mcp/asset/7f12cb4d-0c61-475b-b374-28fefd61ca76'
 const imgBg = imgThumb1
-// Real brand logos. The Figma avatar exports for this card had expired
-// (404), and the bowl chains' real marks are stable and on-brand.
+// Brand logos. The Figma avatar exports for this card had expired (404).
 const LOGO_MOON_BOWLS = 'https://images.squarespace-cdn.com/content/v1/5b2c3af0f2e6b1a14434a6e7/1590266628483-UUCFOVYN7GFWYG2CHOZD/moon+bowls+logo-purple2.png'
-// MIXT's hi-res asset is a wide horizontal lockup (brand mark + tagline), so
-// it center-crops into a circle as blank space. Google's favicon service
-// returns the square brand mark (128x128).
+// MIXT's hi-res asset is a wide horizontal lockup; Google's favicon service
+// returns the square brand mark (128x128) that crops cleanly to a circle.
 const LOGO_MIXT = 'https://www.google.com/s2/favicons?domain=mixt.com&sz=128'
 const LOGO_CHIPOTLE = 'https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/Chipotle_Mexican_Grill_logo.svg/250px-Chipotle_Mexican_Grill_logo.svg.png'
-const imgAvatar1 = LOGO_MOON_BOWLS
+// The 18x18 subtitle avatars need square brand marks — Moon Bowls' only
+// existing artwork is a wide wordmark that gets squashed into a blob at that
+// size. Use the two square-mark brands instead so both circles read clearly.
+const imgAvatar1 = LOGO_CHIPOTLE
 const imgAvatar2 = LOGO_MIXT
 
 export const HEALTHY_BOWLS_COLLECTION: CollectionSheetData = {
@@ -25,7 +26,7 @@ export const HEALTHY_BOWLS_COLLECTION: CollectionSheetData = {
       price: 13.95,
       image: imgThumb1,
       storeName: 'Moon Bowls',
-      storeLogo: imgAvatar1,
+      storeLogo: LOGO_MOON_BOWLS,
       deliveryTime: '24 min',
     },
     {
@@ -34,7 +35,7 @@ export const HEALTHY_BOWLS_COLLECTION: CollectionSheetData = {
       price: 12.5,
       image: imgThumb2,
       storeName: 'MIXT',
-      storeLogo: imgAvatar2,
+      storeLogo: LOGO_MIXT,
       deliveryTime: '31 min',
     },
     {
