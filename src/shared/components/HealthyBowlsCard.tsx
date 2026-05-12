@@ -7,7 +7,10 @@ const imgBg = imgThumb1
 // Real brand logos. The Figma avatar exports for this card had expired
 // (404), and the bowl chains' real marks are stable and on-brand.
 const LOGO_MOON_BOWLS = 'https://images.squarespace-cdn.com/content/v1/5b2c3af0f2e6b1a14434a6e7/1590266628483-UUCFOVYN7GFWYG2CHOZD/moon+bowls+logo-purple2.png'
-const LOGO_MIXT = 'https://www.mixt.com/wp-content/themes/mixt/images/mixt_logo_high_res.png'
+// MIXT's hi-res asset is a wide horizontal lockup (brand mark + tagline), so
+// it center-crops into a circle as blank space. Google's favicon service
+// returns the square brand mark (128x128).
+const LOGO_MIXT = 'https://www.google.com/s2/favicons?domain=mixt.com&sz=128'
 const LOGO_CHIPOTLE = 'https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/Chipotle_Mexican_Grill_logo.svg/250px-Chipotle_Mexican_Grill_logo.svg.png'
 const imgAvatar1 = LOGO_MOON_BOWLS
 const imgAvatar2 = LOGO_MIXT
