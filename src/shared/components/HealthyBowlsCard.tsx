@@ -4,8 +4,13 @@ const imgThumb1 = 'https://www.figma.com/api/mcp/asset/21f52239-271c-40fd-b4c3-f
 const imgThumb2 = 'https://www.figma.com/api/mcp/asset/91640292-5fa2-46bc-b955-0e552ed1e8a8'
 const imgThumb3 = 'https://www.figma.com/api/mcp/asset/7f12cb4d-0c61-475b-b374-28fefd61ca76'
 const imgBg = imgThumb1
-const imgAvatar1 = 'https://www.figma.com/api/mcp/asset/097ebe7a-9496-4a69-8500-48a6b247451e'
-const imgAvatar2 = 'https://www.figma.com/api/mcp/asset/3e0690f7-ef62-4978-b312-fc50fb5621ee'
+// Real brand logos. The Figma avatar exports for this card had expired
+// (404), and the bowl chains' real marks are stable and on-brand.
+const LOGO_MOON_BOWLS = 'https://images.squarespace-cdn.com/content/v1/5b2c3af0f2e6b1a14434a6e7/1590266628483-UUCFOVYN7GFWYG2CHOZD/moon+bowls+logo-purple2.png'
+const LOGO_MIXT = 'https://www.mixt.com/wp-content/themes/mixt/images/mixt_logo_high_res.png'
+const LOGO_CHIPOTLE = 'https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/Chipotle_Mexican_Grill_logo.svg/250px-Chipotle_Mexican_Grill_logo.svg.png'
+const imgAvatar1 = LOGO_MOON_BOWLS
+const imgAvatar2 = LOGO_MIXT
 
 export const HEALTHY_BOWLS_COLLECTION: CollectionSheetData = {
   title: 'Healthy bowls',
@@ -35,7 +40,7 @@ export const HEALTHY_BOWLS_COLLECTION: CollectionSheetData = {
       price: 11.25,
       image: imgThumb3,
       storeName: 'Chipotle Mexican Grill',
-      storeLogo: imgAvatar1,
+      storeLogo: LOGO_CHIPOTLE,
       deliveryTime: '18 min',
     },
   ],
