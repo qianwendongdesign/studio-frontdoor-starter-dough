@@ -1,16 +1,18 @@
 import type { CollectionSheetData } from './CollectionSheet'
 
-// All previously-used Figma MCP asset URLs (7-day TTL) had expired again,
-// breaking the bg/thumbs/avatars. Swap to stable DoorDash CDN drink photos
-// (same domain we already pull from elsewhere) and real brand-logo URLs.
-const imgThumb1 = 'https://cdn.doordash.com/media/photosV2/8f6238fc-26d5-4425-85ec-04ba91f1b332-retina-large.png' // iced green tea
+// Drink photos go through the img.cdn4dd.com Cloudflare image transformer
+// (same wrapper used in itemImages.json). The raw retina-large PNGs were
+// 2–5 MB each and were timing out / showing as broken in the card.
+const CDN = 'https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto/https://doordash-static.s3.amazonaws.com/media/photosV2'
+const imgThumb1 = `${CDN}/2b8b1894-1277-4605-9ed4-7be988ff5924-retina-large.png` // iced matcha latte
 const imgBg = imgThumb1
-const imgThumb2 = 'https://cdn.doordash.com/media/photosV2/8e23483d-7bbd-4dc1-a6db-81e51872ee5e-retina-large.png' // mango refresher
-const imgThumb3 = 'https://cdn.doordash.com/media/photosV2/b5187869-ca3b-4f70-9184-7544322b339a-retina-large.jpg' // brown drip coffee
-// Brand logos for the real boba shops referenced in the sheet
-const LOGO_BOBA_GUYS = 'https://images.squarespace-cdn.com/content/v1/50ce46ece4b01020c34fd52b/3e54cccc-1ef8-4d78-aa69-7fe7983c4f45/bobaguys_logo_FINAL+%283%29.png?format=300w'
-const LOGO_SHARETEA = 'https://images.squarespace-cdn.com/content/v1/68f206cca9dce96f2599130d/1760692086495-86LAD44UNHCZCYEARGQV/logo.png?format=300w'
-const LOGO_GONG_CHA = 'https://upload.wikimedia.org/wikipedia/en/thumb/6/67/Gong_Cha_logo.svg/250px-Gong_Cha_logo.svg.png'
+const imgThumb2 = `${CDN}/f4fed00c-c40e-4aaf-973c-3a8dfcfb66da-retina-large.png` // mango shake with boba
+const imgThumb3 = `${CDN}/dc3d553e-a42c-473f-bc24-ecb01f00e84d-retina-large.jpg` // thai iced tea with boba pearls
+// Brand logos via Google's favicon service — same square-mark approach
+// HealthyBowlsCard uses for MIXT. Squarespace-hosted lockups were broken.
+const LOGO_BOBA_GUYS = 'https://www.google.com/s2/favicons?domain=bobaguys.com&sz=128'
+const LOGO_SHARETEA = 'https://www.google.com/s2/favicons?domain=sharetea.com&sz=128'
+const LOGO_GONG_CHA = 'https://www.google.com/s2/favicons?domain=gongchausa.com&sz=128'
 const imgAvatar1 = LOGO_BOBA_GUYS
 const imgAvatar2 = LOGO_SHARETEA
 
@@ -32,7 +34,7 @@ export const BOBA_FAVES_COLLECTION: CollectionSheetData = {
       id: 'boba-3',
       name: 'Strawberry Matcha Latte',
       price: 8.2,
-      image: 'https://cdn.doordash.com/media/photosV2/b6bf46e5-ce37-44da-9aea-a9b9fe7a4b8e-retina-large.png',
+      image: `${CDN}/517c9d16-2324-420b-abef-e0dd5a21a47b-retina-large.png`,
       storeName: 'Boba Guys',
       storeLogo: LOGO_BOBA_GUYS,
       deliveryTime: '34 min',
@@ -60,7 +62,7 @@ export const BOBA_FAVES_COLLECTION: CollectionSheetData = {
       id: 'boba-4',
       name: 'Taro Milk Tea',
       price: 6.75,
-      image: 'https://cdn.doordash.com/media/photosV2/d549f613-e013-49d9-9595-3604c92eab6d-retina-large.jpg',
+      image: `${CDN}/06c7da3f-f0bd-4806-9e40-40341212ebcf-retina-large.jpg`,
       storeName: 'Sharetea',
       storeLogo: LOGO_SHARETEA,
       deliveryTime: '25 min',
