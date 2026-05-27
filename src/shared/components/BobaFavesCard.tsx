@@ -1,11 +1,14 @@
 import type { CollectionSheetData } from './CollectionSheet'
+// Bg + first thumb come from the Figma "Boba faves" card (node 43681:15457).
+// Saved locally so we don't depend on the Figma MCP asset URL (7-day TTL).
+import imgWowCup from '@assets/food photos/boba-wow-cup.png'
 
-// Drink photos go through the img.cdn4dd.com Cloudflare image transformer
+// Other drink photos go through img.cdn4dd.com's Cloudflare image transformer
 // (same wrapper used in itemImages.json). The raw retina-large PNGs were
 // 2–5 MB each and were timing out / showing as broken in the card.
 const CDN = 'https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto/https://doordash-static.s3.amazonaws.com/media/photosV2'
-const imgThumb1 = `${CDN}/2b8b1894-1277-4605-9ed4-7be988ff5924-retina-large.png` // iced matcha latte
-const imgBg = imgThumb1
+const imgThumb1 = imgWowCup // WOW! boba cup from the Figma reference design
+const imgBg = imgWowCup
 const imgThumb2 = `${CDN}/f4fed00c-c40e-4aaf-973c-3a8dfcfb66da-retina-large.png` // mango shake with boba
 const imgThumb3 = `${CDN}/dc3d553e-a42c-473f-bc24-ecb01f00e84d-retina-large.jpg` // thai iced tea with boba pearls
 // Brand logos via Google's favicon service — same square-mark approach

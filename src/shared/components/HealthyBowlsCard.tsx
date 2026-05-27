@@ -1,15 +1,21 @@
 import type { CollectionSheetData } from './CollectionSheet'
+// Bg from the Figma "Healthy bowls" card (node 43696:11727). Saved locally
+// so we don't depend on the Figma MCP asset URL (7-day TTL).
+import imgHealthyBowlBg from '@assets/food photos/healthy-bowl-bg.png'
 
-const imgThumb1 = 'https://www.figma.com/api/mcp/asset/21f52239-271c-40fd-b4c3-f8586b173504'
-const imgThumb2 = 'https://www.figma.com/api/mcp/asset/91640292-5fa2-46bc-b955-0e552ed1e8a8'
-const imgThumb3 = 'https://www.figma.com/api/mcp/asset/7f12cb4d-0c61-475b-b374-28fefd61ca76'
-const imgBg = imgThumb1
-// Brand logos. The Figma avatar exports for this card had expired (404).
-const LOGO_MOON_BOWLS = 'https://images.squarespace-cdn.com/content/v1/5b2c3af0f2e6b1a14434a6e7/1590266628483-UUCFOVYN7GFWYG2CHOZD/moon+bowls+logo-purple2.png'
-// MIXT's hi-res asset is a wide horizontal lockup; Google's favicon service
-// returns the square brand mark (128x128) that crops cleanly to a circle.
+// Bowl thumbnail photos go through img.cdn4dd.com's Cloudflare image
+// transformer (same wrapper used in itemImages.json) — keeps payloads small.
+// Previous Figma MCP thumb URLs all 404'd.
+const CDN = 'https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto/https://doordash-static.s3.amazonaws.com/media/photosV2'
+const imgThumb1 = `${CDN}/a41062f1-ccf6-4b43-9b98-299d7d49a5a0-retina-large.jpg` // quinoa grain bowl
+const imgThumb2 = `${CDN}/c101bc6a-3983-4df5-acec-f4b3ea4b192e-retina-large.png` // harvest bowl
+const imgThumb3 = `${CDN}/cc630d4d-f7bb-45c8-8919-b68bd61e8d90-retina-large.jpg` // burrito bowl
+const imgBg = imgHealthyBowlBg
+// Brand logos via Google's favicon service — same square-mark approach used
+// elsewhere in the card. Returns square brand marks that crop cleanly to circles.
+const LOGO_MOON_BOWLS = 'https://www.google.com/s2/favicons?domain=moonbowls.com&sz=128'
 const LOGO_MIXT = 'https://www.google.com/s2/favicons?domain=mixt.com&sz=128'
-const LOGO_CHIPOTLE = 'https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/Chipotle_Mexican_Grill_logo.svg/250px-Chipotle_Mexican_Grill_logo.svg.png'
+const LOGO_CHIPOTLE = 'https://www.google.com/s2/favicons?domain=chipotle.com&sz=128'
 // The 18x18 subtitle avatars need square brand marks — Moon Bowls' only
 // existing artwork is a wide wordmark that gets squashed into a blob at that
 // size. Use the two square-mark brands instead so both circles read clearly.
